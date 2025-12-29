@@ -1,0 +1,437 @@
+{
+  "learner-dash.loadingSR": {
+    "translation": "جاري التحميل..."
+  },
+  "learner-dash.error-page-message": {
+    "translation": "إذا واجهت فشلًا متكررًا، يرجى إرسال بريد إلكتروني إلى الدعم على {supportEmail}"
+  },
+  "learner-dash.title": {
+    "translation": "الصفحة الرئيسية للمتعلم"
+  },
+  "learner-dash.courseCard.bannerAlt": {
+    "translation": "صورة مصغرة للدورة"
+  },
+  "learner-dash.courseCard.verifiedBanner": {
+    "translation": "مؤكد"
+  },
+  "learner-dash.courseCard.verifiedHoverDescription": {
+    "translation": "أنت مسجل كطالب مؤكد"
+  },
+  "learner-dash.courseCard.verifiedBannerRibbonAlt": {
+    "translation": "شريط/شعار المؤكد"
+  },
+  "learner-dash.courseListFilters.courseStatus": {
+    "translation": "حالة الدورة"
+  },
+  "learner-dash.courseListFilters.inProgress": {
+    "translation": "جاري التنفيذ"
+  },
+  "learner-dash.courseListFilters.notStarted": {
+    "translation": "لم يبدأ"
+  },
+  "learner-dash.courseListFilters.done": {
+    "translation": "مكتمل"
+  },
+  "learner-dash.courseListFilters.notEnrolled": {
+    "translation": "غير مسجل"
+  },
+  "learner-dash.courseListFilters.upgraded": {
+    "translation": "مرفوع"
+  },
+  "learner-dash.courseListFilters.clearAll": {
+    "translation": "مسح الكل"
+  },
+  "learner-dash.courseListFilters.sort": {
+    "translation": "ترتيب"
+  },
+  "learner-dash.courseListFilters.sortLastEnrolled": {
+    "translation": "آخر تسجيل"
+  },
+  "learner-dash.courseListFilters.sortTitle": {
+    "translation": "العنوان (أ-ي)"
+  },
+  "learner-dash.courseListFilters.refine": {
+    "translation": "تحديد"
+  },
+  "dashboard.mycourses": {
+    "translation": "دوراتي"
+  },
+  "learner-dash.emailSettings.header": {
+    "translation": "تلقي بريد إلكتروني عن الدورة؟"
+  },
+  "learner-dash.emailSettings.emailsOff": {
+    "translation": "بريد الدورة مغلق"
+  },
+  "learner-dash.emailSettings.emailsOn": {
+    "translation": "بريد الدورة مفتوح"
+  },
+  "learner-dash.emailSettings.description": {
+    "translation": "يحتوي بريد الدورة على معلومات مهمة عن دورتك من المعلمين."
+  },
+  "learner-dash.emailSettings.nevermind": {
+    "translation": "لا شيء"
+  },
+  "learner-dash.emailSettings.save": {
+    "translation": "حفظ الإعدادات"
+  },
+  "learnerVariantDashboard.menu.dashboard.label": {
+    "translation": "لوحة التحكم"
+  },
+  "learnerVariantDashboard.menu.dashboardPersonal.label": {
+    "translation": "شخصي"
+  },
+  "learnerVariantDashboard.menu.dashboardSwitch.label": {
+    "translation": "تبديل لوحة التحكم"
+  },
+  "learnerVariantDashboard.help.label": {
+    "translation": "مساعدة"
+  },
+  "learnerVariantDashboard.menu.profile.label": {
+    "translation": "الملف الشخصي"
+  },
+  "learnerVariantDashboard.menu.viewPrograms.label": {
+    "translation": "عرض البرامج"
+  },
+  "learnerVariantDashboard.menu.account.label": {
+    "translation": "الحساب"
+  },
+  "learnerVariantDashboard.menu.orderHistory.label": {
+    "translation": "تاريخ الطلب"
+  },
+  "learnerVariantDashboard.menu.signOut.label": {
+    "translation": "تسجيل الخروج"
+  },
+  "learnerVariantDashboard.course": {
+    "translation": "الدورات"
+  },
+  "learnerVariantDashboard.program": {
+    "translation": "البرامج"
+  },
+  "learnerVariantDashboard.discoverNew": {
+    "translation": "اكتشاف جديد"
+  },
+  "learnerVariantDashboard.logoAltText": {
+    "translation": "لوحة التحكم edX, Inc."
+  },
+  "learnerVariantDashboard.collapseMenuOpenAltText": {
+    "translation": "القائمة"
+  },
+  "learnerVariantDashboard.collapseMenuClosedAltText": {
+    "translation": "إغلاق"
+  },
+  "leanerDashboard.menu.career.label": {
+    "translation": "المهنة"
+  },
+  "header.menu.new.label": {
+    "translation": "جديد"
+  },
+  "MasqueradeBar.ViewAs": {
+    "translation": "عرض ك:"
+  },
+  "MasqueradeBar.ViewingAs": {
+    "translation": "عرض ك:"
+  },
+  "MasqueradeBar.SubmitButton": {
+    "translation": "إرسال"
+  },
+  "MasqueradeBar.StudentNameInput": {
+    "translation": "اسم المستخدم أو البريد الإلكتروني"
+  },
+  "MasqueradeBar.NoStudentFound": {
+    "translation": "لا يمكن العثور على طالب بهذا الاسم المستخدم أو البريد الإلكتروني"
+  },
+  "MasqueradeBar.UnknownError": {
+    "translation": "حدث خطأ غير معروف"
+  },
+  "learner-dash.relatedPrograms.header": {
+    "translation": "البرامج ذات الصلة"
+  },
+  "learner-dash.relatedPrograms.description": {
+    "translation": "هل تبحث عن توسيع معرفتك؟ التسجيل في برنامج يسمح لك بتناول سلسلة من الدورات في الموضوع الذي تهمك"
+  },
+  "learner-dash.selectSession.changeOrLeaveHeader": {
+    "translation": "تغيير أو مغادرة الجلسة؟"
+  },
+  "learner-dash.selectSession.selectSessionHeader": {
+    "translation": "اختر جلسة"
+  },
+  "learner-dash.selectSession.changeOrLeaveHint": {
+    "translation": "عندما تتغير إلى جلسة مختلفة، سيتم فقدان أي تقدم أو درجات من جلستك الحالية."
+  },
+  "learner-dash.selectSession.selectSessionHint": {
+    "translation": "تذكر، إذا تغيرت رأيك، لديك أسبوعان لتسجيل الإلغاء والتسجيل في جلسة مختلفة."
+  },
+  "learner-dash.selectSession.leaveSessionOption": {
+    "translation": "مغادرة الجلسة"
+  },
+  "learner-dash.selectSession.nevermind": {
+    "translation": "لا شيء"
+  },
+  "learner-dash.selectSession.confirmSession": {
+    "translation": "تأكيد الجلسة"
+  },
+  "learner-dash.unenrollConfirm.reasons.prereqs": {
+    "translation": "ليس لدي المتطلبات الأكاديمية أو اللغوية"
+  },
+  "learner-dash.unenrollConfirm.reasons.difficulty": {
+    "translation": "كان محتوى الدورة صعبًا جدًا"
+  },
+  "learner-dash.unenrollConfirm.reasons.goals": {
+    "translation": "هذا لن يساعدني في تحقيق أهدافي"
+  },
+  "learner-dash.unenrollConfirm.reasons.broken": {
+    "translation": "كان هناك خطأ ما"
+  },
+  "learner-dash.unenrollConfirm.reasons.time": {
+    "translation": "ليس لدي الوقت"
+  },
+  "learner-dash.unenrollConfirm.reasons.browse": {
+    "translation": "أريد فقط التصفح في المواد"
+  },
+  "learner-dash.unenrollConfirm.reasons.support": {
+    "translation": "ليس لدي دعم كافي"
+  },
+  "learner-dash.unenrollConfirm.reasons.quality": {
+    "translation": "أنا غير راضٍ عن جودة المحتوى"
+  },
+  "learner-dash.unenrollConfirm.reasons.easy": {
+    "translation": "كان محتوى الدورة سهلاً جدًا"
+  },
+  "learner-dash.unenrollConfirm.reasons.custom-placeholder": {
+    "translation": "أخرى"
+  },
+  "learner-dash.unenrollConfirm.reasons.prefer-not-to-say": {
+    "translation": "أفضل عدم الإجابة"
+  },
+  "WidgetSidebar.lookingForChallengePrompt": {
+    "translation": "تبحث عن تحدٍ جديد؟"
+  },
+  "WidgetSidebar.findCoursesButton": {
+    "translation": "ابحث عن دورة {arrow}"
+  },
+  "Dashboard.NoCoursesView.lookingForChallengePrompt": {
+    "translation": "تبحث عن تحدٍ جديد؟"
+  },
+  "Dashboard.NoCoursesView.exploreCoursesPrompt": {
+    "translation": "استكشف دوراتنا لإضافةها إلى لوحة التحكم الخاصة بك."
+  },
+  "Dashboard.NoCoursesView.exploreCoursesButton": {
+    "translation": "استكشف الدورات"
+  },
+  "Dashboard.NoCoursesView.bannerAlt": {
+    "translation": "لا يوجد عرض لبانر الدورات"
+  },
+  "leanerDashboard.confirmEmailBanner": {
+    "translation": "تأكيد الآن"
+  },
+  "leanerDashboard.confirmEmailTextReminderBanner": {
+    "translation": "تذكر تأكيد بريدك الإلكتروني حتى تتمكن من الاستمرار في التعلم! {confirmNowButton}."
+  },
+  "leanerDashboard.verifiedConfirmEmailButton": {
+    "translation": "لقد أكدت بريدي الإلكتروني"
+  },
+  "leanerDashboard.confirmEmailModalHeader": {
+    "translation": "تأكيد بريدك الإلكتروني"
+  },
+  "leanerDashboard.confirmEmailModalBody": {
+    "translation": "لقد أرسلنا لك بريدًا إلكترونيًا لتأكيد حسابك. يرجى التحقق من صندوق الوارد الخاص بك والنقر على الزر الأحمر الكبير لتأكيد واستمرار التعلم."
+  },
+  "leanerDashboard.confirmEmailImageAlt": {
+    "translation": "تأكيد بريد إلكتروني الخلفية"
+  },
+  "learner-dash.unenrollConfirm.confirm.header": {
+    "translation": "تأكيد الإلغاء"
+  },
+  "learner-dash.unenrollConfirm.confirm.text": {
+    "translation": "هل أنت متأكد أنك تريد إلغاء التسجيل من الدورة {courseTitle}؟"
+  },
+  "learner-dash.unenrollConfirm.confirm.cancel": {
+    "translation": "إلغاء"
+  },
+  "learner-dash.unenrollConfirm.confirm.unenroll": {
+    "translation": "إلغاء التسجيل"
+  },
+  "learner-dash.unenrollConfirm.confirm.reason.heading": {
+    "translation": "لماذا أنت إلغاء التسجيل؟"
+  },
+  "learner-dash.unenrollConfirm.confirm.reason.skip": {
+    "translation": "تخطي الاستطلاع"
+  },
+  "learner-dash.unenrollConfirm.confirm.reason.submit": {
+    "translation": "إلغاء التسجيل"
+  },
+  "learner-dash.unenrollConfirm.confirm.finish.heading": {
+    "translation": "إلغاء التسجيل ناجح"
+  },
+  "learner-dash.unenrollConfirm.confirm.finish.text": {
+    "translation": "لقد تم إلغاء تسجيلك من الدورة {courseTitle}"
+  },
+  "learner-dash.unenrollConfirm.confirm.finish.return": {
+    "translation": "حسنًا"
+  },
+  "learner-dash.courseCard.actions.beginCourse": {
+    "translation": "بدء الدورة"
+  },
+  "learner-dash.courseCard.actions.resume": {
+    "translation": "استئناف"
+  },
+  "learner-dash.courseCard.actions.viewCourse": {
+    "translation": "عرض الدورة"
+  },
+  "learner-dash.courseCard.actions.selectSession": {
+    "translation": "اختر جلسة"
+  },
+  "learner-dash.courseCard.banners.auditAccessExpired": {
+    "translation": "انتهت صلاحية وصولك المجاني إلى هذه الدورة."
+  },
+  "learner-dash.courseCard.banners.findAnotherCourse": {
+    "translation": "ابحث عن دورة أخرى"
+  },
+  "learner-dash.courseCard.banners.certificateRestricted": {
+    "translation": "شهادتك في الإنجاز محجوزة في انتظار تأكيد أن إصدار شهادتك يتوافق مع الحظر الأمريكي الصارم على إيران وكوبا وسوريا والسودان. إذا كنت تعتقد أن نظامنا قد حددك بشكل خاطئ على أنك مرتبط بأحد هذه البلدان، يرجى إبلاغنا عن ذلك من خلال الاتصال بـ {supportEmail}."
+  },
+  "learner-dash.courseCard.banners.certificateRestrictedNoEmail": {
+    "translation": "شهادتك في الإنجاز محجوزة في انتظار تأكيد أن إصدار شهادتك يتوافق مع الحظر الأمريكي الصارم على إيران وكوبا وسوريا والسودان. إذا كنت تعتقد أن نظامنا قد حددك بشكل خاطئ على أنك مرتبط بأحد هذه البلدان، يرجى إبلاغنا عن ذلك."
+  },
+  "learner-dash.courseCard.banners.certificateRefundContactBilling": {
+    "translation": "إذا كنت تريد استرداد على شهادتك في الإنجاز، يرجى الاتصال بجهة الفواتير {billingEmail}"
+  },
+  "learner-dash.courseCard.banners.certificateRefundContactBillingNoEmail": {
+    "translation": "إذا كنت تريد استرداد على شهادتك في الإنجاز، يرجى الاتصال بنا."
+  },
+  "learner-dash.courseCard.banners.passingGrade": {
+    "translation": "الدرجة المطلوبة للنجاح في الدورة: {minPassingGrade}‏%"
+  },
+  "learner-dash.courseCard.banners.notEligibleForCert": {
+    "translation": "أنت غير مؤهل للحصول على شهادة."
+  },
+  "learner-dash.courseCard.banners.viewGrades": {
+    "translation": "عرض الدرجات."
+  },
+  "learner-dash.courseCard.banners.certReady": {
+    "translation": "مبارك. شهادتك جاهزة."
+  },
+  "learner-dash.courseCard.banners.viewCertificate": {
+    "translation": "عرض الشهادة."
+  },
+  "learner-dash.courseCard.banners.certMinGrade": {
+    "translation": "الدرجة المطلوبة للحصول على شهادة: {minPassingGrade}‏%"
+  },
+  "learner-dash.courseCard.banners.downloadCertificate": {
+    "translation": "تحميل الشهادة."
+  },
+  "learner-dash.courseCard.banners.gradseAndCertReadyAfter": {
+    "translation": "سيكون درجتك وشهادتك جاهزين بعد {availableDate}."
+  },
+  "learner-dash.courseCard.banners.entitlementUnavailable": {
+    "translation": "لا توجد جلسات متاحة في الوقت الحالي. فريق الدورة سيخلق جلسات جديدة قريبًا. إذا لم تظهر أي جلسات، يرجى الاتصال بـ {emailLink} للحصول على معلومات."
+  },
+  "learner-dash.courseCard.banners.entitlementExpiringSoon": {
+    "translation": "يجب عليك {selectSessionButton} قبل {changeDeadline} للوصول إلى الدورة."
+  },
+  "learner-dash.courseCard.banners.entitlementExpired": {
+    "translation": "لا يمكنك تغيير الجلسات anymore."
+  },
+  "learner-dash.courseCard.banners.selectSession": {
+    "translation": "اختر جلسة"
+  },
+  "learner-dash.courseCard.banners.prerequisitesNotMet": {
+    "translation": "لا يمكنك الوصول إلى هذه الدورة الآن لأنك لم تفي بالمتطلبات السابقة."
+  },
+  "learner-dash.courseCard.banners.courseHasNotStarted": {
+    "translation": "لا يمكنك الوصول إلى هذه الدورة الآن لأن الدورة لم تبدأ بعد. الدورة ستبدأ في {startDate}."
+  },
+  "learner-dash.courseCard.CourseCardDetails.accessExpired": {
+    "translation": "انتهت صلاحية الوصول {accessExpirationDate}"
+  },
+  "learner-dash.courseCard.CourseCardDetails.accessExpires": {
+    "translation": "انتهت صلاحية الوصول {accessExpirationDate}"
+  },
+  "learner-dash.courseCard.CourseCardDetails.courseEnded": {
+    "translation": "انتهت الدورة {endDate}"
+  },
+  "learner-dash.courseCard.CourseCardDetails.courseEnds": {
+    "translation": "تنتهي الدورة {endDate}"
+  },
+  "learner-dash.courseCard.CourseCardDetails.courseStarts": {
+    "translation": "الدورة تبدأ {startDate}"
+  },
+  "learner-dash.courseCard.CourseCardDetails.unknownProviderName": {
+    "translation": "مجهول"
+  },
+  "learner-dash.courseCard.CourseCardDetails.changeOrLeaveSessionButton": {
+    "translation": "تغيير أو مغادرة الجلسة"
+  },
+  "learner-dash.courseCardMenu.unenroll": {
+    "translation": "الانسحاب من الدورة"
+  },
+  "learner-dash.courseCardMenu.dropdownAlt": {
+    "translation": "إجراءات الدورة (قائمة متدلية)"
+  },
+  "learner-dash.courseCardMenu.emailSettings": {
+    "translation": "إعدادات البريد الإلكتروني"
+  },
+  "learner-dash.courseCardMenu.shareToFacebook": {
+    "translation": "المشاركة على فيسبوك"
+  },
+  "learner-dash.courseCardMenu.shareToTwitter": {
+    "translation": "المشاركة على تويتر"
+  },
+  "learner-dash.courseCardMenu.shareQuote": {
+    "translation": "أنا أدرس {courseName} عبر الإنترنت مع {socialBrand}. انظروا إليه!"
+  },
+  "learner-dash.courseCard.banners.credit.error": {
+    "translation": "حدث خطأ في هذه المعاملة. للحصول على مساعدة، اتصلوا بـ {supportEmailLink}."
+  },
+  "learner-dash.courseCard.banners.credit.errorNoEmail": {
+    "translation": "حدث خطأ في هذه المعاملة."
+  },
+  "learner-dash.courseCard.banners.relatedPrograms": {
+    "translation": "البرامج ذات الصلة:"
+  },
+  "learner-dash.courseCard.banners.expandBanner": {
+    "translation": "أكثر"
+  },
+  "learner-dash.courseCard.banners.expandBannerAlt": {
+    "translation": "رمز توسيع اللافتة"
+  },
+  "learner-dash.courseCard.banners.collapseBanner": {
+    "translation": "أقل"
+  },
+  "learner-dash.courseCard.banners.collapseBannerAlt": {
+    "translation": "رمز طي اللافتة"
+  },
+  "learner-dash.courseCard.banners.credit.approved": {
+    "translation": "{congratulations} {providerName} قد وافق على طلبك للحصول على رصيد الدورة. لزيارة رصيدك في الدورة، زوروا موقع {linkToProviderSite}."
+  },
+  "learner-dash.courseCard.banners.credit.congratulations": {
+    "translation": "مبارك!"
+  },
+  "learner-dash.courseCard.banners.credit.eligible": {
+    "translation": "لقد أكملت هذه الدورة وتستحق شراء رصيد الدورة. اختر {getCredit} للبدء."
+  },
+  "learner-dash.courseCard.banners.credit.eligibleFromProvider": {
+    "translation": "أنت الآن تستحق رصيدًا من {providerName}. مبارك!"
+  },
+  "learner-dash.courseCard.banners.credit.getCredit": {
+    "translation": "الحصول على رصيد"
+  },
+  "learner-dash.courseCard.banners.credit.mustRequest": {
+    "translation": "شكرًا لك على دفعك. للحصول على رصيد الدورة، يجب أن تطلب الرصيد في موقع {linkToProviderSite}. اختر {requestCredit} للبدء."
+  },
+  "learner-dash.courseCard.banners.credit.received": {
+    "translation": "{providerName} قد تلقى طلبك للحصول على رصيد الدورة. سنبلغك عندما يتم إكمال معالجة الرصيد."
+  },
+  "learner-dash.courseCard.banners.credit.rejected": {
+    "translation": "{providerName} لم يوافق على طلبك للحصول على رصيد الدورة. للحصول على مزيد من المعلومات، اتصلوا مباشرة بـ {linkToProviderSite}."
+  },
+  "learner-dash.courseCard.banners.credit.requestCredit": {
+    "translation": "طلب الرصيد"
+  },
+  "learner-dash.courseCard.banners.credit.viewCredit": {
+    "translation": "عرض الرصيد"
+  },
+  "learner-dash.courseCard.banners.credit.viewDetails": {
+    "translation": "عرض التفاصيل"
+  }
+}

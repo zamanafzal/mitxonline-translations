@@ -1,0 +1,167 @@
+{
+  "category.catalog.page-title": {
+    "translation": "Cursos"
+  },
+  "category.catalog.error-page-message": {
+    "translation": "Si experimentas fallos repetidos, por favor envía un correo a soporte en {supportEmail}"
+  },
+  "category.catalog.alert.no-courses-available": {
+    "translation": "No hay cursos disponibles"
+  },
+  "category.catalog.alert.no-courses-available-message": {
+    "translation": "Actualmente no hay cursos disponibles en el catálogo. Por favor, vuelve más tarde para ver nuevas ofertas."
+  },
+  "category.catalog.search-placeholder": {
+    "translation": "Buscar un curso"
+  },
+  "category.catalog.search-results": {
+    "translation": "Resultados de búsqueda para \"{query}\""
+  },
+  "category.catalog.no-search-results": {
+    "translation": "No pudimos encontrar resultados para \"{query}\""
+  },
+  "category.catalog.explore-courses": {
+    "translation": "Explorar cursos"
+  },
+  "category.catalog.no-results-found": {
+    "translation": "No se encontraron resultados"
+  },
+  "category.catalog.filter.organizations": {
+    "translation": "Organizaciones"
+  },
+  "category.catalog.filter.languages": {
+    "translation": "Idiomas"
+  },
+  "category.catalog.filter.course-types": {
+    "translation": "Tipos de cursos"
+  },
+  "catalog.course-about.view-about-page-in-studio": {
+    "translation": "Ver página Acerca de en Studio"
+  },
+  "category.header.dashboard.label": {
+    "translation": "Panel de control"
+  },
+  "category.header.help.label": {
+    "translation": "Ayuda"
+  },
+  "category.header.course": {
+    "translation": "Cursos"
+  },
+  "category.header.explore-courses": {
+    "translation": "Explorar cursos"
+  },
+  "category.header.programs": {
+    "translation": "Programas"
+  },
+  "category.header.discoverNew": {
+    "translation": "Descubre nuevos"
+  },
+  "category.not-found-page.title": {
+    "translation": "La página que buscas no está disponible o hay un error en la URL. Por favor, verifica la URL e inténtalo de nuevo."
+  },
+  "category.course-about.course-intro.status-message.enrolled": {
+    "translation": "Estás inscrito en este curso"
+  },
+  "category.course-about.course-intro.view-course-btn": {
+    "translation": "Ver curso"
+  },
+  "category.course-about.course-intro.status-message.full": {
+    "translation": "El curso está lleno"
+  },
+  "category.course-about.course-intro.status-message.enrollment-invitation-only": {
+    "translation": "La inscripción en este curso es solo por invitación"
+  },
+  "category.course-about.course-intro.status-message.enrollment-closed": {
+    "translation": "La inscripción está cerrada"
+  },
+  "category.course-about.course-intro.enroll-now-btn": {
+    "translation": "Inscribirse ahora"
+  },
+  "category.course-about.course-intro.enroll-now-btn-pending": {
+    "translation": "Inscribiendo..."
+  },
+  "category.course-about.course-intro.status-message.enrollment-error": {
+    "translation": "Ocurrió un error. Por favor, inténtalo de nuevo más tarde."
+  },
+  "generic.course-card.start-date": {
+    "translation": "Comienza: {startDate}"
+  },
+  "category.generic.loading": {
+    "translation": "Cargando..."
+  },
+  "catalog.home-page.video-modal-title": {
+    "translation": "Modal de video"
+  },
+  "catalog.home-page.video-iframe-title": {
+    "translation": "Reproductor de video de YouTube"
+  },
+  "category.course-about.course-intro.course-media.play-course-introduction-video": {
+    "translation": "Reproducir video de introducción del curso"
+  },
+  "catalog.course-about.sidebar-details.course-number": {
+    "translation": "Número de curso"
+  },
+  "catalog.course-about.sidebar-details.classes-start": {
+    "translation": "Comienzo de clases"
+  },
+  "catalog.course-about.sidebar-details.classes-end": {
+    "translation": "Fin de clases"
+  },
+  "catalog.course-about.sidebar-details.estimated-effort": {
+    "translation": "Esfuerzo estimado"
+  },
+  "catalog.course-about.sidebar-details.price": {
+    "translation": "Precio"
+  },
+  "catalog.course-about.sidebar-details.requirements": {
+    "translation": "Requisitos"
+  },
+  "catalog.course-about.sidebar-details.prerequisites": {
+    "translation": "Prerrequisitos"
+  },
+  "catalog.course-about.sidebar-details.prerequisites-completion": {
+    "translation": "Debes completar con éxito {prerequisite} antes de comenzar este curso."
+  },
+  "category.course-about.sidebar-social.social-sharing-options-aria-label": {
+    "translation": "Opciones de compartir en redes sociales"
+  },
+  "category.course-about.sidebar-social.social-sharing-tooltip": {
+    "translation": "¡Comparte con amigos y familiares!"
+  },
+  "category.course-about.sidebar-social.social-sharing-twitter": {
+    "translation": "Tuitea que te has inscrito en este curso"
+  },
+  "category.course-about.sidebar-social.social-sharing-facebook": {
+    "translation": "Publica un mensaje en Facebook para decir que te has inscrito en este curso"
+  },
+  "category.course-about.sidebar-social.social-sharing-email": {
+    "translation": "Envía un correo a alguien para decir que te has inscrito en este curso"
+  },
+  "category.course-about.sidebar-social.social-sharing-email-subject": {
+    "translation": "Toma un curso con {siteName} en línea"
+  },
+  "category.course-about.sidebar-social.social-sharing-email-body": {
+    "translation": "Acabo de inscribirme en {courseNumber} {courseName} a través de {siteName} {url}"
+  },
+  "category.course-about.sidebar-social.social-sharing-twitter-text": {
+    "translation": "Acabo de inscribirme en {courseNumber} {courseName} a través de {platformTwitter} {url}"
+  },
+  "category.catalog.home-page.view-courses-button": {
+    "translation": "Ver todos los cursos"
+  },
+  "catalog.home-page.title": {
+    "translation": "Bienvenido a {siteName}"
+  },
+  "catalog.home-page.subtitle": {
+    "translation": "¡Funciona! Impulsado por la plataforma Open edX®"
+  },
+  "catalog.home-page.search-placeholder": {
+    "translation": "Buscar un curso"
+  },
+  "catalog.home-page.video-button": {
+    "translation": "Ver video promocional"
+  },
+  "catalog.home-page.video-button-alt": {
+    "translation": "botón de búsqueda"
+  }
+}

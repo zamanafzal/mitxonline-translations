@@ -1,0 +1,998 @@
+{
+  "account.settings.message.duplicate.tpa.provider": {
+    "translation": "الحساب الذي اخترته في {provider} مرتبط بالفعل بحساب آخر في {siteName}."
+  },
+  "account.settings.message.managed.settings": {
+    "translation": "إعدادات ملفك الشخصي يتم إدارتها بواسطة {managerTitle}. اتصل بمديرك أو {support} للحصول على مساعدة."
+  },
+  "account.settings.message.managed.settings.support": {
+    "translation": "الدعم"
+  },
+  "account.settings.page.heading": {
+    "translation": "إعدادات الحساب"
+  },
+  "account.settings.loading.message": {
+    "translation": "جاري التحميل..."
+  },
+  "account.settings.loading.error": {
+    "translation": "خطأ: {error}"
+  },
+  "account.settings.banner.beta.language": {
+    "translation": "لقد قمت بتحديد لغتك إلى {beta_language}، والتي لم يتم ترجمتها بالكامل حاليًا. يمكنك مساعدتنا في ترجمة هذه اللغة بالكامل عن طريق الانضمام إلى مجتمع Transifex وإضافة الترجمات من الإنجليزية للطلاب الذين يتحدثون {beta_language}."
+  },
+  "account.settings.banner.beta.language.action.switch.back": {
+    "translation": "العودة إلى {previous_language}"
+  },
+  "account.settings.banner.beta.language.action.help.translate": {
+    "translation": "مساعدة في الترجمة إلى {beta_language}"
+  },
+  "account.settings.section.account.information": {
+    "translation": "معلومات الحساب"
+  },
+  "account.settings.section.account.information.description": {
+    "translation": "تشمل هذه الإعدادات معلومات أساسية حول حسابك."
+  },
+  "account.settings.section.profile.information": {
+    "translation": "معلومات الملف الشخصي"
+  },
+  "account.settings.section.site.preferences": {
+    "translation": "تفضيلات الموقع"
+  },
+  "account.settings.section.linked.accounts": {
+    "translation": "الحسابات المرتبطة"
+  },
+  "account.settings.section.linked.accounts.description": {
+    "translation": "يمكنك ربط حسابات هويةك لتسهيل تسجيل الدخول إلى {siteName}."
+  },
+  "account.settings.field.username": {
+    "translation": "اسم المستخدم"
+  },
+  "account.settings.field.username.help.text": {
+    "translation": "الاسم الذي يحددك على {siteName}. لا يمكنك تغيير اسم المستخدم."
+  },
+  "account.settings.field.full.name": {
+    "translation": "الاسم الكامل"
+  },
+  "account.settings.field.full.name.empty": {
+    "translation": "إضافة اسم"
+  },
+  "account.settings.field.full.name.help.text": {
+    "translation": "الاسم الذي يتم استخدامه لتحقق الهوية ويظهر على شهاداتك."
+  },
+  "account.settings.field.full.name.help.text.default": {
+    "translation": "الاسم الذي يظهر على ملفك الشخصي العام."
+  },
+  "account.settings.field.full.name.help.text.default.certificate": {
+    "translation": "هذا الاسم تم اختياره ليظهر على شهاداتك والسجلات العامة."
+  },
+  "account.settings.field.name.verified": {
+    "translation": "اسم معتمد"
+  },
+  "account.settings.field.name.verified.help.text.verified": {
+    "translation": "تم التحقق من هذا الاسم بواسطة هوية الصورة."
+  },
+  "account.settings.field.name.verified.help.text.verified.proctored": {
+    "translation": "تم التحقق من هذا الاسم بواسطة المراقبة."
+  },
+  "account.settings.field.name.verified.help.text.verified.certificate": {
+    "translation": "تم التحقق من هذا الاسم بواسطة هوية الصورة، وتم اختياره ليظهر على شهاداتك والسجلات العامة."
+  },
+  "account.settings.field.name.verified.help.text.verified.proctored.certificate": {
+    "translation": "تم التحقق من هذا الاسم بواسطة المراقبة، وتم اختياره ليظهر على شهاداتك والسجلات العامة."
+  },
+  "account.settings.field.name.verified.help.text.submitted": {
+    "translation": "تم تقديم التحقق. عادةً ما يستغرق ذلك 48 ساعة أو أقل. لا يمكن تغيير الاسم المعتمد في الوقت الحالي."
+  },
+  "account.settings.field.name.verified.help.text.submitted.proctored": {
+    "translation": "تم تقديم امتحان المراقبة الخاص بك. لا يمكن تغيير الاسم المعتمد في الوقت الحالي. يرجى العودة بعد 2-5 أيام."
+  },
+  "account.settings.field.name.verified.help.text.submitted.certificate": {
+    "translation": "عندما يكون التحقق من الهوية ناجحًا، سيظهر هذا الاسم على شهاداتك والسجلات العامة. لا يمكن تغيير الاسم المعتمد في الوقت الحالي."
+  },
+  "account.settings.field.name.verified.help.text.submitted.proctored.certificate": {
+    "translation": "عندما يمر امتحان المراقبة الخاص بك بمراجعة ناجحة، سيظهر هذا الاسم على شهادتك والسجلات العامة. لا يمكن تغيير الاسم المعتمد في الوقت الحالي."
+  },
+  "account.settings.field.full.name.help.text.submitted": {
+    "translation": "تم تقديم التحقق. عادةً ما يستغرق ذلك 48 ساعة أو أقل. لا يمكن تغيير الاسم الكامل في الوقت الحالي."
+  },
+  "account.settings.field.full.name.help.text.submitted.proctored": {
+    "translation": "تم تقديم امتحان المراقبة الخاص بك. لا يمكن تغيير الاسم الكامل في الوقت الحالي. يرجى العودة بعد 2-5 أيام."
+  },
+  "account.settings.field.full.name.help.text.submitted.certificate": {
+    "translation": "عندما يكون التحقق من الهوية ناجحًا، سيظهر هذا الاسم على شهاداتك والسجلات العامة. لا يمكن تغيير الاسم الكامل في الوقت الحالي."
+  },
+  "account.settings.field.full.name.help.text.submitted.proctored.certificate": {
+    "translation": "عندما يمر امتحان المراقبة الخاص بك بمراجعة ناجحة، سيظهر هذا الاسم على شهاداتك والسجلات العامة. لا يمكن تغيير الاسم الكامل في الوقت الحالي."
+  },
+  "account.settings.field.name.verified.success.message": {
+    "translation": "لقد اكتمل طلب التحقق من هويتك بنجاح. الآن لديك خيار اختيار أي اسم تفضل أن يظهر على شهاداتك والسجلات العامة."
+  },
+  "account.settings.field.name.verified.success.message.header": {
+    "translation": "لقد اكتمل طلب تغيير اسمك!"
+  },
+  "account.settings.field.name.verified.failure.message": {
+    "translation": "لم ينجح المحاولة الأخيرة للتحقق من هويتك. تم استعادة إعدادات الحساب ذات الصلة."
+  },
+  "account.settings.field.name.verified.failure.message.header": {
+    "translation": "لم نتمكن من التحقق من هويتك."
+  },
+  "account.settings.field.name.verified.failure.message.help.link": {
+    "translation": "تعلم المزيد عن التحقق من الهوية"
+  },
+  "account.settings.field.name.verified.submitted.message": {
+    "translation": "تم تقديم طلب التحقق من هويتك ويتم عادةً إكماله خلال 24 إلى 48 ساعة."
+  },
+  "account.settings.field.name.verified.submitted.message.certificate": {
+    "translation": "عندما يتم الموافقة على طلبك، سيظهر اسمك المحدث على جميع الشهادات والسجلات العامة ذات الصلة."
+  },
+  "account.settings.field.name.verified.submitted.message.header": {
+    "translation": "طلب تغيير اسمك شبه مكتمل!"
+  },
+  "account.settings.field.email": {
+    "translation": "عنوان البريد الإلكتروني (تسجيل الدخول)"
+  },
+  "account.settings.field.email.empty": {
+    "translation": "إضافة عنوان بريد إلكتروني"
+  },
+  "account.settings.field.email.confirmation": {
+    "translation": "لقد أرسلنا رسالة تأكيد إلى {value}. انقر على الرابط في الرسالة لتحديث عنوان بريدك الإلكتروني."
+  },
+  "account.settings.field.email.help.text": {
+    "translation": "تلقى رسائل من {siteName} وفريق الدورة في هذا العنوان."
+  },
+  "account.settings.field.secondary.email": {
+    "translation": "عنوان بريد إلكتروني للاستعادة"
+  },
+  "account.settings.field.secondary.email.empty": {
+    "translation": "إضافة عنوان بريد إلكتروني للاستعادة"
+  },
+  "account.settings.field.secondary.email.confirmation": {
+    "translation": "لقد أرسلنا رسالة تأكيد إلى {value}. انقر على الرابط في الرسالة لتحديث عنوان بريدك الإلكتروني للاستعادة."
+  },
+  "account.settings.email.field.confirmation.header": {
+    "translation": "في انتظار التأكيد"
+  },
+  "account.settings.field.dob": {
+    "translation": "سنة الميلاد"
+  },
+  "account.settings.field.dob.empty": {
+    "translation": "إضافة سنة الميلاد"
+  },
+  "account.settings.field.year_of_birth.options.empty": {
+    "translation": "اختر سنة الميلاد"
+  },
+  "account.settings.field.dob.month": {
+    "translation": "الشهر"
+  },
+  "account.settings.field.dob.year": {
+    "translation": "السنة"
+  },
+  "account.settings.field.month.year.default": {
+    "translation": "اختر الشهر"
+  },
+  "account.settings.field.dob.year.default": {
+    "translation": "اختر السنة"
+  },
+  "account.settings.field.dob.form.button": {
+    "translation": "يرجى تأكيد تاريخ ميلادك"
+  },
+  "account.settings.field.dob.form.title": {
+    "translation": "أدخل شهر ميلادك وسنة ميلادك"
+  },
+  "account.settings.field.dob.form.help.text": {
+    "translation": "نسأل عن شهر ميلادك وسنة ميلادك لمساعدتنا في الامتثال لالتزاماتنا القانونية."
+  },
+  "account.settings.field.dob.form.success": {
+    "translation": "شكرًا لك على إدخال معلوماتك."
+  },
+  "account.settings.field.month_of_birth.options.empty": {
+    "translation": "اختر شهر ميلادك"
+  },
+  "account.settingsfield.dob.error.general": {
+    "translation": "حدث خطأ فني. يرجى المحاولة مرة أخرى."
+  },
+  "account.settings.field.country": {
+    "translation": "الدولة"
+  },
+  "account.settings.field.country.empty": {
+    "translation": "إضافة دولة"
+  },
+  "account.settings.field.country.options.empty": {
+    "translation": "اختر دولة"
+  },
+  "account.settings.field.state": {
+    "translation": "الولاية"
+  },
+  "account.settings.field.state.empty": {
+    "translation": "إضافة ولاية"
+  },
+  "account.settings.field.state.options.empty": {
+    "translation": "اختر ولاية"
+  },
+  "account.settings.field.site.language": {
+    "translation": "لغة الموقع"
+  },
+  "account.settings.field.site.language.help.text": {
+    "translation": "اللغة المستخدمة في جميع أنحاء هذا الموقع. هذا الموقع متاح حاليًا بلغات محدودة."
+  },
+  "account.settings.field.education": {
+    "translation": "التعليم"
+  },
+  "account.settings.field.education.empty": {
+    "translation": "إضافة مستوى التعليم"
+  },
+  "account.settings.field.education.levels.empty": {
+    "translation": "اختر مستوى التعليم"
+  },
+  "account.settings.field.education.levels.p": {
+    "translation": "دكتوراه"
+  },
+  "account.settings.field.education.levels.m": {
+    "translation": "ماجستير أو درجة مهنية"
+  },
+  "account.settings.field.education.levels.b": {
+    "translation": "بكالوريوس"
+  },
+  "account.settings.field.education.levels.a": {
+    "translation": "درجة Associates"
+  },
+  "account.settings.field.education.levels.hs": {
+    "translation": "ثانوية/مدرسة ثانوية"
+  },
+  "account.settings.field.education.levels.jhs": {
+    "translation": "مدرسة ثانوية متوسطة/مدرسة ثانوية متوسطة/مدرسة متوسطة"
+  },
+  "account.settings.field.education.levels.el": {
+    "translation": "مدرسة ابتدائية/مدرسة ابتدائية"
+  },
+  "account.settings.field.education.levels.none": {
+    "translation": "لا يوجد تعليم رسمي"
+  },
+  "account.settings.field.education.levels.other": {
+    "translation": "تعليم آخر"
+  },
+  "account.settings.field.gender": {
+    "translation": "الجنس"
+  },
+  "account.settings.field.gender.empty": {
+    "translation": "إضافة الجنس"
+  },
+  "account.settings.field.gender.options.empty": {
+    "translation": "اختر الجنس"
+  },
+  "account.settings.field.gender.options.f": {
+    "translation": "أنثى"
+  },
+  "account.settings.field.gender.options.m": {
+    "translation": "ذكر"
+  },
+  "account.settings.field.gender.options.o": {
+    "translation": "آخر"
+  },
+  "account.settings.field.language.proficiencies": {
+    "translation": "لغة متحدث"
+  },
+  "account.settings.field.language.proficiencies.empty": {
+    "translation": "إضافة لغة متحدث"
+  },
+  "account.settings.field.language_proficiencies.options.empty": {
+    "translation": "اختر لغة"
+  },
+  "account.settings.field.time.zone": {
+    "translation": "منطقة زمنية"
+  },
+  "account.settings.field.time.zone.empty": {
+    "translation": "تعيين المنطقة الزمنية"
+  },
+  "account.settings.field.time.zone.description": {
+    "translation": "اختر المنطقة الزمنية لعرض مواعيد الدورات. إذا لم تحدد منطقة زمنية، سيتم عرض مواعيد الدورات، بما في ذلك مواعيد تسليم الواجبات، في المنطقة الزمنية المحلية لمتصفحك."
+  },
+  "account.settings.field.time.zone.default": {
+    "translation": "الافتراضي (المنطقة الزمنية المحلية)"
+  },
+  "account.settings.field.time.zone.all": {
+    "translation": "جميع مناطق الوقت"
+  },
+  "account.settings.field.time.zone.country": {
+    "translation": "مناطق الوقت في الدول"
+  },
+  "account.settings.section.social.media": {
+    "translation": "روابط وسائل التواصل الاجتماعي"
+  },
+  "account.settings.section.social.media.description": {
+    "translation": "اختياريًا، ربط حساباتك الشخصية بأيقونات وسائل التواصل الاجتماعي في ملفك الشخصي في {siteName}."
+  },
+  "account.settings.field.social.platform.name.linkedin": {
+    "translation": "LinkedIn"
+  },
+  "account.settings.field.social.platform.name.linkedin.empty": {
+    "translation": "إضافة ملف LinkedIn"
+  },
+  "account.settings.jump.nav.delete.account": {
+    "translation": "حذف حسابي"
+  },
+  "account.settings.field.social.platform.name.xTwitter": {
+    "translation": "X (Twitter)"
+  },
+  "account.settings.field.social.platform.name.xTwitter.empty": {
+    "translation": "إضافة ملف X"
+  },
+  "account.settings.field.social.platform.name.facebook": {
+    "translation": "Facebook"
+  },
+  "account.settings.field.social.platform.name.facebook.empty": {
+    "translation": "إضافة ملف Facebook"
+  },
+  "account.settings.editable.field.action.save": {
+    "translation": "حفظ"
+  },
+  "account.settings.editable.field.action.cancel": {
+    "translation": "إلغاء"
+  },
+  "account.settings.editable.field.action.edit": {
+    "translation": "تعديل"
+  },
+  "account.settings.static.field.empty": {
+    "translation": "لم يتم تعيين قيمة. اتصل بمشرف {enterprise} لإجراء التغييرات."
+  },
+  "account.settings.static.field.empty.no.admin": {
+    "translation": "لم يتم تعيين قيمة."
+  },
+  "notification.preferences.notifications.label": {
+    "translation": "إشعارات"
+  },
+  "account.settings.work.experience": {
+    "translation": "تجربة العمل"
+  },
+  "account.settings.field.work.experience.empty": {
+    "translation": "إضافة تجربة عمل"
+  },
+  "account.settings.field.work.experience.options.empty": {
+    "translation": "اختر تجربة العمل"
+  },
+  "error.notfound.message": {
+    "translation": "الصفحة التي تبحث عنها غير متاحة أو هناك خطأ في الرابط. يرجى التحقق من الرابط المحول وإعادة المحاولة."
+  },
+  "account.page.title": {
+    "translation": "الحساب | {siteName}"
+  },
+  "id.verification.access.blocked.denied": {
+    "translation": "لا يمكننا التحقق من هويتك في الوقت الحالي. إذا لم تنشط حسابك بعد، يرجى التحقق من مجلد البريد غير المرغوب فيه للبحث عن بريد تنشيط من {email}."
+  },
+  "id.verification.next": {
+    "translation": "التالي"
+  },
+  "id.verification.support": {
+    "translation": "الدعم"
+  },
+  "id.verification.example.card.alt": {
+    "translation": "مثال على بطاقة هوية صالحة تحتوي على الاسم الكامل والصورة."
+  },
+  "id.verification.requirements.title": {
+    "translation": "متطلبات التحقق من الصورة"
+  },
+  "id.verification.requirements.description": {
+    "translation": "لإكمال التحقق من الصورة، ستحتاج إلى ما يلي:"
+  },
+  "id.verification.requirements.card.device.title": {
+    "translation": "جهاز مع كاميرا"
+  },
+  "id.verification.requirements.card.device.allow": {
+    "translation": "سماح"
+  },
+  "id.verification.requirements.card.id.title": {
+    "translation": "بطاقة هوية صورية"
+  },
+  "id.verification.requirements.card.id.text": {
+    "translation": "تحتاج إلى بطاقة هوية صالحة تحتوي على اسمك الكامل وصورتك، مثل رخصة القيادة أو جواز السفر."
+  },
+  "id.verification.privacy.modal.close.button": {
+    "translation": "إغلاق"
+  },
+  "id.verification.privacy.title": {
+    "translation": "معلومات الخصوصية"
+  },
+  "id.verification.privacy.need.photo.question": {
+    "translation": "لماذا يحتاج {siteName} إلى صورتك؟"
+  },
+  "id.verification.privacy.need.photo.answer": {
+    "translation": "نستخدم صور التحقق من هويتك لتأكيد هويتك وضمان صحة الشهادة."
+  },
+  "id.verification.privacy.do.with.photo.question": {
+    "translation": "ما الذي يفعله {siteName} بهذه الصورة؟"
+  },
+  "id.verification.privacy.do.with.photo.answer": {
+    "translation": "نشفّر صورتك بشكل آمن ونرسلها إلى خدمة المصادقة لدينا للمراجعة. لا يتم حفظ صورتك ومعلوماتك في أي مكان على {siteName} بعد إكمال عملية التحقق."
+  },
+  "id.verification.access.blocked.title": {
+    "translation": "التحقق من الهوية"
+  },
+  "id.verification.access.blocked.enrollment": {
+    "translation": "أنت غير مسجل حاليًا في دورة تتطلب التحقق من الهوية."
+  },
+  "id.verification.access.blocked.pending": {
+    "translation": "لقد قدمت بالفعل معلومات التحقق من هويتك. ستتلقى رسالة على لوحة التحكم الخاصة بك عندما تكتمل عملية التحقق (عادةً خلال 5 أيام)."
+  },
+  "id.verification.photo.take": {
+    "translation": "التقاط صورة"
+  },
+  "id.verification.photo.retake": {
+    "translation": "التقاط صورة مرة أخرى؟"
+  },
+  "id.verification.photo.enable.detection": {
+    "translation": "تفعيل كشف الوجه"
+  },
+  "id.verification.photo.enable.detection.portrait.help.text": {
+    "translation": "إذا تم تحديدها، ستظهر مربع حول وجهك. يمكن رؤية وجهك بوضوح إذا كان المربع حوله أزرق. إذا كان وجهك في وضع غير مناسب أو غير قابل للكشف، فإن المربع سيكون أحمر."
+  },
+  "id.verification.photo.enable.detection.id.help.text": {
+    "translation": "إذا تم تحديدها، ستظهر مربع حول وجهك على بطاقة الهوية. يمكن رؤية الوجه بوضوح إذا كان المربع حوله أزرق. إذا كان الوجه في وضع غير مناسب أو غير قابل للكشف، فإن المربع سيكون أحمر."
+  },
+  "id.verification.photo.feedback.correct": {
+    "translation": "الوجه في وضع جيد."
+  },
+  "id.verification.photo.feedback.two.faces": {
+    "translation": "تم اكتشاف أكثر من وجه واحد."
+  },
+  "id.verification.photo.feedback.no.faces": {
+    "translation": "لم يتم اكتشاف أي وجه."
+  },
+  "id.verification.photo.feedback.top.left": {
+    "translation": "موقع غير صحيح. أعلى اليسار."
+  },
+  "id.verification.photo.feedback.top.center": {
+    "translation": "موقع غير صحيح. أعلى المركز."
+  },
+  "id.verification.photo.feedback.top.right": {
+    "translation": "موقع غير صحيح. أعلى اليمين."
+  },
+  "id.verification.photo.feedback.center.left": {
+    "translation": "موقع غير صحيح. المركز اليسار."
+  },
+  "id.verification.photo.feedback.center.center": {
+    "translation": "موقع غير صحيح. قريب جدًا من الكاميرا."
+  },
+  "id.verification.photo.feedback.center.right": {
+    "translation": "موقع غير صحيح. المركز اليمين."
+  },
+  "id.verification.photo.feedback.bottom.left": {
+    "translation": "موقع غير صحيح. الأسفل اليسار."
+  },
+  "id.verification.photo.feedback.bottom.center": {
+    "translation": "موقع غير صحيح. الأسفل المركز."
+  },
+  "id.verification.photo.feedback.bottom.right": {
+    "translation": "موقع غير صحيح. الأسفل اليمين."
+  },
+  "id.verification.camera.access.title": {
+    "translation": "أذونات الكاميرا"
+  },
+  "id.verification.camera.access.title.success": {
+    "translation": "تم تفعيل الوصول إلى الكاميرا"
+  },
+  "id.verification.camera.access.title.failed": {
+    "translation": "فشل الوصول إلى الكاميرا"
+  },
+  "id.verification.camera.access.click.allow": {
+    "translation": "يرجى التأكد من النقر على \"سماح\""
+  },
+  "id.verification.camera.access.enable": {
+    "translation": "تفعيل الكاميرا"
+  },
+  "id.verification.camera.access.problems": {
+    "translation": "هل تواجه مشاكل؟"
+  },
+  "id.verification.camera.access.skip": {
+    "translation": "تخطي ورفع ملفات الصور بدلاً من ذلك"
+  },
+  "id.verification.camera.access.success": {
+    "translation": "يبدو أن كاميرتك تعمل وتكون جاهزة."
+  },
+  "id.verification.camera.access.failure": {
+    "translation": "يبدو أننا غير قادرين على الوصول إلى كاميرتك. ستحتاج إلى رفع ملفات صور لك ولبطاقتك الشخصية."
+  },
+  "id.verification.camera.access.failure.temporary": {
+    "translation": "يبدو أننا غير قادرين على الوصول إلى كاميرتك. يرجى التحقق من أن الكاميرا الرقمية متصلة وأنك قد سمحت لمتصفحك بالوصول إليها."
+  },
+  "id.verification.camera.access.failure.temporary.chrome": {
+    "translation": "لتفعيل الوصول إلى الكاميرا في Chrome:"
+  },
+  "id.verification.camera.access.failure.temporary.chrome.step1": {
+    "translation": "افتح Chrome."
+  },
+  "id.verification.camera.access.failure.temporary.chrome.step2": {
+    "translation": "انتقل إلى المزيد > الإعدادات."
+  },
+  "id.verification.camera.access.failure.temporary.chrome.step2.windows": {
+    "translation": "للمستخدمين في Windows: Alt+F، Alt+E، أو F10 ثم شريط المسافات"
+  },
+  "id.verification.camera.access.failure.temporary.chrome.step2.mac": {
+    "translation": "للمستخدمين في Mac: Command+,"
+  },
+  "id.verification.camera.access.failure.temporary.chrome.step3": {
+    "translation": "في علامة التبويب \"الخصوصية والأمان\"، اختر \"إعدادات الموقع\" ثم \"الكاميرا.\""
+  },
+  "id.verification.camera.access.failure.temporary.chrome.step4": {
+    "translation": "في \"المحظور\"، ابحث عن \"edx.org\" واخترها."
+  },
+  "id.verification.camera.access.failure.temporary.chrome.step5": {
+    "translation": "في قسم \"الأذونات\"، تحديث أذونات الكاميرا إلى \"سماح.\""
+  },
+  "id.verification.camera.access.failure.temporary.ie11": {
+    "translation": "لتفعيل الوصول إلى الكاميرا في Internet Explorer:"
+  },
+  "id.verification.camera.access.failure.temporary.ie11.step1": {
+    "translation": "افتح مدير إعدادات Flash Player عن طريق الانتقال إلى إعدادات Windows > لوحة التحكم > Flash Player."
+  },
+  "id.verification.camera.access.failure.temporary.ie11.step2": {
+    "translation": "اختر علامة التبويب \"الكاميرا والميكروفون\"، ثم اختر زر \"إعدادات الكاميرا والميكروفون حسب الموقع.\""
+  },
+  "id.verification.camera.access.failure.temporary.ie11.step3": {
+    "translation": "اختر \"edx.org\" من قائمة المواقع وتغيير الأذونات عن طريق اختيار \"سماح\" من قائمة المنسدلة."
+  },
+  "id.verification.camera.access.failure.temporary.firefox": {
+    "translation": "لتفعيل الوصول إلى الكاميرا في Firefox:"
+  },
+  "id.verification.camera.access.failure.temporary.firefox.step1": {
+    "translation": "افتح Firefox."
+  },
+  "id.verification.camera.access.failure.temporary.firefox.step2": {
+    "translation": "أدخل \"about:preferences\" في شريط عنوان URL."
+  },
+  "id.verification.camera.access.failure.temporary.firefox.step3": {
+    "translation": "اختر علامة التبويب \"الخصوصية والأمان\"، ثم انتقل إلى قسم \"الأذونات.\""
+  },
+  "id.verification.camera.access.failure.temporary.firefox.step4": {
+    "translation": "بجوار \"الكاميرا\"، اختر زر \"الإعدادات…\""
+  },
+  "id.verification.camera.access.failure.temporary.firefox.step5": {
+    "translation": "في شريط البحث، أدخل \"edx.org.\""
+  },
+  "id.verification.camera.access.failure.temporary.firefox.step6": {
+    "translation": "في عمود الحالة لـ \"edx.org\"، اختر \"سماح\" من القائمة المنسدلة."
+  },
+  "id.verification.camera.access.failure.temporary.firefox.step7": {
+    "translation": "اختر \"حفظ التغييرات.\""
+  },
+  "id.verification.camera.access.failure.temporary.safari": {
+    "translation": "لتفعيل الوصول إلى الكاميرا في Safari:"
+  },
+  "id.verification.camera.access.failure.temporary.safari.step1": {
+    "translation": "افتح Safari."
+  },
+  "id.verification.camera.access.failure.temporary.safari.step2": {
+    "translation": "انقر على قائمة تطبيق Safari، ثم اختر \"الإعدادات.\" يمكنك أيضًا استخدام Command+, كاختصار لوحة المفاتيح."
+  },
+  "id.verification.camera.access.failure.temporary.safari.step3": {
+    "translation": "اختر علامة التبويب \"المواقع\" ثم اختر \"الكاميرا.\""
+  },
+  "id.verification.camera.access.failure.temporary.safari.step4": {
+    "translation": "اختر \"edx.org\" وتغيير أذونات الكاميرا إلى \"سماح.\""
+  },
+  "id.verification.camera.access.failure.unsupported": {
+    "translation": "يبدو أن متصفحك لا يدعم الوصول إلى الكاميرا."
+  },
+  "id.verification.camera.access.failure.unsupported.chrome.explanation": {
+    "translation": "المتصفح Chrome لا يدعم حاليًا الوصول إلى الكاميرا على أجهزة iOS مثل iPhone و iPad."
+  },
+  "id.verification.camera.access.failure.unsupported.instructions": {
+    "translation": "يرجى استخدام متصفح آخر لإكمال التحقق من الهوية."
+  },
+  "id.verification.photo.tips.title": {
+    "translation": "نصائح مفيدة للصور"
+  },
+  "id.verification.photo.tips.description": {
+    "translation": "بعد ذلك، سنحتاج منك التقاط صورة لوجهك. يرجى مراجعة النصائح المفيدة أدناه."
+  },
+  "id.verification.photo.tips.list.title": {
+    "translation": "نصائح للصور"
+  },
+  "id.verification.photo.tips.list.description": {
+    "translation": "لتقاط صورة ناجحة، تأكد من:"
+  },
+  "id.verification.photo.tips.list.well.lit": {
+    "translation": "وجهك جيد الإضاءة."
+  },
+  "id.verification.photo.tips.list.inside.frame": {
+    "translation": "وجهك بالكامل داخل الإطار."
+  },
+  "id.verification.portrait.photo.title.camera": {
+    "translation": "التقاط صورة لنفسك"
+  },
+  "id.verification.portrait.photo.instructions.camera": {
+    "translation": "عندما يكون وجهك في الموضع الصحيح، استخدم زر \"التقاط صورة\" أدناه لتقاط صورتك."
+  },
+  "id.verification.camera.help.sight.question": {
+    "translation": "ما إذا كنت لا ترى صورة الكاميرا أو لا ترى صورتك لتحديد أي جانب مرئي؟"
+  },
+  "id.verification.camera.help.sight.answer.portrait": {
+    "translation": "قد تكون قادرًا على إكمال إجراء التقاط الصور دون مساعدة، ولكن قد يستغرق الأمر عدة محاولات تقديم الصور للحصول على وضع الكاميرا الصحيح. تختلف الموضع المثالي للكاميرا مع كل حاسوب، ولكن بشكل عام، أفضل الموضع لصور الوجه هو حوالي 12-18 بوصة (30-45 سنتيمتر) من الكاميرا، مع وضع رأسك في المركز بالنسبة لشاشة الحاسوب. إذا تم رفض الصور التي تقدمها، حاول تحريك حاسوبك أو اتجاه الكاميرا لتغيير زاوية الإضاءة."
+  },
+  "id.verification.camera.help.sight.answer.id": {
+    "translation": "قد تكون قادرًا على إكمال إجراء التقاط الصور دون مساعدة، ولكن قد يستغرق الأمر عدة محاولات تقديم الصور للحصول على وضع الكاميرا الصحيح. تختلف الموضع المثالي للكاميرا مع كل حاسوب، ولكن بشكل عام، أفضل الموضع لصور بطاقة الهوية هو 8-12 بوصة (20-30 سنتيمتر) من الكاميرا، مع وضع بطاقة الهوية في المركز بالنسبة للكاميرا. إذا تم رفض الصور التي تقدمها، حاول تحريك حاسوبك أو اتجاه الكاميرا لتغيير زاوية الإضاءة. السبب الأكثر شيوعًا للرفض هو عدم القدرة على قراءة النص على بطاقة الهوية."
+  },
+  "id.verification.camera.help.difficulty.question.portrait": {
+    "translation": "ما إذا كنت تواجه صعوبة في الحفاظ على رأسك في الموضع بالنسبة للكاميرا؟"
+  },
+  "id.verification.camera.help.difficulty.question.id": {
+    "translation": "ما إذا كنت تواجه صعوبة في الحفاظ على بطاقتك في الموضع بالنسبة للكاميرا؟"
+  },
+  "id.verification.camera.help.difficulty.answer": {
+    "translation": "إذا كنت تحتاج إلى مساعدة في التقاط صورة للتقديم، اتصل بدعم {siteName} للحصول على اقتراحات إضافية."
+  },
+  "id.verification.id.photo.unclear.question": {
+    "translation": "هل صورة بطاقتك غير واضحة جدًا أو مشوشة جدًا؟"
+  },
+  "id.verification.id.tips.title": {
+    "translation": "نصائح مفيدة لبطاقة الهوية"
+  },
+  "id.verification.id.tips.description": {
+    "translation": "بعد ذلك، سنحتاج منك التقاط صورة لبطاقة هوية صالحة تحتوي على اسمك الكامل وصورتك، مثل رخصة القيادة أو جواز السفر. يرجى التأكد من أن بطاقتك جاهزة."
+  },
+  "id.verification.id.tips.list.well.lit": {
+    "translation": "بطاقتك هوية جيدة الإضاءة."
+  },
+  "id.verification.id.tips.list.clear": {
+    "translation": "تأكد من أن يمكنك رؤية صورتك وقراءة اسمك بوضوح."
+  },
+  "id.verification.id.photo.title.camera": {
+    "translation": "التقاط صورة لبطاقتك الشخصية"
+  },
+  "id.verification.id.photo.title.upload": {
+    "translation": "رفع صورة لبطاقتك الشخصية"
+  },
+  "id.verification.id.photo.preview.alt": {
+    "translation": "مقدمة لبطاقة الهوية."
+  },
+  "id.verification.id.photo.instructions.camera": {
+    "translation": "عندما تكون بطاقتك في الموضع الصحيح، استخدم زر \"التقاط صورة\" أدناه لتقاط صورتك. يرجى استخدام جواز سفر، أو رخصة قيادة، أو بطاقة هوية أخرى تحتوي على اسمك الكامل وصورة وجهك."
+  },
+  "id.verification.id.photo.instructions.upload": {
+    "translation": "يرجى رفع صورة لبطاقتك الشخصية. تأكد من أن البطاقة بأكملها داخل الإطار وجيدة الإضاءة. يجب أن يكون حجم الملف أقل من 10 ميغابايت. التنسيقات المدعومة:"
+  },
+  "id.verification.id.photo.instructions.upload.error.invalidFileType": {
+    "translation": "الملف الذي اخترته ليس نوعًا من الصور المدعوم. يرجى الاختيار من التنسيقات التالية:"
+  },
+  "id.verification.id.photo.instructions.upload.error.fileTooLarge": {
+    "translation": "الملف الذي اخترته كبير جدًا. يرجى المحاولة مرة أخرى مع ملف أقل من 10 ميغابايت."
+  },
+  "id.verification.name.check.title": {
+    "translation": "التحقق من اسمك مرة أخرى"
+  },
+  "id.verification.name.check.instructions": {
+    "translation": "هل الاسم أدناه يتطابق مع الاسم على بطاقتك الشخصية؟ إذا لم يكن كذلك، تحديث الاسم أدناه لتطابق بطاقتك الشخصية."
+  },
+  "id.verification.name.check.mismatch.information": {
+    "translation": "إذا لم يتطابق الاسم أدناه مع بطاقتك الشخصية، فسيتم رفض التحقق من هويتك."
+  },
+  "id.verification.name.error": {
+    "translation": "يرجى إدخال اسمك كما هو موجود على بطاقتك الشخصية."
+  },
+  "id.verification.account.name.warning.prefix": {
+    "translation": "يرجى الملاحظة:"
+  },
+  "id.verification.account.name.settings": {
+    "translation": "إعدادات الحساب"
+  },
+  "id.verification.name.label": {
+    "translation": "الاسم"
+  },
+  "id.verification.account.name.photo.alt": {
+    "translation": "صورة لبطاقتك الشخصية التي سيتم تقديمها."
+  },
+  "id.verification.review.title": {
+    "translation": "مراجعة الصور"
+  },
+  "id.verification.review.description": {
+    "translation": "تأكد من أننا نستطيع التحقق من هويتك مع الصور والمعلومات التي قدمتها."
+  },
+  "id.verification.review.portrait.label": {
+    "translation": "صورتك"
+  },
+  "id.verification.review.portrait.alt": {
+    "translation": "صورة لوجهك التي سيتم تقديمها."
+  },
+  "id.verification.review.portrait.retake": {
+    "translation": "التقاط صورة شخصية مرة أخرى"
+  },
+  "id.verification.review.id.label": {
+    "translation": "بطاقتك الشخصية"
+  },
+  "id.verification.review.id.alt": {
+    "translation": "صورة لبطاقتك الشخصية التي سيتم تقديمها."
+  },
+  "id.verification.review.id.retake": {
+    "translation": "التقاط صورة للبطاقة مرة أخرى"
+  },
+  "id.verification.review.confirm": {
+    "translation": "تقديم"
+  },
+  "id.verification.submission.alert.error.face": {
+    "translation": "الصورة الشخصية مطلوبة. يرجى التقاط صورتك الشخصية مرة أخرى."
+  },
+  "id.verification.submission.alert.error.id": {
+    "translation": "الصورة للبطاقة الشخصية مطلوبة. يرجى التقاط صورة للبطاقة مرة أخرى."
+  },
+  "id.verification.submission.alert.error.name": {
+    "translation": "اسم الحساب الصالحة مطلوب. يرجى تحديث اسم الحساب لتطابق الاسم على بطاقتك الشخصية."
+  },
+  "id.verification.submission.alert.error.unsupported": {
+    "translation": "واحد أو أكثر من الملفات التي رفعتها في تنسيق غير مدعوم. يرجى الاختيار من التالي:"
+  },
+  "id.verification.review.error": {
+    "translation": "صفحة دعم {siteName}"
+  },
+  "id.verification.submitted.title": {
+    "translation": "التحقق من الهوية قيد التنفيذ"
+  },
+  "id.verification.submitted.text": {
+    "translation": "لقد تلقينا معلوماتك ونحن نتحقق من هويتك. ستتلقى إشعارًا عندما تكتمل عملية التحقق (عادةً خلال 5 أيام). في الوقت الحالي، يمكنك الوصول إلى جميع محتويات الدورات المتاحة."
+  },
+  "id.verification.return.dashboard": {
+    "translation": "العودة إلى لوحة التحكم الخاصة بك"
+  },
+  "id.verification.return.course": {
+    "translation": "العودة إلى الدورة"
+  },
+  "id.verification.return.generic": {
+    "translation": "العودة"
+  },
+  "id.verification.photo.upload.help.title": {
+    "translation": "رفع صورة بدلاً من ذلك"
+  },
+  "id.verification.photo.camera.help.title": {
+    "translation": "استخدام كاميرتك بدلاً من ذلك"
+  },
+  "id.verification.photo.upload.help.text": {
+    "translation": "إذا كنت تواجه صعوبة في استخدام التقاط الصور أعلاه، قد ترغب في رفع صورة بدلاً من ذلك. لرفع صورة، انقر على الزر أدناه."
+  },
+  "id.verification.photo.camera.help.text": {
+    "translation": "إذا كنت تواجه صعوبة في رفع صورة أعلاه، قد ترغب في استخدام كاميرتك بدلاً من ذلك. لاستخدام كاميرتك، انقر على الزر أدناه."
+  },
+  "id.verification.upload.help.button": {
+    "translation": "التحول إلى وضع الرفع"
+  },
+  "id.verification.camera.help.button": {
+    "translation": "التحول إلى وضع الكاميرا"
+  },
+  "id.verification.context.loading.state": {
+    "translation": "تحميل حالة التحقق"
+  },
+  "notification.preference.heading": {
+    "translation": "إشعارات"
+  },
+  "notification.preference.app.title": {
+    "translation": "{ key, select, discussion {مناقشات} coursework {الواجبات} updates {التحديثات} grading {التقييم} other {{key}} }"
+  },
+  "notification.preference.title": {
+    "translation": "{ text, select, core {إشعارات النشاط} newDiscussionPost {مقالات مناقشة جديدة} newQuestionPost {أسئلة جديدة} contentReported {محتوى تم الإبلاغ عنه} courseUpdates {تحديثات الدورة} oraStaffNotifications {تقديم ORA جديد للموظفين للتقييم} oraGradeAssigned {تم تلقي درجة مهمة المقال} newInstructorAllLearnersPost {مقالات جديدة من المعلمين} other {{text}} }"
+  },
+  "notification.preference.channel": {
+    "translation": "{ text, select, web {الويب} email {البريد الإلكتروني} push {الدفع} other {{text}} }"
+  },
+  "notification.preference.emailCadence": {
+    "translation": "{ text, select, Daily {يوميًا} Weekly {أسبوعيًا} Immediately {فوريًا} other {{text}} }"
+  },
+  "notification.preference.type.label": {
+    "translation": "النوع"
+  },
+  "notification.preference.web.label": {
+    "translation": "الويب"
+  },
+  "notification.preference.help.email": {
+    "translation": "البريد الإلكتروني"
+  },
+  "notification.preference.help.push": {
+    "translation": "الدفع"
+  },
+  "notification.preference.load.more.courses": {
+    "translation": "تحميل دورات أخرى"
+  },
+  "notification.preference.guide.link": {
+    "translation": "كما هو مفصل هنا"
+  },
+  "notification.preference.guide.body": {
+    "translation": "تم تفعيل إشعارات لأktivitäten معينة افتراضيًا،"
+  },
+  "notification.cadence.description": {
+    "translation": "يتم إرسال إشعارات بريدية يومية في {dailyTime}. يتم إرسال إشعارات بريدية أسبوعية كل يوم أحد في {weeklyTime}."
+  },
+  "notification.default.info": {
+    "translation": "تم تفعيل إشعارات لأktivitäten معينة افتراضيًا، كما هو مفصل هنا"
+  },
+  "notification.dropdown.label": {
+    "translation": "اختر الإشعارات لـ"
+  },
+  "notification.dropdown.applies": {
+    "translation": "يتعلق بكل الدورات"
+  },
+  "notification.dropdown.course.applies": {
+    "translation": "يغلب الإعدادات العامة للحساب"
+  },
+  "account.settings.field.name.certificate.select": {
+    "translation": "إذا تم تحديدها، هذا الاسم سيظهر على الشهادات والسجلات العامة."
+  },
+  "account.settings.field.name.modal.certificate.title": {
+    "translation": "اختر اسمًا مفضلًا للشهادات والسجلات العامة"
+  },
+  "account.settings.field.name.modal.certificate.select": {
+    "translation": "اختر اسمًا"
+  },
+  "account.settings.field.name.modal.certificate.option.full": {
+    "translation": "الاسم الكامل"
+  },
+  "account.settings.field.name.modal.certificate.option.verified": {
+    "translation": "الاسم المعتمد"
+  },
+  "account.settings.field.name.modal.certificate.button.choose": {
+    "translation": "اختر اسمًا"
+  },
+  "account.settings.delete.account.before.proceeding": {
+    "translation": "قبل المتابعة، يرجى {actionLink}."
+  },
+  "account.settings.delete.account.text.3.edX": {
+    "translation": "قد تفقد أيضًا الوصول إلى الشهادات المعتمدة والمؤهلات الأخرى مثل شهادات MicroMasters. يمكنك إنشاء نسخة من هذه لأغراضك قبل المتابعة بحذفها. {actionLink}."
+  },
+  "account.settings.delete.account.text.3": {
+    "translation": "قد تفقد أيضًا الوصول إلى الشهادات المعتمدة والمؤهلات الأخرى. يمكنك إنشاء نسخة من هذه لأغراضك قبل المتابعة بحذفها."
+  },
+  "account.settings.cannot.delete.account.text": {
+    "translation": "يرجى ملاحظة أن حذف الحساب غير متاح حاليًا لأغراض قانونية وتنظيمية."
+  },
+  "account.settings.delete.account.header": {
+    "translation": "حذف حسابي"
+  },
+  "account.settings.delete.account.subheader": {
+    "translation": "نحن آسفون لرؤيتك تذهب!"
+  },
+  "account.settings.delete.account.text.1": {
+    "translation": "يرجى ملاحظة: حذف حسابك ومعلوماتك الشخصية هو دائم ولا يمكن التراجع عنه. لن يكون {siteName} قادرًا على استعادة حسابك أو البيانات التي تم حذفها."
+  },
+  "account.settings.delete.account.text.2": {
+    "translation": "بعد حذف حسابك، لن يمكنك استخدامه لتقديم دورات على {siteName}."
+  },
+  "account.settings.delete.account.text.2.edX": {
+    "translation": "بعد حذف حسابك، لن يمكنك استخدامه لتقديم دورات على تطبيق edX، edx.org، أو أي موقع آخر يستضيفه edX. وهذا يشمل الوصول إلى edx.org من نظام صاحب العمل أو الجامعة الخاصة بك، والوصول إلى المواقع الخاصة التي تقدمها MIT Open Learning، Wharton Executive Education، وHarvard Medical School."
+  },
+  "account.settings.delete.account.text.3.link": {
+    "translation": "اتبع هذه التعليمات لطباعة أو تنزيل شهادة"
+  },
+  "account.settings.delete.account.text.warning": {
+    "translation": "تحذير: حذف الحساب دائم. يرجى قراءة ما سبق بعناية قبل المتابعة. هذه إجراء غير قابل للرجوع، ولا يمكنك استخدام نفس البريد الإلكتروني على {siteName} بعد ذلك."
+  },
+  "account.settings.delete.account.text.change.instead": {
+    "translation": "هل تريد تغيير بريدك الإلكتروني أو اسمك أو كلمة المرور بدلاً من ذلك؟"
+  },
+  "account.settings.delete.account.button": {
+    "translation": "حذف حسابي"
+  },
+  "account.settings.delete.account.please.activate": {
+    "translation": "تفعيل حسابك"
+  },
+  "account.settings.delete.account.please.confirm": {
+    "translation": "تأكيد حسابك"
+  },
+  "account.settings.delete.account.please.unlink": {
+    "translation": "فصل جميع حسابات وسائل التواصل الاجتماعي"
+  },
+  "account.settings.delete.account.modal.header": {
+    "translation": "هل أنت متأكد؟"
+  },
+  "account.settings.delete.account.modal.text.1": {
+    "translation": "لقد اخترت \"حذف حسابي\". حذف حسابك وبياناتك الشخصية دائم ولا يمكن التراجع عنه. لن يتمكن {siteName} من استعادة حسابك أو البيانات المحذوفة."
+  },
+  "account.settings.delete.account.modal.text.2": {
+    "translation": "إذا proceeded، لن تتمكن من استخدام هذا الحساب لتناول الدورات على {siteName}."
+  },
+  "account.settings.delete.account.modal.text.2.edX": {
+    "translation": "إذا proceeded، لن تتمكن من استخدام هذا الحساب لتناول الدورات على تطبيق edX، edx.org، أو أي موقع آخر يستضيفه edX. وهذا يشمل الوصول إلى edx.org من نظام جامعتك أو عملك، والوصول إلى المواقع الخاصة التي تقدمها MIT Open Learning، Wharton Executive Education، وHarvard Medical School."
+  },
+  "account.settings.delete.account.modal.enter.password": {
+    "translation": "إذا كنت لا تزال تريد المتابعة وحذف حسابك، يرجى إدخال كلمة مرور حسابك:"
+  },
+  "account.settings.delete.account.modal.confirm.delete": {
+    "translation": "نعم، حذف"
+  },
+  "account.settings.delete.account.modal.confirm.cancel": {
+    "translation": "إلغاء"
+  },
+  "account.settings.delete.account.error.unable.to.delete": {
+    "translation": "غير قادر على حذف الحساب"
+  },
+  "account.settings.delete.account.error.no.password": {
+    "translation": "كلمة المرور مطلوبة"
+  },
+  "account.settings.delete.account.error.invalid.password": {
+    "translation": "كلمة المرور غير صحيحة"
+  },
+  "account.settings.delete.account.error.unable.to.delete.details": {
+    "translation": "عذرًا، حدث خطأ أثناء معالجة طلبك. يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "account.settings.delete.account.modal.after.header": {
+    "translation": "نحن آسفون لرؤيتك تذهب! سيتم حذف حسابك قريبًا."
+  },
+  "account.settings.delete.account.modal.after.text": {
+    "translation": "قد يستغرق حذف الحساب، بما في ذلك الإزالة من قوائم البريد الإلكتروني، أسابيع قليلة حتى يتم معالجته بالكامل في نظامنا. إذا كنت تريد الإلغاء من البريد الإلكتروني قبل ذلك، يرجى إلغاء الاشتراك من أسفل أي بريد إلكتروني."
+  },
+  "account.settings.delete.account.modal.after.button": {
+    "translation": "إغلاق"
+  },
+  "account.settings.name.change.title.id": {
+    "translation": "تطلب هذه تغيير الاسم التحقق من الهوية"
+  },
+  "account.settings.name.change.title.begin": {
+    "translation": "قبل البدء"
+  },
+  "account.settings.name.change.warning.one": {
+    "translation": "تحذير: هذا الإجراء يحديث الاسم الذي يظهر على جميع الشهادات التي تم الحصول عليها على هذا الحساب في الماضي وأي شهادات تحصل عليها حاليًا أو ستحصل عليها في المستقبل."
+  },
+  "account.settings.name.change.warning.two": {
+    "translation": "لا يمكن التراجع عن هذا الإجراء دون التحقق من هويتك."
+  },
+  "account.settings.name.change.id.name.label": {
+    "translation": "أدخل اسمك كما يظهر على بطاقتك الشخصية."
+  },
+  "account.settings.name.change.id.name.placeholder": {
+    "translation": "أدخل الاسم على بطاقتك الشخصية"
+  },
+  "account.settings.name.change.error.valid.name": {
+    "translation": "يرجى إدخال اسم صالح."
+  },
+  "account.settings.name.change.error.general": {
+    "translation": "حدث خطأ فني. يرجى المحاولة مرة أخرى."
+  },
+  "account.settings.name.change.continue": {
+    "translation": "المتابعة"
+  },
+  "account.settings.name.change.cancel": {
+    "translation": "إلغاء"
+  },
+  "account.settings.editable.field.password.reset.button.confirmation.support.link": {
+    "translation": "الدعم الفني"
+  },
+  "account.settings.editable.field.password.reset.button.confirmation": {
+    "translation": "لقد أرسلنا رسالة إلى {email}. انقر على الرابط في الرسالة لإعادة تعيين كلمة المرور. لم تستلم الرسالة؟ اتصل بـ {technicalSupportLink}."
+  },
+  "account.settings.editable.field.password.reset.button.forbidden": {
+    "translation": "طلبك السابق قيد المعالجة، يرجى المحاولة مرة أخرى بعد لحظات."
+  },
+  "account.settings.editable.field.password.reset.label": {
+    "translation": "كلمة المرور"
+  },
+  "account.settings.editable.field.password.reset.button": {
+    "translation": "إعادة تعيين كلمة المرور"
+  },
+  "account.settings.sso.link.account": {
+    "translation": "تسجيل الدخول مع {name}"
+  },
+  "account.settings.sso.account.connected": {
+    "translation": "مرتبط"
+  },
+  "account.settings.sso.account.disconnect.error": {
+    "translation": "حدث خطأ أثناء فصل هذا الحساب. اتصل بالدعم إذا استمرت المشكلة."
+  },
+  "account.settings.sso.unlink.account": {
+    "translation": "فصل حساب {name}"
+  },
+  "account.settings.sso.no.providers": {
+    "translation": "لا يمكن ربط أي حسابات في الوقت الحالي."
+  },
+  "id.verification.request.camera.access.instructions": {
+    "translation": "للتقاط صورة باستخدام كاميرا الويب، قد تتلقى تنبيهًا من المتصفح لطلب الوصول إلى كاميرتك. {clickAllow}"
+  },
+  "id.verification.requirements.account.managed.alert": {
+    "translation": "إعدادات حسابك يتم إدارتها بواسطة {managerTitle}. إذا لم يتطابق الاسم على بطاقتك الشخصية مع الاسم على حسابك، يرجى الاتصال بمدير {profileDataManager} أو {support} للحصول على مساعدة قبل إكمال عملية التحقق من الصورة."
+  },
+  "id.verification.requirements.card.device.text": {
+    "translation": "تحتاج إلى جهاز يحتوي على كاميرا. إذا تلقيت تنبيهًا من المتصفح لطلب الوصول إلى كاميرتك، يرجى التأكد من النقر على {allow}."
+  },
+  "id.verification.account.name.summary.alert": {
+    "translation": "إعدادات حسابك يتم إدارتها بواسطة {managerTitle}. إذا لم يتطابق الاسم على بطاقتك الشخصية مع الاسم على حسابك، يرجى الاتصال بمدير {profileDataManager} أو {support} للحصول على مساعدة."
+  },
+  "idv.submission.alert.error": {
+    "translation": "حدث خطأ فني أثناء محاولة تقديم التحقق من الهوية. قد يكون هذا مشكلة مؤقتة، لذا يرجى المحاولة مرة أخرى بعد دقائق قليلة. إذا استمرت المشكلة، يرجى الذهاب إلى {support_link} للحصول على مساعدة."
+  },
+  "id.verification.account.name.edit": {
+    "translation": "تحرير {sr}"
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "frontend-app-ora.error404Message": {
+    "translation": "الصفحة غير موجودة"
+  },
+  "frontend-app-ora.StatusAlerts.ERR_INVALID_STATE_FOR_ASSESSMENT": {
+    "translation": "هذا الخطوة غير متاحة. غير قادر على استرجاع التقييم."
+  },
+  "frontend-app-ora.StatusAlerts.unknownError": {
+    "translation": "حدث خطأ غير معروف. يرجى المحاولة مرة أخرى."
+  },
+  "frontend-app-ora.StatusAlerts.errorHeader": {
+    "translation": "حدث خطأ ما."
+  },
+  "frontend-app-ora.EditableAssessment.rubric": {
+    "translation": "معيار التقييم"
+  },
+  "frontend-app-ora.EditableAssessment.overallComments": {
+    "translation": "تعليقات عامة"
+  },
+  "frontend-app-ora.EditableAssessment.addComments": {
+    "translation": "إضافة تعليقات (اختياري)"
+  },
+  "frontend-app-ora.EditableAssessment.comments": {
+    "translation": "تعليقات (اختياري)"
+  },
+  "frontend-app-ora.EditableAssessment.overallFeedbackError": {
+    "translation": "المعليقات العامة مطلوبة"
+  },
+  "frontend-app-ora.EditableAssessment.finishLater": {
+    "translation": "الخروج دون حفظ"
+  },
+  "frontend-app-ora.EditableAssessment.viewStep.self": {
+    "translation": "الذات"
+  },
+  "frontend-app-ora.EditableAssessment.viewStep.peer": {
+    "translation": "الزملاء"
+  },
+  "frontend-app-ora.EditableAssessment.viewStep.studentTraining": {
+    "translation": "ممارسة"
+  },
+  "frontend-app-ora.ConfirmDialog.goBack": {
+    "translation": "العودة"
+  },
+  "frontend-app-ora.CriterionFeedback.addCommentsLabel": {
+    "translation": "إضافة تعليقات"
+  },
+  "frontend-app-ora.CriterionFeedback.commentsLabel": {
+    "translation": "تعليقات"
+  },
+  "frontend-app-ora.CriterionFeedback.optional": {
+    "translation": "(اختياري)"
+  },
+  "frontend-app-ora.RadioCriterion.optionPoints": {
+    "translation": "{points} نقطة"
+  },
+  "frontend-app-ora.RadioCriterion.rubricSelectedError": {
+    "translation": "اختيار المعيار مطلوب"
+  },
+  "frontend-app-ora.CriterionFeedback.criterionFeedbackError": {
+    "translation": "المعليقات مطلوبة"
+  },
+  "frontend-app-ora.TrainingCriterion.valid": {
+    "translation": "عمل ممتاز!"
+  },
+  "frontend-app-ora.TrainingCriterion.invalid": {
+    "translation": "قم بتقييم جديد واختر درجة جديدة"
+  },
+  "frontend-app-ora.FileContent.fileNameTitle": {
+    "translation": "اسم الملف"
+  },
+  "frontend-app-ora.FileCellContent.fileDescriptionTitle": {
+    "translation": "وصف الملف"
+  },
+  "frontend-app-ora.FileCellContent.fileSizeTitle": {
+    "translation": "حجم الملف"
+  },
+  "frontend-app-ora.FileCellContent.fileUploadTitle": {
+    "translation": "تحميل الملف"
+  },
+  "frontend-app-ora.FileCellContent.fileActionsTitle": {
+    "translation": "أجراءات"
+  },
+  "frontend-app-ora.FileCellContent.deleteButtonAltText": {
+    "translation": "حذف"
+  },
+  "frontend-app-ora.FileCellContent.previewButtonAltText": {
+    "translation": "معاينة"
+  },
+  "frontend-app-ora.FileCellContent.uploadFileModalTitle": {
+    "translation": "إضافة وصف نصي إلى ملفك"
+  },
+  "frontend-app-ora.FileCellContent.uploadFileDescriptionFieldLabel": {
+    "translation": "وصف لـ:"
+  },
+  "frontend-app-ora.FileCellContent.uploadedFilesTitle": {
+    "translation": "الملفات المحمولة"
+  },
+  "frontend-app-ora.FileCellContent.cancelUploadFileButton": {
+    "translation": "إلغاء التحميل"
+  },
+  "frontend-app-ora.FileCellContent.confirmUploadFileButton": {
+    "translation": "تحميل الملفات"
+  },
+  "frontend-app-ora.FileCellContent.fileDescriptionMissingError": {
+    "translation": "يرجى إدخال وصف للملف"
+  },
+  "frontend-app-ora.ResponseDisplay.SubmissionFiles.downloadFiles": {
+    "translation": "تحميل الملفات"
+  },
+  "frontend-app-ora.ResponseDisplay.SubmissionFiles.downloading": {
+    "translation": "جاري التحميل"
+  },
+  "frontend-app-ora.ResponseDisplay.SubmissionFiles.downloaded": {
+    "translation": "تم التحميل!"
+  },
+  "frontend-app-ora.ResponseDisplay.SubmissionFiles.retryDownload": {
+    "translation": "إعادة المحاولة"
+  },
+  "frontend-app-ora.FilePopoverContent.filePopoverNameTitle": {
+    "translation": "اسم الملف"
+  },
+  "frontend-app-ora.FilePopoverCellContent.filePopoverDescriptionTitle": {
+    "translation": "وصف الملف"
+  },
+  "frontend-app-ora.FileUpload.required": {
+    "translation": "تحميل الملف مطلوب"
+  },
+  "frontend-app-ora.InfoPopover.rubricDetails": {
+    "translation": "تفاصيل المعيار"
+  },
+  "frontend-app-ora.InfoPopover.alt-text": {
+    "translation": "إظهار معلومات إضافية"
+  },
+  "frontend-app-ora.instructions.submission": {
+    "translation": "أدخل إجابتك على التوجيه. ستحفظ عملك تلقائيًا ويمكنك العودة لإكمال إجابتك في أي وقت قبل تاريخ الاستحقاق. بعد تقديم إجابتك، لن تتمكن من تحريرها."
+  },
+  "frontend-app-ora.instructions.studentTraining": {
+    "translation": "قبل البدء في تقييم إجابات زملائك، ستتعلم كيفية إكمال التقييمات من خلال مراجعة الإجابات التي قد قام المعلمون بتقييمها بالفعل. إذا اخترت نفس الخيارات للإجابة التي اختارها المعلم، ستنتقل إلى الخطوة التالية. إذا لم تختر نفس الخيارات، ستعيد مراجعة الإجابة وتجرب مرة أخرى."
+  },
+  "frontend-app-ora.instructions.selfAssessment": {
+    "translation": "قم بتقييم إجابتك"
+  },
+  "frontend-app-ora.instructions.peerAssessment": {
+    "translation": "اقرأ وتقييم الإجابة التالية من أحد زملائك."
+  },
+  "frontend-app-ora.instructions.done": {
+    "translation": "لقد أكملت هذا السؤال بنجاح وحصلت على {earned}/{possible}."
+  },
+  "frontend-app-ora.instructions.header": {
+    "translation": "التعليمات"
+  },
+  "ora-mfe.ModalActions.simpleAction.finishLater": {
+    "translation": "حفظ للمرة القادمة"
+  },
+  "ora-mfe.ModalActions.submitResponse": {
+    "translation": "إرسال الإجابة"
+  },
+  "ora-mfe.ModalActions.submittingResponse": {
+    "translation": "جاري إرسال الإجابة"
+  },
+  "ora-mfe.ModalActions.responseSubmitted": {
+    "translation": "تم إرسال الإجابة"
+  },
+  "ora-mfe.ModalActions.startTraining": {
+    "translation": "الانتقال إلى التقييم الممارس"
+  },
+  "ora-mfe.ModalActions.startSelf": {
+    "translation": "الانتقال إلى التقييم الذاتي"
+  },
+  "ora-mfe.ModalActions.startPeer": {
+    "translation": "بدء التقييم بين الزملاء"
+  },
+  "ora-mfe.ModalActions.viewGrades": {
+    "translation": "عرض درجاتك"
+  },
+  "ora-mfe.ModalActions.exit": {
+    "translation": "الخروج"
+  },
+  "ora-mfe.ModalActions.loadNext": {
+    "translation": "تحميل التالي"
+  },
+  "ora-mfe.ModalActions.loadingNext": {
+    "translation": "جاري التحميل"
+  },
+  "ora-mfe.ModalActions.peerResponse": {
+    "translation": "الزملاء"
+  },
+  "ora-mfe.ModalActions.practiceResponse": {
+    "translation": "إجابة الممارسة"
+  },
+  "frontend-app-ora.ProgressBar.createSubmission": {
+    "translation": "إنشاء إجابة"
+  },
+  "frontend-app-ora.ProgressBar.studentTraining": {
+    "translation": ""
+  },
+  "frontend-app-ora.ProgressBar.selfAssess": {
+    "translation": "التقييم الذاتي"
+  },
+  "frontend-app-ora.ProgressBar.peerAssess": {
+    "translation": "التقييم بين الزملاء"
+  },
+  "frontend-app-ora.ProgressBar.myGrade": {
+    "translation": "درجاتي"
+  },
+  "frontend-app-ora.ProgressBar.step": {
+    "translation": "(الخطوة {stepIndex}/{totalSteps})"
+  },
+  "frontend-app-ora.Prompt.header.submission": {
+    "translation": "إنشاء إجابة للتوجيه أدناه"
+  },
+  "frontend-app-ora.Prompt.header.studentTraining": {
+    "translation": "تقييم الممارسة لإجابة التوجيه أدناه"
+  },
+  "frontend-app-ora.Prompt.header.self": {
+    "translation": "تقييم إجابتك للتوجيه أدناه"
+  },
+  "frontend-app-ora.Prompt.header.peer": {
+    "translation": "تقييم إجابات زملائك للتوجيه أدناه"
+  },
+  "frontend-app-ora.Prompt.header.done": {
+    "translation": "توجيه التقييم"
+  },
+  "frontend-app-ora.Prompt.promptTitle": {
+    "translation": "توجيه"
+  },
+  "frontend-app-ora.Rubric.gradeSubmitted": {
+    "translation": "تم إرسال التقييم"
+  },
+  "frontend-app-ora.Rubric.rubric": {
+    "translation": "معيار التقييم"
+  },
+  "frontend-app-ora.Rubric.submitGrade": {
+    "translation": "إرسال التقييم"
+  },
+  "frontend-app-ora.Rubric.submittingGrade": {
+    "translation": "جاري إرسال التقييم"
+  },
+  "frontend-app-ora.Rubric.overallComments": {
+    "translation": "تعليقات عامة"
+  },
+  "frontend-app-ora.Rubric.addComments": {
+    "translation": "إضافة تعليقات (اختياري)"
+  },
+  "frontend-app-ora.Rubric.comments": {
+    "translation": "تعليقات (اختياري)"
+  },
+  "frontend-app-ora.RubricFeedback.error": {
+    "translation": "المعليقات العامة مطلوبة"
+  },
+  "frontend-app-ora.Rubric.header": {
+    "translation": "معايير التقييم"
+  },
+  "frontend-app-ora.StatusAlert.submission.submitted": {
+    "translation": "تم تقديم إجابتك. ستتلقى درجة بعد إكمال جميع الخطوات وتقييم إجابتك بالكامل."
+  },
+  "frontend-app-ora.StatusAlert.submission.notAvailable": {
+    "translation": "هذه المهمة غير متاحة بعد. راجع لإكمال المهمة عندما يفتح هذا القسم"
+  },
+  "frontend-app-ora.StatusAlert.submission.cancelled": {
+    "translation": "تم إلغاء تقديمك في {cancelledAt}"
+  },
+  "frontend-app-ora.StatusAlert.submission.cancelledBy": {
+    "translation": "تم إلغاء تقديمك من قبل {cancelledBy} في {cancelledAt}"
+  },
+  "frontend-app-ora.StatusAlert.submission.closed": {
+    "translation": "انتهت مدة تقديم هذا الخطوة. هذا الخطوة مغلق الآن. لا يمكنك تقديم إجابة أو الاستمرار مع هذا السؤال، وسوف تحصل على درجة غير مكتملة. إذا حفظت إجابة دون تقديمها، تظهر الإجابة في سجلات الدرس."
+  },
+  "frontend-app-ora.StatusAlert.submission.teamAlreadySubmitted": {
+    "translation": "انضم إلى هذه الفريق بعد تقديمهم لإجابة لهذا المهمة ولا ستحصل على درجة لإجابتهم. لم تقدم إجابة سابقة لهذا المهمة مع فريق آخر. يرجى الاتصال بموظفو الدرس لمناقشة خياراتك لهذا المهمة."
+  },
+  "frontend-app-ora.StatusAlert.submission.needTeam": {
+    "translation": "هذه مهمة فريق. أنت لست حاليًا في فريق. يجب أن تكون في فريق للوصول إلى هذه المهمة الفريقية."
+  },
+  "frontend-app-ora.StatusAlert.Heading.submission.submitted": {
+    "translation": "تم إكمال التقديم"
+  },
+  "frontend-app-ora.StatusAlert.Heading.submission.notAvailable": {
+    "translation": "التقديم غير متاح"
+  },
+  "frontend-app-ora.StatusAlert.Heading.submission.cancelled": {
+    "translation": "تم إلغاء التقديم"
+  },
+  "frontend-app-ora.StatusAlert.Heading.submission.cancelledBy": {
+    "translation": "تفاصيل إلغاء التقديم"
+  },
+  "frontend-app-ora.StatusAlert.Heading.submission.closed": {
+    "translation": "تم إغلاق التقديم"
+  },
+  "frontend-app-ora.StatusAlert.Heading.submission.teamAlreadySubmitted": {
+    "translation": "تحذير: هذا الفريق قد قدم بالفعل."
+  },
+  "frontend-app-ora.StatusAlert.Heading.submission.needTeam": {
+    "translation": "لم يتم العثور على فريق"
+  },
+  "frontend-app-ora.StatusAlert.studentTraining.submitted": {
+    "translation": "استمر إلى المثال التالي، أو إذا أكملت جميع الأمثلة، استمر إلى الخطوة التالية."
+  },
+  "frontend-app-ora.StatusAlert.studentTraining.validation": {
+    "translation": "درجاتك لا تتطابق مع ما قصده المعلم لهذا الجلسة الممارسة. جرب إعادة قراءة التوجيه والإجابة وتعديل درجة وفقًا لذلك."
+  },
+  "frontend-app-ora.StatusAlert.Heading.studentTraining.submitted": {
+    "translation": "لقد قدمت درجة الممارسة بنجاح."
+  },
+  "frontend-app-ora.StatusAlert.self.notAvailable": {
+    "translation": "التقييم الذاتي غير متاح بعد. راجع لإكمال المهمة عندما يفتح هذا القسم"
+  },
+  "frontend-app-ora.StatusAlert.self.closed": {
+    "translation": "انتهت مدة هذا الخطوة. هذا الخطوة مغلق الآن. لا يمكنك إكمال التقييم الذاتي أو الاستمرار مع هذه المهمة، وسوف تحصل على درجة غير مكتملة"
+  },
+  "frontend-app-ora.StatusAlert.self.submitted": {
+    "translation": "لقد أكملت تقييمك الذاتي لهذا المهمة."
+  },
+  "frontend-app-ora.StatusAlert.Heading.self.notAvailable": {
+    "translation": "التقييم الذاتي غير متاح"
+  },
+  "frontend-app-ora.StatusAlert.Heading.self.submitted": {
+    "translation": "التقييم الذاتي: مكتمل"
+  },
+  "frontend-app-ora.StatusAlert.Heading.self.closed": {
+    "translation": "التقييم الذاتي: مغلق"
+  },
+  "frontend-app-ora.StatusAlert.peer.waiting": {
+    "translation": "تم تقييم جميع الإجابات المقدمة. راجع لاحقًا لرؤية إذا قدم أكثر من متعلمين إجابات."
+  },
+  "frontend-app-ora.StatusAlert.peer.finished": {
+    "translation": "لقد أكملت جميع التقييمات بين الزملاء المطلوبة لهذا المهمة. يمكنك تقييم إجابات زملاء إضافية إذا كنت تريد ذلك. التقييمات الإضافية المكتملة لن تؤثر على درجة."
+  },
+  "frontend-app-ora.StatusAlert.peer.closed": {
+    "translation": "انتهت مدة هذا الخطوة. هذا الخطوة مغلق الآن. لا يمكنك إكمال التقييمات بين الزملاء أو الاستمرار مع هذه المهمة، وسوف تحصل على درجة غير مكتملة."
+  },
+  "frontend-app-ora.StatusAlert.peer.notAvailable": {
+    "translation": "هذه المهمة غير متاحة بعد. راجع لإكمال المهمة عندما يفتح هذا القسم"
+  },
+  "frontend-app-ora.StatusAlert.peer.submitted": {
+    "translation": "استمر في تقديم التقييمات بين الزملاء حتى تكمل العدد المطلوب."
+  },
+  "frontend-app-ora.StatusAlert.peer.waitingForPeerGrades": {
+    "translation": "ستكمل هذا الخطوة عندما ينتهي زملاؤك من تقييم إجابتك. راجع بشكل دوري لرؤية إذا كان هناك تحديث. اختياريًا، يمكنك أيضًا تقييم زملاء أكثر بينما انتظر."
+  },
+  "frontend-app-ora.StatusAlert.Heading.peer.waiting": {
+    "translation": "جاري انتظار زملاء لتقديم"
+  },
+  "frontend-app-ora.StatusAlert.Heading.peer.finished": {
+    "translation": "التقييم بين الزملاء: مكتمل"
+  },
+  "frontend-app-ora.StatusAlert.Heading.peer.closed": {
+    "translation": "التقييم بين الزملاء: مغلق"
+  },
+  "frontend-app-ora.StatusAlert.Heading.peer.notAvailable": {
+    "translation": "التقييم بين الزملاء غير متاح"
+  },
+  "frontend-app-ora.StatusAlert.Heading.peer.submitted": {
+    "translation": "تم تقديم التقييم بين الزملاء بنجاح"
+  },
+  "frontend-app-ora.StatusAlert.Heading.peer.waitingForPeerGrades": {
+    "translation": "لقد قمت بتقييم العدد المطلوب من زملائك. أنت في انتظار زملائك لإكمال تقييم عملك."
+  },
+  "frontend-app-ora.StatusAlert.status": {
+    "translation": "لقد أكملت هذه المهمة. راجع درجة وتفاصيل التقييم"
+  },
+  "frontend-app-ora.StatusAlert.Heading.status": {
+    "translation": "عمل رائع! جميع خطوات المهمة مكتملة."
+  },
+  "frontend-app-ora.StatusAlert.xblock.staffAssessment": {
+    "translation": "سيكون جاهزًا درجة النهائية بعد أن ينهي المعلم تقييم إجابتك. راجع بشكل دوري لرؤية إذا كان هناك تحديث."
+  },
+  "ora-mfe.StatusAlert.Heading.xblock.staffAssessment": {
+    "translation": "جميع خطوات المهمة مكتملة. درجة النهائية غير جاهزة بعد."
+  },
+  "frontend-app-ora.StatusAlert.xblock.exit": {
+    "translation": "الخروج"
+  },
+  "frontend-app-ora.StatusAlert.step.notStarted": {
+    "translation": "خطوة {stepName} لم تبدأ بعد. راجع في {startDatetime} للبدء."
+  },
+  "frontend-app-ora.StatusAlert.Heading.step.notStarted": {
+    "translation": "{stepName} لم تبدأ"
+  },
+  "frontend-app-ora.StepProgressIndicator.progress": {
+    "translation": "{done} من {needed} مكتمل"
+  },
+  "frontend-app-ora.StepProgressIndicator.optional": {
+    "translation": "تقييم الزميل التالي (اختياري)"
+  },
+  "frontend-app-ora.Actions.simpleAction.close": {
+    "translation": "إغلاق"
+  },
+  "frontend-app-ora.Actions.simpleAction.deleteFile": {
+    "translation": "حذف الملف"
+  },
+  "frontend-app-ora.Actions.simpleAction.finishLater": {
+    "translation": "اكمل الباقي لاحقًا"
+  },
+  "frontend-app-ora.Actions.simpleAction.exitWithoutSaving": {
+    "translation": "الخروج دون حفظ"
+  },
+  "frontend-app-ora.Actions.savingResponse": {
+    "translation": "جاري حفظ الإجابة"
+  },
+  "frontend-app-ora.Actions.startTraining": {
+    "translation": "الانتقال إلى التقييم الممارس"
+  },
+  "frontend-app-ora.Actions.submitResponse": {
+    "translation": "إرسال الإجابة"
+  },
+  "frontend-app-ora.Actions.submittingResponse": {
+    "translation": "جاري إرسال الإجابة"
+  },
+  "frontend-app-ora.Actions.responseSubmitted": {
+    "translation": "تم إرسال الإجابة"
+  },
+  "frontend-app-ora.Actions.startSelf": {
+    "translation": "الانتقال إلى التقييم الذاتي"
+  },
+  "frontend-app-ora.Actions.startPeer": {
+    "translation": "بدء التقييم بين الزملاء"
+  },
+  "frontend-app-ora.Actions.viewGrades": {
+    "translation": "عرض درجاتك"
+  },
+  "frontend-app-ora.Actions.exit": {
+    "translation": "الخروج"
+  },
+  "frontend-app-ora.Actions.loadNext": {
+    "translation": "تقييم التالي"
+  },
+  "frontend-app-ora.Actions.loadingNext": {
+    "translation": "جاري التحميل"
+  },
+  "frontend-app-ora.Actions.peerResponse": {
+    "translation": "الزملاء"
+  },
+  "frontend-app-ora.Actions.practiceResponse": {
+    "translation": "إجابة الممارسة"
+  },
+  "frontend-app-ora.Actions.gradeSubmitted": {
+    "translation": "تم إرسال التقييم"
+  },
+  "frontend-app-ora.Actions.submitGrade": {
+    "translation": "إرسال {viewStep}درجة"
+  },
+  "frontend-app-ora.Actions.submittingGrade": {
+    "translation": "جاري إرسال التقييم"
+  },
+  "frontend-app-ora.Actions.confirmTitle.exit": {
+    "translation": "هل أنت متأكد أنك تريد الخروج؟"
+  },
+  "frontend-app-ora.Actions.confirmTitle.submission": {
+    "translation": "هل أنت متأكد أنك تريد تقديم هذه الإجابة؟"
+  },
+  "frontend-app-ora.Actions.confirmTitle.self": {
+    "translation": "هل أنت مستعد لتقديم درجة ذاتية؟"
+  },
+  "frontend-app-ora.Actions.confirmTitle.peer": {
+    "translation": "هل أنت مستعد لتقديم هذا التقييم بين الزملاء؟"
+  },
+  "frontend-app-ora.Actions.confirmTitle.deleteFile": {
+    "translation": "هل أنت متأكد أنك تريد حذف الملف؟"
+  },
+  "frontend-app-ora.Actions.confirmDescription.exit": {
+    "translation": "عملك لن يتم حفظه"
+  },
+  "frontend-app-ora.Actions.confirmDescription.submission": {
+    "translation": "لا يمكن تحرير أو حذف الاستجابة بعد تقديمها"
+  },
+  "frontend-app-ora.Actions.confirmDescription.assessment": {
+    "translation": "بعد تقديم درجةك، لا يمكن تغييرها."
+  },
+  "frontend-app-ora.Actions.confirmDescription.deleteFile": {
+    "translation": "هذا لا يمكن التراجع عنه"
+  },
+  "frontend-app-ora.Actions.viewStep.self": {
+    "translation": "الذاتية"
+  },
+  "frontend-app-ora.Actions.viewStep.peer": {
+    "translation": "الزملاء"
+  },
+  "frontend-app-ora.Actions.viewStep.studentTraining": {
+    "translation": "التدريب"
+  },
+  "frontend-app-ora.selfAssessmentView.header": {
+    "translation": "التقييم الذاتي"
+  },
+  "frontend-app-ora.peerAssessmentView.header": {
+    "translation": "تقييم زملائك"
+  },
+  "frontend-app-ora.studentTrainingView.header": {
+    "translation": "التدريب على التقييم"
+  },
+  "frontend-app-ora.selfAssessmentView.responseHeader": {
+    "translation": "استجابتك"
+  },
+  "frontend-app-ora.peerAssessmentView.responseHeader": {
+    "translation": "استجابة الزملاء"
+  },
+  "frontend-app-ora.studentTrainingView.responseHeader": {
+    "translation": "مثال على الاستجابة"
+  },
+  "frontend-app-ora.aboutYourGrade": {
+    "translation": "حول درجةك:"
+  },
+  "frontend-app-ora.yourFinalGrade": {
+    "translation": "درجةك النهائية: {earned}/{possible}"
+  },
+  "frontend-app-ora.finalGradeInfo": {
+    "translation": "درجةك تعتمد على درجة {step} لهذا المشكلة. لا تُحسب التقييمات الأخرى في درجةك النهائية."
+  },
+  "frontend-app-ora.peerAsFinalGradeInfo": {
+    "translation": "سيتم حساب فقط عدد التقييمات المطلوبة من الزملاء ضد درجةك النهائية. يتم عرض الباقين، ولكنهم لا يتم تضمينهم في حساب درجةك."
+  },
+  "frontend-app-ora.unweightedGradesInfo": {
+    "translation": "هذه الدرجات تُعطى لاستجابتك. ومع ذلك، لا تُستخدم لحساب درجةك النهائية."
+  },
+  "frontend-app-ora.unweightedGrades": {
+    "translation": "درجات غير موزونة"
+  },
+  "frontend-app-ora.selfStepLabel": {
+    "translation": "الذاتية"
+  },
+  "frontend-app-ora.peerStepLabel": {
+    "translation": "الزملاء"
+  },
+  "frontend-app-ora.staffStepLabel": {
+    "translation": "الطاقم"
+  },
+  "frontend-app-ora.unweightedPeerStepLabel": {
+    "translation": "الزملاء غير الموزونين"
+  },
+  "frontend-app-ora.yourResponse": {
+    "translation": "استجابتك"
+  },
+  "frontend-app-ora.SubmissionView.yourResponse": {
+    "translation": "استجابتك"
+  },
+  "frontend-app-ora.SubmissionView.draftSaved": {
+    "translation": "مسودة محفوظة"
+  },
+  "frontend-app-ora.SubmissionView.instructions": {
+    "translation": "التعليمات"
+  },
+  "frontend-app-ora.SubmissionView.instructionsText": {
+    "translation": "إنشاء استجابة للطلب أدناه. سيتم حفظ التقدم تلقائيًا ويمكنك العودة لإكمال تقدمك في أي وقت. بعد تقديم استجابتك، لا يمكنك تحريرها."
+  },
+  "ora-grading.SubmissionView.startTraining": {
+    "translation": "بدء التدريب على التقييم"
+  },
+  "ora-grading.SubmissionAction.submit": {
+    "translation": "تقديم الاستجابة"
+  },
+  "ora-grading.SubmissionAction.submitting": {
+    "translation": "جاري تقديم الاستجابة"
+  },
+  "ora-grading.SubmissionAction.submitted": {
+    "translation": "تم تقديم الاستجابة"
+  },
+  "ora-grading.SaveAction.save": {
+    "translation": "احفظها للمرة القادمة"
+  },
+  "ora-grading.SaveAction.saving": {
+    "translation": "جاري حفظ الاستجابة"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.cancelled": {
+    "translation": "تم الإلغاء"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.notAvailable": {
+    "translation": "غير متاح بعد"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.pastDue": {
+    "translation": "مؤجل"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.closed": {
+    "translation": "مغلق"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.teamRequired": {
+    "translation": "فريق مطلوب"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.inProgress": {
+    "translation": "جاري التنفيذ"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.submitted": {
+    "translation": "تم تقديم الاستجابة"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.practiceCompleted": {
+    "translation": "تم الانتهاء من التدريب على التقييم"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.selfCompleted": {
+    "translation": "تم الانتهاء من التقييم الذاتي"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.peerCompleted": {
+    "translation": "تم الانتهاء من التقييم بين الزملاء"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.complete": {
+    "translation": "مكتمل"
+  },
+  "frontend-app-ora.readMore": {
+    "translation": "قراءة المزيد"
+  },
+  "frontend-app-ora.readLess": {
+    "translation": "قراءة أقل"
+  },
+  "ora-collapsible-comment.unweightedGrade": {
+    "translation": "درجة {stepLabel}"
+  },
+  "frontend-app-ora.grade": {
+    "translation": "درجة {stepLabel}:"
+  },
+  "frontend-app-ora.gradePoints": {
+    "translation": "{earned} / {possible}"
+  },
+  "frontend-app-ora.notWeightedGradeLabel": {
+    "translation": "(غير موزون نحو الدرجة النهائية))"
+  },
+  "frontend-app-ora.overallFeedback": {
+    "translation": "ملاحظات عامة"
+  },
+  "ora-collapsible-comment.stepComments": {
+    "translation": "تعليقات {step}"
+  },
+  "ora-collapsible-comment.comments": {
+    "translation": "تعليقات"
+  },
+  "ora-collapsible-comment.submittedGrade": {
+    "translation": "درجة مقدمة"
+  },
+  "ora-collapsible-comment.submittedAssessment": {
+    "translation": "تقييم مقدم"
+  },
+  "ora-collapsible-comment.comment": {
+    "translation": "تعليقات"
+  },
+  "ora-collapsible-comment.stepComment": {
+    "translation": "تعليق {step}"
+  },
+  "ora-collapsible-comment.points": {
+    "translation": "نقاط"
+  },
+  "frontend-app-ora.ResponseDisplay.FileRenderer.fileNotFound": {
+    "translation": "الملف غير موجود"
+  },
+  "frontend-app-ora.ResponseDisplay.FileRenderer.unknownError": {
+    "translation": "أخطاء غير معروفة"
+  },
+  "ora-mfe.ModalActions.savingResponse": {
+    "translation": "جاري حفظ الاستجابة"
+  },
+  "frontend-app-ora.lmsAPI.studentTrainingLabel": {
+    "translation": "التدريب على التقييم"
+  },
+  "frontend-app-ora.lmsAPI.selfLabel": {
+    "translation": "التقييم الذاتي"
+  },
+  "frontend-app-ora.lmsAPI.peerLabel": {
+    "translation": "التقييم بين الزملاء"
+  },
+  "frontend-app-ora.lmsAPI.staffLabel": {
+    "translation": "التقييم من قبل الطاقم"
+  },
+  "frontend-app-ora.TextResponse.textResponsePlaceholder": {
+    "translation": "أدخل استجابتك للطلب أعلاه"
+  },
+  "frontend-app-ora.TextResponse.yourResponse": {
+    "translation": "استجابتك"
+  },
+  "frontend-app-ora.TextResponse.required": {
+    "translation": "مطلوب"
+  },
+  "frontend-app-ora.TextResponse.optional": {
+    "translation": "اختياري"
+  },
+  "frontend-app-ora.TextResponse.previewLaTexButton": {
+    "translation": "معاينة في LaTeX"
+  },
+  "frontend-app-ora.TextResponse.requiredField": {
+    "translation": "هذا الحقل مطلوب"
+  },
+  "frontend-app-ora.xblock-studio-view.promptHeader": {
+    "translation": "الطلب"
+  },
+  "frontend-app-ora.xblock-studio-view.studentTrainingLabel": {
+    "translation": "التدريب على التقييم"
+  },
+  "frontend-app-ora.xblock-studio-view.selfLabel": {
+    "translation": "التقييم الذاتي"
+  },
+  "frontend-app-ora.xblock-studio-view.peerLabel": {
+    "translation": "التقييم بين الزملاء"
+  },
+  "frontend-app-ora.xblock-studio-view.staffLabel": {
+    "translation": "التقييم من قبل الطاقم"
+  },
+  "frontend-app-ora.xblock-studio-view.collapseAllButton": {
+    "translation": "طوي الكل"
+  },
+  "frontend-app-ora.xblock-studio-view.expandAllButton": {
+    "translation": "توسيع الكل"
+  },
+  "frontend-app-ora.xblock-studio-view.schedule.scheduleHeader": {
+    "translation": "جدول"
+  },
+  "frontend-app-ora.xblock-studio-view.schedule.responseLabel": {
+    "translation": "استجابة"
+  },
+  "frontend-app-ora.xblock-studio-view.schedule.startLabel": {
+    "translation": "بداية:"
+  },
+  "frontend-app-ora.xblock-studio-view.schedule.dueLabel": {
+    "translation": "مستحق:"
+  },
+  "frontend-app-ora.xblock-studio-view.schedule.notSetLabel": {
+    "translation": "غير محدد"
+  },
+  "frontend-app-ora.xblock-studio-view.assessmentStepsHeader": {
+    "translation": "خطوات التقييم"
+  },
+  "frontend-app-ora.xblock-studio-view.stepLabel": {
+    "translation": "الخطوة"
+  },
+  "frontend-app-ora.xblock-studio-view.settingsHeader": {
+    "translation": "الإعدادات"
+  },
+  "frontend-app-ora.xblock-studio-view.textResponseLabel": {
+    "translation": "استجابة نصية:"
+  },
+  "frontend-app-ora.xblock-studio-view.responseEditorLabel": {
+    "translation": "محرر الاستجابة:"
+  },
+  "frontend-app-ora.xblock-studio-view.fileUploadLabel": {
+    "translation": "تحميل الملفات:"
+  },
+  "frontend-app-ora.xblock-studio-view.fileUploadLimitLabel": {
+    "translation": "حد تحميل الملفات:"
+  },
+  "frontend-app-ora.xblock-studio-view.allowLaTexResponsesLabel": {
+    "translation": "السماح باستجابات LaTeX:"
+  },
+  "frontend-app-ora.xblock-studio-view.topResponsesLabel": {
+    "translation": "أفضل الاستجابات:"
+  },
+  "frontend-app-ora.xblock-studio-view.teamsEnabledLabel": {
+    "translation": "تم تمكين الفرق:"
+  },
+  "frontend-app-ora.xblock-studio-view.showRubricDuringResponseLabel": {
+    "translation": "إظهار الجدول أثناء الاستجابة:"
+  },
+  "frontend-app-ora.xblock-studio-view.requiredLabel": {
+    "translation": "مطلوب"
+  },
+  "frontend-app-ora.xblock-studio-view.optionalLabel": {
+    "translation": "اختياري"
+  },
+  "frontend-app-ora.xblock-studio-view.noneLabel": {
+    "translation": "لا شيء"
+  },
+  "frontend-app-ora.xblock-studio-view.textLabel": {
+    "translation": "محرر النص"
+  },
+  "frontend-app-ora.xblock-studio-view.wysiwygLabel": {
+    "translation": "محرر WYSIWYG"
+  },
+  "frontend-app-ora.xblock-studio-view.falseLabel": {
+    "translation": "خطأ"
+  },
+  "frontend-app-ora.xblock-studio-view.trueLabel": {
+    "translation": "صحيح"
+  },
+  "frontend-app-ora.xblock-studio-view.rubricHeader": {
+    "translation": "جدول التقييم"
+  },
+  "frontend-app-ora.xblock-studio-view.criteriaNameLabel": {
+    "translation": "اسم المعيار:"
+  },
+  "frontend-app-ora.xblock-studio-view.criteriaDescriptionLabel": {
+    "translation": "وصف المعيار:"
+  },
+  "frontend-app-ora.xblock-studio-view.criteriaOptionsLabel": {
+    "translation": "خيارات المعيار:"
+  },
+  "frontend-app-ora.xblock-studio-view.pointsLabel": {
+    "translation": "نقاط"
+  },
+  "frontend-app-ora.XBlockView.Actions.submission": {
+    "translation": "إنشاء استجابة"
+  },
+  "frontend-app-ora.XBlockView.Actions.studentTraining": {
+    "translation": "الانتقال إلى التدريب على التقييم"
+  },
+  "frontend-app-ora.XBlockView.Actions.self": {
+    "translation": "الانتقال إلى التقييم الذاتي"
+  },
+  "frontend-app-ora.XBlockView.Actions.peer": {
+    "translation": "الانتقال إلى التقييم بين الزملاء"
+  },
+  "frontend-app-ora.XBlockView.Actions.done": {
+    "translation": "عرض درجاتي"
+  },
+  "ora-mfe.ModalActions.optionalPeerResponse": {
+    "translation": "(اختياري)"
+  },
+  "frontend-app-ora.InfoPopover.fileInfo": {
+    "translation": "معلومات الملف"
+  },
+  "frontend-app-ora.ResponseDisplay.FileRenderer.retryButton": {
+    "translation": "إعادة المحاولة"
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.yourResponse": {
+    "translation": "استجابتك"
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.studentAssessment": {
+    "translation": "تقييم الطالب"
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.selfAssessment": {
+    "translation": "التقييم الذاتي"
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.yourSelfAssessment": {
+    "translation": "تقييمك الذاتي"
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.peerGrading": {
+    "translation": "التقييم بين الزملاء"
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.availableStartingOn": {
+    "translation": "متاح بدءًا من {dueDate}"
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.waitingForPeerGrades": {
+    "translation": "أنت في انتظار أن ينهي زملاؤك تقييم عملك."
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.responseDue": {
+    "translation": "الخطوة {step} مستحقة في {dueDate}"
+  },
+  "frontend-app-ora.XBlockView.DueDateMessage.responseWasDue": {
+    "translation": "الخطوة {step} كانت مستحقة في {dueDate}"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.notReady": {
+    "translation": "غير جاهز بعد"
+  },
+  "frontend-app-ora.XBlockView.StatusRow.waiting": {
+    "translation": "في انتظار"
+  }
+}

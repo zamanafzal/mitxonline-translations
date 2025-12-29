@@ -1,0 +1,104 @@
+{
+  "header.links.courses": {
+    "translation": "الدورات"
+  },
+  "header.links.programs": {
+    "translation": "البرامج"
+  },
+  "header.links.content.search": {
+    "translation": "اكتشاف جديد"
+  },
+  "header.links.schools": {
+    "translation": "المدارس والشركاء"
+  },
+  "header.user.menu.dashboard": {
+    "translation": "لوحة التحكم"
+  },
+  "header.user.menu.profile": {
+    "translation": "الملف الشخصي"
+  },
+  "header.user.menu.account.settings": {
+    "translation": "الحساب"
+  },
+  "header.user.menu.order.history": {
+    "translation": "تاريخ الطلبات"
+  },
+  "header.user.menu.logout": {
+    "translation": "تسجيل الخروج"
+  },
+  "header.user.menu.login": {
+    "translation": "تسجيل الدخول"
+  },
+  "header.user.menu.register": {
+    "translation": "الاشتراك"
+  },
+  "header.user.menu.studio.home": {
+    "translation": "الصفحة الرئيسية لстуديو"
+  },
+  "header.label.account.nav": {
+    "translation": "الحساب"
+  },
+  "header.label.account.menu": {
+    "translation": "قائمة الحساب"
+  },
+  "header.label.account.menu.for": {
+    "translation": "قائمة الحساب لـ {username}"
+  },
+  "header.label.main.nav": {
+    "translation": "الرئيسية"
+  },
+  "header.label.main.menu": {
+    "translation": "القائمة الرئيسية"
+  },
+  "header.label.main.header": {
+    "translation": "الرئيسية"
+  },
+  "header.label.secondary.nav": {
+    "translation": "ثانوية"
+  },
+  "header.label.skip.nav": {
+    "translation": "تخطي إلى المحتوى الرئيسي"
+  },
+  "header.label.app.nav": {
+    "translation": "التطبيق"
+  },
+  "general.register.sentenceCase": {
+    "translation": "تسجيل"
+  },
+  "general.signIn.sentenceCase": {
+    "translation": "تسجيل الدخول"
+  },
+  "header.menu.dashboard.label": {
+    "translation": "لوحة التحكم"
+  },
+  "header.help.label": {
+    "translation": "المساعدة"
+  },
+  "header.menu.profile.label": {
+    "translation": "الملف الشخصي"
+  },
+  "header.menu.account.label": {
+    "translation": "حساب"
+  },
+  "header.menu.orderHistory.label": {
+    "translation": "تاريخ الطلبات"
+  },
+  "header.navigation.skipNavLink": {
+    "translation": "تخطي إلى المحتوى الرئيسي."
+  },
+  "header.menu.signOut.label": {
+    "translation": "تسجيل الخروج"
+  },
+  "header.menu.aria-label": {
+    "translation": "خيارات المستخدم"
+  },
+  "header.user.menu.studio": {
+    "translation": "الصفحة الرئيسية للاستوديو"
+  },
+  "header.label.courseOutline": {
+    "translation": "العودة إلى مخطط الدرس في الاستوديو"
+  },
+  "header.label.search.nav": {
+    "translation": "البحث في المحتوى"
+  }
+}
