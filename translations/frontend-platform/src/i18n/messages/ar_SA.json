@@ -1,0 +1,8 @@
+{
+  "unexpected.error.message.text": {
+    "translation": "حدث خطأ غير متوقع. يرجى النقر على الزر أدناه لتحديث الصفحة."
+  },
+  "unexpected.error.button.text": {
+    "translation": "حاول مرة أخرى"
+  }
+}

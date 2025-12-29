@@ -1,0 +1,119 @@
+{
+  "footer.socialLinks.srText.facebook": {
+    "translation": "اعجبنا على فيسبوك"
+  },
+  "footer.socialLinks.srText.twitter": {
+    "translation": "متابعة edX على تويتر"
+  },
+  "footer.socialLinks.srText.youtube": {
+    "translation": "اشترك في قناة edX على اليوتيوب"
+  },
+  "footer.socialLinks.srText.linkedin": {
+    "translation": "تقييم الممارسة"
+  },
+  "footer.socialLinks.srText.reddit": {
+    "translation": "اشترك في subreddit edX"
+  },
+  "footer.languageForm.select.label": {
+    "translation": "اختر اللغة"
+  },
+  "footer.languageForm.submit.label": {
+    "translation": "تطبيق"
+  },
+  "footer.edxLinks.about": {
+    "translation": "حول"
+  },
+  "footer.edxLinks.business": {
+    "translation": "edX للأعمال"
+  },
+  "footer.edxLinks.affiliates": {
+    "translation": "شركاء"
+  },
+  "footer.edxLinks.openEdx": {
+    "translation": "Open edX"
+  },
+  "footer.edxLinks.careers": {
+    "translation": "وظائف"
+  },
+  "footer.edxLinks.news": {
+    "translation": "أخبار"
+  },
+  "footer.legalLinks.heading": {
+    "translation": "قانوني"
+  },
+  "footer.legalLinks.termsOfService": {
+    "translation": "شروط الخدمة وشرف الكود"
+  },
+  "footer.legalLinks.privacyPolicy": {
+    "translation": "سياسة الخصوصية"
+  },
+  "footer.legalLinks.a11yPolicy": {
+    "translation": "سياسة الوصول"
+  },
+  "footer.legalLinks.trademarkPolicy": {
+    "translation": "سياسة العلامات التجارية"
+  },
+  "footer.legalLinks.sitemap": {
+    "translation": "خريطة الموقع"
+  },
+  "footer.connectLinks.heading": {
+    "translation": "اتصل"
+  },
+  "footer.connectLinks.blog": {
+    "translation": "مدونة"
+  },
+  "footer.connectLinks.contact": {
+    "translation": "اتصل بنا"
+  },
+  "footer.connectLinks.help": {
+    "translation": "مركز المساعدة"
+  },
+  "footer.connectLinks.mediaKit": {
+    "translation": "كتاب الوسائط"
+  },
+  "footer.connectLinks.donate": {
+    "translation": "تبرع"
+  },
+  "footer.mobileApp.apple": {
+    "translation": "تحميل تطبيق edX المحمول من متجر التطبيقات Apple"
+  },
+  "footer.mobileApp.google": {
+    "translation": "تحميل تطبيق edX المحمول من Google Play"
+  },
+  "footer.logo.altText": {
+    "translation": "مؤمن به من قبل Open edX"
+  },
+  "footer.logo.ariaLabel": {
+    "translation": "الصفحة الرئيسية edX"
+  },
+  "footer.ariaLabel": {
+    "translation": "تذييل الصفحة"
+  },
+  "authoring.footer.help.openHelp.button.label": {
+    "translation": "هل تحتاج إلى مساعدة في الاستوديو؟"
+  },
+  "authoring.footer.help.closeHelp.button.label": {
+    "translation": "إخفاء مساعدة الاستوديو"
+  },
+  "authoring.footer.help.educatorsDocs.button.label": {
+    "translation": "مستندات معلمي Open edX"
+  },
+  "authoring.footer.help.openEdxDemoCourse.button.label": {
+    "translation": "دورة تجريبية Open edX"
+  },
+  "authoring.footer.help.contactUs.button.label": {
+    "translation": "اتصل بنا"
+  },
+  "authoring.footer.termsOfService.link.label": {
+    "translation": "شروط الخدمة"
+  },
+  "authoring.footer.privacyPolicy.link.label": {
+    "translation": "سياسة الخصوصية"
+  },
+  "authoring.footer.accessibilityRequest.link.label": {
+    "translation": "طلب تسهيلات الوصول"
+  },
+  "authoring.footer.trademark.message": {
+    "translation": "edX و Open edX، و شعارات edX و Open edX هي علامات تجارية مسجلة لـ"
+  }
+}

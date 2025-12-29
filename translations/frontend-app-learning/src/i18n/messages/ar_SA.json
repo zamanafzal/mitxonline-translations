@@ -1,0 +1,1452 @@
+{
+  "learn.navigation.course.tabs.label": {
+    "translation": "مادة الدرس"
+  },
+  "learn.redirect.interstitial.message": {
+    "translation": "جاري التحويل..."
+  },
+  "learn.loading.error": {
+    "translation": "خطأ: {error}"
+  },
+  "general.altText.close": {
+    "translation": "إغلاق"
+  },
+  "learning.logistration.register": {
+    "translation": "تسجيل"
+  },
+  "learning.logistration.login": {
+    "translation": "تسجيل الدخول"
+  },
+  "general.signIn.sentenceCase": {
+    "translation": "تسجيل الدخول"
+  },
+  "learning.pageNotFound.header": {
+    "translation": "الصفحة غير موجودة"
+  },
+  "learning.pageNotFound.body": {
+    "translation": "الصفحة التي كنت تبحث عنها لم يتم العثور عليها. عد إلى {homepageLink}."
+  },
+  "learning.pageNotFound.body.homepageLink.label": {
+    "translation": "الصفحة الرئيسية"
+  },
+  "instructor.toolbar.view.course": {
+    "translation": "عرض الدرس في:"
+  },
+  "instructor.toolbar.studio": {
+    "translation": "استوديو"
+  },
+  "instructor.toolbar.insights": {
+    "translation": "معلومات"
+  },
+  "learning.notification.preferences.unsubscribe.preferenceCenterUrl": {
+    "translation": "صفحة التفضيلات"
+  },
+  "learning.notification.preferences.unsubscribe.loading": {
+    "translation": "جاري التحميل"
+  },
+  "learning.notification.preferences.unsubscribe.successHeading": {
+    "translation": "إلغاء الاشتراك بنجاح"
+  },
+  "learning.notification.preferences.unsubscribe.successMessage": {
+    "translation": "لقد قمت بإلغاء الاشتراك بنجاح من بريد الإشعارات حول نشاط التعلم"
+  },
+  "learning.notification.preferences.unsubscribe.failedHeading": {
+    "translation": "خطأ في إلغاء الاشتراك من التفضيلات"
+  },
+  "learning.notification.preferences.unsubscribe.failedMessage": {
+    "translation": "رابط غير صالح أو انتهت صلاحية الرمز"
+  },
+  "tours.abandonTour.launchTourCheckpoint.body": {
+    "translation": "تضيع؟ انطلق في جولة في أي وقت للحصول على بعض النصائح السريعة للحصول على أقصى استفادة من التجربة."
+  },
+  "tours.sequenceNavigationCheckpoint.body": {
+    "translation": "الشريط العلوي داخل درسك يسمح لك بالانتقال بسهولة إلى أقسام مختلفة ويظهر لك ما هو قادم."
+  },
+  "tours.existingUserTour.launchTourCheckpoint.body": {
+    "translation": "لقد أضفنا مؤخرًا بعض الميزات الجديدة إلى تجربة الدرس. هل تريد مساعدة في التمرير؟ خذ جولة للتعرف على المزيد."
+  },
+  "tours.button.dismiss": {
+    "translation": "إغفال"
+  },
+  "tours.button.next": {
+    "translation": "التالي"
+  },
+  "tours.button.okay": {
+    "translation": "حسنًا"
+  },
+  "tours.button.beginTour": {
+    "translation": "بدء الجولة"
+  },
+  "tours.button.launchTour": {
+    "translation": "إطلاق الجولة"
+  },
+  "tours.newUserModal.body": {
+    "translation": "دعونا نبدأ جولة سريعة في {siteName} حتى تتمكن من الحصول على أقصى استفادة من درسك."
+  },
+  "tours.newUserModal.title.welcome": {
+    "translation": "مرحبًا بكم في"
+  },
+  "tours.button.skipForNow": {
+    "translation": "تخطي الآن"
+  },
+  "learning.loading.failure": {
+    "translation": "حدث خطأ أثناء تحميل هذا الدرس."
+  },
+  "learning.loading": {
+    "translation": "جاري تحميل صفحة الدرس…"
+  },
+  "learning.accessExpiration.deadline": {
+    "translation": "ترقية بحلول {date} للحصول على الوصول غير المحدود إلى الدرس طالما أنه موجود على الموقع."
+  },
+  "learning.accessExpiration.header": {
+    "translation": "انتهاء صلاحية الوصول للمراقبة {date}"
+  },
+  "learning.accessExpiration.body": {
+    "translation": "ستفقد جميع الوصول إلى هذا الدرس، بما في ذلك تقدمك، في {date}."
+  },
+  "instructorToolbar.pageBanner.courseHasExpired": {
+    "translation": "هذا الطالب لا يملك الوصول إلى هذا الدرس anymore. انتهت صلاحية الوصول في {date}."
+  },
+  "learning.accessExpiration.upgradeNow": {
+    "translation": "ترقية الآن"
+  },
+  "learning.activeEnterprise.alert": {
+    "translation": "{changeActiveEnterprise}."
+  },
+  "learning.activeEnterprise.change.alert": {
+    "translation": "تغيير الشركة الآن"
+  },
+  "learning.outline.alert.start.short": {
+    "translation": "يبدأ الدرس بعد {timeRemaining} في {courseStartTime}."
+  },
+  "learning.outline.alert.start.long": {
+    "translation": "يبدأ الدرس بعد {timeRemaining} في {courseStartDate}."
+  },
+  "learning.outline.alert.start.calendar": {
+    "translation": "لا تنسَ إضافة تذكير في التقويم!"
+  },
+  "instructorToolbar.pageBanner.courseHasNotStarted": {
+    "translation": "هذا الطالب لا يملك الوصول إلى هذا الدرس بعد. يبدأ الدرس في {date}."
+  },
+  "learning.enrollment.alert": {
+    "translation": "يجب أن تكون مسجلاً في الدرس لرؤية محتوى الدرس."
+  },
+  "learning.staff.enrollment.alert": {
+    "translation": "أنت تنظر إلى هذا الدرس كعضو في الطاقم، ولا تكون مسجلاً."
+  },
+  "learning.enrollment.enrollNow.Inline": {
+    "translation": "سجل الآن"
+  },
+  "learning.enrollment.enrollNow.Sentence": {
+    "translation": "سجل الآن."
+  },
+  "learning.enrollment.success": {
+    "translation": "لقد سجلت بنجاح في هذا الدرس!"
+  },
+  "account-activation.alert.button": {
+    "translation": "استمر إلى {siteName}"
+  },
+  "account-activation.alert.message": {
+    "translation": "لقد أرسلنا بريدًا إلكترونيًا إلى {boldEmail} مع رابط لتفعيل حسابك. لا يمكنك العثور عليه؟ تحقق من مجلد البريد غير المرغوب فيه أو {sendEmailTag}."
+  },
+  "account-activation.resend.link": {
+    "translation": "إعادة إرسال البريد الإلكتروني"
+  },
+  "learning.logistration.alert": {
+    "translation": "لرؤية محتوى الدرس، {signIn} أو {register}."
+  },
+  "account-activation.alert.title": {
+    "translation": "تفعيل حسابك حتى تتمكن من تسجيل الدخول مرة أخرى"
+  },
+  "learn.sequence.entranceExamTextNotPassing": {
+    "translation": "للوصول إلى مواد الدرس، يجب أن تحصل على {entranceExamMinimumScorePct}% أو أكثر في هذا الامتحان. درجةك الحالية هي {entranceExamCurrentScore}%."
+  },
+  "learn.sequence.entranceExamTextPassed": {
+    "translation": "درجةك هي {entranceExamCurrentScore}%. لقد نجحت في الامتحان الأولي."
+  },
+  "learn.coursewareSearch.openAction": {
+    "translation": "البحث داخل هذا الدرس"
+  },
+  "learn.coursewareSearch.contentSearchButton": {
+    "translation": "بحث المحتوى"
+  },
+  "learn.coursewareSearch.submitLabel": {
+    "translation": "بحث"
+  },
+  "learn.coursewareSearch.clearAction": {
+    "translation": "مسح البحث"
+  },
+  "learn.coursewareSearch.closeAction": {
+    "translation": "إغلاق نموذج البحث"
+  },
+  "learn.coursewareSearch.searchModuleTitle": {
+    "translation": "ابحث في هذا الدرس"
+  },
+  "learn.coursewareSearch.searchBarPlaceholderText": {
+    "translation": "بحث"
+  },
+  "learn.coursewareSearch.loading": {
+    "translation": "جاري البحث..."
+  },
+  "learn.coursewareSearch.searchResultsNone": {
+    "translation": "لم يتم العثور على نتائج."
+  },
+  "learn.coursewareSearch.searchResultsLabel": {
+    "translation": "نتائج لـ \"{keyword}\":"
+  },
+  "learn.coursewareSearch.searchResultsError": {
+    "translation": "حدث خطأ أثناء عملية البحث. يرجى المحاولة مرة أخرى بعد دقائق قليلة. إذا استمرت المشكلة، يرجى الاتصال بفريق الدعم."
+  },
+  "learn.coursewareSearch.filter:all": {
+    "translation": "جميع المحتويات"
+  },
+  "learn.coursewareSearch.filter:text": {
+    "translation": "نص"
+  },
+  "learn.coursewareSearch.filter:video": {
+    "translation": "فيديو"
+  },
+  "learn.coursewareSearch.filter:sequence": {
+    "translation": "قسم"
+  },
+  "learn.coursewareSearch.filter:other": {
+    "translation": "أخرى"
+  },
+  "learning.dates.badge.completed": {
+    "translation": "مكتمل"
+  },
+  "learning.dates.badge.dueNext": {
+    "translation": "التالي"
+  },
+  "learning.dates.badge.pastDue": {
+    "translation": "مؤجل"
+  },
+  "learning.dates.title": {
+    "translation": "تواريخ مهمة"
+  },
+  "learning.dates.badge.today": {
+    "translation": "اليوم"
+  },
+  "learning.dates.badge.unreleased": {
+    "translation": "لم يتم الإفراج عنه بعد"
+  },
+  "learning.dates.badge.verifiedOnly": {
+    "translation": "مؤكد فقط"
+  },
+  "learning.goals.unsubscribe.contact": {
+    "translation": "اتصل بالدعم"
+  },
+  "learning.goals.unsubscribe.description": {
+    "translation": "لن تتلقى أي إشعارات بريدية حول هدفك لـ {courseTitle} anymore."
+  },
+  "learning.goals.unsubscribe.errorHeader": {
+    "translation": "حدث خطأ ما"
+  },
+  "learning.goals.unsubscribe.errorDescription": {
+    "translation": "لم نتمكن من إلغاء اشتراكك من بريد إشعارات الهدف. يرجى المحاولة مرة أخرى لاحقًا أو {contactSupport} للحصول على مساعدة."
+  },
+  "learning.goals.unsubscribe.goToDashboard": {
+    "translation": "انتقل إلى لوحة التحكم"
+  },
+  "learning.goals.unsubscribe.header": {
+    "translation": "لقد قمت بإلغاء الاشتراك من إشعارات الهدف"
+  },
+  "learning.goals.unsubscribe.loading": {
+    "translation": "جاري إلغاء الاشتراك…"
+  },
+  "learning.outline.dates.all": {
+    "translation": "عرض جميع تواريخ الدرس"
+  },
+  "learning.outline.goalButton.casual.text": {
+    "translation": "يوم واحد في الأسبوع"
+  },
+  "learning.outline.goalButton.screenReader.text": {
+    "translation": "متفرغ"
+  },
+  "learning.outline.certificateAlt": {
+    "translation": "شهادة مثالية"
+  },
+  "learning.outline.collapseAll": {
+    "translation": "طوي الكل"
+  },
+  "learning.outline.completedAssignment": {
+    "translation": "مكتمل"
+  },
+  "learning.outline.completedSection": {
+    "translation": "قسم مكتمل"
+  },
+  "learning.outline.hiddenSection": {
+    "translation": "مخفي في مخطط الدرس، متاح عبر الرابط"
+  },
+  "learning.outline.hiddenSequenceLink": {
+    "translation": "الأقسام الفرعية غير قابلة للانتقال بين بعضها البعض، ويمكن الوصول إليها فقط عبر رابطها."
+  },
+  "learning.outline.dates": {
+    "translation": "تواريخ مهمة"
+  },
+  "learning.outline.editGoal": {
+    "translation": "تحرير الهدف"
+  },
+  "learning.outline.expandAll": {
+    "translation": "توسيع الكل"
+  },
+  "learning.outline.goal": {
+    "translation": "هدف"
+  },
+  "learning.outline.goalReminderDetail": {
+    "translation": "إذا لاحظنا أنك لم تصل إلى هدفك، سنرسل لك بريدًا إلكترونيًا تذكيريًا."
+  },
+  "learning.outline.goalUnsure": {
+    "translation": "لا أعرف بعد"
+  },
+  "learning.outline.handouts": {
+    "translation": "مستندات الدرس"
+  },
+  "learning.outline.incompleteAssignment": {
+    "translation": "غير مكتمل"
+  },
+  "learning.outline.incompleteSection": {
+    "translation": "قسم غير مكتمل"
+  },
+  "learning.outline.goalButton.intense.text": {
+    "translation": "خمسة أيام في الأسبوع"
+  },
+  "learning.outline.goalButton.intense.title": {
+    "translation": "شديد"
+  },
+  "learning.outline.learnMore": {
+    "translation": "تعلم المزيد"
+  },
+  "learning.outline.altText.openSection": {
+    "translation": "مفتوح"
+  },
+  "learning.proctoringPanel.header": {
+    "translation": "يحتوي هذا الدرس على امتحانات مراقبة"
+  },
+  "learning.outline.goalButton.regular.text": {
+    "translation": "ثلاثة أيام في الأسبوع"
+  },
+  "learning.outline.goalButton.regular.title": {
+    "translation": "عادي"
+  },
+  "learning.outline.resumeBlurb": {
+    "translation": "استمر من حيث توقف"
+  },
+  "learning.outline.resume": {
+    "translation": "استئناف الدرس"
+  },
+  "learning.outline.setGoal": {
+    "translation": "لبدء، حدد هدف الدرس عن طريق اختيار الخيار أدناه الذي يصف أفضل خطة التعلم الخاصة بك."
+  },
+  "learning.outline.setGoalReminder": {
+    "translation": "تعيين تذكير الهدف"
+  },
+  "learning.outline.goalButton.casual.title": {
+    "translation": "تعيين نمط هدف التعلم."
+  },
+  "learning.outline.setWeeklyGoal": {
+    "translation": "تعيين هدف أسبوعي للتعلم"
+  },
+  "learning.outline.setWeeklyGoalDetail": {
+    "translation": "تعيين الهدف يحفزك على إكمال الدرس. يمكنك تغييره في أي وقت لاحقًا."
+  },
+  "learning.outline.start": {
+    "translation": "بدء الدرس"
+  },
+  "learning.outline.startBlurb": {
+    "translation": "ابدأ درسك اليوم"
+  },
+  "learning.outline.tools": {
+    "translation": "أدوات الدرس"
+  },
+  "learning.outline.upgradeButton": {
+    "translation": "ترقية ({symbol}{price})"
+  },
+  "learning.outline.upgradeTitle": {
+    "translation": "متابعة شهادة مؤكدة"
+  },
+  "learning.outline.welcomeMessage": {
+    "translation": "رسالة الترحيب"
+  },
+  "learning.outline.welcomeMessageShowMoreButton": {
+    "translation": "إظهار المزيد"
+  },
+  "learning.outline.welcomeMessageShowLessButton": {
+    "translation": "إظهار أقل"
+  },
+  "learning.outline.goalWelcome": {
+    "translation": "مرحبًا بكم في"
+  },
+  "learning.proctoringPanel.status.notStarted": {
+    "translation": "لم يبدأ"
+  },
+  "learning.proctoringPanel.status.started": {
+    "translation": "بدأ"
+  },
+  "learning.proctoringPanel.status.submitted": {
+    "translation": "تم تقديمه"
+  },
+  "learning.proctoringPanel.status.verified": {
+    "translation": "مؤكد"
+  },
+  "learning.proctoringPanel.status.rejected": {
+    "translation": "مرفوض"
+  },
+  "learning.proctoringPanel.status.error": {
+    "translation": "خطأ"
+  },
+  "learning.proctoringPanel.status.otherCourseApproved": {
+    "translation": "مؤكد في درس آخر"
+  },
+  "learning.proctoringPanel.status.expiringSoon": {
+    "translation": "سيانقضي قريبًا"
+  },
+  "learning.proctoringPanel.status.expired": {
+    "translation": "منتهي الصلاحية"
+  },
+  "learning.proctoringPanel.status": {
+    "translation": "حالة التوجيه الحالية:"
+  },
+  "learning.proctoringPanel.message.notStarted": {
+    "translation": "لم تبدأ امتحان التوجيه الخاص بك."
+  },
+  "learning.proctoringPanel.message.started": {
+    "translation": "لقد بدأت امتحان التوجيه الخاص بك."
+  },
+  "learning.proctoringPanel.message.submitted": {
+    "translation": "لقد قدمت امتحان التوجيه الخاص بك."
+  },
+  "learning.proctoringPanel.message.verified": {
+    "translation": "تمت الموافقة على امتحان التوجيه الخاص بك في هذا الدرس."
+  },
+  "learning.proctoringPanel.message.rejected": {
+    "translation": "تم رفض امتحان التوجيه الخاص بك. يرجى إعادة محاولة التوجيه."
+  },
+  "learning.proctoringPanel.message.error": {
+    "translation": "حدث خطأ أثناء امتحان التوجيه الخاص بك. يرجى إعادة محاولة التوجيه."
+  },
+  "learning.proctoringPanel.message.otherCourseApproved": {
+    "translation": "تمت الموافقة على امتحان التوجيه الخاص بك في درس آخر."
+  },
+  "learning.proctoringPanel.detail.otherCourseApproved": {
+    "translation": "إذا تغير جهازك، نوصي بأن تكمل امتحان التوجيه الخاص بهذا الدرس لضمان أن إعدادك لا يزال يلبي متطلبات المراقبة."
+  },
+  "learning.proctoringPanel.message.expiringSoon": {
+    "translation": "تمت الموافقة على ملفك التوجيهي. ومع ذلك، فإن حالة التوجيه الخاص بك ستنتهي قريبًا. يرجى إكمال التوجيه مرة أخرى لضمان قدرتك على الاستمرار في إجراء الامتحانات المراقبة."
+  },
+  "learning.proctoringPanel.message.expired": {
+    "translation": "انتهت صلاحية حالة التوجيه الخاصة بك. يرجى إكمال التوجيه مرة أخرى للاستمرار في إجراء الامتحانات المراقبة."
+  },
+  "learning.proctoringPanel.generalInfo": {
+    "translation": "يجب أن تكمل عملية التوجيه قبل إجراء أي امتحان مراقب."
+  },
+  "learning.proctoringPanel.generalInfoSubmitted": {
+    "translation": "ملفك التوجيهي قيد المراجعة."
+  },
+  "learning.proctoringPanel.generalTime": {
+    "translation": "مراجعة ملف التوجيه قد تستغرق 2+ أيام عمل."
+  },
+  "learning.proctoringPanel.onboardingButton": {
+    "translation": "إكمال التوجيه"
+  },
+  "learning.proctoringPanel.onboardingPracticeButton": {
+    "translation": "عرض امتحان التوجيه"
+  },
+  "learning.proctoringPanel.onboardingButtonNotOpen": {
+    "translation": "يفتح التوجيه: {releaseDate}"
+  },
+  "learning.proctoringPanel.reviewRequirementsButton": {
+    "translation": "مراجعة التعليمات ومتطلبات النظام"
+  },
+  "learning.proctoringPanel.onboardingButtonPastDue": {
+    "translation": "تأخر التوجيه"
+  },
+  "learning.outline.sequence-due-date-set": {
+    "translation": "{description} بسبب {assignmentDue}"
+  },
+  "learning.outline.sequence-due-date-not-set": {
+    "translation": "{description}"
+  },
+  "progress.header": {
+    "translation": "تقدمك"
+  },
+  "progress.header.targetUser": {
+    "translation": "تقدم الدرس لـ {username}"
+  },
+  "progress.link.studio": {
+    "translation": "عرض التقييم في الاستوديو"
+  },
+  "datesBanner.suggestedSchedule": {
+    "translation": "لقد بنينا جدولًا مقترحًا لمساعدتك على البقاء على المسار. لكن لا تقلق - إنه مرن حتى تتمكن من التعلم بمعدلك الخاص."
+  },
+  "datesBanner.upgradeToCompleteGradedBanner.header": {
+    "translation": "ترقية لفتح"
+  },
+  "datesBanner.upgradeToCompleteGradedBanner.body": {
+    "translation": "أنت تدرس هذا الدرس، مما يعني أنك غير قادر على المشاركة في الواجبات المدرجة. لإكمال الواجبات المدرجة كجزء من هذا الدرس، يمكنك الترقية اليوم."
+  },
+  "datesBanner.upgradeToCompleteGradedBanner.button": {
+    "translation": "ترقية الآن"
+  },
+  "datesBanner.upgradeToResetBanner.body": {
+    "translation": "لحفظ نفسك على المسار، يمكنك تحديث هذا الجدول ونقل الواجبات المؤجلة إلى المستقبل. لا تقلق - لن تفقد أي تقدم قمت به عندما تنقل تواريخ الاستحقاق."
+  },
+  "datesBanner.upgradeToResetBanner.button": {
+    "translation": "ترقية لنقل تواريخ الاستحقاق"
+  },
+  "datesBanner.resetDatesBanner.header": {
+    "translation": "يبدو أنك فاتت بعض المواعيد النهائية المهمة بناءً على الجدول المقترح لدينا."
+  },
+  "datesBanner.resetDatesBanner.body": {
+    "translation": "لحفظ نفسك على المسار، يمكنك تحديث هذا الجدول ونقل الواجبات المؤجلة إلى المستقبل. لا تقلق - لن تفقد أي تقدم قمت به عندما تنقل تواريخ الاستحقاق."
+  },
+  "datesBanner.resetDatesBanner.button": {
+    "translation": "نقل تواريخ الاستحقاق"
+  },
+  "notification.tray.container": {
+    "translation": "صندوق الإشعارات"
+  },
+  "notification.open.button": {
+    "translation": "إظهار صندوق الإشعارات"
+  },
+  "notification.close.button": {
+    "translation": "إغلاق صندوق الإشعارات"
+  },
+  "responsive.close.notification": {
+    "translation": "العودة إلى الدرس"
+  },
+  "notification.tray.title": {
+    "translation": "إشعارات"
+  },
+  "notification.tray.no.message": {
+    "translation": "لا يوجد لديك إشعارات جديدة في الوقت الحالي."
+  },
+  "learning.celebration.emailBody": {
+    "translation": "ما الذي تقضيه من الوقت في التعلم؟"
+  },
+  "learning.social.shareEmail": {
+    "translation": "شارك تقدمك عبر البريد الإلكتروني."
+  },
+  "learning.social.shareService": {
+    "translation": "شارك تقدمك على {service}."
+  },
+  "learn.course.tabs.navigation.overflow.menu": {
+    "translation": "المزيد..."
+  },
+  "learning.upgradeButton.buttonText": {
+    "translation": "ترقية لـ {pricing}"
+  },
+  "learning.upgradeNowButton.buttonText": {
+    "translation": "ترقية الآن لـ {pricing}"
+  },
+  "learning.offer.screenReaderPrices": {
+    "translation": "السعر الأصلي: {originalPrice}, السعر المخفض: {discountedPrice}"
+  },
+  "learning.upgradeButton.screenReaderInlinePrices": {
+    "translation": "السعر الأصلي: {originalPrice}"
+  },
+  "learning.generic.upsell.verifiedCertBullet.verifiedCert": {
+    "translation": "شهادة مؤكدة"
+  },
+  "learning.generic.upsell.verifiedCertBullet.verifiedCert.newTab.screenreaderOnly.message": {
+    "translation": "(تعلم المزيد في علامة تبويب جديدة)"
+  },
+  "learning.generic.upsell.verifiedCertBullet": {
+    "translation": "احصل على {verifiedCertLink} من الانتهاء لعرضه في سيرتك الذاتية"
+  },
+  "learning.generic.upsell.unlockGradedBullet.gradedAssignments": {
+    "translation": "واجبات مدرجة"
+  },
+  "learning.generic.upsell.unlockGradedBullet": {
+    "translation": "فتح الوصول إلى جميع أنشطة الدرس، بما في ذلك {gradedAssignmentsInBoldText}"
+  },
+  "learning.generic.upsell.fullAccessBullet.fullAccess": {
+    "translation": "وصول كامل"
+  },
+  "learning.generic.upsell.fullAccessBullet": {
+    "translation": "{fullAccessInBoldText} لمحتوى الدرس والمواد، حتى بعد انتهاء الدرس"
+  },
+  "learning.generic.upsell.supportMissionBullet.mission": {
+    "translation": "مهمة"
+  },
+  "learning.generic.upsell.supportMissionBullet": {
+    "translation": "دعم {missionInBoldText} في {siteName}"
+  },
+  "masquerade-widget.userName.error.generic": {
+    "translation": "حدث خطأ؛ يرجى المحاولة مرة أخرى."
+  },
+  "masquerade-widget.userName.input.placeholder": {
+    "translation": "اسم المستخدم أو البريد الإلكتروني"
+  },
+  "masquerade-widget.userName.input.label": {
+    "translation": "تظاهر بأنك هذا المستخدم"
+  },
+  "instructor.toolbar.view.as": {
+    "translation": "عرض هذا الدرس ك:"
+  },
+  "instructor.toolbar.staff": {
+    "translation": "طاقم"
+  },
+  "tours.datesCheckpoint.body": {
+    "translation": "يمكن أن تساعدك التواريخ المهمة على البقاء على المسار."
+  },
+  "tours.datesCheckpoint.title": {
+    "translation": "ابق على اطلاع دائم بالتواريخ الرئيسية"
+  },
+  "tours.outlineCheckpoint.body": {
+    "translation": "يمكنك استكشاف أقسام الدرس باستخدام المخطط أدناه."
+  },
+  "tours.outlineCheckpoint.title": {
+    "translation": "خذ الدرس!"
+  },
+  "tours.tabNavigationCheckpoint.body": {
+    "translation": "يمكن استخدام هذه الألواح للوصول إلى مواد الدورة الأخرى مثل تقدمك، المناهج الدراسية، الخ."
+  },
+  "tours.tabNavigationCheckpoint.title": {
+    "translation": "موارد إضافية للدورة"
+  },
+  "tours.upgradeCheckpoint.body": {
+    "translation": "سعى للحصول على شهادة واكسب الوصول الكامل لمواد الدورة. قم بالترقية الآن!"
+  },
+  "tours.upgradeCheckpoint.title": {
+    "translation": "فتح قفل دورتك"
+  },
+  "tours.weeklyGoalsCheckpoint.body": {
+    "translation": "تعيين هدف يجعلك أكثر احتمالاً لإكمال دورتك."
+  },
+  "tours.weeklyGoalsCheckpoint.title": {
+    "translation": "تعيين هدف للدورة"
+  },
+  "tours.newUserModal.title": {
+    "translation": "{welcome} دورة {siteName}!"
+  },
+  "learning.effortEstimation.combinedEstimate": {
+    "translation": "{minutes} + {activities}"
+  },
+  "learning.effortEstimation.activities": {
+    "singular": "{activityCount} نشاط",
+    "plural": "{activityCount} نشاطات"
+  },
+  "learning.effortEstimation.minutesAbbreviated": {
+    "singular": "{minuteCount} دقيقة",
+    "plural": "{minuteCount} دقيقة"
+  },
+  "learning.effortEstimation.minutesFull": {
+    "singular": "{minuteCount} دقيقة",
+    "plural": "{minuteCount} دقيقة"
+  },
+  "learning.streakcelebration.factoida": {
+    "translation": "المستخدمون الذين يتعلمون {streak_length} يوم متتالي {bolded_section} أكثر من الذين لا يفعلون ذلك."
+  },
+  "learning.streakcelebration.factoidb": {
+    "translation": "المستخدمون الذين يتعلمون {streak_length} يوم متتالي {bolded_section} مقابل الذين لا يفعلون ذلك."
+  },
+  "learning.streakCelebration.streakCelebrationCouponEndDateMessage": {
+    "translation": "ينتهي في {date}."
+  },
+  "learning.streakCelebration.congratulations": {
+    "translation": "مبارك!"
+  },
+  "learning.streakCelebration.body": {
+    "translation": "استمر، أنت في حالة جيدة!"
+  },
+  "learning.streakCelebration.button": {
+    "translation": "استمر"
+  },
+  "learning.streakCelebration.buttonSrOnly": {
+    "translation": "إغلاق النافذة المنبثقة واستمرار"
+  },
+  "learning.streakCelebration.buttonAA759": {
+    "translation": "استمرار مع الدورة"
+  },
+  "learning.streakCelebration.header": {
+    "translation": "سلسلة أيام"
+  },
+  "learning.streakCelebration.factoidABoldedSection": {
+    "translation": "أكثر احتمالاً 20 مرة في اجتياز دورتهم"
+  },
+  "learning.streakCelebration.factoidBBoldedSection": {
+    "translation": "إكمال 5 مرات من محتوى الدورة في المتوسط"
+  },
+  "learning.streakCelebration.streakDiscountMessage": {
+    "translation": "لقد فتحت قفل خصم {percent}% عند ترقيتك لهذه الدورة لمدة محدودة فقط."
+  },
+  "progress.certificateStatus.unverifiedBody": {
+    "translation": "لإصدار شهادة، يجب عليك إكمال التحقق من الهوية. {idVerificationSupportLink}."
+  },
+  "progress.certificateStatus.downloadableBody": {
+    "translation": "عرض إنجازك على LinkedIn أو سيرتك الذاتية اليوم. يمكنك تنزيل شهادة الآن والوصول إليها في أي وقت من {dashboardLink} و{profileLink}."
+  },
+  "progress.certificateStatus.notAvailable.endDate": {
+    "translation": "تنتهي هذه الدورة في {endDate}. يتم جدولة درجات النهائية وشهادات أي شهادات المكتسبة لتتوفر بعد {certAvailabilityDate}."
+  },
+  "progress.certificateStatus.notPassingHeader": {
+    "translation": "حالة الشهادة"
+  },
+  "progress.certificateStatus.notPassingBody": {
+    "translation": "للتأهل للحصول على شهادة، يجب أن يكون لديك درجة ناجحة."
+  },
+  "progress.certificateStatus.inProgressHeader": {
+    "translation": "هناك محتوى إضافي سيصل قريباً!"
+  },
+  "progress.certificateStatus.inProgressBody": {
+    "translation": "يبدو أن هناك محتوى إضافي في هذه الدورة سيتم إصداره في المستقبل. ابحث عن تحديثات عبر البريد الإلكتروني أو راجع دورتك لمعرفة متى سيصبح هذا المحتوى متاحاً."
+  },
+  "progress.certificateStatus.requestableHeader": {
+    "translation": "حالة الشهادة"
+  },
+  "progress.certificateStatus.requestableBody": {
+    "translation": "مبارك، تأهل للحصول على شهادة! للوصول إلى شهادتك، اطلبها أدناه."
+  },
+  "progress.certificateStatus.requestableButton": {
+    "translation": "طلب الشهادة"
+  },
+  "progress.certificateStatus.unverifiedHeader": {
+    "translation": "حالة الشهادة"
+  },
+  "progress.certificateStatus.unverifiedButton": {
+    "translation": "التحقق من الهوية"
+  },
+  "progress.certificateStatus.courseCelebration.verificationPending": {
+    "translation": "تحقق من هويتك قيد الانتظار وشهادتك ستتوفر بعد الموافقة."
+  },
+  "progress.certificateStatus.downloadableHeader": {
+    "translation": "شهادتك متاحة!"
+  },
+  "progress.certificateStatus.viewableButton": {
+    "translation": "عرض شهادي"
+  },
+  "progress.certificateStatus.notAvailableHeader": {
+    "translation": "حالة الشهادة"
+  },
+  "progress.certificateBody.notAvailable.endDate": {
+    "translation": "يتم جدولة درجات النهائية وشهادات أي شهادات المكتسبة لتتوفر بعد {endDate}."
+  },
+  "progress.certificateStatus.upgradeHeader": {
+    "translation": "الحصول على شهادة"
+  },
+  "progress.certificateStatus.upgradeBody": {
+    "translation": "أنت في مسار المراجعة ولا تأهل للحصول على شهادة. لبدء العمل للحصول على شهادة، ترقي دورتك اليوم."
+  },
+  "progress.certificateStatus.upgradeButton": {
+    "translation": "ترقي الآن"
+  },
+  "progress.certificateStatus.unverifiedHomeHeader.v2": {
+    "translation": "تحقق من هويتك للتأهل للحصول على شهادة."
+  },
+  "progress.certificateStatus.unverifiedHomeButton": {
+    "translation": "تحقق من هويتي"
+  },
+  "progress.certificateStatus.unverifiedHomeBody": {
+    "translation": "لإصدار شهادة لهذه الدورة، يجب عليك إكمال عملية التحقق من الهوية."
+  },
+  "progress.completion.donut.label": {
+    "translation": "مكتمل"
+  },
+  "progress.completion.body": {
+    "translation": "يمثل هذا كم من محتوى الدورة الذي قمت بإكماله. ملاحظة: قد لا يكون بعض المحتوى قد تم إصداره بعد."
+  },
+  "progress.completion.tooltip.locked": {
+    "translation": "المحتوى الذي قمت بإكماله."
+  },
+  "progress.completion.header": {
+    "translation": "إكمال الدورة"
+  },
+  "progress.completion.tooltip": {
+    "translation": "المحتوى الذي لديك الوصول إليه ولم تكمله."
+  },
+  "progress.completion.tooltip.complete": {
+    "translation": "المحتوى الذي تم قفله ويوجد فقط للمستخدمين الذين يقومون بالترقية."
+  },
+  "progress.completion.donut.percentComplete": {
+    "translation": "لقد إكمل {percent}% من محتوى هذه الدورة."
+  },
+  "progress.completion.donut.percentIncomplete": {
+    "translation": "لم تكمل {percent}% من محتوى الدورة الذي لديك الوصول إليه."
+  },
+  "progress.completion.donut.percentLocked": {
+    "translation": "{percent}% من محتوى الدورة مقفل ويوجد فقط للمستخدمين الذين يقومون بالترقية."
+  },
+  "progress.creditInformation.completed": {
+    "translation": "مكتمل"
+  },
+  "progress.creditInformation.courseCredit": {
+    "translation": "إعتراف بالدورة"
+  },
+  "progress.creditInformation.minimumGrade": {
+    "translation": "الدرجة الأدنى للاعتراف ({minGrade}%)"
+  },
+  "progress.creditInformation.requirementsHeader": {
+    "translation": "متطلبات الاعتراف بالدورة"
+  },
+  "progress.creditInformation.upcoming": {
+    "translation": "قادم"
+  },
+  "progress.creditInformation.verificationFailed": {
+    "translation": "فشل التحقق"
+  },
+  "progress.creditInformation.verificationSubmitted": {
+    "translation": "تم تقديم التحقق"
+  },
+  "progress.creditInformation.creditNotEligible": {
+    "translation": "أنت لا تأهل anymore للاعتراف في هذه الدورة. تعرف أكثر عن {creditLink}."
+  },
+  "progress.creditInformation.creditEligible": {
+    "translation": "لقد قمت بتلبية متطلبات الاعتراف في هذه الدورة. اذهب إلى {dashboardLink} لشراء اعتراف بالدورة. أو تعرف أكثر عن {creditLink}."
+  },
+  "progress.creditInformation.creditPartialEligible": {
+    "translation": "لم تلبِ بعد متطلبات الاعتراف. تعرف أكثر عن {creditLink}."
+  },
+  "progress.assignmentType": {
+    "translation": "نوع المهمة"
+  },
+  "progress.footnotes.backToContent": {
+    "translation": "العودة للمحتوى"
+  },
+  "progress.courseGrade.body": {
+    "translation": "يمثل هذا درجتك الموزونة مقابل الدرجة المطلوبة لإكمال هذه الدورة."
+  },
+  "progress.courseGrade.gradeBar.altText": {
+    "translation": "درجتك الحالية هي {currentGrade}%. درجة موزونة {passingGrade}% مطلوبة لإكمال هذه الدورة."
+  },
+  "progress.courseGrade.footer.dueDateNotice": {
+    "translation": "بعض درجات المهام لم يتم تضمينها بعد في درجتك الإجمالية. ستتم إصدارات هذه الدرجات بحلول {dueDate}."
+  },
+  "progress.courseGrade.footer.generic.passing": {
+    "translation": "أنت حاليا ناجح في هذه الدورة"
+  },
+  "progress.courseGrade.footer.nonPassing": {
+    "translation": "درجة موزونة {passingGrade}% مطلوبة لإكمال هذه الدورة"
+  },
+  "progress.courseGrade.footer.passing": {
+    "translation": "أنت حاليا ناجح في هذه الدورة بدرجة {letterGrade} ({minGrade}-{maxGrade}%)"
+  },
+  "progress.courseGrade.preview.headerLocked": {
+    "translation": "ميزة مقفلة"
+  },
+  "progress.courseGrade.preview.headerLimited": {
+    "translation": "ميزة محدودة"
+  },
+  "progress.courseGrade.preview.header.ariaHidden": {
+    "translation": "مقدمة لـ"
+  },
+  "progress.courseGrade.preview.body.unlockCertificate": {
+    "translation": "فتح القفل لعرض الدرجات والعمل للحصول على شهادة."
+  },
+  "progress.courseGrade.partialpreview.body.unlockCertificate": {
+    "translation": "فتح القفل للعمل للحصول على شهادة."
+  },
+  "progress.courseGrade.preview.body.upgradeDeadlinePassed": {
+    "translation": "انتهت الموعد النهائي للترقية في هذه الدورة."
+  },
+  "progress.courseGrade.preview.button.upgrade": {
+    "translation": "ترقي الآن"
+  },
+  "progress.courseGrade.gradeRange.tooltip": {
+    "translation": "نطاقات الدرجات لهذه الدورة:"
+  },
+  "progress.courseOutline": {
+    "translation": "خطة الدورة"
+  },
+  "progress.courseGrade.label.currentGrade": {
+    "translation": "درجتك الحالية"
+  },
+  "progress.detailedGrades": {
+    "translation": "درجات مفصلة"
+  },
+  "progress.detailedGrades.emptyTable": {
+    "translation": "لديك حاليا لا توجد درجات لمشاكل معتمدة."
+  },
+  "progress.detailedGrades.including-ungraded.emptyTable": {
+    "translation": "لديك حاليا لا توجد درجات لمشاكل معتمدة أو غير معتمدة."
+  },
+  "progress.footnotes.title": {
+    "translation": "ملاحظات ملخص الدرجات"
+  },
+  "progress.gradeSummary.grade": {
+    "translation": "درجة"
+  },
+  "progress.courseGrade.grades": {
+    "translation": "درجات"
+  },
+  "progress.courseGrade.gradesAndCredit": {
+    "translation": "درجات واعتراف"
+  },
+  "progress.courseGrade.gradeRange.Tooltip": {
+    "translation": "ملمح درجة النطاق"
+  },
+  "progress.gradeSummary": {
+    "translation": "ملخص الدرجات"
+  },
+  "progress.gradeSummary.limitedAccessExplanation": {
+    "translation": "لديك الوصول المحدود إلى المهام المعتمدة كجزء من مسار المراجعة في هذه الدورة. {upgradeLink}"
+  },
+  "progress.gradeSummary.tooltip.alt": {
+    "translation": "ملمح ملخص الدرجات"
+  },
+  "progress.gradeSummary.tooltip.body": {
+    "translation": "تحدد درجة مهمة دورتك من قبل مدرسك. عن طريق ضرب درجتك بالوزن لمثل هذا نوع المهمة، يتم حساب درجتك الموزونة. درجتك الموزونة هي التي يتم استخدامها لتحديد ما إذا كنت ناجحاً في الدورة."
+  },
+  "progress.hiddenScoreLabel": {
+    "translation": "درجات مخفية"
+  },
+  "progress.hiddenScoreInfoText": {
+    "translation": "درجات من المهام التي تساهم في درجتك النهائية ولكن بعض منها لم يتم إظهارها هنا."
+  },
+  "progress.hiddenScoreLockInfoText": {
+    "translation": "درجات لنوع المهمة مخفية ولكن لا تزال تُحسب في درجة الدورة."
+  },
+  "progress.noAcessToAssignmentType": {
+    "translation": "لديك لا يوجد الوصول إلى المهام من نوع {assignmentType}"
+  },
+  "progress.noAcessToSubsection": {
+    "translation": "لديك لا يوجد الوصول إلى القسم الفرعي {displayName}"
+  },
+  "progress.courseGrade.label.passingGrade": {
+    "translation": "الدرجة الناجحة"
+  },
+  "progress.detailedGrades.problemScore.label": {
+    "translation": "درجات المعتمدة:"
+  },
+  "progress.detailedGrades.practice.problemScore.label": {
+    "translation": "درجات الممارسة:"
+  },
+  "progress.detailedGrades.problemScore.toggleButton": {
+    "translation": "تغيير درجات المشكلات الفردية لـ {subsectionTitle}"
+  },
+  "progress.detailedGrades.overridden": {
+    "translation": "تم تجاوز درجة القسم."
+  },
+  "progress.score": {
+    "translation": "درجة"
+  },
+  "progress.weight": {
+    "translation": "وزن"
+  },
+  "progress.weightedGrade": {
+    "translation": "درجة موزونة"
+  },
+  "progress.weightedGradeSummary": {
+    "translation": "ملخص درجتك الموزونة الخام هو {rawGrade} ويبلغ {roundedGrade}."
+  },
+  "progress.detailedGrades.practice-label.info.text": {
+    "translation": "درجات من أنشطة غير معتمدة meant for الممارسة والتقييم الذاتي."
+  },
+  "progress.detailedGrades.problem-label.info.text": {
+    "translation": "درجات من الأنشطة التي تساهم في درجتك النهائية."
+  },
+  "progress.ungradedAlert": {
+    "translation": "للمتابعة في الجوانب غير المعتمدة من الدورة، راجع {outlineLink}."
+  },
+  "progress.footnotes.droppableAssignments": {
+    "singular": "أدنى {numDroppable} درجة من نوع {assignmentType} تم إهمالها.",
+    "plural": "أدنى {numDroppable} درجات من نوع {assignmentType} تم إهمالها."
+  },
+  "progress.relatedLinks.datesCard.description": {
+    "translation": "عرض الجدول الزمني لمواعيد التسليم في دورتك والمهام القادمة."
+  },
+  "progress.relatedLinks.datesCard.link": {
+    "translation": "تواريخ"
+  },
+  "progress.relatedLinks.outlineCard.description": {
+    "translation": "رؤية شاملة لمحتوى دورتك."
+  },
+  "progress.relatedLinks.outlineCard.link": {
+    "translation": "خطة الدورة"
+  },
+  "progress.relatedLinks": {
+    "translation": "روابط ذات صلة"
+  },
+  "unit.bookmark.button.add.bookmark": {
+    "translation": "أضف هذه الصفحة إلى المفضلة"
+  },
+  "unit.bookmark.button.remove.bookmark": {
+    "translation": "تم إضافة إلى المفضلة"
+  },
+  "learn.breadcrumb.navigation.course.home": {
+    "translation": "دورة"
+  },
+  "learning.celebration.goalCongrats": {
+    "translation": "مبارك، قمت بتلبية هدف التعلم الخاص بك {nTimes} في الأسبوع."
+  },
+  "learning.celebration.setGoal": {
+    "translation": "تعيين هدف يمكن أن يساعدك في {strongText} في دورتك."
+  },
+  "learning.celebration.completed": {
+    "translation": "لقد قمت بإكمال القسم الأول من دورتك."
+  },
+  "learning.celebration.congrats": {
+    "translation": "مبارك!"
+  },
+  "learning.celebration.earned": {
+    "translation": "لقد كسبتها!"
+  },
+  "learning.celebration.emailSubject": {
+    "translation": "أنا على الطريق لإكمال {title} عبر الإنترنت مع {platform}!"
+  },
+  "learning.celebration.forward": {
+    "translation": "استمر"
+  },
+  "learning.celebration.goalMet": {
+    "translation": "لقد قمت بتلبية هدفك!"
+  },
+  "learning.celebration.keepItUp": {
+    "translation": "استمر"
+  },
+  "learning.celebration.share": {
+    "translation": "خذ لحظة للاحتفال وشارك تقدمك."
+  },
+  "learning.celebration.social": {
+    "translation": "أنا على الطريق لإكمال {title} عبر الإنترنت مع {platform}. ما الذي تقضيه من وقت في التعلم؟"
+  },
+  "courseExit.catalogSearchSuggestion": {
+    "translation": "هل تبحث عن التعلم أكثر؟ {searchOurCatalogLink} للعثور على دورات وبرامج أخرى لاستكشافها."
+  },
+  "courseCelebration.certificateBody.available": {
+    "translation": "عرض إنجازك على LinkedIn أو سيرتك الذاتية اليوم. يمكنك تنزيل شهادة الآن والوصول إليها في أي وقت من {dashboardLink} و{profileLink}."
+  },
+  "courseCelebration.certificateBody.notAvailable.endDate.v2": {
+    "translation": "تنتهي هذه الدورة في {endDate}. يتم جدولة درجات النهائية وشهادات أي شهادات المكتسبة لتتوفر بعد {certAvailableDate}."
+  },
+  "courseCelebration.certificateBody.unverified": {
+    "translation": "لإصدار شهادة، يجب عليك إكمال التحقق من الهوية. {idVerificationSupportLink} الآن."
+  },
+  "courseCelebration.certificateBody.upgradable": {
+    "translation": "لم يكن الوقت قد فات للترقية. مقابل {price} ستفتح قفل الوصول إلى جميع المهام المعتمدة في هذه الدورة. بعد الإكمال، ستتلقى شهادة معتمدة وهي مؤهل قيم لتحسين فرصك في العمل وتقدم مسيرتك المهنية، أو تسليط الضوء على شهادتك في طلبات المدارس."
+  },
+  "courseCelebration.upgradeDiscountCodePrompt": {
+    "translation": "استخدم الرمز {code} عند الدفع للحصول على خصم {percent}%!"
+  },
+  "courseCelebration.recommendations.heading": {
+    "translation": "استمر في بناء مهاراتك مع هذه الدورات!"
+  },
+  "courseCelebration.recommendations.label": {
+    "translation": "دورة"
+  },
+  "courseCelebration.recommendations.browse_catalog": {
+    "translation": "استكشف دورات أخرى"
+  },
+  "courseCelebration.recommendations.loading_recommendations": {
+    "translation": "تحميل التوصيات"
+  },
+  "courseCelebration.recommendations.card.schools.label": {
+    "translation": "المدارس والشركاء"
+  },
+  "courseExit.programCompletion.dashboardMessage": {
+    "translation": "للرؤية حالة شهادتك، راجع قسم البرامج في {programLink}."
+  },
+  "courseExit.upgradeFootnote": {
+    "translation": "الوصول إلى هذه الدورة وموادها متاح على لوحة التحكم الخاصة بك حتى {expirationDate}. لتطويل الوصول، {upgradeLink}."
+  },
+  "courseExit.programs.applyForCredit": {
+    "translation": "تقدم للحصول على اعتراف"
+  },
+  "courseCelebration.certificateHeader.downloadable": {
+    "translation": "شهادتك متاحة!"
+  },
+  "courseCelebration.certificateHeader.notAvailable": {
+    "translation": "درجتك وحالة الشهادة ستتوفر قريباً."
+  },
+  "courseCelebration.certificateBody.notAvailable.accessCertificate": {
+    "translation": "إذا كنت قد كسبت درجة ناجحة، ستتم إصدار شهادتك تلقائياً."
+  },
+  "courseCelebration.certificateBody.notAvailable.endDate": {
+    "translation": "يتم جدولة درجات النهائية وشهادات أي شهادات المكتسبة لتتوفر بعد {endDate}."
+  },
+  "courseCelebration.certificateHeader.unverified": {
+    "translation": "يجب عليك إكمال التحقق للحصول على شهادتك."
+  },
+  "courseCelebration.certificateHeader.requestable": {
+    "translation": "مبارك، تأهل للحصول على شهادة!"
+  },
+  "courseCelebration.certificateHeader.upgradable": {
+    "translation": "ترقي للحصول على شهادة معتمدة"
+  },
+  "courseCelebration.certificateImage": {
+    "translation": "شهادة عينة"
+  },
+  "courseCelebration.completedCourseHeader": {
+    "translation": "لقد إكمل دورتك."
+  },
+  "courseCelebration.congratulationsHeader": {
+    "translation": "مبارك!"
+  },
+  "courseCelebration.congratulationsImage": {
+    "translation": "أربعة أشخاص يرفعون أيديهم للاحتفال"
+  },
+  "courseExit.courseInProgressDescription": {
+    "translation": "يبدو أن هناك محتوى إضافي في هذه الدورة سيتم إصداره في المستقبل. ابحث عن تحديثات عبر البريد الإلكتروني أو راجع دورتك لمعرفة متى سيصبح هذا المحتوى متاحاً."
+  },
+  "courseExit.courseInProgressHeader": {
+    "translation": "هناك محتوى إضافي سيصل قريباً!"
+  },
+  "courseExit.dashboardLink": {
+    "translation": "لوحة التحكم"
+  },
+  "courseCelebration.dashboardInfo": {
+    "translation": "يمكنك الوصول إلى هذه الدورة وموادها على {dashboardLink}."
+  },
+  "courseExit.endOfCourseDescription": {
+    "translation": "للأسف، أنت لا تأهل حاليا للحصول على شهادة. يجب أن تحصل على درجة ناجحة للتأهل للحصول على شهادة."
+  },
+  "courseExit.endOfCourseHeader": {
+    "translation": "لقد وصل إلى نهاية الدورة!"
+  },
+  "courseExit.endOfCourseTitle": {
+    "translation": "نهاية الدورة"
+  },
+  "courseExit.idVerificationSupportLink": {
+    "translation": "تعرف أكثر عن التحقق من الهوية"
+  },
+  "courseCelebration.linkedinAddToProfileButton": {
+    "translation": "إضافة إلى ملف LinkedIn"
+  },
+  "courseExit.programs.microBachelors.learnMore": {
+    "translation": "تعرف أكثر عن كيفية تطبيق مؤهل MicroBachelors الخاص بك للحصول على اعتراف."
+  },
+  "courseExit.programs.microMasters.learnMore": {
+    "translation": "تعرف أكثر عن عملية تطبيق شهادات MicroMasters على درجات الماجستير."
+  },
+  "courseExit.programs.microMasters.mastersMessage": {
+    "translation": "إذا كنت مهتماً باستخدام شهادتك MicroMasters للحصول على برنامج الماجستير، يمكنك البدء اليوم!"
+  },
+  "learn.sequence.navigation.complete.button": {
+    "translation": "إكمال الدورة"
+  },
+  "courseExit.nextButton.endOfCourse": {
+    "translation": "التالي (نهاية الدورة)"
+  },
+  "courseExit.profileLink": {
+    "translation": "الملف الشخصي"
+  },
+  "courseExit.programs.lastCourse": {
+    "translation": "لقد إكمل آخر دورة في {title}!"
+  },
+  "courseCelebration.requestCertificateBodyText": {
+    "translation": "للوصول إلى شهادتك، اطلبها أدناه."
+  },
+  "courseCelebration.requestCertificateButton": {
+    "translation": "طلب الشهادة"
+  },
+  "courseExit.searchOurCatalogLink": {
+    "translation": "ابحث في فهرسنا"
+  },
+  "courseCelebration.shareMessage": {
+    "translation": "شارك نجاحك على وسائل التواصل الاجتماعي أو عبر البريد الإلكتروني."
+  },
+  "courseExit.social.shareCompletionMessage": {
+    "translation": "لقد إكمل {title} مع {platform}!"
+  },
+  "courseExit.upgradeButton": {
+    "translation": "ترقي الآن"
+  },
+  "courseExit.upgradeLink": {
+    "translation": "ترقي الآن"
+  },
+  "courseCelebration.verificationPending": {
+    "translation": "تحقق من هويتك قيد الانتظار وشهادتك ستتوفر بعد الموافقة."
+  },
+  "courseExit.verifiedCertificateSupportLink": {
+    "translation": "تعرف أكثر عن الشهادات المعتمدة"
+  },
+  "courseCelebration.verifyIdentityButton": {
+    "translation": "تحقق من هويتي الآن"
+  },
+  "courseCelebration.viewCertificateButton": {
+    "translation": "عرض شهادي"
+  },
+  "courseExit.viewCourseScheduleButton": {
+    "translation": "عرض جدول الدورة"
+  },
+  "courseExit.viewCoursesButton": {
+    "translation": "عرض دوراتي"
+  },
+  "courseExit.viewGradesButton": {
+    "translation": "عرض الدرجات"
+  },
+  "learn.course.license.allRightsReserved.text": {
+    "translation": "جميع الحقوق محفوظة"
+  },
+  "learn.course.license.creativeCommons.terms.preamble": {
+    "translation": "المحتوى المرخص بموجب رخصة Creative Commons، مع الشروط التالية:"
+  },
+  "learn.course.license.creativeCommons.terms.by": {
+    "translation": "الاعتراف"
+  },
+  "learn.course.license.creativeCommons.terms.nc": {
+    "translation": "غير تجاري"
+  },
+  "learn.course.license.creativeCommons.terms.nd": {
+    "translation": "لا مشتقات"
+  },
+  "learn.course.license.creativeCommons.terms.sa": {
+    "translation": "شارك على نفس الشروط"
+  },
+  "learn.course.license.creativeCommons.terms.zero": {
+    "translation": "لا شروط"
+  },
+  "learn.course.license.creativeCommons.text": {
+    "translation": "بعض الحقوق محفوظة"
+  },
+  "learn.course.license.creativeCommons.externalSite.screenreaderOnly.message": {
+    "translation": "موقع خارجي، في علامة تبويب جديدة"
+  },
+  "discussions.sidebar.title": {
+    "translation": "مناقشات"
+  },
+  "discussions.notification.tray.container": {
+    "translation": "صندوق المناقشات والإشعارات"
+  },
+  "tray.close.button": {
+    "translation": "إغلاق الصندوق"
+  },
+  "sidebar.open.button": {
+    "translation": "إظهار صندوق الجانبين"
+  },
+  "responsive.close.sidebar": {
+    "translation": "رجوع إلى الدورة"
+  },
+  "learn.header.h2.placeholder": {
+    "translation": "قد يتم إنشاء عناوين المستوى 2 في المستقبل من قبل مزودي الدورات."
+  },
+  "learn.course.load.failure": {
+    "translation": "حدث خطأ أثناء تحميل هذه الدورة."
+  },
+  "learn.loading.honor.codk": {
+    "translation": "جاري تحميل رسالة الشرف..."
+  },
+  "learn.loading.content.lock": {
+    "translation": "جاري تحميل رسالة المحتوى المغلوق..."
+  },
+  "learn.loading.learning.sequence": {
+    "translation": "جاري تحميل تسلسل التعلم..."
+  },
+  "learn.sequence.no.content": {
+    "translation": "لا يوجد محتوى هنا."
+  },
+  "learning.outline.alert.cert.earnedNotAvailable": {
+    "translation": "تنتهي هذه الدورة في {courseEndDateFormatted}. سيتم وضع الدرجات النهائية وشهادات أي شهادات محتملة المتاحة بعد {certificateAvailableDate}."
+  },
+  "cert.alert.earned.unavailable.header.v2": {
+    "translation": "سيكون درجتك وشهادتك متاحين قريبًا."
+  },
+  "cert.alert.earned.ready.header": {
+    "translation": "مبارك! شهادتك جاهزة."
+  },
+  "cert.alert.notPassing.header": {
+    "translation": "أنت غير مؤهل للحصول على شهادة حتى الآن"
+  },
+  "cert.alert.notPassing.button": {
+    "translation": "عرض الدرجات"
+  },
+  "learning.outline.alert.end.short": {
+    "translation": "تنتهي هذه الدورة {timeRemaining} في {courseEndTime}."
+  },
+  "learning.outline.alert.end.long": {
+    "translation": "تنتهي هذه الدورة {timeRemaining} في {courseEndDate}."
+  },
+  "learning.privateCourse.signInOrRegister": {
+    "translation": "{signIn} أو {register} ثم سجل في هذه الدورة."
+  },
+  "alert.enroll": {
+    "translation": "للوصول إلى الدورة الكاملة."
+  },
+  "learning.outline.alert.scheduled-content.heading": {
+    "translation": "سيأتي المزيد من المحتوى قريبًا!"
+  },
+  "learning.outline.alert.scheduled-content.body": {
+    "translation": "ستحتوي هذه الدورة على محتوى إضافي يتم إصداره في تاريخ مستقبلي. ابحث عن تحديثات عبر البريد الإلكتروني أو راجع هذه الدورة للحصول على تحديثات."
+  },
+  "learning.outline.alert.scheduled-content.button": {
+    "translation": "عرض جدول الدورة"
+  },
+  "calculator.instructions.button.label": {
+    "translation": "تعليمات الآلة الحاسبة"
+  },
+  "calculator.instructions": {
+    "translation": "لمزيد من المعلومات، راجع {expressions_link}."
+  },
+  "calculator.instructions.support.title": {
+    "translation": "مركز المساعدة"
+  },
+  "calculator.instructions.useful.tips": {
+    "translation": "نصائح مفيدة:"
+  },
+  "calculator.hint1": {
+    "translation": "استخدم الأقواس () لجعل التعابير واضحة. يمكنك استخدام الأقواس داخل أقواس أخرى."
+  },
+  "calculator.hint2": {
+    "translation": "لا تستخدم مسافات في التعابير."
+  },
+  "calculator.hint3": {
+    "translation": "لثوابت، حدد الضرب بشكل صريح (مثال: 5*c)."
+  },
+  "calculator.hint4": {
+    "translation": "للملحقات، اكتب الرقم والملحق دون فراغ (مثال: 5c)."
+  },
+  "calculator.hint5": {
+    "translation": "للدوال، اكتب اسم الدالة ثم التعبير بين قوسين."
+  },
+  "calculator.instruction.table.to.use.heading": {
+    "translation": "لاستخدام"
+  },
+  "calculator.instruction.table.type.heading": {
+    "translation": "اكتب"
+  },
+  "calculator.instruction.table.examples.heading": {
+    "translation": "أمثلة"
+  },
+  "calculator.instruction.table.to.use.numbers": {
+    "translation": "أرقام"
+  },
+  "calculator.instruction.table.to.use.numbers.type1": {
+    "translation": "أعداد صحيحة"
+  },
+  "calculator.instruction.table.to.use.numbers.type2": {
+    "translation": "كسور"
+  },
+  "calculator.instruction.table.to.use.numbers.type3": {
+    "translation": "عشرية"
+  },
+  "calculator.instruction.table.to.use.operators": {
+    "translation": "معاملات"
+  },
+  "calculator.instruction.table.to.use.operators.type1": {
+    "translation": "(إضافة، طرح، ضرب، قسمة)"
+  },
+  "calculator.instruction.table.to.use.operators.type2": {
+    "translation": "(رفع إلى قوة)"
+  },
+  "calculator.instruction.table.to.use.operators.type3": {
+    "translation": "(مقاومات متوازية)"
+  },
+  "calculator.instruction.table.to.use.constants": {
+    "translation": "ثوابت"
+  },
+  "calculator.instruction.table.to.use.affixes": {
+    "translation": "ملحقات"
+  },
+  "calculator.instruction.table.to.use.affixes.type": {
+    "translation": "علامة النسبة المئوية (%)"
+  },
+  "calculator.instruction.table.to.use.basic.functions": {
+    "translation": "دوال أساسية"
+  },
+  "calculator.instruction.table.to.use.trig.functions": {
+    "translation": "دوال ثلاثية"
+  },
+  "calculator.instruction.table.to.use.scientific.notation": {
+    "translation": "تسمية علمية"
+  },
+  "calculator.instruction.table.to.use.scientific.notation.type1": {
+    "translation": "{exponentSyntax} والأس"
+  },
+  "calculator.instruction.table.to.use.scientific.notation.type2": {
+    "translation": "{notationSyntax} التسمية"
+  },
+  "calculator.instruction.table.to.use.scientific.notation.type3": {
+    "translation": "{notationSyntax} والأس"
+  },
+  "calculator.button.label": {
+    "translation": "آلة حاسبة"
+  },
+  "calculator.input.field.label": {
+    "translation": "مدخل الآلة الحاسبة"
+  },
+  "calculator.submit.button.label": {
+    "translation": "احسب"
+  },
+  "calculator.result.field.label": {
+    "translation": "نتيجة الآلة الحاسبة"
+  },
+  "calculator.result.field.placeholder": {
+    "translation": "النتيجة"
+  },
+  "notes.button.show": {
+    "translation": "إظهار الملاحظات"
+  },
+  "notes.button.hide": {
+    "translation": "إخفاء الملاحظات"
+  },
+  "learn.contentLock.content.locked": {
+    "translation": "المحتوى مغلق"
+  },
+  "learn.contentLock.complete.prerequisite": {
+    "translation": "يجب عليك إكمال المتطلبات السابقة: ''{prereqSectionName}'' للوصول إلى هذا المحتوى."
+  },
+  "learn.contentLock.goToSection": {
+    "translation": "انتقل إلى قسم المتطلبات السابقة"
+  },
+  "learn.hiddenAfterDue.header": {
+    "translation": "انتهت الموعد النهائي لهذا الواجب."
+  },
+  "learn.hiddenAfterDue.description": {
+    "translation": "بسبب انتهاء الموعد النهائي، لم يعد هذا الواجب متاحًا."
+  },
+  "learn.hiddenAfterDue.gradeAvailable": {
+    "translation": "إذا قمت بإكمال هذا الواجب، فإن درجتك متاحة على صفحة {progressPage}."
+  },
+  "learn.hiddenAfterDue.progressPage": {
+    "translation": "صفحة التقدم"
+  },
+  "learn.honorCode.content": {
+    "translation": "الصدق والامتياز الأكاديمي مهمان لـ {siteName} والمؤسسات التي تقدم الدورات والبرامج على موقع {siteName}. من خلال النقر على “أوافق” أدناه، أؤكد أنني قرأت وفهمت وسألتزم بال{link} لموقع {siteName}."
+  },
+  "learn.honorCode.name": {
+    "translation": "كود الشرف"
+  },
+  "learn.honorCode.cancel": {
+    "translation": "إلغاء"
+  },
+  "learn.honorCode.agree": {
+    "translation": "أوافق"
+  },
+  "learn.lockPaywall.title": {
+    "translation": "الواجبات المحكمة مغلقة"
+  },
+  "learn.lockPaywall.content": {
+    "translation": "ترقي لتتمكن من الوصول إلى الميزات المغلقة مثل هذه وتستفيد أكثر من دورتك."
+  },
+  "learn.lockPaywall.content.pastExpiration": {
+    "translation": "انتهت الموعد النهائي للترقية لهذه الدورة. لتتمكن من الترقية، سجل في الجلسة المتاحة التالية."
+  },
+  "learn.lockPaywall.courseDetails": {
+    "translation": "عرض تفاصيل الدورة"
+  },
+  "learn.lockPaywall.example.alt": {
+    "translation": "مثال على الشهادة"
+  },
+  "learn.lockPaywall.list.intro": {
+    "translation": "عندما ترفع مستوى، ستتمكن من:"
+  },
+  "learn.course.sequence.navigation.mobile.menu": {
+    "translation": "{current} من {total}"
+  },
+  "learn.sequence.navigation.next.button": {
+    "translation": "التالي"
+  },
+  "learn.sequence.navigation.next.up.button": {
+    "translation": "التالي: {title}"
+  },
+  "learn.sequence.navigation.previous.button": {
+    "translation": "السابق"
+  },
+  "courseOutline.loading": {
+    "translation": "جاري التحميل..."
+  },
+  "courseOutline.toggle.button": {
+    "translation": "تبديل صندوق مخطط الدورة"
+  },
+  "courseOutline.tray.title": {
+    "translation": "مخطط الدورة"
+  },
+  "courseOutline.completedUnit": {
+    "translation": "وحدة مكتملة"
+  },
+  "courseOutline.incompleteUnit": {
+    "translation": "وحدة غير مكتملة"
+  },
+  "discussions.sidebar.open.button": {
+    "translation": "إظهار صندوق المناقشات"
+  }
+}

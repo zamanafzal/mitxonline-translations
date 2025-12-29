@@ -1,0 +1,266 @@
+{
+  "certificate.program.card.name": {
+    "translation": "شهادة البرنامج"
+  },
+  "certificate.course.card.name": {
+    "translation": "شهادة الدورة"
+  },
+  "certificate.card.organization.label": {
+    "translation": "من"
+  },
+  "certificate.card.noOrg.text": {
+    "translation": "لا توجد منظمة"
+  },
+  "certificate.card.date.label": {
+    "translation": "تم منحها في {date}"
+  },
+  "certificate.card.action.label": {
+    "translation": "إنشاء"
+  },
+  "certificate.card.multiAction.label": {
+    "translation": "إنشاء مع"
+  },
+  "credentials.modal.title": {
+    "translation": "مؤهل قابل للتحقق"
+  },
+  "credentials.modal.close.button": {
+    "translation": "إغلاق نافذة النموذج"
+  },
+  "credentials.modal.close.mobile.button": {
+    "translation": "إلغاء"
+  },
+  "credentials.modal.mobile.title": {
+    "translation": "لتحميل مؤهل قابل للتحقق إلى تطبيق محفظتك المحمولة، يرجى اتباع التعليمات أدناه."
+  },
+  "credentials.modal.instruction.appStore.button": {
+    "translation": "تحميل التطبيق المحمول من متجر التطبيقات Apple"
+  },
+  "credentials.modal.instruction.googlePlay.button": {
+    "translation": "تحميل التطبيق المحمول من Google Play"
+  },
+  "credentials.modal.instruction.title": {
+    "translation": "اتبع التعليمات أدناه للحصول على مؤهل قابل للتحقق:"
+  },
+  "credentials.modal.instruction.step1": {
+    "translation": "تحميل وتثبيت تطبيق المحفظة على هاتفك الذكي."
+  },
+  "credentials.modal.instruction.step2": {
+    "translation": "سجل الدخول إلى التطبيق لتحديد هويتك."
+  },
+  "credentials.modal.instruction.step3": {
+    "translation": "افتح تطبيق المحفظة واختر خيار \"مسح رمز QR\". ثم مسح صورة رمز QR."
+  },
+  "credentials.modal.instruction.step4": {
+    "translation": "بعد إكمال ذلك بنجاح - أغلق نافذة النموذج."
+  },
+  "credentials.modal.deeplink": {
+    "translation": "تحميل المؤهل"
+  },
+  "credentials.modal.loading": {
+    "translation": "جاري التحميل..."
+  },
+  "credentials.modal.qrCode.label": {
+    "translation": "رمز QR للحصول على المؤهل القابل للتحقق"
+  },
+  "credentials.modal.copyLink.label": {
+    "translation": "نسخ الرابط"
+  },
+  "credentials.modal.error": {
+    "translation": "حدث خطأ أثناء محاولة استرجاع شهادةك. يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "credentials.profile.link": {
+    "translation": "العودة إلى ملفي الشخصي"
+  },
+  "credentials.list.empty": {
+    "translation": "لا توجد شهادة متاحة. اكمل دورة أو برنامجًا للحصول على شهادة."
+  },
+  "credentials.list.error": {
+    "translation": "حدث خطأ أثناء محاولة استرجاع شهاداتك في البرنامج. يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "credentials.header": {
+    "translation": "المؤهلات القابلة للتحقق"
+  },
+  "credentials.description": {
+    "translation": "ستظهر شهادة الدورة بمجرد إكمالك للدورة."
+  },
+  "credentials.help.header": {
+    "translation": "أسئلة حول المؤهلات القابلة للتحقق؟"
+  },
+  "credentials.help.description": {
+    "translation": "لتعلم المزيد عن المؤهلات القابلة للتحقق يمكنك"
+  },
+  "credentials.help.link": {
+    "translation": "قراءة في صفحة دعم المؤهلات القابلة للتحقق لدينا."
+  },
+  "credentials.error.fetch.certificates": {
+    "translation": "لم يتم استرجاع الشهادات"
+  },
+  "credentials.error.fetch.storages": {
+    "translation": "لم يتم استرجاع التخزين المتاح"
+  },
+  "credentials.error.issuance.init": {
+    "translation": "لم يتم بدء خط إصدار"
+  },
+  "PageTitle": {
+    "translation": "سجلات طلابي | {siteName}"
+  },
+  "learnerRecords": {
+    "translation": "سجلات طلابي"
+  },
+  "verifiableCredentials": {
+    "translation": "المؤهلات القابلة للتحقق"
+  },
+  "link.back.to.records": {
+    "translation": "العودة إلى سجلاتي"
+  },
+  "records.list.error": {
+    "translation": "حدث خطأ أثناء محاولة استرجاع سجلاتك في البرنامج. يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "page.loading.message": {
+    "translation": "جاري التحميل..."
+  },
+  "download.button.default": {
+    "translation": "تحميل سجل البرنامج"
+  },
+  "download.button.pending": {
+    "translation": "جاري تحميل سجل البرنامج"
+  },
+  "download.button.complete": {
+    "translation": "تم الانتهاء من التحميل"
+  },
+  "download.button.error": {
+    "translation": "فشل تحميل سجل البرنامج"
+  },
+  "send.program.record": {
+    "translation": "إرسال سجل البرنامج"
+  },
+  "copy.link.tooltip.message": {
+    "translation": "تم نسخ الرابط!"
+  },
+  "copy.program.record.link": {
+    "translation": "نسخ رابط سجل البرنامج"
+  },
+  "create.program.record.link": {
+    "translation": "إنشاء رابط سجل البرنامج"
+  },
+  "create.link.error": {
+    "translation": "فشل إنشاء رابط سجل البرنامج. يرجى تسجيل الخروج، تسجيل الدخول مرة أخرى، ومحاولة مرة أخرى."
+  },
+  "send.program.record.popover.heading": {
+    "translation": "إرسال سجلك في البرنامج"
+  },
+  "send.program.record.popover.content": {
+    "translation": "متابعة التعلم العميق. أرسل سجلك إلى الجامعات التي تقبل هذا البرنامج للحصول على رصيد. يمكنك إرسال سجلك إلى عدة جامعات في نفس الوقت. بمجرد الإرسال، لا يمكن إرجاع السجلات."
+  },
+  "share.program.record.popover.heading": {
+    "translation": "مشاركة سجلك في البرنامج"
+  },
+  "share.program.record.popover.content": {
+    "translation": "أظهر تقدمك! شارك هذا السجل علنًا مع الجامعات والموظفين. إنشاء \"رابط سجل البرنامج العام\" لتوفير الوصول إلى سجلك للآخرين."
+  },
+  "download.program.record": {
+    "translation": "تحميل سجل البرنامج"
+  },
+  "successful.record.download.toast.message": {
+    "translation": "تم تحميل سجل البرنامج بنجاح"
+  },
+  "program.record.type": {
+    "translation": "سجل برنامج {program_type}"
+  },
+  "program.record.name": {
+    "translation": "سجل {program_name}"
+  },
+  "platform.and.school.name": {
+    "translation": "{platform} | {school}"
+  },
+  "last.updated.date": {
+    "translation": "آخر تحديث {date}"
+  },
+  "learner.full_name": {
+    "translation": "{full_name} |"
+  },
+  "learner.email": {
+    "translation": "{email}"
+  },
+  "help.section.header": {
+    "translation": "أسئلة حول سجلات الطالب؟"
+  },
+  "help.section.content.with.link": {
+    "translation": "لتعلم المزيد عن السجلات يمكنك {link}"
+  },
+  "earned.status.badge": {
+    "translation": "مكتسب"
+  },
+  "not.earned.status.badge": {
+    "translation": "غير مكتسب"
+  },
+  "partially.completed.status.badge": {
+    "translation": "مكتمل جزئيًا"
+  },
+  "send.records.try.again.button": {
+    "translation": "حاول مرة أخرى"
+  },
+  "send.records.pending.button": {
+    "translation": "جاري المحاولة مرة أخرى..."
+  },
+  "send.failure.alert.heading.default": {
+    "translation": "لم نتمكن من إرسال سجلك في البرنامج"
+  },
+  "send.failure.alert.message.default": {
+    "translation": "يمكنك محاولة إرسال سجلك إلى مسار {pathway_name} مرة أخرى. إذا استمرت هذه المشكلة {link}"
+  },
+  "send.success.alert.heading": {
+    "translation": "لقد أرسلت سجلك في البرنامج بنجاح"
+  },
+  "send.success.alert.message": {
+    "translation": "{pathway_name} قد تلقى سجلك. اتصل بالجامعة لمعرفة المزيد عن عملية التقديم لديهم."
+  },
+  "send.failure.alert.heading.429": {
+    "translation": "عدد كبير من الطلبات."
+  },
+  "send.failure.alert.message.429": {
+    "translation": "يرجى المحاولة مرة أخرى بعد دقائق قليلة."
+  },
+  "send.record.modal.header": {
+    "translation": "إرسال سجل البرنامج إلى شريك رصيد {platform}"
+  },
+  "send.record.modal.description": {
+    "translation": "يمكنك مشاركة سجلك في البرنامج مباشرة مع شركاء {platform} الذين يقبلون الرصيد لهذا برنامج {programType}. بمجرد إرسال سجلك، لا يمكنك إرجاع الإرسال."
+  },
+  "send.record.modal.form.header": {
+    "translation": "اختر المنظمة (المنظمات) التي تريد إرسال هذا السجل إليها:"
+  },
+  "send.record.modal.cancel.button": {
+    "translation": "إلغاء"
+  },
+  "send.record.modal.send.button": {
+    "translation": "إرسال سجل البرنامج"
+  },
+  "records.profile.link": {
+    "translation": "العودة إلى ملفي الشخصي"
+  },
+  "records.list.empty": {
+    "translation": "لا توجد سجلات بعد. يتم إنشاء سجلات البرامج بمجرد الحصول على شهادة دورة واحدة على الأقل في برنامج."
+  },
+  "records.subheader": {
+    "translation": "سجلات البرامج"
+  },
+  "records.description": {
+    "translation": "يتم إنشاء سجل البرنامج بمجرد الحصول على شهادة دورة واحدة على الأقل في برنامج."
+  },
+  "records.record.view.link": {
+    "translation": "عرض سجل البرنامج"
+  },
+  "records.help.header": {
+    "translation": "أسئلة حول سجلات الطالب؟"
+  },
+  "records.help.description": {
+    "translation": "لتعلم المزيد عن السجلات يمكنك"
+  },
+  "records.help.link": {
+    "translation": "قراءة المزيد في منطقة مساعدة السجلات لدينا."
+  },
+  "records.header": {
+    "translation": "سجلات طلابي"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "profile.page.title": {
+    "translation": "الملف الشخصي | {siteName}"
+  },
+  "profile.certificate.organization.label": {
+    "translation": "من"
+  },
+  "profile.certificate.completion.date.label": {
+    "translation": "اكتمل في {date}"
+  },
+  "profile.certificate.uuid": {
+    "translation": "معرف الشهادة {certificate_uuid}"
+  },
+  "profile.your.certificates": {
+    "translation": "شهاداتك"
+  },
+  "profile.certificates.description": {
+    "translation": "معلومات سجلاتك كطالب مرئية لك فقط. فقط اسم المستخدم وصورتك الشخصية مرئيان للآخرين على {siteName}."
+  },
+  "profile.no.certificates": {
+    "translation": "ليس لديك أي شهادات حتى الآن."
+  },
+  "profile.certificates.my.certificates": {
+    "translation": "شهاداتي"
+  },
+  "profile.certificates.view.certificate": {
+    "translation": "عرض الشهادة"
+  },
+  "profile.certificates.types.verified": {
+    "translation": "شهادة معتمدة"
+  },
+  "profile.certificates.types.professional": {
+    "translation": "شهادة مهنية"
+  },
+  "profile.certificates.types.unknown": {
+    "translation": "شهادة"
+  },
+  "profile.datejoined.member.since": {
+    "translation": "عضو منذ {year}"
+  },
+  "profile.notfound.message": {
+    "translation": "الصفحة التي تبحث عنها غير متاحة أو هناك خطأ في الرابط. يرجى التحقق من الرابط ومحاولة مرة أخرى."
+  },
+  "profile.profile.information": {
+    "translation": "معلومات الملف الشخصي"
+  },
+  "profile.viewMyRecords": {
+    "translation": "عرض سجلاتي"
+  },
+  "profile.loading": {
+    "translation": "تحميل الملف الشخصي..."
+  },
+  "profile.username": {
+    "translation": "اسم المستخدم"
+  },
+  "profile.username.tooltip": {
+    "translation": "الاسم الذي يحددك على edX. لا يمكنك تغيير اسم المستخدم."
+  },
+  "profile.certificatecount": {
+    "translation": "{certificate_count} شهادة"
+  },
+  "profile.bio.empty": {
+    "translation": "إضافة سيرة ذاتية قصيرة"
+  },
+  "profile.bio.about.me": {
+    "translation": "السيرة الذاتية"
+  },
+  "profile.country.label": {
+    "translation": "الدولة"
+  },
+  "profile.country.empty": {
+    "translation": "إضافة دولة"
+  },
+  "profile.education.empty": {
+    "translation": "إضافة مستوى التعليم"
+  },
+  "profile.education.education": {
+    "translation": "التعليم"
+  },
+  "profile.education.levels.p": {
+    "translation": "دكتوراه"
+  },
+  "profile.education.levels.m": {
+    "translation": "درجة الماجستير أو المهنية"
+  },
+  "profile.education.levels.b": {
+    "translation": "درجة البكالوريوس"
+  },
+  "profile.education.levels.a": {
+    "translation": "درجة الدبلوم"
+  },
+  "profile.education.levels.hs": {
+    "translation": "ثانوية/مدرسة ثانوية"
+  },
+  "profile.education.levels.jhs": {
+    "translation": "مدرسة ثانوية متوسطة/مدرسة ثانوية متوسطة/مدرسة متوسطة"
+  },
+  "profile.education.levels.el": {
+    "translation": "مدرسة ابتدائية/مدرسة ابتدائية"
+  },
+  "profile.education.levels.none": {
+    "translation": "لا يوجد تعليم رسمي"
+  },
+  "profile.education.levels.o": {
+    "translation": "تعليم آخر"
+  },
+  "profile.name.full.name": {
+    "translation": "الاسم الكامل"
+  },
+  "profile.name.empty": {
+    "translation": "إضافة الاسم الكامل"
+  },
+  "profile.name.tooltip": {
+    "translation": "الاسم الذي يتم استخدامه للتحقق من الهوية والذي يظهر على شهاداتك"
+  },
+  "profile.name.redirect": {
+    "translation": "تحرير الاسم الكامل من صفحة الحسابات"
+  },
+  "profile.preferredlanguage.empty": {
+    "translation": "إضافة لغة"
+  },
+  "profile.preferredlanguage.label": {
+    "translation": "اللغة الرئيسية المتحدث بها"
+  },
+  "profile.profileavatar.upload-button": {
+    "translation": "تحميل صورة"
+  },
+  "profile.profileavatar.remove.button": {
+    "translation": "إزالة الصورة"
+  },
+  "profile.image.alt.attribute": {
+    "translation": "شعار الملف الشخصي"
+  },
+  "profile.profileavatar.change-button": {
+    "translation": "تغيير"
+  },
+  "profile.profileavatar.tooltip.edit": {
+    "translation": "تحرير الصورة"
+  },
+  "profile.profileavatar.tooltip.upload": {
+    "translation": "تحميل صورة"
+  },
+  "profile.sociallinks.add": {
+    "translation": "إضافة ملف {network}"
+  },
+  "profile.sociallinks.social.links": {
+    "translation": "روابط اجتماعية"
+  },
+  "profile.editbutton.edit": {
+    "translation": "تحرير"
+  },
+  "profile.formcontrols.who.can.see": {
+    "translation": "من يمكنه رؤية هذا:"
+  },
+  "profile.formcontrols.button.cancel": {
+    "translation": "إلغاء"
+  },
+  "profile.formcontrols.button.save": {
+    "translation": "حفظ"
+  },
+  "profile.formcontrols.button.saving": {
+    "translation": "جاري الحفظ"
+  },
+  "profile.formcontrols.button.saved": {
+    "translation": "تم الحفظ"
+  },
+  "profile.visibility.who.just.me": {
+    "translation": "أنا فقط"
+  },
+  "profile.visibility.who.everyone": {
+    "translation": "جميع من على {siteName}"
+  }
+}

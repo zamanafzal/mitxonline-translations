@@ -1,0 +1,542 @@
+{
+  "error.notfound.message": {
+    "translation": "الصفحة التي تبحث عنها غير متاحة أو هناك خطأ في الرابط. يرجى التحقق من الرابط ومحاولة مرة أخرى."
+  },
+  "institution.login.page.sub.heading": {
+    "translation": "اختر مؤسسة من القائمة أدناه"
+  },
+  "logistration.sign.in": {
+    "translation": "تسجيل الدخول"
+  },
+  "logistration.register": {
+    "translation": "تسجيل"
+  },
+  "enterprisetpa.title.heading": {
+    "translation": "هل تريد تسجيل الدخول باستخدام بيانات اعتماد {providerName}؟"
+  },
+  "enterprisetpa.login.button.text": {
+    "translation": "أظهر لي طرق أخرى للتسجيل أو تسجيل الدخول"
+  },
+  "enterprisetpa.login.button.text.public.account.creation.disabled": {
+    "translation": "أظهر لي طرق أخرى للتسجيل"
+  },
+  "sso.sign.in.with": {
+    "translation": "تسجيل الدخول مع {providerName}"
+  },
+  "sso.create.account.using": {
+    "translation": "إنشاء حساب باستخدام {providerName}"
+  },
+  "show.password": {
+    "translation": "إظهار كلمة المرور"
+  },
+  "hide.password": {
+    "translation": "إخفاء كلمة المرور"
+  },
+  "one.letter": {
+    "translation": "حرف واحد"
+  },
+  "one.number": {
+    "translation": "رقم واحد"
+  },
+  "eight.characters": {
+    "translation": "8 أحرف"
+  },
+  "password.sr.only.helping.text": {
+    "translation": "يجب أن تحتوي كلمة المرور على الأقل على 8 أحرف، على الأقل حرف واحد، ورقم واحد على الأقل"
+  },
+  "tpa.alert.heading": {
+    "translation": "قريبًا!"
+  },
+  "login.third.party.auth.account.not.linked": {
+    "translation": "لقد قمت بتسجيل الدخول بنجاح إلى {currentProvider}، لكن حساب {currentProvider} لديك لا يحتوي على حساب {platformName} مرتبط. لربط الحسابات، سجل الدخول الآن باستخدام كلمة مرور {platformName}."
+  },
+  "register.third.party.auth.account.not.linked": {
+    "translation": "لقد قمت بتسجيل الدخول بنجاح إلى {currentProvider}! نحن فقط نحتاج إلى بعض المعلومات الإضافية قبل البدء في التعلم مع {platformName}."
+  },
+  "registration.using.tpa.form.heading": {
+    "translation": "اكتمال إنشاء حسابك"
+  },
+  "zendesk.supportTitle": {
+    "translation": "دعم edX"
+  },
+  "zendesk.selectTicketForm": {
+    "translation": "يرجى اختيار نوع طلبك:"
+  },
+  "registration.other.options.heading": {
+    "translation": "أو التسجيل مع:"
+  },
+  "institution.login.button": {
+    "translation": "بيانات المؤسسة/الكلية"
+  },
+  "login.other.options.heading": {
+    "translation": "أو تسجيل الدخول مع:"
+  },
+  "enterprise.login.btn.text": {
+    "translation": "بيانات الشركة أو المدرسة"
+  },
+  "forgot.password.confirmation.message": {
+    "translation": "لقد أرسلنا بريدًا إلكترونيًا إلى {email} مع تعليمات لإعادة تعيين كلمة المرور. إذا لم تستلم رسالة إعادة تعيين كلمة المرور بعد دقيقة واحدة، تأكد من إدخال عنوان البريد الإلكتروني الصحيح، أو تحقق من مجلد البريد غير المرغوب فيه. إذا كنت تحتاج إلى مساعدة إضافية، {supportLink}."
+  },
+  "forgot.password.page.title": {
+    "translation": "نسيت كلمة المرور | {siteName}"
+  },
+  "forgot.password.page.heading": {
+    "translation": "إعادة تعيين كلمة المرور"
+  },
+  "forgot.password.page.instructions": {
+    "translation": "يرجى إدخال عنوان بريدك الإلكتروني أدناه وسنرسل لك بريدًا إلكترونيًا مع تعليمات حول كيفية إعادة تعيين كلمة المرور."
+  },
+  "forgot.password.page.invalid.email.message": {
+    "translation": "أدخل عنوان بريد إلكتروني صالح"
+  },
+  "forgot.password.page.email.field.label": {
+    "translation": "البريد الإلكتروني"
+  },
+  "forgot.password.page.submit.button": {
+    "translation": "إرسال"
+  },
+  "forgot.password.error.alert.title.": {
+    "translation": "لم نستطع الاتصال بك."
+  },
+  "forgot.password.error.message.title": {
+    "translation": "حدث خطأ."
+  },
+  "forgot.password.request.in.progress.message": {
+    "translation": "طلبك السابق قيد المعالجة، يرجى المحاولة مرة أخرى بعد لحظات."
+  },
+  "forgot.password.empty.email.field.error": {
+    "translation": "أدخل بريدك الإلكتروني"
+  },
+  "forgot.password.email.help.text": {
+    "translation": "العنوان الإلكتروني الذي استخدمته للتسجيل مع {platformName}"
+  },
+  "confirmation.message.title": {
+    "translation": "تحقق من بريدك الإلكتروني"
+  },
+  "confirmation.support.link": {
+    "translation": "اتصل بالدعم الفني"
+  },
+  "need.help.sign.in.text": {
+    "translation": "تحتاج إلى مساعدة في تسجيل الدخول؟"
+  },
+  "additional.help.text": {
+    "translation": "لمساعدة إضافية، اتصل بدعم {platformName} على"
+  },
+  "sign.in.text": {
+    "translation": "تسجيل الدخول"
+  },
+  "extend.field.errors": {
+    "translation": "{emailError} أدناه."
+  },
+  "invalid.token.heading": {
+    "translation": "رابط إعادة تعيين كلمة المرور غير صالح"
+  },
+  "invalid.token.error.message": {
+    "translation": "هذا رابط إعادة تعيين كلمة المرور غير صالح. قد تم استخدامه بالفعل. أدخل بريدك الإلكتروني أدناه للحصول على رابط جديد."
+  },
+  "token.validation.rate.limit.error.heading": {
+    "translation": "طلبات كثيرة جدًا"
+  },
+  "token.validation.rate.limit.error": {
+    "translation": "حدث خطأ بسبب عدد كبير من الطلبات. يرجى المحاولة مرة أخرى بعد فترة."
+  },
+  "token.validation.internal.sever.error.heading": {
+    "translation": "فشل التحقق من الرمز"
+  },
+  "token.validation.internal.sever.error": {
+    "translation": "حدث خطأ. جرب تحديث الصفحة، أو تحقق من اتصال الإنترنت."
+  },
+  "internal.server.error": {
+    "translation": "حدث خطأ. جرب تحديث الصفحة، أو تحقق من اتصال الإنترنت."
+  },
+  "account.activation.error.message": {
+    "translation": "حدث خطأ ما، يرجى {supportLink} لحل هذه المشكلة."
+  },
+  "login.inactive.user.error": {
+    "translation": "للتسجيل، يجب عليك تفعيل حسابك.{lineBreak} {lineBreak} لقد أرسلنا لك حديثًا رابطًا للتفعيل إلى {email}. إذا لم تستلم بريدًا إلكترونيًا، تحقق من مجلد البريد غير المرغوب فيه أو {supportLink}."
+  },
+  "allowed.domain.login.error": {
+    "translation": "كمركز {allowedDomain}، يجب عليك تسجيل الدخول باستخدام {allowedDomain} {tpaLink}."
+  },
+  "login.incorrect.credentials.error.attempts.text.1": {
+    "translation": "اسم المستخدم أو البريد الإلكتروني أو كلمة المرور التي أدخلتها غير صحيحة. لديك {remainingAttempts} محاولة تسجيل دخول أخرى قبل أن يتم قفل حسابك مؤقتًا."
+  },
+  "login.incorrect.credentials.error.attempts.text.2": {
+    "translation": "إذا نسيت كلمة المرور، {resetLink}"
+  },
+  "account.locked.out.message.2": {
+    "translation": "من أجل السلامة، يمكنك {resetLink} قبل المحاولة مرة أخرى."
+  },
+  "login.incorrect.credentials.error.with.reset.link": {
+    "translation": "اسم المستخدم أو البريد الإلكتروني أو كلمة المرور التي أدخلتها غير صحيحة. يرجى المحاولة مرة أخرى أو {resetLink}."
+  },
+  "login.page.title": {
+    "translation": "تسجيل الدخول | {siteName}"
+  },
+  "login.user.identity.label": {
+    "translation": "اسم المستخدم أو البريد الإلكتروني"
+  },
+  "login.password.label": {
+    "translation": "كلمة المرور"
+  },
+  "sign.in.button": {
+    "translation": "تسجيل الدخول"
+  },
+  "forgot.password": {
+    "translation": "نسيت كلمة المرور"
+  },
+  "institution.login.page.title": {
+    "translation": "تسجيل الدخول باستخدام بيانات اعتماد المؤسسة/الكلية"
+  },
+  "non.compliant.password.title": {
+    "translation": "لقد غيرنا مؤخرًا متطلبات كلمة المرور لدينا"
+  },
+  "non.compliant.password.message": {
+    "translation": "كلمة المرور الحالية لا تلبي المتطلبات الجديدة للأمان. لقد أرسلنا لك حديثًا رسالة إعادة تعيين كلمة المرور إلى عنوان البريد الإلكتروني المرتبط بهذا الحساب. شكرًا لك على مساعدتنا في الحفاظ على بياناتك آمنة."
+  },
+  "account.locked.out.message.1": {
+    "translation": "لمحاربة حسابك، تم قفله مؤقتًا. جرب مرة أخرى بعد 30 دقيقة."
+  },
+  "username.or.email.format.validation.less.chars.message": {
+    "translation": "يجب أن يحتوي اسم المستخدم أو البريد الإلكتروني على الأقل على 2 أحرف."
+  },
+  "email.validation.message": {
+    "translation": "أدخل اسم المستخدم أو البريد الإلكتروني"
+  },
+  "password.validation.message": {
+    "translation": "لم يتم تحقيق معايير كلمة المرور"
+  },
+  "account.activation.success.message.title": {
+    "translation": "نجاح! لقد قمت بتفعيل حسابك."
+  },
+  "account.activation.success.message": {
+    "translation": "ستتلقى الآن تحديثات عبر البريد الإلكتروني وإشعارات مننا المتعلقة بالدورات التي تم التسجيل فيها. سجل الدخول للمتابعة."
+  },
+  "account.activation.info.message": {
+    "translation": "تم تفعيل هذا الحساب بالفعل."
+  },
+  "account.activation.error.message.title": {
+    "translation": "لم يتم تفعيل حسابك"
+  },
+  "account.activation.support.link": {
+    "translation": "اتصل بالدعم"
+  },
+  "account.confirmation.success.message.title": {
+    "translation": "نجاح! لقد قمت بتأكيد بريدك الإلكتروني."
+  },
+  "account.confirmation.success.message": {
+    "translation": "سجل الدخول للمتابعة."
+  },
+  "account.confirmation.info.message": {
+    "translation": "تم تأكيد هذا البريد الإلكتروني بالفعل."
+  },
+  "account.confirmation.error.message.title": {
+    "translation": "لم يتم تأكيد بريدك الإلكتروني"
+  },
+  "tpa.account.link": {
+    "translation": "حساب {provider}"
+  },
+  "internal.server.error.message": {
+    "translation": "حدث خطأ. جرب تحديث الصفحة، أو تحقق من اتصال الإنترنت."
+  },
+  "login.rate.limit.reached.message": {
+    "translation": "محاولات تسجيل دخول فاشلة كثيرة جدًا. جرب مرة أخرى لاحقًا."
+  },
+  "login.failure.header.title": {
+    "translation": "لم نستطع تسجيلك."
+  },
+  "contact.support.link": {
+    "translation": "اتصل بدعم {platformName}"
+  },
+  "login.incorrect.credentials.error": {
+    "translation": "اسم المستخدم أو البريد الإلكتروني أو كلمة المرور التي أدخلتها غير صحيحة. يرجى المحاولة مرة أخرى."
+  },
+  "login.form.invalid.error.message": {
+    "translation": "يرجى ملء الحقول أدناه."
+  },
+  "login.incorrect.credentials.error.reset.link.text": {
+    "translation": "إعادة تعيين كلمة المرور"
+  },
+  "login.incorrect.credentials.error.before.account.blocked.text": {
+    "translation": "انقر هنا لإعادة تعيينها."
+  },
+  "password.security.nudge.title": {
+    "translation": "أمان كلمة المرور"
+  },
+  "password.security.block.title": {
+    "translation": "تغيير كلمة المرور مطلوب"
+  },
+  "password.security.nudge.body": {
+    "translation": "لقد اكتشف نظامنا أن كلمة المرور الخاصة بك عرضة للخطر. نوصيك بتغييرها حتى stays حسابك safe."
+  },
+  "password.security.block.body": {
+    "translation": "لقد اكتشف نظامنا أن كلمة المرور الخاصة بك عرضة للخطر. تغيير كلمة المرور حتى stays حسابك safe."
+  },
+  "password.security.close.button": {
+    "translation": "إغلاق"
+  },
+  "password.security.redirect.to.reset.password.button": {
+    "translation": "إعادة تعيين كلمة المرور الخاصة بك"
+  },
+  "login.tpa.authentication.failure": {
+    "translation": "نحن آسفون، أنت غير مخول بالوصول إلى {platform_name} عبر هذا القناة. يرجى الاتصال بمدير التعلم أو مديرك للحصول على الوصول إلى {platform_name}.{lineBreak}{lineBreak}تفاصيل الخطأ:{lineBreak}{errorMessage}"
+  },
+  "progressive.profiling.page.title": {
+    "translation": "مرحبًا | {siteName}"
+  },
+  "progressive.profiling.page.heading": {
+    "translation": "سؤالان أو ثلاثة أسئلة لك سيساعداننا في أن نصبح أكثر ذكاءً."
+  },
+  "optional.fields.information.link": {
+    "translation": "Aprende más sobre cómo usamos esta información."
+  },
+  "optional.fields.submit.button": {
+    "translation": "Enviar"
+  },
+  "optional.fields.skip.button": {
+    "translation": "Omitir por ahora"
+  },
+  "optional.fields.next.button": {
+    "translation": "Siguiente"
+  },
+  "continue.to.platform": {
+    "translation": "Continuar a {platformName}"
+  },
+  "modal.title": {
+    "translation": "Gracias por avisarnos."
+  },
+  "modal.description": {
+    "translation": "Puedes completar tu perfil en la configuración en cualquier momento si cambias de opinión."
+  },
+  "welcome.page.error.heading": {
+    "translation": "No pudimos actualizar tu perfil"
+  },
+  "welcome.page.error.message": {
+    "translation": "Ocurrió un error. Puedes completar tu perfil en la configuración en cualquier momento."
+  },
+  "recommendation.page.title": {
+    "translation": "Recomendaciones | {siteName}"
+  },
+  "recommendation.page.heading": {
+    "translation": "Tenemos algunas recomendaciones para que comiences."
+  },
+  "recommendation.skip.button": {
+    "translation": "Omitir por ahora"
+  },
+  "recommendation.option.trending": {
+    "translation": "Tendencias ahora"
+  },
+  "recommendation.option.popular": {
+    "translation": "Más populares"
+  },
+  "recommendation.option.recommended.for.you": {
+    "translation": "Recomendado para ti"
+  },
+  "recommendation.product-card.pill-text.course": {
+    "translation": "Curso"
+  },
+  "recommendation.product-card.pill-text.professional-certificate": {
+    "translation": "Certificado profesional"
+  },
+  "recommendation.product-card.pill-text.emeritus": {
+    "translation": "Ofrecido en Emeritus"
+  },
+  "recommendation.product-card.pill-text.shorelight": {
+    "translation": "Ofrecido a través de Shorelight"
+  },
+  "recommendation.product-card.footer-text.number-of-courses": {
+    "translation": "{length} {label}"
+  },
+  "recommendation.product-card.footer-text.subscription": {
+    "translation": "Suscripción"
+  },
+  "recommendation.product-card.launch-icon.sr-text": {
+    "translation": "Abre un enlace en una nueva pestaña"
+  },
+  "register.page.title": {
+    "translation": "Registrarse | {siteName}"
+  },
+  "registration.fullname.label": {
+    "translation": "Nombre completo"
+  },
+  "registration.email.label": {
+    "translation": "Correo electrónico"
+  },
+  "registration.username.label": {
+    "translation": "Nombre de usuario público"
+  },
+  "registration.password.label": {
+    "translation": "Contraseña"
+  },
+  "registration.country.label": {
+    "translation": "País/Región"
+  },
+  "registration.opt.in.label": {
+    "translation": "Acepto que {siteName} pueda enviarme mensajes de marketing."
+  },
+  "help.text.name": {
+    "translation": "Este nombre se usará en cualquier certificado que obtengas."
+  },
+  "help.text.username.1": {
+    "translation": "El nombre que te identificará en tus cursos."
+  },
+  "help.text.username.2": {
+    "translation": "Esto no se puede cambiar más tarde."
+  },
+  "help.text.email": {
+    "translation": "Para la activación de la cuenta y actualizaciones importantes"
+  },
+  "create.account.for.free.button": {
+    "translation": "Crea una cuenta de forma gratuita"
+  },
+  "create.account.cta.button": {
+    "translation": "{label}"
+  },
+  "register.institution.login.page.title": {
+    "translation": "Registrarse con credenciales de institución/campus"
+  },
+  "empty.name.field.error": {
+    "translation": "Ingresa tu nombre completo"
+  },
+  "empty.email.field.error": {
+    "translation": "Ingresa tu correo electrónico"
+  },
+  "empty.username.field.error": {
+    "translation": "El nombre de usuario debe tener entre 2 y 30 caracteres"
+  },
+  "empty.password.field.error": {
+    "translation": "No se han cumplido los criterios de la contraseña"
+  },
+  "empty.country.field.error": {
+    "translation": "Selecciona tu país o región de residencia"
+  },
+  "invalid.country.field.error": {
+    "translation": "El país debe coincidir con una opción disponible en el menú desplegable."
+  },
+  "email.do.not.match": {
+    "translation": "Los correos electrónicos no coinciden."
+  },
+  "email.invalid.format.error": {
+    "translation": "Ingresa un correo electrónico válido"
+  },
+  "username.validation.message": {
+    "translation": "El nombre de usuario debe tener entre 2 y 30 caracteres"
+  },
+  "name.validation.message": {
+    "translation": "Ingresa un nombre válido"
+  },
+  "username.format.validation.message": {
+    "translation": "Los nombres de usuario solo pueden contener letras (A-Z, a-z), números (0-9), guiones bajos (_) y guiones (-). Los nombres de usuario no pueden contener espacios"
+  },
+  "registration.request.failure.header": {
+    "translation": "No pudimos crear tu cuenta."
+  },
+  "registration.empty.form.submission.error": {
+    "translation": "Por favor, verifica tus respuestas e inténtalo de nuevo."
+  },
+  "registration.request.server.error": {
+    "translation": "Ocurrió un error. Intenta actualizar la página o verifica tu conexión a Internet."
+  },
+  "registration.rate.limit.error": {
+    "translation": "Demasiados intentos de registro fallidos. Inténtalo más tarde."
+  },
+  "registration.tpa.session.expired": {
+    "translation": "El registro usando {provider} ha expirado."
+  },
+  "registration.forbidden.username": {
+    "translation": "Los nombres de usuario no pueden incluir palabras que puedan confundirse con roles de curso. Por favor, elige un nombre de usuario diferente."
+  },
+  "registration.tpa.authentication.failure": {
+    "translation": "Lo sentimos, no estás autorizado para acceder a {platform_name} a través de este canal. Por favor, contacta a tu administrador de aprendizaje o gerente para acceder a {platform_name}.{lineBreak}{lineBreak}Detalles del error:{lineBreak}{errorMessage}"
+  },
+  "terms.of.service.and.honor.code": {
+    "translation": "Términos de Servicio y Código de Honor"
+  },
+  "privacy.policy": {
+    "translation": "Política de Privacidad"
+  },
+  "honor.code": {
+    "translation": "Código de Honor"
+  },
+  "terms.of.service": {
+    "translation": "Términos de Servicio"
+  },
+  "registration.username.suggestion.label": {
+    "translation": "Sugerido:"
+  },
+  "did.you.mean.alert.text": {
+    "translation": "¿Querías decir"
+  },
+  "sign.in": {
+    "translation": "Iniciar sesión"
+  },
+  "reset.password.page.title": {
+    "translation": "Restablecer Contraseña | {siteName}"
+  },
+  "reset.password": {
+    "translation": "Restablecer contraseña"
+  },
+  "reset.password.page.instructions": {
+    "translation": "Ingresa y confirma tu nueva contraseña."
+  },
+  "new.password.label": {
+    "translation": "Nueva contraseña"
+  },
+  "confirm.password.label": {
+    "translation": "Confirmar contraseña"
+  },
+  "passwords.do.not.match": {
+    "translation": "Las contraseñas no coinciden"
+  },
+  "confirm.your.password": {
+    "translation": "Confirma tu contraseña"
+  },
+  "reset.password.failure.heading": {
+    "translation": "No pudimos restablecer tu contraseña."
+  },
+  "reset.password.form.submission.error": {
+    "translation": "Por favor, verifica tus respuestas e inténtalo de nuevo."
+  },
+  "reset.server.rate.limit.error": {
+    "translation": "Demasiadas solicitudes."
+  },
+  "reset.password.success.heading": {
+    "translation": "Restablecimiento de contraseña completado."
+  },
+  "reset.password.success": {
+    "translation": "Tu contraseña ha sido restablecida. Inicia sesión en tu cuenta."
+  },
+  "rate.limit.error": {
+    "translation": "Ocurrió un error debido a demasiadas solicitudes. Por favor, inténtalo de nuevo después de un tiempo."
+  },
+  "start.learning": {
+    "translation": "Comenzar a aprender"
+  },
+  "with.site.name": {
+    "translation": "con {siteName}"
+  },
+  "your.career.turning.point": {
+    "translation": "Tu punto de inflexión en la carrera"
+  },
+  "is.here": {
+    "translation": "está aquí."
+  },
+  "welcome.to.platform": {
+    "translation": "¡Bienvenido a {siteName}, {fullName}!"
+  },
+  "complete.your.profile.1": {
+    "translation": "Completar"
+  },
+  "complete.your.profile.2": {
+    "translation": "tu perfil"
+  },
+  "register.page.terms.of.service.and.honor.code": {
+    "translation": "Al crear una cuenta, aceptas los {tosAndHonorCode} y reconoces que {platformName} y cada Miembro procesan tus datos personales de acuerdo con la {privacyPolicy}."
+  },
+  "register.page.honor.code": {
+    "translation": "Acepto los {platformName}&nbsp;{tosAndHonorCode}"
+  },
+  "register.page.terms.of.service": {
+    "translation": "Acepto los {platformName}&nbsp;{termsOfService}"
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "discussions.actions.button.alt": {
+    "translation": "Menú de acciones"
+  },
+  "discussions.actions.copylink": {
+    "translation": "Copiar enlace"
+  },
+  "discussions.actions.edit": {
+    "translation": "Editar"
+  },
+  "discussions.actions.pin": {
+    "translation": "Fijar"
+  },
+  "discussions.actions.unpin": {
+    "translation": "Desfijar"
+  },
+  "discussions.actions.delete": {
+    "translation": "Eliminar"
+  },
+  "discussions.confirmation.button.confirm": {
+    "translation": "Confirmar"
+  },
+  "discussions.actions.close": {
+    "translation": "Cerrar"
+  },
+  "discussions.actions.reopen": {
+    "translation": "Reabrir"
+  },
+  "discussions.actions.report": {
+    "translation": "Reportar"
+  },
+  "discussions.actions.unreport": {
+    "translation": "Dejar de reportar"
+  },
+  "discussions.actions.endorse": {
+    "translation": "Aprobar"
+  },
+  "discussions.actions.unendorse": {
+    "translation": "Dejar de aprobar"
+  },
+  "discussions.actions.markAnswered": {
+    "translation": "Marcar como respondido"
+  },
+  "discussions.actions.unMarkAnswered": {
+    "translation": "Dejar de marcar como respondido"
+  },
+  "discussions.modal.confirmation.button.cancel": {
+    "translation": "Cancelar"
+  },
+  "discussions.empty.allTopics": {
+    "translation": "Toda la actividad de discusión para estos temas aparecerá aquí."
+  },
+  "discussions.empty.allPosts": {
+    "translation": "Toda la actividad de discusión para tu curso aparecerá aquí."
+  },
+  "discussions.empty.myPosts": {
+    "translation": "Las publicaciones con las que has interactuado aparecerán aquí."
+  },
+  "discussions.empty.topic": {
+    "translation": "Toda la actividad de discusión para este tema aparecerá aquí."
+  },
+  "discussions.empty.title": {
+    "translation": "Aún no hay nada aquí"
+  },
+  "discussions.empty.noPostSelected": {
+    "translation": "No hay publicación seleccionada"
+  },
+  "discussions.empty.noTopicSelected": {
+    "translation": "No hay tema seleccionado"
+  },
+  "discussions.sidebar.noResultsFound": {
+    "translation": "No se encontraron resultados"
+  },
+  "discussions.sidebar.differentKeywords": {
+    "translation": "Intenta buscar con diferentes palabras clave"
+  },
+  "discussions.sidebar.removeKeywords": {
+    "translation": "Intenta buscar con diferentes palabras clave o eliminar algunos filtros"
+  },
+  "discussions.sidebar.removeKeywordsOnly": {
+    "translation": "Intenta buscar con diferentes palabras clave"
+  },
+  "discussions.sidebar.removeFilters": {
+    "translation": "Intenta eliminar algunos filtros"
+  },
+  "discussions.empty.iconAlt": {
+    "translation": "Vacío"
+  },
+  "discussions.authors.label.staff": {
+    "translation": "Personal"
+  },
+  "discussions.authors.label.moderator": {
+    "translation": "Asistente de enseñanza"
+  },
+  "discussions.authors.label.ta": {
+    "translation": "CTA"
+  },
+  "discussions.learner.loadMostPosts": {
+    "translation": "Cargar más publicaciones"
+  },
+  "discussions.post.anonymous.author": {
+    "translation": "anónimo"
+  },
+  "discussion.blackoutBanner.information": {
+    "translation": "Publicar en discusiones está deshabilitado por el equipo del curso"
+  },
+  "discussions.editor.image.warning.message": {
+    "translation": "Las imágenes con ancho o alto mayor a 999px no serán visibles cuando la publicación, respuesta o comentario se vea usando discusiones integradas en el curso"
+  },
+  "discussions.editor.image.warning.title": {
+    "translation": "¡Advertencia!"
+  },
+  "discussions.editor.image.warning.dismiss": {
+    "translation": "Aceptar"
+  },
+  "discussions.content.unavailable.title": {
+    "translation": "Contenido no disponible"
+  },
+  "discussions.content.unavailable.subTitle": {
+    "translation": "Es posible que no puedas ver este contenido porque no has iniciado sesión, no estás inscrito en el curso o tu acceso de auditoría ha expirado."
+  },
+  "discussions.content.unavailable.action": {
+    "translation": "Inscribirse"
+  },
+  "discussions.author.admin.description": {
+    "translation": "Parte del equipo que dirige este curso"
+  },
+  "discussions.author.learner.title": {
+    "translation": "Aprendiz"
+  },
+  "discussions.author.learner.description": {
+    "translation": "Tomando el curso como tú"
+  },
+  "discussions.page.title": {
+    "translation": "Discusiones | {siteName}"
+  },
+  "navigation.course.tabs.label": {
+    "translation": "Material del curso"
+  },
+  "discussions.confirmEmailBanner": {
+    "translation": "Confirmar ahora"
+  },
+  "discussions.confirmEmailTextReminderBanner": {
+    "translation": "Recuerda confirmar tu correo electrónico para poder seguir publicando! {confirmNowButton}."
+  },
+  "discussions.verifiedConfirmEmailButton": {
+    "translation": "He confirmado mi correo electrónico"
+  },
+  "discussions.confirmEmailModalHeader": {
+    "translation": "Confirma tu correo electrónico"
+  },
+  "discussions.confirmEmailModalBody": {
+    "translation": "Te hemos enviado un correo electrónico para verificar tu cuenta. Por favor, revisa tu bandeja de entrada y haz clic en el gran botón rojo para confirmar y seguir aprendiendo."
+  },
+  "discussions.confirmEmailImageAlt": {
+    "translation": "Fondo de confirmación de correo electrónico"
+  },
+  "discussions.topics.backAlt": {
+    "translation": "Volver a la lista de temas"
+  },
+  "discussions.topics.discussions": {
+    "singular": "# Discusión",
+    "plural": "# Discusiones"
+  },
+  "discussions.topics.questions": {
+    "singular": "# Pregunta",
+    "plural": "# Preguntas"
+  },
+  "discussions.topics.reported": {
+    "translation": "{reported} reportado"
+  },
+  "discussions.topics.previouslyReported": {
+    "translation": "{previouslyReported} reportado anteriormente"
+  },
+  "discussions.topics.find.label": {
+    "translation": "Buscar temas"
+  },
+  "discussions.topics.unnamed.section.label": {
+    "translation": "Sección sin nombre"
+  },
+  "discussions.topics.unnamed.subsection.label": {
+    "translation": "Subsección sin nombre"
+  },
+  "discussions.subtopics.unnamed.topic.label": {
+    "translation": "Tema sin nombre"
+  },
+  "discussions.topics.title": {
+    "translation": "لا يوجد موضوع"
+  },
+  "discussions.topics.createTopic": {
+    "translation": "يرجى الاتصال بمشرفك لإضافة موضوع"
+  },
+  "discussions.topics.nothing": {
+    "translation": "لا يوجد شيء هنا بعد"
+  },
+  "discussions.topics.archived.label": {
+    "translation": "مؤرشف"
+  },
+  "discussions.learner.reported": {
+    "translation": "{reported} تم الإبلاغ عنه"
+  },
+  "discussions.learner.previouslyReported": {
+    "translation": "{previouslyReported} تم الإبلاغ عنه مسبقًا"
+  },
+  "discussions.learner.lastLogin": {
+    "translation": "آخر نشاط {lastActiveTime}"
+  },
+  "discussions.learner.loadMostLearners": {
+    "translation": "تحميل المزيد"
+  },
+  "discussions.learner.back": {
+    "translation": "رجوع"
+  },
+  "discussions.learner.activityForLearner": {
+    "translation": "نشاط لـ {username}"
+  },
+  "discussions.learner.mostActivity": {
+    "translation": "أكثر نشاطًا"
+  },
+  "discussions.learner.reportedActivity": {
+    "translation": "نشاط تم الإبلاغ عنه"
+  },
+  "discussions.learner.recentActivity": {
+    "translation": "نشاط حديث"
+  },
+  "discussions.learner.sortFilterStatus": {
+    "translation": "جميع المتعلمين مرتبة حسب {sort, select, flagged {نشاط تم الإبلاغ عنه} activity {أكثر نشاطًا} other {{sort}} }"
+  },
+  "discussion.learner.allActivity": {
+    "translation": "جميع الأنشطة"
+  },
+  "discussion.learner.posts": {
+    "translation": "المواضيع"
+  },
+  "discussions.comments.comment.addComment": {
+    "translation": "إضافة تعليق"
+  },
+  "discussions.comments.comment.addResponse": {
+    "translation": "إضافة رد"
+  },
+  "discussions.comments.comment.abuseFlaggedMessage": {
+    "translation": "تم الإبلاغ عن المحتوى للموظفين المراجعة"
+  },
+  "discussions.actions.back.alt": {
+    "translation": "الرجوع إلى القائمة"
+  },
+  "discussions.comments.comment.responseCount": {
+    "translation": "{num, plural, =0 {لا يوجد ردود} one {عرض # رد} other {عرض # ردود} }"
+  },
+  "discussions.comments.comment.endorsedResponseCount": {
+    "translation": "{num, plural, =0 {لا يوجد ردود موصى بها} one {عرض # رد موصى به} other {عرض # ردود موصى بها} }"
+  },
+  "discussions.comments.comment.loadMoreComments": {
+    "translation": "تحميل المزيد من التعليقات"
+  },
+  "discussions.comments.comment.loadMoreResponses": {
+    "translation": "تحميل المزيد من الردود"
+  },
+  "discussions.comments.comment.visibility": {
+    "translation": "هذا الموضوع مرئي لـ {group, select, null {جميع} other {{group}} }."
+  },
+  "discussions.comments.comment.postedTime": {
+    "translation": "{postType, select, discussion {مناقشة} question {سؤال} other {{postType}} } تم نشره {relativeTime} بواسطة"
+  },
+  "discussions.comments.comment.commentTime": {
+    "translation": "تم النشر {relativeTime}"
+  },
+  "discussions.comments.comment.answer": {
+    "translation": "إجابة"
+  },
+  "discussions.comments.comment.answeredlabel": {
+    "translation": "تم تحديده كإجابة بواسطة"
+  },
+  "discussions.comments.comment.endorsed": {
+    "translation": "موصى به"
+  },
+  "discussions.comments.comment.endorsedlabel": {
+    "translation": "موصى به بواسطة"
+  },
+  "discussions.actions.label": {
+    "translation": "قائمة الإجراءات"
+  },
+  "discussions.editor.submit": {
+    "translation": "إرسال"
+  },
+  "discussions.editor.submitting": {
+    "translation": "جاري الإرسال"
+  },
+  "discussions.editor.cancel": {
+    "translation": "إلغاء"
+  },
+  "discussions.editor.error.empty": {
+    "translation": "لا يمكن أن يكون محتوى المنشور فارغًا."
+  },
+  "discussions.editor.delete.response.title": {
+    "translation": "حذف الرد"
+  },
+  "discussions.editor.delete.response.description": {
+    "translation": "هل أنت متأكد أنك تريد حذف هذا الرد بشكل دائم؟"
+  },
+  "discussions.editor.delete.comment.title": {
+    "translation": "حذف التعليق"
+  },
+  "discussions.editor.delete.comment.description": {
+    "translation": "هل أنت متأكد أنك تريد حذف هذا التعليق بشكل دائم؟"
+  },
+  "discussions.delete.confirmation.button.delete": {
+    "translation": "حذف"
+  },
+  "discussions.editor.response.response.title": {
+    "translation": "الإبلاغ عن محتوى غير لائق؟"
+  },
+  "discussions.editor.response.description": {
+    "translation": "سيقوم فريق مراجعة المناقشات بمراجعة هذا المحتوى واتخاذ الإجراءات المناسبة."
+  },
+  "discussions.editor.report.comment.title": {
+    "translation": "الإبلاغ عن محتوى غير لائق؟"
+  },
+  "discussions.editor.report.comment.description": {
+    "translation": "سيقوم فريق مراجعة المناقشات بمراجعة هذا المحتوى واتخاذ الإجراءات المناسبة."
+  },
+  "discussions.editor.comments.editReasonCode": {
+    "translation": "سبب التحرير"
+  },
+  "discussions.editor.posts.editReasonCode.error": {
+    "translation": "اختر سبب التحرير"
+  },
+  "discussions.comment.comments.editedBy": {
+    "translation": "تم تحريره بواسطة"
+  },
+  "discussions.comment.comments.fullStop": {
+    "translation": "•"
+  },
+  "discussions.comment.comments.reason": {
+    "translation": "سبب"
+  },
+  "discussions.post.closedBy": {
+    "translation": "تم إغلاق الموضوع بواسطة"
+  },
+  "discussion.comment.time": {
+    "translation": "منذ {time}"
+  },
+  "discussion.thread.notFound": {
+    "translation": "لم يتم العثور على الموضوع"
+  },
+  "discussions.comment.sortFilterStatus": {
+    "translation": "{sort, select, false {الأقدم أولًا} true {الأحدث أولًا} other {{sort}} }"
+  },
+  "discussions.captcha.verification.label": {
+    "translation": "فشل التحقق من CAPTCHA."
+  },
+  "discussions.topics.sort.message": {
+    "translation": "مرتبة حسب {sortBy}"
+  },
+  "discussions.topics.sort.lastActivity": {
+    "translation": "نشاط حديث"
+  },
+  "discussions.topics.sort.commentCount": {
+    "translation": "أكثر نشاطًا"
+  },
+  "discussions.topics.sort.courseStructure": {
+    "translation": "هيكل الدورة"
+  },
+  "discussions.topics.unnamed.label": {
+    "translation": "فئة غير مسماة"
+  },
+  "discussions.subtopics.unnamed.label": {
+    "translation": "فئة فرعية غير مسماة"
+  },
+  "tour.action.advance": {
+    "translation": "التالي"
+  },
+  "tour.action.dismiss": {
+    "translation": "إغفال"
+  },
+  "tour.action.end": {
+    "translation": "حسنًا"
+  },
+  "tour.title.notifyAllLearners": {
+    "translation": "أبلغ المتعلمين."
+  },
+  "tour.body.notifyAllLearners": {
+    "translation": "اختر هذا الخانة لإبلاغ جميع المتعلمين."
+  },
+  "learn.course.tabs.navigation.overflow.menu": {
+    "translation": "المزيد..."
+  },
+  "discussions.navigation.breadcrumbMenu.allTopics": {
+    "translation": "المواضيع"
+  },
+  "discussions.navigation.breadcrumbMenu.showAll": {
+    "translation": "إظهار الكل"
+  },
+  "discussions.navigation.navigationBar.allPosts": {
+    "translation": "جميع المواضيع"
+  },
+  "discussions.navigation.navigationBar.allTopics": {
+    "translation": "المواضيع"
+  },
+  "discussions.navigation.navigationBar.myPosts": {
+    "translation": "موضوعاتي"
+  },
+  "discussions.navigation.navigationBar.learners": {
+    "translation": "المتعلمون"
+  },
+  "discussions.post.author.anonymous": {
+    "translation": "مجهول"
+  },
+  "discussions.post.addResponse": {
+    "translation": "إضافة رد"
+  },
+  "discussions.post.lastResponse": {
+    "translation": "آخر رد {time}"
+  },
+  "discussions.post.postedOn": {
+    "translation": "تم النشر {time} بواسطة {author} {authorLabel}"
+  },
+  "discussions.post.contentReported": {
+    "translation": "تم الإبلاغ عنه"
+  },
+  "discussions.post.following": {
+    "translation": "متابعة"
+  },
+  "discussions.post.follow": {
+    "translation": "متابعة"
+  },
+  "discussions.post.followed": {
+    "translation": "تم المتابعة"
+  },
+  "discussions.post.notFollowed": {
+    "translation": "لم يتم المتابعة"
+  },
+  "discussions.post.answered": {
+    "translation": "تم الإجابة"
+  },
+  "discussions.post.unFollow": {
+    "translation": "إلغاء المتابعة"
+  },
+  "discussions.post.like": {
+    "translation": "إعجاب"
+  },
+  "discussions.post.removeLike": {
+    "translation": "إلغاء الإعجاب"
+  },
+  "discussions.post.liked": {
+    "translation": "عجب"
+  },
+  "discussions.post.likes": {
+    "translation": "إعجابات"
+  },
+  "discussions.post.viewActivity": {
+    "translation": "عرض النشاط"
+  },
+  "discussions.post.activity": {
+    "translation": "نشاط"
+  },
+  "discussions.post.closed": {
+    "translation": "تم إغلاق الموضوع للردود والتعليقات"
+  },
+  "discussions.post.relatedTo": {
+    "translation": "مرتبط بـ"
+  },
+  "discussions.editor.delete.post.title": {
+    "translation": "حذف الموضوع"
+  },
+  "discussions.editor.delete.post.description": {
+    "translation": "هل أنت متأكد أنك تريد حذف هذا الموضوع بشكل دائم؟"
+  },
+  "discussions.post.delete.confirmation.button.delete": {
+    "translation": "حذف"
+  },
+  "discussions.editor.report.post.title": {
+    "translation": "الإبلاغ عن محتوى غير لائق؟"
+  },
+  "discussions.editor.report.post.description": {
+    "translation": "سيقوم فريق مراجعة المناقشات بمراجعة هذا المحتوى واتخاذ الإجراءات المناسبة."
+  },
+  "discussions.post.closePostModal.title": {
+    "translation": "إغلاق الموضوع"
+  },
+  "discussions.post.closePostModal.text": {
+    "translation": "أدخل سبب إغلاق هذا الموضوع. هذا لن يتم عرضه إلا للمشرفين الآخرين."
+  },
+  "discussions.post.closePostModal.reasonCodeInput": {
+    "translation": "سبب"
+  },
+  "discussions.post.closePostModal.cancel": {
+    "translation": "إلغاء"
+  },
+  "discussions.post.closePostModal.confirm": {
+    "translation": "إغلاق الموضوع"
+  },
+  "discussions.post.label.new": {
+    "translation": "{count} جديد"
+  },
+  "discussions.post.editedBy": {
+    "translation": "تم تحريره بواسطة"
+  },
+  "discussions.post.editReason": {
+    "translation": "سبب"
+  },
+  "discussions.post.postWithoutPreview": {
+    "translation": "لا يوجد معاينة متاحة"
+  },
+  "discussions.post.follow.description": {
+    "translation": "أنت متابع لهذا الموضوع"
+  },
+  "discussions.post.unfollow.description": {
+    "translation": "أنت غير متابع لهذا الموضوع"
+  },
+  "discussions.app.title": {
+    "translation": "مناقشات"
+  },
+  "discussions.posts.actionBar.searchAllPosts": {
+    "translation": "البحث في جميع المواضيع"
+  },
+  "discussions.posts.actionBar.search": {
+    "translation": "{page, select, topics {البحث في المواضيع} posts {البحث في جميع المواضيع} learners {البحث في المتعلمين} myPosts {البحث في جميع المواضيع} other {{page}} }"
+  },
+  "discussions.actionBar.searchInfo": {
+    "translation": "إظهار {count} نتيجة لـ \"{text}\""
+  },
+  "discussions.actionBar.searchRewriteInfo": {
+    "translation": "لم يتم العثور على نتائج لـ \"{searchString}\". إظهار {count} نتيجة لـ \"{textSearchRewrite}\"."
+  },
+  "discussions.actionBar.searchInfoSearching": {
+    "translation": "جاري البحث..."
+  },
+  "discussions.actionBar.clearSearch": {
+    "translation": "مسح النتائج"
+  },
+  "discussion.posts.actionBar.add": {
+    "translation": "إضافة موضوع"
+  },
+  "discussion.posts.actionBar.close": {
+    "translation": "إغلاق"
+  },
+  "discussion.posts.confirm.email.title": {
+    "translation": "تأكيد بريدك الإلكتروني"
+  },
+  "discussion.posts.confirm.email.description": {
+    "translation": "ستحتاج إلى تأكيد بريدك الإلكتروني قبل أن تتمكن من المشاركة في المناقشات. انقر فوق الزر أدناه لاستلام بريد إلكتروني يحتوي على رابط تأكيد. افتحه، ثم تحديث هذه الصفحة لبدء المساهمة. لم تجد؟ تحقق من مجلد البريد غير المرغوب فيه أو إعادة إرسال البريد."
+  },
+  "discussion.posts.confirm.email.button": {
+    "translation": "إرسال رابط التأكيد"
+  },
+  "discussion.posts.close.button": {
+    "translation": "إغلاق"
+  },
+  "discussion.posts.limit.title": {
+    "translation": "تم الوصول إلى الحد الأقصى للمواضيع"
+  },
+  "discussion.posts.limit.description": {
+    "translation": "لقد وصل إلى الحد الأقصى للمواضيع الحالي. يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "discussions.post.editor.type": {
+    "translation": "نوع الموضوع"
+  },
+  "discussions.post.editor.addPostHeading": {
+    "translation": "إضافة موضوع"
+  },
+  "discussions.post.editor.editPostHeading": {
+    "translation": "تحرير الموضوع"
+  },
+  "discussions.post.editor.typeDescription": {
+    "translation": "تثير الأسئلة قضايا تحتاج إلى إجابات. المناقشات تشارك الأفكار وتبدأ المحادثات."
+  },
+  "discussions.post.editor.required": {
+    "translation": "مطلوب"
+  },
+  "discussions.post.editor.questionType": {
+    "translation": "سؤال"
+  },
+  "discussions.post.editor.questionDescription": {
+    "translation": "تثير قضايا تحتاج إلى إجابات"
+  },
+  "discussions.post.editor.discussionType": {
+    "translation": "مناقشة"
+  },
+  "discussions.post.editor.discussionDescription": {
+    "translation": "مشاركة الأفكار وتstarting المحادثات"
+  },
+  "discussions.post.editor.topicArea": {
+    "translation": "منطقة الموضوع"
+  },
+  "discussions.post.editor.topicAreaDescription": {
+    "translation": "أضف موضوعك إلى موضوع ذات صلة لمساعدة الآخرين على العثور عليه."
+  },
+  "discussions.post.editor.cohortVisibility": {
+    "translation": "Visibility of Cohort"
+  },
+  "discussions.post.editor.cohortVisibilityAllLearners": {
+    "translation": "جميع المتعلمين"
+  },
+  "discussions.post.editor.title": {
+    "translation": "عنوان الموضوع"
+  },
+  "discussions.post.editor.titleDescription": {
+    "translation": "أضف عنوانًا واضحًا ووصفيًا لتشجيع المشاركة."
+  },
+  "discussions.post.editor.title.error": {
+    "translation": "لا يمكن أن يكون عنوان الموضوع فارغًا."
+  },
+  "discussions.post.editor.content.error": {
+    "translation": "لا يمكن أن يكون محتوى الموضوع فارغًا."
+  },
+  "discussions.post.editor.questionText": {
+    "translation": "سؤالك أو فكرتك (مطلوب)"
+  },
+  "discussions.post.editor.preview": {
+    "translation": "معاينة"
+  },
+  "discussions.post.editor.followPost": {
+    "translation": "متابعة هذا الموضوع"
+  },
+  "discussions.post.editor.anonymousPost": {
+    "translation": "نشر بشكل مجهول"
+  },
+  "discussions.post.editor.anonymousToPeersPost": {
+    "translation": "نشر بشكل مجهول للزملاء"
+  },
+  "discussions.post.editor.notifyAllLearners": {
+    "translation": "إبلاغ جميع المتعلمين"
+  },
+  "discussions.editor.posts.editReasonCode": {
+    "translation": "سبب التحرير"
+  },
+  "discussions.editor.posts.showPreview.button": {
+    "translation": "إظهار معاينة"
+  },
+  "discussions.editor.posts.showHelp.icon": {
+    "translation": "إظهار المساعدة"
+  },
+  "discussions.editor.posts.discussionHelpHeader": {
+    "translation": "مساعدة المناقشات"
+  },
+  "discussions.editor.posts.discussionHelpDescription": {
+    "translation": "توفر مناقشات الدورة لك الفرصة لبدء المحادثات، طرح الأسئلة، والتفاعل مع المتعلمين الآخرين. انظر الروابط أدناه لمعرفة المزيد:"
+  },
+  "discussions.editor.posts.discussionHelpCourseParticipation": {
+    "translation": "المشاركة في مناقشات الدورة"
+  },
+  "discussions.editor.posts.discussionHelpMathExpressions": {
+    "translation": "إدخال تعابير رياضية في مناقشات الدورة"
+  },
+  "discussions.editor.posts.discussionHelpTooltip": {
+    "translation": "تعلم المزيد عن MathJax & LaTeX"
+  },
+  "discussions.topic.noName.label": {
+    "translation": "فئة غير مسماة"
+  },
+  "discussions.subtopic.noName.label": {
+    "translation": "فئة فرعية غير مسماة"
+  },
+  "discussions.posts.filter.showALl": {
+    "translation": "إظهار الكل"
+  },
+  "discussions.posts.filter.discussions": {
+    "translation": "مناقشات"
+  },
+  "discussions.posts.filter.questions": {
+    "translation": "أسئلة"
+  },
+  "discussions.posts.filter.message": {
+    "translation": "الحالة: {filterBy}"
+  },
+  "discussions.posts.status.filter.anyStatus": {
+    "translation": "أي حالة"
+  },
+  "discussions.posts.status.filter.unread": {
+    "translation": "غير مقروء"
+  },
+  "discussions.posts.status.filter.following": {
+    "translation": "متابعة"
+  },
+  "discussions.posts.status.filter.reported": {
+    "translation": "تم الإبلاغ عنه"
+  },
+  "discussions.posts.status.filter.unanswered": {
+    "translation": "غير مجاب"
+  },
+  "discussions.posts.status.filter.unresponded": {
+    "translation": "غير مجاب"
+  },
+  "discussions.posts.filter.myPosts": {
+    "translation": "موضوعاتي"
+  },
+  "discussions.posts.filter.myDiscussions": {
+    "translation": "مناقشاتي"
+  },
+  "discussions.posts.filter.myQuestions": {
+    "translation": "أسئلتي"
+  },
+  "discussions.posts.sort.message": {
+    "translation": "مرتبة حسب {sortBy}"
+  },
+  "discussions.posts.sort.lastActivity": {
+    "translation": "نشاط حديث"
+  },
+  "discussions.posts.sort.commentCount": {
+    "translation": "أكثر نشاطًا"
+  },
+  "discussions.posts.sort.voteCount": {
+    "translation": "أكثر إعجابات"
+  },
+  "discussions.posts.sort-filter.sortFilterStatus": {
+    "translation": "{own, select, false {جميع} true {خاصة بي} other {{own}} } {status, select, statusAll {} statusUnread {غير مقروء} statusFollowing {متابعة} statusReported {تم الإبلاغ عنه} statusUnanswered {غير مجاب} statusUnresponded {غير مجاب} other {{status}} } {type, select, discussion {مناقشات} question {أسئلة} all {موضوعات} other {{type}} } {cohortType, select, all {} group {في {cohort}} other {{cohortType}} } مرتبة حسب {sort, select, lastActivityAt {نشاط حديث} commentCount {أكثر نشاطًا} voteCount {أكثر إعجابات} other {{sort}} }"
+  }
+}
