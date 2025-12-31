@@ -476,5 +476,9 @@
   "courseOutline.tray.title": "خطة المساق",
   "courseOutline.completedUnit": "وحدة مكتملة",
   "courseOutline.incompleteUnit": "وحدة غير مكتملة",
-  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات"
+  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات",
+  "progress.courseGrade.footer.dueDateNotice": "",
+  "progress.hiddenScoreLabel": "",
+  "progress.hiddenScoreInfoText": "",
+  "progress.hiddenScoreLockInfoText": ""
 }
