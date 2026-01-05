@@ -476,5 +476,9 @@
   "courseOutline.tray.title": "خطة المساق",
   "courseOutline.completedUnit": "وحدة مكتملة",
   "courseOutline.incompleteUnit": "وحدة غير مكتملة",
-  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات"
+  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات",
+  "progress.courseGrade.footer.dueDateNotice": "لم يتم تضمين بعض درجات الفروض في درجتك الإجمالية بعد. سيتم إصدار هذه الدرجات بحلول {dueDate}.",
+  "progress.hiddenScoreLabel": "الدرجات المخفية",
+  "progress.hiddenScoreInfoText": "درجات الفروض التي تُحسب ضمن درجتك النهائية ولكن لا يظهر بعضها هنا.",
+  "progress.hiddenScoreLockInfoText": "درجات نوع الفرض مخفية ولكن لا تزال تُحسب ضمن درجة الدورة التدريبية."
 }
