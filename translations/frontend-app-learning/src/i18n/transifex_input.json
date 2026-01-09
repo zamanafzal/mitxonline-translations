@@ -480,5 +480,13 @@
   "courseOutline.tray.title": "Course outline",
   "courseOutline.completedUnit": "Completed unit",
   "courseOutline.incompleteUnit": "Incomplete unit",
-  "discussions.sidebar.open.button": "Show discussions tray"
+  "discussions.sidebar.open.button": "Show discussions tray",
+    "test.icu.plural.existing": "{activityCount, plural, one {# activity} other {# activities}}",
+  "test.icu.plural.complex": "{itemCount, plural, one {You have # item in your cart} other {You have # items in your cart}}",
+  "test.icu.plural.with.variable": "{userCount, plural, one {# user is online} other {# users are online}}",
+  "test.plural.singular": "You have one notification",
+  "test.plural.plural": "You have multiple notifications",
+  "test.singular.simple": "Migrating to Problem Bank",
+  "test.singular.with.placeholder": "Welcome, {userName}!",
+  "test.icu.preserve.structure": "{count, plural, one {Select # option} other {Select # options}}"
 }
