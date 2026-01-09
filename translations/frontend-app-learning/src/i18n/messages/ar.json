@@ -476,5 +476,17 @@
   "courseOutline.tray.title": "خطة المساق",
   "courseOutline.completedUnit": "وحدة مكتملة",
   "courseOutline.incompleteUnit": "وحدة غير مكتملة",
-  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات"
+  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات",
+  "progress.courseGrade.footer.dueDateNotice": "بعض نتائج الواجبات غير مضمنة بعد في درجتك الكلية. سيتم إصدار هذه الدرجات بحلول {dueDate}.",
+  "progress.hiddenScoreLabel": "الدرجات المخفية",
+  "progress.hiddenScoreInfoText": "درجات من الواجبات التي تُحسب ضمن درجتك النهائية ولكن بعضها لا يظهر هنا.",
+  "progress.hiddenScoreLockInfoText": "الدرجات لنوع واجب معين مخفية ولكنها لا تزال تُحسب ضمن درجة المقرر الدراسي.",
+  "test.icu.plural.existing": "{activityCount, plural, one {نشاط واحد} two {نشاطان} few {# أنشطة} many {# نشاطًا} other {# نشاط}}",
+  "test.icu.plural.complex": "{itemCount, plural, one {لديك عنصر واحد في عربة التسوق} two {لديك عنصران في عربة التسوق} few {لديك # عناصر في عربة التسوق} many {لديك # عنصرًا في عربة التسوق} other {لديك # عنصر في عربة التسوق}}",
+  "test.icu.plural.with.variable": "{userCount, plural, one {مستخدم واحد متصل} two {مستخدمان متصلان} few {# مستخدمين متصلين} many {# مستخدمًا متصلاً} other {# مستخدم متصل}}",
+  "test.plural.singular": "لديك إشعار واحد",
+  "test.plural.plural": "لديك إشعارات متعددة",
+  "test.singular.simple": "الانتقال إلى بنك المشكلات",
+  "test.singular.with.placeholder": "أهلاً بك، {userName}!",
+  "test.icu.preserve.structure": "{count, plural, one {حدد خيارًا واحدًا} two {حدد خيارين} few {حدد # خيارات} many {حدد # خيارًا} other {حدد # خيار}}"
 }
