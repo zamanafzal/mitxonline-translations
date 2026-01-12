@@ -2,7 +2,7 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # Translators:
 # Ghassan Maslamani <ghassan.maslamani@gmail.com>, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
@@ -10,7 +10,7 @@
 # Omar Al-Ithawi <i@omardo.com>, 2025
 # Sulaiman Muthanna, 2025
 # Brian Smith, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -19,10 +19,10 @@ msgstr ""
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
@@ -14179,3 +14179,494 @@ msgid ""
 msgstr ""
 "{display_name} متاح فقط للمتعلمين المسجلين. قم بتسجيل الدخول أو التسجيل ، "
 "والتسجيل في هذا المساق لمشاهدته."
+
+#: cms/djangoapps/contentstore/models.py:95
+msgid "Upstream context key i.e., learning_package/library key"
+msgstr "مفتاح سياق المنبع، أي مفتاح learning_package/library"
+
+#: cms/djangoapps/contentstore/models.py:157
+msgid ""
+"Upstream block usage key, this value cannot be null and useful to track "
+"upstream library blocks that do not exist yet"
+msgstr ""
+"مفتاح استخدام كتلة المنبع، لا يمكن أن تكون هذه القيمة فارغة وهي مفيدة لتتبع "
+"كتل مكتبة المنبع التي لا توجد بعد"
+
+#: cms/djangoapps/contentstore/models.py:329
+msgid ""
+"Upstream block key (e.g. lct:...), this value cannot be null and is useful "
+"to track upstream library blocks that do not exist yet or were deleted."
+msgstr ""
+"مفتاح كتلة المنبع (مثل lct:...)، لا يمكن أن تكون هذه القيمة فارغة وهي مفيدة "
+"لتتبع كتل مكتبة المنبع التي لا توجد بعد أو التي تم حذفها."
+
+#: cms/djangoapps/modulestore_migrator/models.py:52
+msgid "Key of the content source (a course or a legacy library)"
+msgstr "مفتاح مصدر المحتوى (مقرر أو مكتبة قديمة)"
+
+#: cms/djangoapps/modulestore_migrator/models.py:59
+msgid ""
+"If set, the system will forward references of this source over to the target"
+" of this migration"
+msgstr ""
+"إذا تم تعيينه، فسيقوم النظام بتمرير مراجع هذا المصدر إلى هدف هذا الترحيل"
+
+#: cms/djangoapps/modulestore_migrator/models.py:92
+msgid "Migrated content version, the hash of published content version"
+msgstr "إصدار المحتوى المُرحَّل، تجزئة (hash) إصدار المحتوى المنشور"
+
+#: cms/djangoapps/modulestore_migrator/models.py:98
+msgid ""
+"Maximum hierachy level at which content should be aggregated in target "
+"library"
+msgstr "أقصى مستوى هرمي يجب عنده تجميع المحتوى في المكتبة الهدف"
+
+#: cms/djangoapps/modulestore_migrator/models.py:105
+msgid ""
+"If a piece of content already exists in the content library, choose how to "
+"handle it."
+msgstr ""
+"إذا كانت قطعة من المحتوى موجودة بالفعل في مكتبة المحتوى، فاختر كيفية التعامل"
+" معها."
+
+#: cms/djangoapps/modulestore_migrator/models.py:111
+msgid ""
+"Should the migration preserve the location IDs of the existing blocks?If "
+"not, then new, unique human-readable IDs will be generated based on the "
+"block titles."
+msgstr ""
+"هل ينبغي أن يحافظ الترحيل على معرّفات الموقع (location IDs) للكتل الموجودة؟ "
+"إذا لم يكن كذلك، فسيتم إنشاء معرّفات جديدة وفريدة قابلة للقراءة للبشر بناءً "
+"على عناوين الكتل."
+
+#: cms/djangoapps/modulestore_migrator/models.py:118
+msgid "Content will be imported into this library"
+msgstr "سيتم استيراد المحتوى إلى هذه المكتبة"
+
+#: cms/djangoapps/modulestore_migrator/models.py:125
+msgid ""
+"Optional - Collection (within the target library) into which imported "
+"content will be grouped"
+msgstr "اختياري - مجموعة (ضمن المكتبة الهدف) سيتم تجميع المحتوى المستورد فيها"
+
+#: cms/djangoapps/modulestore_migrator/models.py:133
+msgid ""
+"Tracks the status of the task which is executing this migration. In a bulk "
+"migration, the same task can be multiple migrations"
+msgstr ""
+"يتتبع حالة المهمة التي تنفّذ هذا الترحيل. في الترحيل الجماعي، يمكن أن تكون "
+"المهمة نفسها لعدة عمليات ترحيل"
+
+#: cms/djangoapps/modulestore_migrator/models.py:142
+msgid ""
+"Changelog entry in the target learning package which records this migration"
+msgstr "إدخال سجل التغييرات في حزمة التعلّم الهدف الذي يسجّل هذا الترحيل"
+
+#: cms/djangoapps/modulestore_migrator/models.py:149
+msgid ""
+"Modulestore content is processed and staged before importing it to a "
+"learning packge. We temporarily save the staged content to allow for "
+"troubleshooting of failed migrations."
+msgstr ""
+"تتم معالجة محتوى Modulestore وتجهيزه قبل استيراده إلى حزمة تعلّم. نقوم بحفظ "
+"المحتوى المُجهّز مؤقتًا للسماح باستكشاف أخطاء عمليات الترحيل الفاشلة "
+"وإصلاحها."
+
+#: cms/djangoapps/modulestore_migrator/models.py:161
+msgid "is the migration failed?"
+msgstr "هل فشل الترحيل؟"
+
+#: cms/djangoapps/modulestore_migrator/models.py:194
+msgid "Original usage key of the XBlock that has been imported."
+msgstr "مفتاح الاستخدام الأصلي لـ XBlock الذي تم استيراده."
+
+#: cms/djangoapps/modulestore_migrator/models.py:201
+msgid ""
+"If set, the system will forward references of this block source over to the "
+"target of this block migration"
+msgstr ""
+"إذا تم تعيينه، فسيقوم النظام بتمرير مراجع مصدر هذه الكتلة إلى هدف ترحيل هذه "
+"الكتلة"
+
+#: cms/djangoapps/modulestore_migrator/models.py:235
+msgid ""
+"The target entity of this block migration, set to null if it fails to "
+"migrate"
+msgstr "الكيان الهدف لترحيل هذه الكتلة؛ يُعيَّن إلى null إذا فشل الترحيل"
+
+#: cms/djangoapps/modulestore_migrator/models.py:249
+msgid "Reason if the block is unsupported and target is set to null"
+msgstr "السبب إذا كانت الكتلة غير مدعومة وتم تعيين الهدف إلى null"
+
+#: cms/djangoapps/modulestore_migrator/tasks.py:816
+#, python-brace-format
+msgid " It has {count} children block."
+msgid_plural " It has {count} children blocks."
+msgstr[0] "يحتوي على كتلة فرعية واحدة ({count})."
+msgstr[1] "يحتوي على كتل فرعية ({count})."
+
+#: cms/lib/xblock/upstream_sync.py:255
+msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
+msgstr ""
+"الجهة التابعة (Downstream) ليست XBlock أو تفتقد UpstreamSyncMixin المطلوب"
+
+#: cms/lib/xblock/upstream_sync.py:269
+msgid "Reference to linked library item is malformed"
+msgstr "مرجع عنصر المكتبة المرتبط غير صحيح"
+
+#: cms/lib/xblock/upstream_sync.py:281
+msgid "Linked upstream library block was not found in the system"
+msgstr "لم يتم العثور على كتلة مكتبة المنبع المرتبطة في النظام"
+
+#: cms/lib/xblock/upstream_sync.py:288
+msgid "Linked upstream library container was not found in the system"
+msgstr "لم يتم العثور على حاوية مكتبة المنبع المرتبطة في النظام"
+
+#: cms/lib/xblock/upstream_sync.py:292
+msgid "Linked `upstream_key` is not a valid key"
+msgstr "`upstream_key` المرتبط ليس مفتاحًا صالحًا"
+
+#: common/djangoapps/student/admin.py:319
+#, python-format
+msgid "Successfully reverted %(count)d selected history entry."
+msgid_plural "Successfully reverted %(count)d selected history entries."
+msgstr[0] "تمت استعادة إدخال السجل المحدد (%(count)d) بنجاح."
+msgstr[1] "تمت استعادة إدخالات السجل المحددة (%(count)d) بنجاح."
+
+#: common/djangoapps/student/admin.py:349
+#, python-format
+msgid "Successfully deleted %(count)d selected history entry."
+msgid_plural "Successfully deleted %(count)d selected history entries."
+msgstr[0] "تم حذف إدخال السجل المحدد (%(count)d) بنجاح."
+msgstr[1] "تم حذف إدخالات السجل المحددة (%(count)d) بنجاح."
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:49
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                "
+msgstr[0] ""
+"لقد حدّدت هدفًا للتعلّم {start_bold}%(days_per_week)s مرة في الأسبوع في "
+"%(course_name)s{end_bold}. الآن الأمر متروك لك لتحويل هذه الأهداف إلى واقع."
+msgstr[1] ""
+"لقد حدّدت هدفًا للتعلّم {start_bold}%(days_per_week)s مرات في الأسبوع في "
+"%(course_name)s{end_bold}. الآن الأمر متروك لك لتحويل هذه الأهداف إلى واقع."
+
+#: lms/djangoapps/instructor/views/api.py:1508
+#, python-brace-format
+msgid ""
+"Invalid additional student attribute configuration: expected list of "
+"strings, got {type}."
+msgstr ""
+"تهيئة سمة طالب إضافية غير صالحة: كان المتوقع قائمة من السلاسل النصية، لكن تم"
+" الحصول على {type}."
+
+#: lms/djangoapps/instructor/views/api.py:1513
+msgid ""
+"Invalid additional student attribute configuration: all entries must be "
+"strings."
+msgstr ""
+"تهيئة سمة طالب إضافية غير صالحة: يجب أن تكون جميع الإدخالات سلاسل نصية."
+
+#: lms/djangoapps/instructor/views/api.py:1518
+msgid ""
+"Invalid additional student attribute configuration: empty attribute names "
+"are not allowed."
+msgstr "تهيئة سمة طالب إضافية غير صالحة: لا يُسمح بأسماء سمات فارغة."
+
+#: lms/djangoapps/instructor/views/api.py:1524
+#, python-brace-format
+msgid "Invalid additional student attributes: {attrs}"
+msgstr "سمات الطالب الإضافية غير صالحة: {attrs}"
+
+#: lms/djangoapps/instructor/views/api.py:1661
+#: lms/djangoapps/instructor_task/api_helper.py:117
+msgid "inactive enrollment"
+msgstr "تسجيل غير نشط"
+
+#: lms/djangoapps/instructor/views/api.py:3249
+#, python-brace-format
+msgid "Could not find student matching identifier: {student}"
+msgstr "تعذر العثور على طالب يطابق المعرّف: {student}"
+
+#: lms/djangoapps/instructor/views/api.py:3633
+msgid ""
+"Please select certificate statuses that lie with in \"certificate_statuses\""
+" entry in POST data."
+msgstr ""
+"يرجى تحديد حالات الشهادة الموجودة ضمن إدخال \"certificate_statuses\" في "
+"بيانات POST."
+
+#: lms/djangoapps/instructor/views/api_v2.py:327
+#, python-brace-format
+msgid "Successfully changed due date for learner {0} for {1} to {2}"
+msgstr "تم تغيير تاريخ الاستحقاق للمتعلم {0} لـ {1} إلى {2} بنجاح"
+
+#: lms/djangoapps/instructor/views/serializer.py:543
+msgid ""
+"You must provide either unique_student_identifier or set all_students to "
+"True."
+msgstr "يجب توفير unique_student_identifier أو تعيين all_students إلى True."
+
+#: lms/djangoapps/instructor/views/serializer.py:571
+msgid "The overriding score to set."
+msgstr "الدرجة البديلة المراد تعيينها."
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:133
+msgid "Bulk Email"
+msgstr "بريد إلكتروني جماعي"
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:141
+msgid "Date Extensions"
+msgstr "تمديدات المواعيد"
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:149
+msgid "Data Downloads"
+msgstr "تنزيلات البيانات"
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:403
+#, python-brace-format
+msgid "Invalid learner identifier: {0}"
+msgstr "معرّف متعلم غير صالح: {0}"
+
+#: lms/djangoapps/lti_provider/models.py:44
+msgid ""
+"When checked, the platform will automatically use any personal information "
+"provided via LTI to create an account. Otherwise an anonymous account will "
+"be created."
+msgstr ""
+"عند تحديده، ستستخدم المنصة تلقائيًا أي معلومات شخصية يتم توفيرها عبر LTI "
+"لإنشاء حساب. وإلا فسيتم إنشاء حساب مجهول."
+
+#: lms/templates/video.html:154
+msgid "How is the transcript quality?"
+msgstr "ما جودة التفريغ النصي؟"
+
+#: openedx/core/djangoapps/content_libraries/api/blocks.py:301
+msgid "Library cannot have more than {} Components."
+msgstr "لا يمكن أن تحتوي المكتبة على أكثر من {} مكوّنات."
+
+#: openedx/core/djangoapps/content_libraries/api/blocks.py:313
+#, python-brace-format
+msgid ""
+"The \"{block_type}\" XBlock (ID: \"{block_id}\") has children, so it not "
+"supported in content libraries."
+msgstr ""
+"يحتوي XBlock من النوع \"{block_type}\" (المعرّف: \"{block_id}\") على عناصر "
+"فرعية، لذا فهو غير مدعوم في مكتبات المحتوى."
+
+#: openedx/core/djangoapps/content_libraries/api/blocks.py:325
+#, python-brace-format
+msgid "An XBlock with ID '{usage_key}' already exists."
+msgstr "يوجد بالفعل XBlock بالمعرّف '{usage_key}'."
+
+#: openedx/core/djangoapps/notifications/admin.py:71
+msgid ""
+"Search by username, course_id. Specify fields with username: or course_id: prefixes. If no prefix is specified, search will be done on username. \n"
+"Examples: \n"
+" - testuser (default username search) \n"
+" - username:testuser (username keyword search) \n"
+" - course_id:course-v1:edX+DemoX+Demo_Course (course_id keyword search) \n"
+" - username:testuser, course_id:course-v1:edX+DemoX+Demo_Course (combined keyword search) \n"
+msgstr ""
+"ابحث باسم المستخدم أو course_id. حدّد الحقول باستخدام البادئات username: أو course_id:. إذا لم يتم تحديد بادئة، فسيتم البحث في اسم المستخدم.\n"
+"أمثلة:\n"
+" - testuser (بحث افتراضي في اسم المستخدم)\n"
+" - username:testuser (بحث بالكلمة المفتاحية لاسم المستخدم)\n"
+" - course_id:course-v1:edX+DemoX+Demo_Course (بحث بالكلمة المفتاحية لـ course_id)\n"
+" - username:testuser, course_id:course-v1:edX+DemoX+Demo_Course (بحث بالكلمات المفتاحية المجمّعة)"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:98
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> and others have responded to your "
+"post <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> وآخرون ردّوا على منشورك "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:153
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> and others responded to a post "
+"you’re following: <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> وآخرون ردّوا على منشور تتابعه: "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/profile_images/images.py:124
+msgid ""
+"The Content-Type header for this file does not match the file data. The file"
+" may be corrupted."
+msgstr ""
+"ترويسة Content-Type لهذا الملف لا تطابق بيانات الملف. قد يكون الملف تالفًا."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:99
+msgid "The email addresses do not match"
+msgstr "عناوين البريد الإلكتروني غير متطابقة"
+
+#: xmodule/capa/templates/problem.html:84
+#, python-format
+msgid "You have used %(attempts_used)s of %(num_total)s attempt."
+msgid_plural "You have used %(attempts_used)s of %(num_total)s attempts"
+msgstr[0] "لقد استخدمت %(attempts_used)s من أصل %(num_total)s محاولة."
+msgstr[1] "لقد استخدمت %(attempts_used)s من أصل %(num_total)s محاولات"
+
+#: xmodule/capa/templates/problem.html:87
+msgid "Grading method:"
+msgstr "طريقة التقييم:"
+
+#: xmodule/capa_block.py:348
+msgid ""
+"Indicates if the problem was edited using the Markdown editor in the "
+"Authoring MFE."
+msgstr ""
+"يشير إلى ما إذا كانت المسألة قد تم تعديلها باستخدام محرر Markdown في "
+"Authoring MFE."
+
+#: xmodule/course_block.py:902
+msgid "Proctoring Exam Escalation Contact"
+msgstr "جهة الاتصال لتصعيد امتحان المراقبة"
+
+#: xmodule/course_block.py:904
+msgid ""
+"Required if 'requires_escalation_email' is set in the proctoring "
+"backend.Enter an email address to be contacted by the support team whenever "
+"there are escalations (e.g. appeals, delayed reviews, etc.)."
+msgstr ""
+"مطلوب إذا تم تعيين 'requires_escalation_email' في خلفية المراقبة. أدخل عنوان"
+" بريد إلكتروني ليتم التواصل معه من قبل فريق الدعم كلما حدثت حالات تصعيد (مثل"
+" الاستئنافات، المراجعات المتأخرة، إلخ)."
+
+#: xmodule/html_block.py:65
+msgid "Upstream html contents to store upstream data field"
+msgstr "محتويات HTML من المنبع لتخزين حقل بيانات المنبع"
+
+#: xmodule/library_content_block.py:113
+msgid "Is Migrated to library v2"
+msgstr "تم ترحيله إلى المكتبة v2"
+
+#: xmodule/library_content_block.py:242
+msgid ""
+"This block is already migrated to use library v2. You can sync individual "
+"blocks now"
+msgstr ""
+"تم ترحيل هذه الكتلة بالفعل لاستخدام المكتبة v2. يمكنك الآن مزامنة الكتل "
+"الفردية"
+
+#: xmodule/library_content_block.py:354
+msgid ""
+"This legacy library reference is no longer supported, and needs to be "
+"updated to receive future changes"
+msgstr ""
+"مرجع هذه المكتبة القديمة لم يعد مدعومًا، ويجب تحديثه لتلقي التغييرات "
+"المستقبلية"
+
+#: xmodule/library_content_block.py:361
+#, python-brace-format
+msgid "{refresh_icon} Update reference"
+msgstr "{refresh_icon} تحديث المرجع"
+
+#: xmodule/library_content_block.py:403
+msgid "The source library has not been migrated to version 2"
+msgstr "لم يتم ترحيل مكتبة المصدر إلى الإصدار 2"
+
+#: xmodule/library_content_block.py:405
+msgid "The block has already been upgraded to version 2"
+msgstr "تمت ترقية الكتلة بالفعل إلى الإصدار 2"
+
+#: xmodule/seq_block.py:101
+msgid ""
+"Tag this course block as an Entrance Exam. Note, you must enable Entrance "
+"Exams for this course setting to take effect."
+msgstr ""
+"ضع وسمًا لكتلة هذا المقرر على أنها امتحان دخول. ملاحظة: يجب تمكين امتحانات "
+"الدخول لهذا المقرر حتى يسري هذا الإعداد."
+
+#: xmodule/templates/item_bank/author_view.html:32
+#, python-brace-format
+msgid ""
+"Press {link_start}View{link_end} to preview, sync/update, and/or remove the "
+"selected components."
+msgstr ""
+"اضغط {link_start}عرض{link_end} للمعاينة، والمزامنة/التحديث، و/أو إزالة "
+"المكوّنات المحددة."
+
+#: test/translation_test.py:1
+msgid "Test singular string for translation"
+msgstr "سلسلة مفردة تجريبية للترجمة"
+
+#: test/translation_test.py:2
+msgid "Test string with {placeholder} variable"
+msgstr "سلسلة تجريبية مع المتغير {placeholder}"
+
+#: test/translation_test.py:3
+msgid "You have one unread message"
+msgid_plural "You have %(count)s unread messages"
+msgstr[0] "لديك رسالة واحدة غير مقروءة"
+msgstr[1] "لديك %(count)s رسائل غير مقروءة"
+
+#: test/translation_test.py:4
+msgid "There is one student enrolled"
+msgid_plural "There are %(count)s students enrolled"
+msgstr[0] "يوجد طالب واحد مسجّل"
+msgstr[1] "يوجد %(count)s طلاب مسجّلين"
+
+#: test/translation_test.py:5
+msgid "Course has one assignment"
+msgid_plural "Course has %(count)s assignments"
+msgstr[0] "يحتوي المقرر على واجب واحد"
+msgstr[1] "يحتوي المقرر على %(count)s واجبات"
+
+#: test/translation_test.py:6
+msgid "You completed one lesson"
+msgid_plural "You completed %(count)s lessons"
+msgstr[0] "لقد أكملت درسًا واحدًا"
+msgstr[1] "لقد أكملت %(count)s دروس"
+
+#: test/translation_test.py:7
+msgid "There is one hour remaining"
+msgid_plural "There are %(count)s hours remaining"
+msgstr[0] "تبقّت ساعة واحدة"
+msgstr[1] "تبقّت %(count)s ساعات"
+
+#: test/translation_test.py:8
+msgid "One person is viewing this course"
+msgid_plural "%(count)s people are viewing this course"
+msgstr[0] "يشاهد هذا المقرر شخص واحد"
+msgstr[1] "يشاهد هذا المقرر %(count)s أشخاص"
+
+#: test/translation_test.py:9
+msgid "You have one new notification"
+msgid_plural "You have %(count)s new notifications"
+msgstr[0] "لديك إشعار جديد واحد"
+msgstr[1] "لديك %(count)s إشعارات جديدة"
+
+#: test/translation_test.py:10
+msgid "Select one file to upload"
+msgid_plural "Select %(count)s files to upload"
+msgstr[0] "اختر ملفًا واحدًا للرفع"
+msgstr[1] "اختر %(count)s ملفات للرفع"
+
+#: test/translation_test.py:11
+msgid "One question needs review"
+msgid_plural "%(count)s questions need review"
+msgstr[0] "تحتاج مسألة واحدة إلى مراجعة"
+msgstr[1] "تحتاج %(count)s مسائل إلى مراجعة"
+
+#: test/translation_test.py:12
+msgid "You earned one point"
+msgid_plural "You earned %(count)s points"
+msgstr[0] "لقد حصلت على نقطة واحدة"
+msgstr[1] "لقد حصلت على %(count)s نقاط"
+
+#: test/translation_test.py:13
+msgid "This course has one module"
+msgid_plural "This course has %(count)s modules"
+msgstr[0] "يحتوي هذا المقرر على وحدة واحدة"
+msgstr[1] "يحتوي هذا المقرر على %(count)s وحدات"
