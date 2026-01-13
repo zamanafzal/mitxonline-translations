@@ -2,7 +2,7 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # Translators:
 # Ghassan Maslamani <ghassan.maslamani@gmail.com>, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
@@ -10,7 +10,7 @@
 # Omar Al-Ithawi <i@omardo.com>, 2025
 # Sulaiman Muthanna, 2025
 # Brian Smith, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -19,10 +19,10 @@ msgstr ""
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
@@ -14179,3 +14179,365 @@ msgid ""
 msgstr ""
 "{display_name} متاح فقط للمتعلمين المسجلين. قم بتسجيل الدخول أو التسجيل ، "
 "والتسجيل في هذا المساق لمشاهدته."
+
+#: cms/djangoapps/contentstore/models.py:95
+msgid "Upstream context key i.e., learning_package/library key"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:157
+msgid ""
+"Upstream block usage key, this value cannot be null and useful to track "
+"upstream library blocks that do not exist yet"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:329
+msgid ""
+"Upstream block key (e.g. lct:...), this value cannot be null and is useful "
+"to track upstream library blocks that do not exist yet or were deleted."
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:52
+msgid "Key of the content source (a course or a legacy library)"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:59
+msgid ""
+"If set, the system will forward references of this source over to the target"
+" of this migration"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:92
+msgid "Migrated content version, the hash of published content version"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:98
+msgid ""
+"Maximum hierachy level at which content should be aggregated in target "
+"library"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:105
+msgid ""
+"If a piece of content already exists in the content library, choose how to "
+"handle it."
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:111
+msgid ""
+"Should the migration preserve the location IDs of the existing blocks?If "
+"not, then new, unique human-readable IDs will be generated based on the "
+"block titles."
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:118
+msgid "Content will be imported into this library"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:125
+msgid ""
+"Optional - Collection (within the target library) into which imported "
+"content will be grouped"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:133
+msgid ""
+"Tracks the status of the task which is executing this migration. In a bulk "
+"migration, the same task can be multiple migrations"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:142
+msgid ""
+"Changelog entry in the target learning package which records this migration"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:149
+msgid ""
+"Modulestore content is processed and staged before importing it to a "
+"learning packge. We temporarily save the staged content to allow for "
+"troubleshooting of failed migrations."
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:161
+msgid "is the migration failed?"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:194
+msgid "Original usage key of the XBlock that has been imported."
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:201
+msgid ""
+"If set, the system will forward references of this block source over to the "
+"target of this block migration"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:235
+msgid ""
+"The target entity of this block migration, set to null if it fails to "
+"migrate"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/models.py:249
+msgid "Reason if the block is unsupported and target is set to null"
+msgstr ""
+
+#: cms/djangoapps/modulestore_migrator/tasks.py:816
+#, python-brace-format
+msgid " It has {count} children block."
+msgid_plural " It has {count} children blocks."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cms/lib/xblock/upstream_sync.py:255
+msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:269
+msgid "Reference to linked library item is malformed"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:281
+msgid "Linked upstream library block was not found in the system"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:288
+msgid "Linked upstream library container was not found in the system"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:292
+msgid "Linked `upstream_key` is not a valid key"
+msgstr ""
+
+#: common/djangoapps/student/admin.py:319
+#, python-format
+msgid "Successfully reverted %(count)d selected history entry."
+msgid_plural "Successfully reverted %(count)d selected history entries."
+msgstr[0] ""
+msgstr[1] ""
+
+#: common/djangoapps/student/admin.py:349
+#, python-format
+msgid "Successfully deleted %(count)d selected history entry."
+msgid_plural "Successfully deleted %(count)d selected history entries."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:49
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                "
+msgstr[0] ""
+msgstr[1] ""
+
+#: lms/djangoapps/instructor/views/api.py:1508
+#, python-brace-format
+msgid ""
+"Invalid additional student attribute configuration: expected list of "
+"strings, got {type}."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1513
+msgid ""
+"Invalid additional student attribute configuration: all entries must be "
+"strings."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1518
+msgid ""
+"Invalid additional student attribute configuration: empty attribute names "
+"are not allowed."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1524
+#, python-brace-format
+msgid "Invalid additional student attributes: {attrs}"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1661
+#: lms/djangoapps/instructor_task/api_helper.py:117
+msgid "inactive enrollment"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:3249
+#, python-brace-format
+msgid "Could not find student matching identifier: {student}"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:3633
+msgid ""
+"Please select certificate statuses that lie with in \"certificate_statuses\""
+" entry in POST data."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api_v2.py:327
+#, python-brace-format
+msgid "Successfully changed due date for learner {0} for {1} to {2}"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:543
+msgid ""
+"You must provide either unique_student_identifier or set all_students to "
+"True."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:571
+msgid "The overriding score to set."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:133
+msgid "Bulk Email"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:141
+msgid "Date Extensions"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:149
+msgid "Data Downloads"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:403
+#, python-brace-format
+msgid "Invalid learner identifier: {0}"
+msgstr ""
+
+#: lms/djangoapps/lti_provider/models.py:44
+msgid ""
+"When checked, the platform will automatically use any personal information "
+"provided via LTI to create an account. Otherwise an anonymous account will "
+"be created."
+msgstr ""
+
+#: lms/templates/video.html:154
+msgid "How is the transcript quality?"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api/blocks.py:301
+msgid "Library cannot have more than {} Components."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api/blocks.py:313
+#, python-brace-format
+msgid ""
+"The \"{block_type}\" XBlock (ID: \"{block_id}\") has children, so it not "
+"supported in content libraries."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api/blocks.py:325
+#, python-brace-format
+msgid "An XBlock with ID '{usage_key}' already exists."
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/admin.py:71
+msgid ""
+"Search by username, course_id. Specify fields with username: or course_id: prefixes. If no prefix is specified, search will be done on username. \n"
+"Examples: \n"
+" - testuser (default username search) \n"
+" - username:testuser (username keyword search) \n"
+" - course_id:course-v1:edX+DemoX+Demo_Course (course_id keyword search) \n"
+" - username:testuser, course_id:course-v1:edX+DemoX+Demo_Course (combined keyword search) \n"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py:98
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> and others have responded to your "
+"post <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py:153
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> and others responded to a post "
+"you’re following: <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/profile_images/images.py:124
+msgid ""
+"The Content-Type header for this file does not match the file data. The file"
+" may be corrupted."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:99
+msgid "The email addresses do not match"
+msgstr ""
+
+#: xmodule/capa/templates/problem.html:84
+#, python-format
+msgid "You have used %(attempts_used)s of %(num_total)s attempt."
+msgid_plural "You have used %(attempts_used)s of %(num_total)s attempts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: xmodule/capa/templates/problem.html:87
+msgid "Grading method:"
+msgstr ""
+
+#: xmodule/capa_block.py:348
+msgid ""
+"Indicates if the problem was edited using the Markdown editor in the "
+"Authoring MFE."
+msgstr ""
+
+#: xmodule/course_block.py:902
+msgid "Proctoring Exam Escalation Contact"
+msgstr ""
+
+#: xmodule/course_block.py:904
+msgid ""
+"Required if 'requires_escalation_email' is set in the proctoring "
+"backend.Enter an email address to be contacted by the support team whenever "
+"there are escalations (e.g. appeals, delayed reviews, etc.)."
+msgstr ""
+
+#: xmodule/html_block.py:65
+msgid "Upstream html contents to store upstream data field"
+msgstr ""
+
+#: xmodule/library_content_block.py:113
+msgid "Is Migrated to library v2"
+msgstr ""
+
+#: xmodule/library_content_block.py:242
+msgid ""
+"This block is already migrated to use library v2. You can sync individual "
+"blocks now"
+msgstr ""
+
+#: xmodule/library_content_block.py:354
+msgid ""
+"This legacy library reference is no longer supported, and needs to be "
+"updated to receive future changes"
+msgstr ""
+
+#: xmodule/library_content_block.py:361
+#, python-brace-format
+msgid "{refresh_icon} Update reference"
+msgstr ""
+
+#: xmodule/library_content_block.py:403
+msgid "The source library has not been migrated to version 2"
+msgstr ""
+
+#: xmodule/library_content_block.py:405
+msgid "The block has already been upgraded to version 2"
+msgstr ""
+
+#: xmodule/seq_block.py:101
+msgid ""
+"Tag this course block as an Entrance Exam. Note, you must enable Entrance "
+"Exams for this course setting to take effect."
+msgstr ""
+
+#: xmodule/templates/item_bank/author_view.html:32
+#, python-brace-format
+msgid ""
+"Press {link_start}View{link_end} to preview, sync/update, and/or remove the "
+"selected components."
+msgstr ""
