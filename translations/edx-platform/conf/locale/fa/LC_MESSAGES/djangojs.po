@@ -3,20 +3,20 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Somaye Julaie <joolaee@iingroups.com>, 2024
 # HeliaEnayati, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
 # Brian Smith, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -26,12 +26,12 @@ msgstr ""
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/open-edx/teams/6205/fa/)\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/static/cms/js/main.js:38
 #: cms/static/js/views/active_video_upload_list.js:36
@@ -11277,3 +11277,49 @@ msgstr[1] "بارگیری نتایج بعدی {num_items} "
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "متاسفیم، هیچ نتیجه‌ای یافت نشد."
+
+#: cms/static/js/views/course_outline.js:331
+msgid "Copy of \"{componentDisplayName}\""
+msgstr "کپی از \"{componentDisplayName}\""
+
+#: lms/static/js/instructor_dashboard/data_download.js:327
+msgid ""
+"Error generating list of inactive students who are enrolled in a course. "
+"Please try again."
+msgstr ""
+"خطا در تولید لیست دانش‌آموزان غیرفعال که در یک دوره ثبت‌نام کرده‌اند. لطفاً "
+"دوباره تلاش کنید."
+
+#: lms/static/js/instructor_dashboard/membership.js:792
+msgid ""
+"Email was sent to the following users. They will be allowed to enroll once "
+"they register:"
+msgstr ""
+"ایمیل به کاربران زیر ارسال شد. آن‌ها پس از ثبت‌نام اجازه ثبت‌نام خواهند "
+"داشت:"
+
+#: lms/static/js/instructor_dashboard/membership.js:816
+msgid ""
+"Email was sent to the following users. They will be enrolled once they "
+"register:"
+msgstr "ایمیل به کاربران زیر ارسال شد. آن‌ها پس از ثبت‌نام ثبت‌نام خواهند شد:"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:71
+msgid "query param next is provide"
+msgstr "پارامتر پرس‌وجوی next ارائه شده است"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:73
+msgid "query param next is internal"
+msgstr "پارامتر پرس‌وجوی next داخلی است"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:140
+msgid "course mode param is not provided"
+msgstr "پارامتر حالت دوره ارائه نشده است"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:148
+msgid "course mode param is provided"
+msgstr "پارامتر حالت دوره ارائه شده است"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:167
+msgid " redirect the user to the next page"
+msgstr "کاربر را به صفحه بعدی هدایت کنید"
