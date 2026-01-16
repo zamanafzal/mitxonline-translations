@@ -39,5 +39,7 @@
   "authoring.footer.termsOfService.link.label": "Όροι Χρήσης",
   "authoring.footer.privacyPolicy.link.label": "Πολιτική απορρήτου",
   "authoring.footer.accessibilityRequest.link.label": "Αίτημα προσβασιμότητας διαμονής",
-  "authoring.footer.trademark.message": "edX και Open edX και τα λογότυπα edX και Open edX είναι σήματα κατατεθέντα της"
+  "authoring.footer.trademark.message": "edX και Open edX και τα λογότυπα edX και Open edX είναι σήματα κατατεθέντα της",
+  "authoring.footer.help.educatorsDocs.button.label": "Τεκμηρίωση Open edX για Εκπαιδευτικούς",
+  "authoring.footer.help.openEdxDemoCourse.button.label": "Μάθημα επίδειξης Open edX"
 }
