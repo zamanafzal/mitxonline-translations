@@ -11,6 +11,8 @@
   "header.user.menu.login": "Login",
   "header.user.menu.register": "Sign Up",
   "header.user.menu.studio.home": "Studio Home",
+  "header.user.menu.signout": "Sign Out",
+  "header.user.menu.account.setting": "Settings",
   "header.label.account.nav": "Account",
   "header.label.account.menu": "Account Menu",
   "header.label.account.menu.for": "Account menu for {username}",
