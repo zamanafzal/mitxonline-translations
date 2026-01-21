@@ -32,5 +32,7 @@
   "header.menu.aria-label": "خِيارات المستخدم",
   "header.user.menu.studio": "صفحة الاستوديو الرئيسية",
   "header.label.courseOutline": "عُد إلى خطة المساق في الاستوديو",
-  "header.label.search.nav": "ابحث في المحتوى"
+  "header.label.search.nav": "ابحث في المحتوى",
+  "header.user.menu.signout": "",
+  "header.user.menu.account.setting": ""
 }
