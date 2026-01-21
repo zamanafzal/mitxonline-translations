@@ -2192,6 +2192,7 @@ msgid "Apr"
 msgstr "abr"
 
 #: common/djangoapps/util/date_utils.py:352
+msgctxt "abbreviated month name"
 msgid "May"
 msgstr "Mayo"
 
@@ -2240,6 +2241,7 @@ msgid "April"
 msgstr "Abril"
 
 #: common/djangoapps/util/date_utils.py:403
+msgctxt "month name"
 msgid "May"
 msgstr "Mayo"
 
