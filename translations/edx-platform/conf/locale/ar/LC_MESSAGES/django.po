@@ -14675,3 +14675,19 @@ msgid "This course has one module"
 msgid_plural "This course has %(count)s modules"
 msgstr[0] "تحتوي هذه الدورة على وحدة واحدة"
 msgstr[1] "تحتوي هذه الدورة على %(count)s وحدات"
+
+#: test/test.py:75
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: test/test.py:75
+msgid "Sign Out"
+msgstr "تسجيل الخروج"
+
+#: test/test.py:75
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: test/test.py:75
+msgid "Accounts"
+msgstr "الحسابات"

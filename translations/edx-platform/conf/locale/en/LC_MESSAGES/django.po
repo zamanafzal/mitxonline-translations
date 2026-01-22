@@ -13124,3 +13124,20 @@ msgid "This course has one module"
 msgid_plural "This course has %(count)s modules"
 msgstr[0] ""
 msgstr[1] ""
+
+
+#: test/test.py:75
+msgid "Dashboard"
+msgstr ""
+
+#: test/test.py:75
+msgid "Sign Out"
+msgstr ""
+
+#: test/test.py:75
+msgid "Profile"
+msgstr ""
+
+#: test/test.py:75
+msgid "Accounts"
+msgstr ""
