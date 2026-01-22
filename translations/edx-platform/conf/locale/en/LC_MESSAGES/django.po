@@ -13049,3 +13049,88 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr ""
+
+
+#. MITx Online theme - footer.html
+#: lms/templates/footer.html
+msgid "About Us"
+msgstr ""
+
+#. MITx Online theme - footer.html
+#: lms/templates/footer.html
+msgid "Accessibility"
+msgstr ""
+
+#. MITx Online theme - footer.html
+#: lms/templates/footer.html
+msgid "Help"
+msgstr ""
+
+#. MITx Online theme - footer.html
+#: lms/templates/footer.html
+msgid "Footer navigation"
+msgstr ""
+
+#. MITx Online theme - footer.html
+#: lms/templates/footer.html
+msgid "edX and Open edX are registered trademarks of edX LLC."
+msgstr ""
+
+#. MITx Online theme - navbar-authenticated.html
+#: lms/templates/header/navbar-authenticated.html
+#. Translators: This is short for "System administration".
+msgid "Sysadmin"
+msgstr ""
+
+#. MITx Online theme - navbar-authenticated.html, user_dropdown.html
+#: lms/templates/header/navbar-authenticated.html
+#: lms/templates/header/user_dropdown.html
+msgid "Dashboard"
+msgstr ""
+
+#. MITx Online theme - navbar-not-authenticated.html
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Supplemental Links"
+msgstr ""
+
+#. MITx Online theme - navbar-not-authenticated.html
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Explore courses"
+msgstr ""
+
+#. MITx Online theme - user_dropdown.html
+#: lms/templates/header/user_dropdown.html
+msgid "Options Menu"
+msgstr ""
+
+#. MITx Online theme - user_dropdown.html
+#: lms/templates/header/user_dropdown.html
+msgid "Dashboard for:"
+msgstr ""
+
+#. MITx Online theme - user_dropdown.html
+#: lms/templates/header/user_dropdown.html
+msgid "More Options"
+msgstr ""
+
+#. MITx Online theme - user_dropdown.html
+#: lms/templates/header/user_dropdown.html
+msgid "Profile"
+msgstr ""
+
+#. MITx Online theme - user_dropdown.html
+#: lms/templates/header/user_dropdown.html
+msgid "Accounts"
+msgstr ""
+
+#. MITx Online theme - user_dropdown.html
+#: lms/templates/header/user_dropdown.html
+msgid "Sign Out"
+msgstr ""
+
+#. MITx Online theme - navbar-logo-header.html
+#: lms/templates/header/navbar-logo-header.html
+#, python-brace-format
+msgid "{platform_name} Home Page"
+msgstr ""
+
