@@ -32,5 +32,7 @@
   "header.menu.aria-label": "Opciones de usuario",
   "header.user.menu.studio": "Inicio Studio",
   "header.label.courseOutline": "Volver al esquema del curso en Studio",
-  "header.label.search.nav": "Buscar contenido"
+  "header.label.search.nav": "Buscar contenido",
+  "header.user.menu.signout": "Cerrar sesión",
+  "header.user.menu.account.setting": "Configuración"
 }
