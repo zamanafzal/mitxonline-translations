@@ -2,14 +2,14 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # Translators:
 # Felipe Sologuren, 2024
 # Valentina Morelli, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
 # Omar Al-Ithawi <i@omardo.com>, 2025
 # Brian Smith, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -18,10 +18,10 @@ msgstr ""
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/open-edx/teams/6205/es_419/)\n"
+"Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
@@ -15000,3 +15000,166 @@ msgid ""
 msgstr ""
 "{display_name} sólo es accesible para los estudiantes inscritos. Inicie "
 "sesión o regístrese, e inscríbase en el curso para verlo."
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:79
+msgid ""
+"\n"
+"                        Jump back in\n"
+"                    "
+msgstr ""
+"\n"
+"Volver a donde estabas"
+
+#: xmodule/course_block.py:866
+msgid ""
+"Configure team sets, limit team sizes, and set visibility settings using "
+"JSON. See <a target=\"&#95;blank\" "
+"href=\"https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html>teams"
+" configuration documentation</a> for help and examples."
+msgstr ""
+"Configura conjuntos de equipos, limita el tamaño de los equipos y establece "
+"configuraciones de visibilidad usando JSON. Consulta <a "
+"target=\"&#95;blank\" "
+"href=\"https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html\">la"
+" documentación de configuración de equipos</a> para obtener ayuda y "
+"ejemplos."
+
+#: test/translation_test.py:1
+msgid "Test singular string for translation"
+msgstr "Cadena singular de prueba para traducción"
+
+#: test/translation_test.py:2
+msgid "Test string with {placeholder} variable"
+msgstr "Cadena de prueba con variable {placeholder}"
+
+#: test/translation_test.py:3
+msgid "You have one unread message"
+msgid_plural "You have %(count)s unread messages"
+msgstr[0] "Tienes un mensaje no leído"
+msgstr[1] "Tienes %(count)s mensajes no leídos"
+
+#: test/translation_test.py:4
+msgid "There is one student enrolled"
+msgid_plural "There are %(count)s students enrolled"
+msgstr[0] "Hay un estudiante inscrito"
+msgstr[1] "Hay %(count)s estudiantes inscritos"
+
+#: test/translation_test.py:5
+msgid "Course has one assignment"
+msgid_plural "Course has %(count)s assignments"
+msgstr[0] "El curso tiene una tarea"
+msgstr[1] "El curso tiene %(count)s tareas"
+
+#: test/translation_test.py:6
+msgid "You completed one lesson"
+msgid_plural "You completed %(count)s lessons"
+msgstr[0] "Completaste una lección"
+msgstr[1] "Completaste %(count)s lecciones"
+
+#: test/translation_test.py:7
+msgid "There is one hour remaining"
+msgid_plural "There are %(count)s hours remaining"
+msgstr[0] "Queda una hora"
+msgstr[1] "Quedan %(count)s horas"
+
+#: test/translation_test.py:8
+msgid "One person is viewing this course"
+msgid_plural "%(count)s people are viewing this course"
+msgstr[0] "Una persona está viendo este curso"
+msgstr[1] "%(count)s personas están viendo este curso"
+
+#: test/translation_test.py:9
+msgid "You have one new notification"
+msgid_plural "You have %(count)s new notifications"
+msgstr[0] "Tienes una nueva notificación"
+msgstr[1] "Tienes %(count)s nuevas notificaciones"
+
+#: test/translation_test.py:10
+msgid "Select one file to upload"
+msgid_plural "Select %(count)s files to upload"
+msgstr[0] "Selecciona un archivo para subir"
+msgstr[1] "Selecciona %(count)s archivos para subir"
+
+#: test/translation_test.py:11
+msgid "One question needs review"
+msgid_plural "%(count)s questions need review"
+msgstr[0] "Una pregunta necesita revisión"
+msgstr[1] "%(count)s preguntas necesitan revisión"
+
+#: test/translation_test.py:12
+msgid "You earned one point"
+msgid_plural "You earned %(count)s points"
+msgstr[0] "Ganaste un punto"
+msgstr[1] "Ganaste %(count)s puntos"
+
+#: test/translation_test.py:13
+msgid "This course has one module"
+msgid_plural "This course has %(count)s modules"
+msgstr[0] "Este curso tiene un módulo"
+msgstr[1] "Este curso tiene %(count)s módulos"
+
+#: lms/templates/footer.html
+msgid "About Us"
+msgstr "Sobre Nosotros"
+
+#: lms/templates/footer.html
+msgid "Accessibility"
+msgstr "Accesibilidad"
+
+#: lms/templates/footer.html
+msgid "Help"
+msgstr "Ayuda"
+
+#: lms/templates/footer.html
+msgid "Footer navigation"
+msgstr "Navegación del pie de página"
+
+#: lms/templates/footer.html
+msgid "edX and Open edX are registered trademarks of edX LLC."
+msgstr "edX y Open edX son marcas registradas de edX LLC."
+
+#: lms/templates/header/navbar-authenticated.html
+msgid "Sysadmin"
+msgstr "Administrador del sistema"
+
+#: lms/templates/header/navbar-authenticated.html
+#: lms/templates/header/user_dropdown.html
+msgid "Dashboard"
+msgstr "Panel de control"
+
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Supplemental Links"
+msgstr "Enlaces suplementarios"
+
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Explore courses"
+msgstr "Explorar cursos"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Options Menu"
+msgstr "Menú de opciones"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Dashboard for:"
+msgstr "Panel de control para:"
+
+#: lms/templates/header/user_dropdown.html
+msgid "More Options"
+msgstr "Más opciones"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Profile"
+msgstr "Perfil"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Accounts"
+msgstr "Cuentas"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Sign Out"
+msgstr "Cerrar sesión"
+
+#: lms/templates/header/navbar-logo-header.html
+#, python-brace-format
+msgid "{platform_name} Home Page"
+msgstr "Página de inicio de {platform_name}"
