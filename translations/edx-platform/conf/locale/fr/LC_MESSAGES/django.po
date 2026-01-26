@@ -15443,3 +15443,15 @@ msgstr "Les notes des exercices sont masquées."
 #: lms/templates/courseware/progress.html
 msgid "No problem scores in this section"
 msgstr "Aucune note de problème dans cette section"
+
+#: lms/templates/staff_problem_info.html:27
+msgid "Staff Debug Info"
+msgstr "Informations de débogage du personnel"
+
+#: lms/templates/staff_problem_info.html:31
+msgid "Submission history"
+msgstr ""
+
+#: lms/templates/preview_menu.html:101
+msgid "View in Studio"
+msgstr "Voir dans Studio"
