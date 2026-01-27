@@ -15318,3 +15318,15 @@ msgstr "Las puntuaciones de práctica están ocultas."
 #: lms/templates/courseware/progress.html
 msgid "No problem scores in this section"
 msgstr "No hay puntuaciones de problemas en esta sección"
+
+#: lms/templates/staff_problem_info.html:27
+msgid "Staff Debug Info"
+msgstr "Información de Depuración del Personal"
+
+#: lms/templates/staff_problem_info.html:31
+msgid "Submission history"
+msgstr "Historial de envío"
+
+#: lms/templates/preview_menu.html:101
+msgid "View in Studio"
+msgstr "Ver en Studio"
