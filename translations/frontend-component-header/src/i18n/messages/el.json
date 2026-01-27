@@ -32,5 +32,7 @@
   "header.menu.aria-label": "Επιλογές χρήστη",
   "header.user.menu.studio": "Αρχική σελίδα Studio",
   "header.label.courseOutline": "Επιστροφή στο σχεδιάγραμμα του μαθήματος στο Studio",
-  "header.label.search.nav": "Αναζήτηση περιεχομένου"
+  "header.label.search.nav": "Αναζήτηση περιεχομένου",
+  "header.user.menu.signout": "Αποσύνδεση",
+  "header.user.menu.account.setting": "Ρυθμίσεις"
 }
