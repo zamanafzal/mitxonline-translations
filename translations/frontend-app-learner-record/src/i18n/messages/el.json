@@ -80,5 +80,15 @@
   "records.help.header": "Ερωτήσεις σχετικά με τα αρχεία εκμάθησης;",
   "records.help.description": "Για να μάθετε περισσότερα σχετικά με τα αρχεία μπορείτε",
   "records.help.link": "διαβάστε περισσότερα στην περιοχή βοήθειας των αρχείων μας.",
-  "records.header": "My Learner Records"
+  "records.header": "My Learner Records",
+  "certificate.program.card.name": "",
+  "certificate.course.card.name": "",
+  "download.button.error": "",
+  "create.link.error": "",
+  "learner.full_name": "",
+  "send.records.pending.button": "",
+  "send.failure.alert.heading.default": "",
+  "send.failure.alert.message.default": "",
+  "send.failure.alert.heading.429": "",
+  "send.failure.alert.message.429": ""
 }
