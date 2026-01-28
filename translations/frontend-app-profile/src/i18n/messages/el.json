@@ -53,5 +53,16 @@
   "profile.formcontrols.button.saving": "Αποθήκευση σε εξέλιξη",
   "profile.formcontrols.button.saved": "Αποθηκεύτηκε",
   "profile.visibility.who.just.me": "Μόνο εγώ",
-  "profile.visibility.who.everyone": "Όλοι στο {siteName}"
+  "profile.visibility.who.everyone": "Όλοι στο {siteName}",
+  "profile.certificate.uuid": "",
+  "profile.your.certificates": "",
+  "profile.certificates.description": "",
+  "profile.profile.information": "",
+  "profile.username": "",
+  "profile.username.tooltip": "",
+  "profile.certificatecount": "",
+  "profile.name.tooltip": "",
+  "profile.name.redirect": "",
+  "profile.profileavatar.tooltip.edit": "",
+  "profile.profileavatar.tooltip.upload": ""
 }
