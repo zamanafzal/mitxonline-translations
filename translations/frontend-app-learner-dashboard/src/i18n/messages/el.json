@@ -152,5 +152,17 @@
   "learner-dash.courseCard.banners.credit.rejected": "{providerName} δεν ενέκρινε το αίτημά σας για πίστωση μαθήματος. Για περισσότερες πληροφορίες, επικοινωνήστε απευθείας με {linkToProviderSite} .",
   "learner-dash.courseCard.banners.credit.requestCredit": "Αίτημα αναγνώρισης",
   "learner-dash.courseCard.banners.credit.viewCredit": "Προβολή αναγνώρισης",
-  "learner-dash.courseCard.banners.credit.viewDetails": "Προβολή λεπτομερειών"
+  "learner-dash.courseCard.banners.credit.viewDetails": "Προβολή λεπτομερειών",
+  "learner-dash.unenrollConfirm.reasons.prereqs": "",
+  "learner-dash.unenrollConfirm.reasons.difficulty": "",
+  "learner-dash.unenrollConfirm.reasons.goals": "",
+  "learner-dash.unenrollConfirm.reasons.broken": "",
+  "learner-dash.unenrollConfirm.reasons.time": "",
+  "learner-dash.unenrollConfirm.reasons.browse": "",
+  "learner-dash.unenrollConfirm.reasons.support": "",
+  "learner-dash.unenrollConfirm.reasons.quality": "",
+  "learner-dash.unenrollConfirm.reasons.easy": "",
+  "learner-dash.unenrollConfirm.reasons.custom-placeholder": "",
+  "learner-dash.unenrollConfirm.reasons.prefer-not-to-say": "",
+  "learner-dash.unenrollConfirm.confirm.text": ""
 }

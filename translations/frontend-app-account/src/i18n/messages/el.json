@@ -354,5 +354,16 @@
   "id.verification.requirements.card.device.text": "Χρειάζεστε μια συσκευή που να έχει κάμερα. Εάν λάβετε ένα μήνυμα προγράμματος περιήγησης για πρόσβαση στην κάμερά σας, φροντίστε να κάνετε κλικ {allow} .",
   "id.verification.account.name.summary.alert": "Η διαχείριση των ρυθμίσεων του λογαριασμού σας γίνεται από {managerTitle} . Εάν το όνομα στο αναγνωριστικό φωτογραφίας σας δεν ταιριάζει με το όνομα του λογαριασμού σας, επικοινωνήστε με τον διαχειριστή {profileDataManager} ή {support} για βοήθεια.",
   "idv.submission.alert.error": "Αντιμετωπίσαμε ένα τεχνικό σφάλμα κατά την προσπάθεια υποβολής επαλήθευσης ταυτότητας. Αυτό μπορεί να είναι ένα προσωρινό ζήτημα, επομένως δοκιμάστε ξανά σε λίγα λεπτά. Εάν το πρόβλημα παραμένει, μεταβείτε στο {support_link} για βοήθεια.",
-  "id.verification.account.name.edit": "Επεξεργασία {sr}"
+  "id.verification.account.name.edit": "Επεξεργασία {sr}",
+  "account.settings.field.social.platform.name.xTwitter": "",
+  "account.settings.field.social.platform.name.xTwitter.empty": "",
+  "id.verification.privacy.modal.close.button": "",
+  "id.verification.context.loading.state": "",
+  "notification.preference.emailCadence": "",
+  "notification.cadence.description": "",
+  "notification.default.info": "",
+  "notification.dropdown.label": "",
+  "notification.dropdown.applies": "",
+  "notification.dropdown.course.applies": "",
+  "account.settings.cannot.delete.account.text": ""
 }
