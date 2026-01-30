@@ -13124,3 +13124,24 @@ msgid "This course has one module"
 msgid_plural "This course has %(count)s modules"
 msgstr[0] ""
 msgstr[1] ""
+
+msgid " about this {block_type}"
+msgstr ""
+
+msgid " about {display_name}"
+msgstr ""
+
+msgid "Hi! Do you need any help?"
+msgstr ""
+
+msgid "Enable AI Chat Assistant"
+msgstr ""
+
+msgid "Invalid request body"
+msgstr ""
+
+msgid "Open Learning Chat enabled status"
+msgstr ""
+
+msgid "Indicates whether or not Open Learning chat is enabled for a block"
+msgstr ""
