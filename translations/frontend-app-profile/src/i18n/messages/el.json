@@ -53,5 +53,16 @@
   "profile.formcontrols.button.saving": "Αποθήκευση σε εξέλιξη",
   "profile.formcontrols.button.saved": "Αποθηκεύτηκε",
   "profile.visibility.who.just.me": "Μόνο εγώ",
-  "profile.visibility.who.everyone": "Όλοι στο {siteName}"
+  "profile.visibility.who.everyone": "Όλοι στο {siteName}",
+  "profile.certificate.uuid": "Αναγνωριστικό διαπιστευτηρίου {certificate_uuid}",
+  "profile.your.certificates": "Τα πιστοποιητικά σας",
+  "profile.certificates.description": "Οι πληροφορίες των αρχείων εκπαιδευόμενου είναι ορατές μόνο σε εσάς. Μόνο το όνομα χρήστη και η εικόνα προφίλ σας είναι ορατά σε άλλους στο {siteName}.",
+  "profile.profile.information": "Πληροφορίες προφίλ",
+  "profile.username": "Όνομα χρήστη",
+  "profile.username.tooltip": "Το όνομα που σας ταυτοποιεί στο edX. Δεν μπορείτε να αλλάξετε το όνομα χρήστη σας.",
+  "profile.certificatecount": "{certificate_count} πιστοποιήσεις",
+  "profile.name.tooltip": "Το όνομα που χρησιμοποιείται για επαλήθευση ταυτότητας και εμφανίζεται στα πιστοποιητικά σας",
+  "profile.name.redirect": "Επεξεργασία πλήρους ονόματος από τη σελίδα Λογαριασμών",
+  "profile.profileavatar.tooltip.edit": "Επεξεργασία φωτογραφίας",
+  "profile.profileavatar.tooltip.upload": "Μεταφόρτωση φωτογραφίας"
 }

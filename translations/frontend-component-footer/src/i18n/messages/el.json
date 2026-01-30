@@ -39,5 +39,14 @@
   "authoring.footer.termsOfService.link.label": "Όροι Χρήσης",
   "authoring.footer.privacyPolicy.link.label": "Πολιτική απορρήτου",
   "authoring.footer.accessibilityRequest.link.label": "Αίτημα προσβασιμότητας διαμονής",
-  "authoring.footer.trademark.message": "edX και Open edX και τα λογότυπα edX και Open edX είναι σήματα κατατεθέντα της"
+  "authoring.footer.trademark.message": "edX και Open edX και τα λογότυπα edX και Open edX είναι σήματα κατατεθέντα της",
+  "footer.links.about.us": "Σχετικά με εμάς",
+  "footer.links.terms.of.service": "Όροι Παροχής Υπηρεσιών",
+  "footer.links.accessibility": "Προσβασιμότητα",
+  "footer.links.contact.us": "Επικοινωνήστε μαζί μας",
+  "footer.links.help": "Βοήθεια",
+  "footer.copyright.organization": "© {year} Massachusetts Institute of Technology",
+  "footer.trademark.notice": "Τα edX και Open edX είναι καταχωρισμένα εμπορικά σήματα της edX LLC.",
+  "authoring.footer.help.educatorsDocs.button.label": "Τεκμηρίωση Open edX για εκπαιδευτικούς",
+  "authoring.footer.help.openEdxDemoCourse.button.label": "Μάθημα επίδειξης Open edX"
 }
