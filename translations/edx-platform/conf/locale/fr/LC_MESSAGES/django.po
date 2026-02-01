@@ -15477,3 +15477,7 @@ msgstr "Statut d'activation du chat Open Learning"
 
 msgid "Indicates whether or not Open Learning chat is enabled for a block"
 msgstr "Indique si le chat Open Learning est activé ou non pour un bloc"
+
+msgid "Instructor Dashboard"
+msgstr "แดชบอร์ดอาจารย์ผู้สอน"
+
