@@ -22,3 +22,7 @@ msgstr "à propos de ce %(block_type)s"
 #, python-format
 msgid "about %(display_name)s"
 msgstr "à propos de %(display_name)s"
+
+#: block.py drawer initial message (TUTOR_INITIAL_MESSAGES)
+msgid "Hi! Do you need any help?"
+msgstr "Bonjour ! Avez-vous besoin d'aide ?"
