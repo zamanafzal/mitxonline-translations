@@ -28,3 +28,4 @@ msgstr "about %(display_name)s"
 
 #: block.py drawer initial message (TUTOR_INITIAL_MESSAGES)
 msgid "Hi! Do you need any help?"
+msgstr ""
