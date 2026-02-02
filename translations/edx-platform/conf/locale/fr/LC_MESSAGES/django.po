@@ -15456,3 +15456,24 @@ msgstr "Historique des soumissions"
 #: lms/templates/preview_menu.html:101
 msgid "View in Studio"
 msgstr "Voir dans Studio"
+
+msgid " about this {block_type}"
+msgstr "à propos de ce {block_type}"
+
+msgid " about {display_name}"
+msgstr "à propos de {display_name}"
+
+msgid "Hi! Do you need any help?"
+msgstr "Bonjour ! Avez-vous besoin d'aide ?"
+
+msgid "Enable AI Chat Assistant"
+msgstr "Activer l'assistant de chat IA"
+
+msgid "Invalid request body"
+msgstr "Corps de la requête invalide"
+
+msgid "Open Learning Chat enabled status"
+msgstr "Statut d'activation du chat Open Learning"
+
+msgid "Indicates whether or not Open Learning chat is enabled for a block"
+msgstr "Indique si le chat Open Learning est activé ou non pour un bloc"
