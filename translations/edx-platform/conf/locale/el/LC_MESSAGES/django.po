@@ -14933,3 +14933,26 @@ msgstr "Ιστορικό υποβολών"
 #: lms/templates/preview_menu.html:101
 msgid "View in Studio"
 msgstr "Προβολή στο Studio"
+
+msgid " about this {block_type}"
+msgstr "σχετικά με αυτό το {block_type}"
+
+msgid " about {display_name}"
+msgstr "σχετικά με {display_name}"
+
+msgid "Hi! Do you need any help?"
+msgstr "Γεια! Χρειάζεστε βοήθεια;"
+
+msgid "Enable AI Chat Assistant"
+msgstr "Ενεργοποίηση Βοηθού Συνομιλίας AI"
+
+msgid "Invalid request body"
+msgstr "Μη έγκυρο σώμα αιτήματος"
+
+msgid "Open Learning Chat enabled status"
+msgstr "Κατάσταση ενεργοποίησης της Συνομιλίας Open Learning"
+
+msgid "Indicates whether or not Open Learning chat is enabled for a block"
+msgstr ""
+"Υποδεικνύει αν η συνομιλία Open Learning είναι ενεργοποιημένη ή όχι για ένα "
+"μπλοκ"
