@@ -80,5 +80,15 @@
   "records.help.header": "Есть вопросы о записях учеников?",
   "records.help.description": "Узнать больше о записях вы можете",
   "records.help.link": "прочитать раздел справки по нашим записям.",
-  "records.header": "Мои записи о студентах"
+  "records.header": "Мои записи о студентах",
+  "certificate.program.card.name": "Сертификат программы",
+  "certificate.course.card.name": "Сертификат курса",
+  "download.button.error": "Не удалось скачать запись программы",
+  "create.link.error": "Не удалось создать ссылку на запись программы. Пожалуйста, выйдите из системы, войдите снова и попробуйте ещё раз.",
+  "learner.full_name": "{full_name} |",
+  "send.records.pending.button": "Повторная попытка...",
+  "send.failure.alert.heading.default": "Нам не удалось отправить вашу запись программы",
+  "send.failure.alert.message.default": "Вы можете попробовать отправить свою запись по траектории {pathway_name} ещё раз. Если проблема сохраняется, {link}",
+  "send.failure.alert.heading.429": "Слишком много запросов.",
+  "send.failure.alert.message.429": "Пожалуйста, попробуйте снова через несколько минут."
 }
