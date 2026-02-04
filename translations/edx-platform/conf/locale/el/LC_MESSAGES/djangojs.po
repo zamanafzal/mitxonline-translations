@@ -11652,3 +11652,23 @@ msgid ""
 msgstr ""
 "Τι γίνεται αν δεν μπορώ να δω την εικόνα της κάμερας ή αν δεν μπορώ να δω τη"
 " φωτογραφία μου για να προσδιορίσω ποια πλευρά είναι ορατή;"
+
+msgid "Alpha item {num_items} loaded"
+msgid_plural "Alpha items {num_items} loaded"
+msgstr[0] "Φορτώθηκε στοιχείο Alpha {num_items}"
+msgstr[1] "Φορτώθηκαν στοιχεία Alpha {num_items}"
+
+msgid "Next block {num_items} ready"
+msgid_plural "Next blocks {num_items} ready"
+msgstr[0] "Το επόμενο block {num_items} είναι έτοιμο"
+msgstr[1] "Τα επόμενα blocks {num_items} είναι έτοιμα"
+
+msgid "Fetching unit {num_items}"
+msgid_plural "Fetching units {num_items}"
+msgstr[0] "Γίνεται ανάκτηση ενότητας {num_items}"
+msgstr[1] "Γίνεται ανάκτηση ενοτήτων {num_items}"
+
+msgid "Placeholder row {num_items}"
+msgid_plural "Placeholder rows {num_items}"
+msgstr[0] "Γραμμή placeholder {num_items}"
+msgstr[1] "Γραμμές placeholder {num_items}"
