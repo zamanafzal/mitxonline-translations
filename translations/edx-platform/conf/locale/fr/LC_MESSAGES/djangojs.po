@@ -31,7 +31,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: cms/static/cms/js/main.js:38
@@ -11676,3 +11676,23 @@ msgstr ""
 "position pour une photo d'une carte d'identité est de 8 à 12 pouces (20 à 30"
 " centimètres) de la caméra, avec la carte d'identité centrée par rapport à "
 "la caméra."
+
+msgid "Alpha item {num_items} loaded"
+msgid_plural "Alpha items {num_items} loaded"
+msgstr[0] "Élément Alpha {num_items} chargé"
+msgstr[1] "Éléments Alpha {num_items} chargés"
+
+msgid "Next block {num_items} ready"
+msgid_plural "Next blocks {num_items} ready"
+msgstr[0] "Bloc suivant {num_items} prêt"
+msgstr[1] "Blocs suivants {num_items} prêts"
+
+msgid "Fetching unit {num_items}"
+msgid_plural "Fetching units {num_items}"
+msgstr[0] "Récupération de l’unité {num_items}"
+msgstr[1] "Récupération des unités {num_items}"
+
+msgid "Placeholder row {num_items}"
+msgid_plural "Placeholder rows {num_items}"
+msgstr[0] "Ligne d’espace réservé {num_items}"
+msgstr[1] "Lignes d’espace réservé {num_items}"
