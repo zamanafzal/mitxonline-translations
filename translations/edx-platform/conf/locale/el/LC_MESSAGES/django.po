@@ -14933,3 +14933,92 @@ msgstr "Ιστορικό υποβολών"
 #: lms/templates/preview_menu.html:101
 msgid "View in Studio"
 msgstr "Προβολή στο Studio"
+
+#: test/translation_test.py:3
+msgid "You have one unread message"
+msgid_plural "You have %(count)s unread messages"
+msgstr[0] "Έχετε ένα μη αναγνωσμένο μήνυμα"
+msgstr[1] "Έχετε %(count)s μη αναγνωσμένα μηνύματα"
+
+#: test/translation_test.py:4
+msgid "There is one student enrolled"
+msgid_plural "There are %(count)s students enrolled"
+msgstr[0] "Υπάρχει ένας εγγεγραμμένος εκπαιδευόμενος"
+msgstr[1] "Υπάρχουν %(count)s εγγεγραμμένοι εκπαιδευόμενοι"
+
+#: test/translation_test.py:5
+msgid "Course has one assignment"
+msgid_plural "Course has %(count)s assignments"
+msgstr[0] "Το μάθημα έχει μία εργασία"
+msgstr[1] "Το μάθημα έχει %(count)s εργασίες"
+
+#: test/translation_test.py:6
+msgid "You completed one lesson"
+msgid_plural "You completed %(count)s lessons"
+msgstr[0] "Ολοκληρώσατε ένα μάθημα"
+msgstr[1] "Ολοκληρώσατε %(count)s μαθήματα"
+
+#: test/translation_test.py:7
+msgid "There is one hour remaining"
+msgid_plural "There are %(count)s hours remaining"
+msgstr[0] "Απομένει μία ώρα"
+msgstr[1] "Απομένουν %(count)s ώρες"
+
+#: test/translation_test.py:8
+msgid "One person is viewing this course"
+msgid_plural "%(count)s people are viewing this course"
+msgstr[0] "Ένα άτομο βλέπει αυτό το μάθημα"
+msgstr[1] "%(count)s άτομα βλέπουν αυτό το μάθημα"
+
+#: test/translation_test.py:9
+msgid "You have one new notification"
+msgid_plural "You have %(count)s new notifications"
+msgstr[0] "Έχετε μία νέα ειδοποίηση"
+msgstr[1] "Έχετε %(count)s νέες ειδοποιήσεις"
+
+#: test/translation_test.py:10
+msgid "Select one file to upload"
+msgid_plural "Select %(count)s files to upload"
+msgstr[0] "Επιλέξτε ένα αρχείο για μεταφόρτωση"
+msgstr[1] "Επιλέξτε %(count)s αρχεία για μεταφόρτωση"
+
+#: test/translation_test.py:11
+msgid "One question needs review"
+msgid_plural "%(count)s questions need review"
+msgstr[0] "Μία ερώτηση χρειάζεται έλεγχο"
+msgstr[1] "%(count)s ερωτήσεις χρειάζονται έλεγχο"
+
+#: test/translation_test.py:12
+msgid "You earned one point"
+msgid_plural "You earned %(count)s points"
+msgstr[0] "Κερδίσατε έναν πόντο"
+msgstr[1] "Κερδίσατε %(count)s πόντους"
+
+#: test/translation_test.py:13
+msgid "This course has one module"
+msgid_plural "This course has %(count)s modules"
+msgstr[0] "Αυτό το μάθημα έχει μία ενότητα"
+msgstr[1] "Αυτό το μάθημα έχει %(count)s ενότητες"
+
+msgid " about this {block_type}"
+msgstr "σχετικά με αυτό το {block_type}"
+
+msgid " about {display_name}"
+msgstr "σχετικά με το {display_name}"
+
+msgid "Hi! Do you need any help?"
+msgstr "Γεια! Χρειάζεστε βοήθεια;"
+
+msgid "Enable AI Chat Assistant"
+msgstr "Ενεργοποίηση Βοηθού Συνομιλίας AI"
+
+msgid "Invalid request body"
+msgstr "Μη έγκυρο σώμα αιτήματος"
+
+msgid "Open Learning Chat enabled status"
+msgstr "Κατάσταση ενεργοποίησης της Συνομιλίας Open Learning"
+
+msgid "Indicates whether or not Open Learning chat is enabled for a block"
+msgstr ""
+"Υποδεικνύει αν η συνομιλία Open Learning είναι ενεργοποιημένη ή όχι για ένα "
+"block"
