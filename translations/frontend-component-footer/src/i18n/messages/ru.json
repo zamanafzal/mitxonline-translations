@@ -39,5 +39,13 @@
   "authoring.footer.termsOfService.link.label": "Договор публичной оферты",
   "authoring.footer.privacyPolicy.link.label": "Политика конфиденциальности",
   "authoring.footer.accessibilityRequest.link.label": "Запрос на доступность проживания",
-  "authoring.footer.trademark.message": "edX и Open edX, а также логотипы edX и Open edX являются зарегистрированными товарными знаками компании"
+  "authoring.footer.trademark.message": "edX и Open edX, а также логотипы edX и Open edX являются зарегистрированными товарными знаками компании",
+  "footer.links.about.us": "О нас",
+  "footer.links.terms.of.service": "Условия обслуживания",
+  "footer.links.accessibility": "Доступность",
+  "footer.links.contact.us": "Связаться с нами",
+  "footer.links.help": "Справка",
+  "footer.trademark.notice": "edX и Open edX — зарегистрированные товарные знаки edX LLC.",
+  "authoring.footer.help.educatorsDocs.button.label": "Документация для преподавателей Open edX",
+  "authoring.footer.help.openEdxDemoCourse.button.label": "Демо-курс Open edX"
 }
