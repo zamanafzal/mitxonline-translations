@@ -13381,3 +13381,90 @@ msgstr ""
 #: lms/templates/preview_menu.html:101
 msgid "View in Studio"
 msgstr ""
+
+#: test/translation_test.py:3
+msgid "You have one unread message"
+msgid_plural "You have %(count)s unread messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:4
+msgid "There is one student enrolled"
+msgid_plural "There are %(count)s students enrolled"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:5
+msgid "Course has one assignment"
+msgid_plural "Course has %(count)s assignments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:6
+msgid "You completed one lesson"
+msgid_plural "You completed %(count)s lessons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:7
+msgid "There is one hour remaining"
+msgid_plural "There are %(count)s hours remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:8
+msgid "One person is viewing this course"
+msgid_plural "%(count)s people are viewing this course"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:9
+msgid "You have one new notification"
+msgid_plural "You have %(count)s new notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:10
+msgid "Select one file to upload"
+msgid_plural "Select %(count)s files to upload"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:11
+msgid "One question needs review"
+msgid_plural "%(count)s questions need review"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:12
+msgid "You earned one point"
+msgid_plural "You earned %(count)s points"
+msgstr[0] ""
+msgstr[1] ""
+
+#: test/translation_test.py:13
+msgid "This course has one module"
+msgid_plural "This course has %(count)s modules"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " about this {block_type}"
+msgstr ""
+
+msgid " about {display_name}"
+msgstr ""
+
+msgid "Hi! Do you need any help?"
+msgstr ""
+
+msgid "Enable AI Chat Assistant"
+msgstr ""
+
+msgid "Invalid request body"
+msgstr ""
+
+msgid "Open Learning Chat enabled status"
+msgstr ""
+
+msgid "Indicates whether or not Open Learning chat is enabled for a block"
+msgstr ""
