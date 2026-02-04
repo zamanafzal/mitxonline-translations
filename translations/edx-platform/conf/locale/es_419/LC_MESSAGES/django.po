@@ -22,7 +22,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
@@ -15330,3 +15330,91 @@ msgstr "Historial de envíos"
 #: lms/templates/preview_menu.html:101
 msgid "View in Studio"
 msgstr "Ver en Studio"
+
+#: test/translation_test.py:3
+msgid "You have one unread message"
+msgid_plural "You have %(count)s unread messages"
+msgstr[0] "Tienes un mensaje sin leer"
+msgstr[1] "Tienes %(count)s mensajes sin leer"
+
+#: test/translation_test.py:4
+msgid "There is one student enrolled"
+msgid_plural "There are %(count)s students enrolled"
+msgstr[0] "Hay un estudiante inscrito"
+msgstr[1] "Hay %(count)s estudiantes inscritos"
+
+#: test/translation_test.py:5
+msgid "Course has one assignment"
+msgid_plural "Course has %(count)s assignments"
+msgstr[0] "El curso tiene una tarea"
+msgstr[1] "El curso tiene %(count)s tareas"
+
+#: test/translation_test.py:6
+msgid "You completed one lesson"
+msgid_plural "You completed %(count)s lessons"
+msgstr[0] "Completaste una lección"
+msgstr[1] "Completaste %(count)s lecciones"
+
+#: test/translation_test.py:7
+msgid "There is one hour remaining"
+msgid_plural "There are %(count)s hours remaining"
+msgstr[0] "Queda una hora"
+msgstr[1] "Quedan %(count)s horas"
+
+#: test/translation_test.py:8
+msgid "One person is viewing this course"
+msgid_plural "%(count)s people are viewing this course"
+msgstr[0] "Una persona está viendo este curso"
+msgstr[1] "%(count)s personas están viendo este curso"
+
+#: test/translation_test.py:9
+msgid "You have one new notification"
+msgid_plural "You have %(count)s new notifications"
+msgstr[0] "Tienes una notificación nueva"
+msgstr[1] "Tienes %(count)s notificaciones nuevas"
+
+#: test/translation_test.py:10
+msgid "Select one file to upload"
+msgid_plural "Select %(count)s files to upload"
+msgstr[0] "Selecciona un archivo para cargar"
+msgstr[1] "Selecciona %(count)s archivos para cargar"
+
+#: test/translation_test.py:11
+msgid "One question needs review"
+msgid_plural "%(count)s questions need review"
+msgstr[0] "Una pregunta necesita revisión"
+msgstr[1] "%(count)s preguntas necesitan revisión"
+
+#: test/translation_test.py:12
+msgid "You earned one point"
+msgid_plural "You earned %(count)s points"
+msgstr[0] "Ganaste un punto"
+msgstr[1] "Ganaste %(count)s puntos"
+
+#: test/translation_test.py:13
+msgid "This course has one module"
+msgid_plural "This course has %(count)s modules"
+msgstr[0] "Este curso tiene un módulo"
+msgstr[1] "Este curso tiene %(count)s módulos"
+
+msgid " about this {block_type}"
+msgstr "sobre este {block_type}"
+
+msgid " about {display_name}"
+msgstr "sobre {display_name}"
+
+msgid "Hi! Do you need any help?"
+msgstr "¡Hola! ¿Necesitas ayuda?"
+
+msgid "Enable AI Chat Assistant"
+msgstr "Habilitar Asistente de Chat con IA"
+
+msgid "Invalid request body"
+msgstr "Cuerpo de la solicitud no válido"
+
+msgid "Open Learning Chat enabled status"
+msgstr "Estado de habilitación del Chat de Aprendizaje Abierto"
+
+msgid "Indicates whether or not Open Learning chat is enabled for a block"
+msgstr ""
+"Indica si el chat de Aprendizaje Abierto está habilitado para un bloque"
