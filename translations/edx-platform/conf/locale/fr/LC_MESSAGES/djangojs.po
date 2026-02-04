@@ -3799,7 +3799,7 @@ msgstr "dernière activité"
 
 #: lms/djangoapps/teams/static/teams/js/collections/team.js:37
 msgid "open slots"
-msgstr ""
+msgstr "places disponibles"
 
 #: lms/djangoapps/teams/static/teams/js/collections/topic.js:26
 msgid "name"
@@ -3807,7 +3807,7 @@ msgstr "nom"
 
 #: lms/djangoapps/teams/static/teams/js/collections/topic.js:28
 msgid "team count"
-msgstr ""
+msgstr "nombre d’équipes"
 
 #: lms/djangoapps/teams/static/teams/js/teams_tab_factory.js:10
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:173
@@ -3984,6 +3984,7 @@ msgid " Member"
 msgid_plural " Members"
 msgstr[0] "Membre"
 msgstr[1] "Membres"
+msgstr[2] ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js:16
 msgid "All teams"
@@ -4111,6 +4112,7 @@ msgid "{team_count} Team"
 msgid_plural "{team_count} Teams"
 msgstr[0] "{team_count} Équipe"
 msgstr[1] "{team_count} Équipes"
+msgstr[2] ""
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js:50
 msgid "Topic"
@@ -4223,6 +4225,7 @@ msgid "%(errorCount)s error found in form."
 msgid_plural "%(errorCount)s errors found in form."
 msgstr[0] "%(errorCount)s erreur trouvée dans le formulaire."
 msgstr[1] "%(errorCount)s erreurs trouvées dans le formulaire."
+msgstr[2] ""
 
 #: lms/static/js/Markdown.Editor.js:1451
 msgid "Bold (Ctrl+B)"
@@ -4327,11 +4330,11 @@ msgstr "Fermer la calculatrice"
 
 #: lms/static/js/ccx/schedule.js:63
 msgid "All subsections"
-msgstr ""
+msgstr "Toutes les sous-sections"
 
 #: lms/static/js/ccx/schedule.js:86
 msgid "All units"
-msgstr ""
+msgstr "Toutes les unités"
 
 #: lms/static/js/ccx/schedule.js:185 lms/static/js/ccx/schedule.js:188
 #: lms/templates/ccx/schedule.underscore:38
@@ -4629,6 +4632,7 @@ msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
 msgstr[0] "Consultation de %s cours"
 msgstr[1] "Consultation de %s cours"
+msgstr[2] ""
 
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
@@ -4777,7 +4781,7 @@ msgstr "[aucun tag]"
 #: lms/static/js/edxnotes/views/tabs/tags.js:130
 #: cms/templates/js/tag-list.underscore:6
 msgid "Tags"
-msgstr ""
+msgstr "Étiquettes"
 
 #: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:38
 msgid "Unable to submit application"
@@ -4815,18 +4819,21 @@ msgid "{numUsersAdded} learner has been added to this cohort. "
 msgid_plural "{numUsersAdded} learners have been added to this cohort. "
 msgstr[0] "{numUsersAdded} apprenant a été ajouté à cette cohorte."
 msgstr[1] "{numUsersAdded} apprenants ont été ajoutés à cette cohorte."
+msgstr[2] ""
 
 #: lms/static/js/groups/views/cohort_editor.js:195
 msgid "{numMoved} learner was moved from {prevCohort}"
 msgid_plural "{numMoved} learners were moved from {prevCohort}"
 msgstr[0] "{numMoved} apprenant a été déplacé de {prevCohort}"
 msgstr[1] "{numMoved} apprenants ont été déplacés de {prevCohort}"
+msgstr[2] ""
 
 #: lms/static/js/groups/views/cohort_editor.js:205
 msgid "{numPresent} learner was already in the cohort"
 msgid_plural "{numPresent} learners were already in the cohort"
 msgstr[0] "{numPresent} apprenant était déjà dans la cohorte"
 msgstr[1] "{numPresent} apprenants étaient déjà dans la cohorte"
+msgstr[2] ""
 
 #: lms/static/js/groups/views/cohort_editor.js:237
 msgid ""
@@ -4842,6 +4849,7 @@ msgstr[1] ""
 "{numPreassigned} apprenants ont été pré-affectés à cette cohorte. Ces "
 "apprenants seront automatiquement ajoutés à la cohorte lorsqu'ils "
 "s'inscriront au cours."
+msgstr[2] ""
 
 #: lms/static/js/groups/views/cohort_editor.js:276
 msgid "Unknown username: {user}"
@@ -4861,6 +4869,7 @@ msgid_plural "{numErrors} learners could not be added to this cohort:"
 msgstr[0] ""
 "Une erreur s'est produite lors de la tentative d'ajout d'apprenants :"
 msgstr[1] "{numErrors} apprenants n'ont pas pu être ajoutés à cette cohorte :"
+msgstr[2] ""
 
 #: lms/static/js/groups/views/cohort_editor.js:306
 msgid "View all errors"
@@ -5194,11 +5203,11 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js:768
 msgid "Successfully enrolled and sent email to the following users:"
-msgstr ""
+msgstr "Inscription réussie et e-mail envoyé aux utilisateurs suivants :"
 
 #: lms/static/js/instructor_dashboard/membership.js:780
 msgid "Successfully enrolled the following users:"
-msgstr ""
+msgstr "Inscription réussie des utilisateurs suivants :"
 
 #: lms/static/js/instructor_dashboard/membership.js:792
 msgid ""
@@ -5231,15 +5240,19 @@ msgid ""
 "Emails successfully sent. The following users are no longer enrolled in the "
 "course:"
 msgstr ""
+"E-mails envoyés avec succès. Les utilisateurs suivants ne sont plus inscrits"
+" au cours :"
 
 #: lms/static/js/instructor_dashboard/membership.js:852
 msgid "The following users are no longer enrolled in the course:"
-msgstr ""
+msgstr "Les utilisateurs suivants ne sont plus inscrits au cours :"
 
 #: lms/static/js/instructor_dashboard/membership.js:863
 msgid ""
 "These users were not affiliated with the course so could not be unenrolled:"
 msgstr ""
+"Ces utilisateurs n’étaient pas associés au cours et n’ont donc pas pu être "
+"désinscrits :"
 
 #: lms/static/js/instructor_dashboard/send_email.js:68
 msgid "Your message must have a subject."
@@ -5747,7 +5760,7 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:62
 msgid "{type} Progress"
-msgstr ""
+msgstr "Progression : {type}"
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:65
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:83
@@ -6206,7 +6219,7 @@ msgstr ""
 
 #: lms/static/js/views/image_field.js:222
 msgid "bytes"
-msgstr ""
+msgstr "octets"
 
 #: lms/static/js/views/image_field.js:222
 msgid "KB"
@@ -6237,6 +6250,7 @@ msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
 msgstr[0] "{total_results} résultat trouvé pour \"{search_term}\""
 msgstr[1] "{total_results} résultats trouvés pour \"{search_term}\""
+msgstr[2] ""
 
 #: xmodule/assets/library_content/public/js/library_content_edit.js:44
 #: xmodule/js/public/js/library_content_edit.js:44
@@ -6360,6 +6374,7 @@ msgid "%(value)s second"
 msgid_plural "%(value)s seconds"
 msgstr[0] "%(value)s seconde"
 msgstr[1] "%(value)s secondes"
+msgstr[2] ""
 
 #: xmodule/assets/video/public/js/07_video_volume_control.js:68
 msgid ""
@@ -6508,12 +6523,14 @@ msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
 msgstr[0] "{num_points} point possible (noté, résultats masqués)"
 msgstr[1] "{num_points} points possibles (notés, résultats masqués)"
+msgstr[2] ""
 
 #: xmodule/js/src/capa/display.js:255
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
 msgstr[0] "{num_points} point possible (non noté, résultats masqués)"
 msgstr[1] "{num_points} points possibles (non notés, résultats masqués)"
+msgstr[2] ""
 
 #: xmodule/js/src/capa/display.js:373
 msgid "The grading process is still running. Refresh the page to see updates."
@@ -6601,7 +6618,7 @@ msgstr "Ancre"
 
 #: xmodule/js/src/html/edit.js:265
 msgid "Anchors"
-msgstr ""
+msgstr "Ancres"
 
 #: xmodule/js/src/html/edit.js:275
 msgid "Background color"
@@ -6609,7 +6626,7 @@ msgstr "Couleur d'arrière-plan"
 
 #: xmodule/js/src/html/edit.js:285
 msgid "Blocks"
-msgstr ""
+msgstr "Blocs"
 
 #: xmodule/js/src/html/edit.js:295
 msgid "Bold"
@@ -6793,7 +6810,7 @@ msgstr "Famille de polices"
 
 #: xmodule/js/src/html/edit.js:555
 msgid "Font Sizes"
-msgstr ""
+msgstr "Tailles de police"
 
 #: xmodule/js/src/html/edit.js:560
 msgid "Footer"
@@ -6805,7 +6822,7 @@ msgstr "Format"
 
 #: xmodule/js/src/html/edit.js:570
 msgid "Formats"
-msgstr ""
+msgstr "Formats"
 
 #: xmodule/js/src/html/edit.js:585
 msgid "H Align"
@@ -6845,7 +6862,7 @@ msgstr "En-tête"
 
 #: xmodule/js/src/html/edit.js:630
 msgid "Headers"
-msgstr ""
+msgstr "En-têtes"
 
 #: xmodule/js/src/html/edit.js:635
 msgid "Heading 1"
@@ -6857,7 +6874,7 @@ msgstr "Titre 2"
 
 #: xmodule/js/src/html/edit.js:665
 msgid "Headings"
-msgstr ""
+msgstr "Titres"
 
 #: xmodule/js/src/html/edit.js:675
 msgid "Horizontal line"
@@ -7089,7 +7106,7 @@ msgstr "Droite"
 
 #: xmodule/js/src/html/edit.js:1010
 msgid "Robots"
-msgstr ""
+msgstr "Robots"
 
 #: xmodule/js/src/html/edit.js:1015
 msgid "Row group"
@@ -7105,11 +7122,11 @@ msgstr "Type de ligne"
 
 #: xmodule/js/src/html/edit.js:1030
 msgid "Row"
-msgstr ""
+msgstr "Ligne"
 
 #: xmodule/js/src/html/edit.js:1035
 msgid "Rows"
-msgstr ""
+msgstr "Lignes"
 
 #: xmodule/js/src/html/edit.js:1045
 msgid "Scope"
@@ -7311,7 +7328,7 @@ msgstr "correct"
 
 #: xmodule/js/src/problem/edit.js:51 xmodule/js/src/problem/edit.js:56
 msgid "answer"
-msgstr ""
+msgstr "réponse"
 
 #: xmodule/js/src/problem/edit.js:75
 msgid "Short explanation"
@@ -7427,24 +7444,24 @@ msgstr "Types de problèmes courants"
 
 #: cms/templates/js/add-xblock-component-support-legend.underscore:9
 msgid "Supported"
-msgstr ""
+msgstr "Pris en charge"
 
 #: cms/templates/js/add-xblock-component-support-legend.underscore:13
 msgid "Provisional"
-msgstr ""
+msgstr "Provisoire"
 
 #: cms/templates/js/add-xblock-component-support-legend.underscore:18
 #: cms/templates/js/add-xblock-component-support-level.underscore:9
 msgid "Not Supported"
-msgstr ""
+msgstr "Non pris en charge"
 
 #: cms/templates/js/add-xblock-component-support-level.underscore:3
 msgid "Fully Supported"
-msgstr ""
+msgstr "Entièrement pris en charge"
 
 #: cms/templates/js/add-xblock-component-support-level.underscore:6
 msgid "Provisionally Supported"
-msgstr ""
+msgstr "Pris en charge à titre provisoire"
 
 #: cms/templates/js/add-xblock-component.underscore:2
 msgid "Add New Component"
@@ -7501,7 +7518,7 @@ msgstr "Verrouiller cet actif"
 
 #: cms/templates/js/asset.underscore:43
 msgid "Lock/unlock file"
-msgstr ""
+msgstr "Verrouiller/déverrouiller le fichier"
 
 #: cms/templates/js/certificate-details.underscore:18
 #: cms/templates/js/certificate-editor.underscore:23
@@ -7571,7 +7588,7 @@ msgstr ""
 
 #: cms/templates/js/certificate-editor.underscore:41
 msgid "Add Additional Signatory"
-msgstr ""
+msgstr "Ajouter un signataire supplémentaire"
 
 #: cms/templates/js/certificate-editor.underscore:42
 msgid "(Add signatories for a certificate)"
@@ -7595,7 +7612,7 @@ msgstr "Désactiver"
 
 #: cms/templates/js/container-access.underscore:9
 msgid "component"
-msgstr ""
+msgstr "composant"
 
 #: cms/templates/js/container-access.underscore:16
 #, python-brace-format
@@ -8823,7 +8840,7 @@ msgstr ""
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:49
 msgid "Onboarding"
-msgstr ""
+msgstr "Intégration"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:51
 msgid ""
@@ -8839,7 +8856,7 @@ msgstr ""
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:58
 msgid "Practice Proctored"
-msgstr ""
+msgstr "Entraînement surveillé"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:60
 msgid ""
@@ -8935,7 +8952,7 @@ msgstr "Sélectionnez un ou plusieurs groupes :"
 
 #: cms/templates/js/unit-access-editor.underscore:31
 msgid "Deleted Group"
-msgstr ""
+msgstr "Groupe supprimé"
 
 #: cms/templates/js/unit-access-editor.underscore:32
 msgid ""
@@ -9048,7 +9065,7 @@ msgstr "Transcript chronométré par défaut"
 #: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:3
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:3
 msgid "Timed Transcript Conflict"
-msgstr ""
+msgstr "Conflit de transcription chronométrée"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:7
 msgid ""
@@ -9296,6 +9313,7 @@ msgid "Show Comment (%(num_comments)s)"
 msgid_plural "Show Comments (%(num_comments)s)"
 msgstr[0] "Afficher le commentaire (%(num_comments)s)"
 msgstr[1] "Afficher les commentaires (%(num_comments)s)"
+msgstr[2] ""
 
 #: common/static/common/templates/discussion/templates.underscore:164
 #: common/static/common/templates/discussion/templates.underscore:166
@@ -9362,7 +9380,7 @@ msgstr "TA communautaire"
 #: common/static/common/templates/discussion/templates.underscore:379
 #, python-brace-format
 msgid "{unread_comments_count} new"
-msgstr ""
+msgstr "{unread_comments_count} nouveau"
 
 #: common/static/common/templates/discussion/templates.underscore:398
 #, python-format
@@ -9499,7 +9517,7 @@ msgstr "Utilisez le menu Tous les sujets pour trouver des sujets spécifiques."
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:29
 msgid "Filter and sort topics"
-msgstr ""
+msgstr "Filtrer et trier les sujets"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:33
 msgid "Engage with posts"
@@ -9793,7 +9811,7 @@ msgstr "tout supprimer"
 #: lms/templates/ccx/schedule.underscore:28
 #, python-format
 msgid "toggle chapter %(displayName)s"
-msgstr ""
+msgstr "basculer le chapitre %(displayName)s"
 
 #: lms/templates/ccx/schedule.underscore:33
 msgid "Section"
@@ -9813,7 +9831,7 @@ msgstr "supprimer"
 #: lms/templates/ccx/schedule.underscore:56
 #, python-format
 msgid "toggle subsection %(displayName)s"
-msgstr ""
+msgstr "basculer la sous-section %(displayName)s"
 
 #: lms/templates/ccx/schedule.underscore:60
 msgid "Subsection"
@@ -10063,7 +10081,7 @@ msgstr "Retirer de la liste"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:1
 msgid "Bulk Exceptions"
-msgstr ""
+msgstr "Exceptions en masse"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:4
 msgid ""
@@ -10252,6 +10270,7 @@ msgid "(contains %(student_count)s student)"
 msgid_plural "(contains %(student_count)s students)"
 msgstr[0] "(contient %(student_count)s étudiant)"
 msgstr[1] "(contient %(student_count)s étudiants)"
+msgstr[2] ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
 msgid ""
@@ -10358,7 +10377,7 @@ msgstr "État du certificat :"
 
 #: lms/templates/learner_dashboard/certificate_status.underscore:4
 msgid "Certificate Purchased"
-msgstr ""
+msgstr "Certificat acheté"
 
 #: lms/templates/learner_dashboard/course_card.underscore:21
 msgid "Change or Leave Session"
@@ -10472,6 +10491,7 @@ msgid "Course"
 msgid_plural "Courses"
 msgstr[0] "Cours"
 msgstr[1] "Cours"
+msgstr[2] ""
 
 #: lms/templates/learner_dashboard/program_card.underscore:18
 msgid "Completed"
@@ -10571,7 +10591,7 @@ msgstr "Mettre à niveau tous les cours restants ("
 #: lms/templates/learner_dashboard/program_details_view.underscore:32
 #, python-brace-format
 msgid "${listPrice}"
-msgstr ""
+msgstr "${listPrice}"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:62
 #: lms/templates/learner_dashboard/program_details_view.underscore:38
@@ -10678,7 +10698,7 @@ msgstr "Besoin d'une autre aide pour vous connecter ?"
 
 #: lms/templates/student_account/form_field.underscore:154
 msgid "Create an account"
-msgstr ""
+msgstr "Créer un compte"
 
 #: lms/templates/student_account/hinted_login.underscore:16
 #, python-format
@@ -10705,7 +10725,7 @@ msgstr "S'inscrire avec les identifiants de l'établissement/du campus"
 #: lms/templates/student_account/institution_register.underscore:28
 #: lms/templates/student_account/register.underscore:50
 msgid "Create an Account"
-msgstr ""
+msgstr "Créer un compte"
 
 #: lms/templates/student_account/login.underscore:6
 msgid "First time here?"
