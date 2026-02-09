@@ -354,5 +354,16 @@
   "id.verification.requirements.card.device.text": "Вам нужно устройство с камерой. Если вы получили запрос браузера на доступ к вашей камере, обязательно нажмите {allow} .",
   "id.verification.account.name.summary.alert": "Настройки вашей учетной записи управляются {managerTitle} . Если имя в вашем удостоверении личности с фотографией не совпадает с именем в вашей учетной записи, обратитесь за помощью к администратору {profileDataManager} или {support} .",
   "idv.submission.alert.error": "При попытке подтвердить удостоверение личности произошла техническая ошибка. Возможно, это временная проблема, поэтому повторите попытку через несколько минут. Если проблема не устранена, обратитесь за помощью по {support_link} .",
-  "id.verification.account.name.edit": "Изменить {sr}"
+  "id.verification.account.name.edit": "Изменить {sr}",
+  "account.settings.field.social.platform.name.xTwitter": "X (Twitter)",
+  "account.settings.field.social.platform.name.xTwitter.empty": "Добавить профиль X",
+  "id.verification.privacy.modal.close.button": "Закрыть",
+  "id.verification.context.loading.state": "Загрузка статуса проверки",
+  "notification.preference.emailCadence": "{ text, select, Daily {Ежедневно} Weekly {Еженедельно} Immediately {Немедленно} other {{text}} }",
+  "notification.cadence.description": "Ежедневные уведомления отправляются в {dailyTime}. Еженедельные уведомления отправляются каждое воскресенье в {weeklyTime}.",
+  "notification.default.info": "Уведомления о некоторых действиях включены по умолчанию, подробности здесь",
+  "notification.dropdown.label": "Выберите уведомления для",
+  "notification.dropdown.applies": "Применяется ко всем курсам",
+  "notification.dropdown.course.applies": "Переопределяет настройки всего аккаунта",
+  "account.settings.cannot.delete.account.text": "Обратите внимание, что по причинам юридического и нормативного соответствия удаление аккаунта в настоящее время недоступно."
 }
