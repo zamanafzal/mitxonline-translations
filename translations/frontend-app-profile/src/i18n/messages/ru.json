@@ -53,5 +53,16 @@
   "profile.notfound.message": "Страница, которую вы ищете, недоступна или произошла ошибка в URL-адресе. Пожалуйста, проверьте URL-адрес и повторите попытку.",
   "profile.viewMyRecords": "Просмотреть мои записи",
   "profile.loading": "Загрузка профиля ...",
-  "profile.username.description": "Информация вашего профиля видна только вам. Другим пользователям на {siteName} видно только ваше имя пользователя."
+  "profile.username.description": "Информация вашего профиля видна только вам. Другим пользователям на {siteName} видно только ваше имя пользователя.",
+  "profile.certificate.uuid": "ID учётных данных {certificate_uuid}",
+  "profile.your.certificates": "Ваши сертификаты",
+  "profile.certificates.description": "Информация о ваших записях обучающегося видна только вам. Другим пользователям на {siteName} видны только ваше имя пользователя и изображение профиля.",
+  "profile.profile.information": "Информация профиля",
+  "profile.username": "Имя пользователя",
+  "profile.username.tooltip": "Имя, по которому вас идентифицируют на edX. Вы не можете изменить имя пользователя.",
+  "profile.certificatecount": "{certificate_count} сертификатов",
+  "profile.name.tooltip": "Имя, используемое для проверки личности и отображаемое на ваших сертификатах",
+  "profile.name.redirect": "Изменить полное имя на странице «Учётные записи»",
+  "profile.profileavatar.tooltip.edit": "Изменить фото",
+  "profile.profileavatar.tooltip.upload": "Загрузить фото"
 }
