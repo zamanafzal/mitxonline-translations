@@ -209,7 +209,7 @@
   "discussions.editor.posts.editReasonCode": "سبب التعديل",
   "discussions.editor.posts.showPreview.button": "عرض المعاينة",
   "discussions.editor.posts.showHelp.icon": "اعرض المساعدة",
-  "discussions.editor.posts.discussionHelpHeader": "",
+  "discussions.editor.posts.discussionHelpHeader": "مساعدة المناقشات",
   "discussions.editor.posts.discussionHelpDescription": "تتيح لك مناقشات المساق فرصة لبدء المحادثات، وطرح تساؤلاتك، والتفاعل مع المتعلمين الآخرين. لمعرفة المزيد، اطَّلِع على الروابط أدناه:",
   "discussions.editor.posts.discussionHelpCourseParticipation": "المشاركة في مناقشات المساق",
   "discussions.editor.posts.discussionHelpMathExpressions": "إدخال التعبيرات الرياضية في مناقشات المساق",
@@ -233,5 +233,5 @@
   "discussions.posts.sort.lastActivity": "الأحدث نشاطًا",
   "discussions.posts.sort.commentCount": "الأكثر نشاطًا",
   "discussions.posts.sort.voteCount": "الأكثر إعجابًا",
-  "discussions.posts.sort-filter.sortFilterStatus": ""
+  "discussions.posts.sort-filter.sortFilterStatus": "{own, select, false {جميع} true {خاصتي} other {{own}} } {status, select, statusAll {} statusUnread {غير مقروءة} statusFollowing {متابعة} statusReported {تم الإبلاغ عنها} statusUnanswered {غير مجابة} statusUnresponded {غير مستجيبة} other {{status}} } {type, select, discussion {المناقشات} question {الأسئلة} all {المنشورات} other {{type}} } {cohortType, select, all {} group {في {cohort}} other {{cohortType}} } مرتبة حسب {sort, select, lastActivityAt {النشاط الأخير} commentCount {أكثر نشاطًا} voteCount {أكثر إعجابًا} other {{sort}} }"
 }
