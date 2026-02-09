@@ -78,7 +78,7 @@
   "leanerDashboard.verifiedConfirmEmailButton": "Eu confirmei meu e-mail",
   "leanerDashboard.confirmEmailModalHeader": "Confirme seu e-mail",
   "leanerDashboard.confirmEmailModalBody": "Enviamos um e-mail para você verificar sua conta. Verifique sua caixa de entrada e clique no grande botão vermelho para confirmar e continuar aprendendo.",
-  "leanerDashboard.confirmEmailImageAlt": "",
+  "leanerDashboard.confirmEmailImageAlt": "plano de fundo de confirmação de e-mail",
   "learner-dash.unenrollConfirm.confirm.header": "Confirme a Desmatricular",
   "learner-dash.unenrollConfirm.confirm.text": "Tem certeza de que deseja se desmatricular do curso {courseTitle}?",
   "learner-dash.unenrollConfirm.confirm.cancel": "Cancelar",
