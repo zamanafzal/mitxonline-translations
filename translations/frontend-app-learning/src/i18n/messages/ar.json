@@ -476,5 +476,9 @@
   "courseOutline.tray.title": "خطة المساق",
   "courseOutline.completedUnit": "وحدة مكتملة",
   "courseOutline.incompleteUnit": "وحدة غير مكتملة",
-  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات"
+  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات",
+  "progress.courseGrade.footer.dueDateNotice": "لم يتم بعد تضمين بعض درجات الواجبات في درجتك الإجماليّة. سيتم إصدار هذه الدرجات بحلول {dueDate}.",
+  "progress.hiddenScoreLabel": "الدرجات المخفية",
+  "progress.hiddenScoreInfoText": "درجات من الواجبات التي تُحتسب في درجتك النهائية ولكن بعضها غير معروض هنا.",
+  "progress.hiddenScoreLockInfoText": "يتم إخفاء درجات نوع الواجب ولكنها لا تزال تحتسب في درجة المقرر."
 }
