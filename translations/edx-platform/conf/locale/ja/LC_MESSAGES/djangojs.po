@@ -3,19 +3,19 @@
 # Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2026.
-# 
+#
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
-# 
+#
 # Translators:
 # Transifex Bot <>, 2025
 # Brian Smith, 2025
 # Gerardo Núñez, 2026
 # Eden Huthmacher, 2026
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -25,12 +25,12 @@ msgstr ""
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Eden Huthmacher, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/open-edx/teams/6205/ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/static/cms/js/main.js:38
 #: cms/static/js/views/active_video_upload_list.js:36
@@ -10516,3 +10516,156 @@ msgstr[0] "次の{num_items}件を読み込む"
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "申し訳ありませんが、結果が見つかりませんでした。"
+
+#: cms/static/js/views/manage_users_and_roles.js:22
+msgid "Return and add email address"
+msgstr "戻ってメールアドレスを追加"
+
+#: cms/static/js/views/video_thumbnail.js:39
+msgid ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "second"
+msgstr "秒"
+
+#: cms/static/js/views/video_thumbnail.js:201
+msgid "{seconds} {unit}"
+msgstr "{seconds} {unit}"
+
+#: lms/static/js/Markdown.Editor.js:1997 lms/static/js/Markdown.Editor.js:2017
+msgid "enter code here"
+msgstr "ここにコードを入力"
+
+#: lms/static/js/instructor_dashboard/membership.js:768
+msgid "Successfully enrolled and sent email to the following users:"
+msgstr "登録に成功し、次のユーザーにメールを送信しました："
+
+#: lms/static/js/instructor_dashboard/membership.js:828
+msgid "These users will be enrolled once they register:"
+msgstr "次のユーザーは登録後に受講登録されます："
+
+#: lms/static/js/instructor_dashboard/membership.js:852
+msgid "The following users are no longer enrolled in the course:"
+msgstr "次のユーザーはこのコースの受講登録が解除されました："
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:46
+msgid ""
+"Before proceeding, please {htmlStart}unlink all social media "
+"accounts{htmlEnd}."
+msgstr "続行する前に、{htmlStart}すべてのソーシャルメディアアカウントの連携を解除{htmlEnd}してください。"
+
+#: lms/static/js/student_account/views/LoginView.js:222
+msgid ""
+"An error has occurred. Try refreshing the page, or check your Internet "
+"connection."
+msgstr "エラーが発生しました。ページを再読み込みするか、インターネット接続を確認してください。"
+
+#: xmodule/assets/video/public/js/00_i18n.js:15
+#: xmodule/assets/video/public/js/04_video_full_screen.js:5
+#: xmodule/assets/video/public/js/04_video_full_screen.js:7
+#: xmodule/assets/video/public/js/04_video_full_screen.js:199
+msgid "Fill browser"
+msgstr "ブラウザーに合わせる"
+
+#: xmodule/assets/video/public/js/00_i18n.js:28
+msgid "Loud"
+msgstr "大"
+
+#: xmodule/js/src/html/edit.js:360
+msgid "Circle"
+msgstr "円"
+
+#: xmodule/js/src/html/edit.js:975
+msgid "Replace with"
+msgstr "次で置換"
+
+#: cms/templates/js/content-visibility-editor.underscore:15
+msgid "Learners see the published subsection and can access its content."
+msgstr "受講者には公開済みのサブセクションが表示され、その内容にアクセスできます。"
+
+#: cms/templates/js/course-outline.underscore:92
+msgid ""
+"Access to some content in this unit is restricted to specific groups of "
+"learners"
+msgstr "このユニット内の一部コンテンツへのアクセスは、特定の受講者グループに制限されています"
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
+msgid "Press update settings to update course video settings"
+msgstr "「設定を更新」を押してコース動画の設定を更新してください"
+
+#: cms/templates/js/due-date-editor.underscore:17
+#: cms/templates/js/due-date-editor.underscore:19
+msgid "Clear Grading Due Date"
+msgstr "採点期限をクリア"
+
+#: cms/templates/js/edit-chapter.underscore:5
+msgid "provide the title/name of the chapter that will be used in navigating"
+msgstr "ナビゲーションで使用する章のタイトル／名前を指定してください"
+
+#: cms/templates/js/license-selector.underscore:101
+msgid "Creative Commons licensed content, with terms as follow:"
+msgstr "クリエイティブ・コモンズでライセンスされたコンテンツ。条件は次のとおりです："
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:31
+msgid ""
+"Use a timed exam to limit the time learners can spend on problems in this "
+"subsection. Learners must submit answers before the time expires. You can "
+"allow additional time for individual learners through the Instructor "
+"Dashboard."
+msgstr ""
+"制限時間付き試験を使用して、このサブセクションの問題に受講者が費やせる時間を制限します。受講者は時間切れになる前に解答を提出する必要があります。講師ダッシュボードから、個々の受講者に追加時間を許可できます。"
+
+#: cms/templates/js/verification-access-editor.underscore:23
+msgid "Verification checkpoint to be completed"
+msgstr "完了が必要な本人確認チェックポイント"
+
+#: common/static/common/templates/components/paging-footer.underscore:6
+#, python-format
+msgid "Page number out of %(total_pages)s"
+msgstr "%(total_pages)sページ中のページ番号が範囲外です"
+
+#: common/static/common/templates/discussion/templates.underscore:199
+#, python-format
+msgid "endorsed %(time_ago)s by %(user)s"
+msgstr "%(user)sが%(time_ago)sに推薦"
+
+#: common/static/common/templates/discussion/templates.underscore:275
+#, python-format
+msgid "posted %(time_ago)s by %(author)s"
+msgstr "%(author)sが%(time_ago)sに投稿"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:29
+msgid "Invalidated By"
+msgstr "無効化したユーザー"
+
+#: lms/templates/learner_dashboard/upgrade_message.underscore:9
+msgid "Upgrade to Verified"
+msgstr "認証（Verified）にアップグレード"
+
+#: lms/templates/verify_student/face_photo_step.underscore:52
+#: lms/templates/verify_student/id_photo_step.underscore:47
+#: lms/templates/verify_student/incourse_reverify.underscore:43
+msgid ""
+"What if I can't see the camera image, or if I can't see my photo do "
+"determine which side is visible?"
+msgstr "カメラ画像が表示されない場合、または写真でどちらの面が表示されているか判断できない場合はどうすればよいですか？"
+
+#: lms/templates/verify_student/make_payment_step.underscore:6
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
+#, python-brace-format
+msgid "You are enrolling in: {courseName}"
+msgstr "次のコースに登録しています：{courseName}"
+
+#: lms/templates/verify_student/make_payment_step.underscore:17
+#, python-brace-format
+msgid "You are upgrading your enrollment for: {courseName}"
+msgstr "次のコースの受講登録をアップグレードしています：{courseName}"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:25
+msgid "Bookmarked on"
+msgstr "ブックマーク日時："

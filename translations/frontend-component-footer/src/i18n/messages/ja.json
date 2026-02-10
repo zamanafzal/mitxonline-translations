@@ -7,7 +7,7 @@
   "footer.languageForm.select.label": "言語を選択",
   "footer.languageForm.submit.label": "適用",
   "footer.edxLinks.about": "概要",
-  "footer.edxLinks.business": "",
+  "footer.edxLinks.business": "ビジネス向けedX",
   "footer.edxLinks.affiliates": "アフィリエイト",
   "footer.edxLinks.openEdx": "オープン edX",
   "footer.edxLinks.careers": "キャリア",
@@ -37,5 +37,11 @@
   "authoring.footer.termsOfService.link.label": "利用規約",
   "authoring.footer.privacyPolicy.link.label": "プライバシーポリシー",
   "authoring.footer.accessibilityRequest.link.label": "アクセシビリティ対応リクエスト",
-  "authoring.footer.trademark.message": "edXとOpen edX、およびedXとOpen edXのロゴは、登録商標です。"
+  "authoring.footer.trademark.message": "edXとOpen edX、およびedXとOpen edXのロゴは、登録商標です。",
+  "footer.links.about.us": "会社概要",
+  "footer.links.terms.of.service": "利用規約",
+  "footer.links.accessibility": "アクセシビリティ",
+  "footer.links.contact.us": "お問い合わせ",
+  "footer.links.help": "ヘルプ",
+  "footer.trademark.notice": "edXおよびOpen edXは、edX LLCの登録商標です。"
 }

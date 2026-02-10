@@ -17,7 +17,7 @@
   "header.label.main.nav": "メイン",
   "header.label.main.menu": "メインメニュー",
   "header.label.main.header": "メイン",
-  "header.label.secondary.nav": "",
+  "header.label.secondary.nav": "中等教育",
   "header.label.skip.nav": "メインコンテンツにスキップ",
   "header.label.app.nav": "アプリ",
   "general.register.sentenceCase": "登録",
@@ -32,5 +32,7 @@
   "header.menu.aria-label": "ユーザーオプション",
   "header.user.menu.studio": "スタジオホーム",
   "header.label.courseOutline": "Studioでコース概要に戻る",
-  "header.label.search.nav": "コンテンツを検索"
+  "header.label.search.nav": "コンテンツを検索",
+  "header.user.menu.signout": "サインアウト",
+  "header.user.menu.account.setting": "設定"
 }
