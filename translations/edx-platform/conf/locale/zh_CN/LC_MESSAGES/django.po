@@ -2,12 +2,12 @@
 # Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2026.
-# 
+#
 # Translators:
 # Cecilia Liu, 2024
 # Eden Huthmacher, 2026
 # Brian Smith, 2026
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -16,10 +16,10 @@ msgstr ""
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/open-edx/teams/6205/zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
@@ -13326,3 +13326,327 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr "{display_name} 仅供注册的学员使用。 登录或注册，并注册此课程以查看它。"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:12
+#, python-format
+msgid ""
+"\n"
+"                    Proctoring requirements for %(course_name)s\n"
+"                "
+msgstr ""
+"\n"
+"%(course_name)s 的监考要求"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
+#, python-format
+msgid ""
+"\n"
+"                    You are enrolled in %(course_name)s at %(platform_name)s. This course contains proctored exams.\n"
+"                "
+msgstr ""
+"\n"
+"您已在 %(platform_name)s 注册了 %(course_name)s。该课程包含监考考试。"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
+#, python-format
+msgid ""
+"\n"
+"                    Proctored exams are timed exams that you take while proctoring software monitors your computer's desktop, webcam video, and audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
+"                "
+msgstr ""
+"\n"
+"监考考试是指在监考软件监控您的计算机桌面、网络摄像头视频和音频的情况下进行的限时考试。您的课程使用 %(proctoring_provider)s 软件进行监考。"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:53
+msgid ""
+"\n"
+"                Proctoring Instructions and Requirements\n"
+"            "
+msgstr ""
+"\n"
+"监考说明和要求"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:41
+#, python-format
+msgid ""
+"\n"
+"            You’re almost there, %(user_name)s!\n"
+"        "
+msgstr ""
+"\n"
+"%(user_name)s，您就快完成了！"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:49
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                "
+msgstr[0] ""
+"\n"
+"您设定了每周在 %(course_name)s 中学习 {start_bold}%(days_per_week)s 次{end_bold} 的目标。现在就看您如何将目标变为现实。"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:79
+msgid ""
+"\n"
+"                        Jump back in\n"
+"                    "
+msgstr ""
+"\n"
+"继续学习"
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
+#, python-format
+msgid ""
+"\n"
+"            You are receiving this email at address %(email)s because you are enrolled in\n"
+"          "
+msgstr ""
+"\n"
+"您收到这封邮件是因为您在 %(email)s 注册了"
+
+#: lms/templates/logout.html:30
+msgid ""
+"\n"
+"                  This may take a minute. If you are not redirected, go to the home page.\n"
+"                "
+msgstr ""
+"\n"
+"这可能需要一分钟。如果未自动跳转，请前往主页。"
+
+#: openedx/core/djangoapps/content_staging/models.py:55
+msgid ""
+"\n"
+"            What type of content is staged. Only OLX content is supported, and\n"
+"            this field must be the same as the root tag of the OLX.\n"
+"            e.g. \"video\" if a video is staged, or \"vertical\" for a unit.\n"
+"        "
+msgstr ""
+"\n"
+"说明已暂存的内容类型。仅支持 OLX 内容，且该字段必须与 OLX 的根标签一致。\n"
+"            例如，如果暂存的是视频，则为 \"video\"；如果是单元，则为 \"vertical\"。"
+
+#: xmodule/templates/item_bank/author_view.html:8
+#: xmodule/templates/item_bank/author_view.html:18
+#, python-format
+msgid ""
+"\n"
+"                Learners will see the selected component:\n"
+"                "
+msgid_plural ""
+"\n"
+"                Learners will see all of the %(num_selected)s selected components, in random order:\n"
+"                "
+msgstr[0] ""
+"\n"
+"学习者将看到所选组件："
+msgstr[1] ""
+"\n"
+"学习者将以随机顺序看到所有 %(num_selected)s 个选定组件："
+
+#: lms/templates/footer.html
+msgid "About Us"
+msgstr "关于我们"
+
+#: lms/templates/footer.html
+msgid "Accessibility"
+msgstr "无障碍"
+
+#: lms/templates/footer.html
+msgid "Help"
+msgstr "帮助"
+
+#: lms/templates/footer.html
+msgid "Footer navigation"
+msgstr "页脚导航"
+
+#: lms/templates/footer.html
+msgid "edX and Open edX are registered trademarks of edX LLC."
+msgstr "edX 和 Open edX 是 edX LLC 的注册商标。"
+
+#: lms/templates/header/navbar-authenticated.html
+#: lms/templates/header/user_dropdown.html
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Supplemental Links"
+msgstr "补充链接"
+
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Explore courses"
+msgstr "探索课程"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Options Menu"
+msgstr "选项菜单"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Dashboard for:"
+msgstr "仪表板："
+
+#: lms/templates/header/user_dropdown.html
+msgid "More Options"
+msgstr "更多选项"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Profile"
+msgstr "个人资料"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Settings"
+msgstr "设置"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Sign Out"
+msgstr "退出登录"
+
+#: lms/templates/header/navbar-logo-header.html
+#, python-brace-format
+msgid "{platform_name} Home Page"
+msgstr "{platform_name} 主页"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "{course_number} Progress"
+msgstr "{course_number} 进度"
+
+#: lms/templates/courseware/progress.html
+msgid "View Grading in studio"
+msgstr "在 Studio 中查看评分"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "Course Progress for '{username}' ({email})"
+msgstr "用户“{username}”（{email}）的课程进度"
+
+#: lms/templates/courseware/progress.html
+msgid "View Certificate"
+msgstr "查看证书"
+
+#: lms/templates/courseware/progress.html
+msgid "Opens in a new browser window"
+msgstr "在新浏览器窗口中打开"
+
+#: lms/templates/courseware/progress.html
+#: lms/templates/dashboard/_dashboard_certificate_information.html
+msgid "Request Certificate"
+msgstr "申请证书"
+
+#: lms/templates/courseware/progress.html
+msgid "Requirements for Course Credit"
+msgstr "课程学分要求"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "{student_name}, you are no longer eligible for credit in this course."
+msgstr "{student_name}，您已不再符合该课程的学分资格。"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid ""
+"{student_name}, you have met the requirements for credit in this course. "
+"{a_start}Go to your dashboard{a_end} to purchase course credit."
+msgstr "{student_name}，您已满足该课程的学分要求。{a_start}前往仪表板{a_end}购买课程学分。"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "{student_name}, you have not yet met the requirements for credit."
+msgstr "{student_name}，您尚未满足该课程的学分要求。"
+
+#: lms/templates/courseware/progress.html
+msgid "Information about course credit requirements"
+msgstr "关于课程学分要求的信息"
+
+#: lms/templates/courseware/progress.html
+msgid "Verification Submitted"
+msgstr "验证已提交"
+
+#: lms/templates/courseware/progress.html
+msgid "Verification Failed"
+msgstr "验证失败"
+
+#: lms/templates/courseware/progress.html
+msgid "Verification Declined"
+msgstr "验证被拒绝"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "Completed by {date}"
+msgstr "于 {date} 完成"
+
+#: lms/templates/courseware/progress.html
+msgid "Upcoming"
+msgstr "即将到来"
+
+#: lms/templates/courseware/progress.html
+msgid "Less"
+msgstr "更少"
+
+#: lms/templates/courseware/progress.html
+msgid "Details for each chapter"
+msgstr "每章详情"
+
+#: lms/templates/courseware/progress.html
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "{earned} of {total} possible points"
+msgstr "{earned} / {total} 可能的分数"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "due {date}"
+msgstr "截止日期：{date}"
+
+#: lms/templates/courseware/progress.html
+msgid ""
+"Suspicious activity detected during proctored exam review. Exam score 0."
+msgstr "在监考考试审核期间检测到可疑活动。考试成绩为 0 分。"
+
+#: lms/templates/courseware/progress.html
+msgid "Section grade has been overridden."
+msgstr "章节成绩已被覆盖。"
+
+#: lms/templates/courseware/progress.html
+msgid "Problem Scores: "
+msgstr "问题分数："
+
+#: lms/templates/courseware/progress.html
+msgid "Practice Scores: "
+msgstr "练习分数："
+
+#: lms/templates/courseware/progress.html
+msgid "Problem scores are hidden until the due date."
+msgstr "问题分数将在截止日期后公布。"
+
+#: lms/templates/courseware/progress.html
+msgid "Practice scores are hidden until the due date."
+msgstr "练习分数将在截止日期后公布。"
+
+#: lms/templates/courseware/progress.html
+msgid "Problem scores are hidden."
+msgstr "问题分数已隐藏。"
+
+#: lms/templates/courseware/progress.html
+msgid "Practice scores are hidden."
+msgstr "练习分数已隐藏。"
+
+#: lms/templates/courseware/progress.html
+msgid "No problem scores in this section"
+msgstr "本章节无问题分数"
+
+#: lms/templates/staff_problem_info.html:27
+msgid "Staff Debug Info"
+msgstr "教师调试信息"
+
+#: lms/templates/staff_problem_info.html:31
+msgid "Submission history"
+msgstr "提交历史"
+
+#: lms/templates/preview_menu.html:101
+msgid "View in Studio"
+msgstr "在 Studio 中查看"
