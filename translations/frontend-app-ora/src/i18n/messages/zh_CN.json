@@ -252,7 +252,7 @@
   "frontend-app-ora.xblock-studio-view.noneLabel": "无",
   "frontend-app-ora.xblock-studio-view.textLabel": "文本编辑器",
   "frontend-app-ora.xblock-studio-view.wysiwygLabel": "所见即所得编辑器",
-  "frontend-app-ora.xblock-studio-view.falseLabel": "",
+  "frontend-app-ora.xblock-studio-view.falseLabel": "否",
   "frontend-app-ora.xblock-studio-view.trueLabel": "真的",
   "frontend-app-ora.xblock-studio-view.rubricHeader": "评分标准",
   "frontend-app-ora.xblock-studio-view.criteriaNameLabel": "标准名称：",
