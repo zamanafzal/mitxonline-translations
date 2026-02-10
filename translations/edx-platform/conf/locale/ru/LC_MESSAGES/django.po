@@ -2,10 +2,10 @@
 # Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2026.
-# 
+#
 # Translators:
 # Brian Smith, 2026
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/open-edx/teams/6205/ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
@@ -10184,3 +10184,4961 @@ msgid ""
 msgstr ""
 "{display_name} доступен только для зарегистрированных учащихся. Войдите или "
 "зарегистрируйтесь и запишитесь на этот курс, чтобы просмотреть его."
+
+#: cms/djangoapps/contentstore/admin.py:47
+#, python-brace-format
+msgid ""
+"Number of course outline regenerations successfully requested: {regenerates}"
+msgstr "Количество успешно запрошенных регенераций плана курса: {regenerates}"
+
+#: cms/djangoapps/contentstore/admin.py:51
+msgid "Regenerate selected course outlines"
+msgstr "Регенерировать выбранные планы курса"
+
+#: cms/djangoapps/contentstore/admin.py:59
+msgid "All course outline regenerations successfully requested."
+msgstr "Все запросы на регенерацию планов курса успешно отправлены."
+
+#: cms/djangoapps/contentstore/admin.py:60
+msgid "Regenerate *all* course outlines"
+msgstr "Регенерировать *все* планы курса"
+
+#: cms/djangoapps/contentstore/asset_storage_handlers.py:579
+#, python-brace-format
+msgid ""
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgstr ""
+"Файл {filename} превышает максимальный размер {maximum_size_in_megabytes} "
+"МБ."
+
+#: cms/djangoapps/contentstore/errors.py:6
+msgid "Aborting import because a course with this id: {} already exists."
+msgstr ""
+"Импорт прерван, так как курс с данным идентификатором {} уже существует."
+
+#: cms/djangoapps/contentstore/errors.py:7
+msgid "Permission denied. You do not have write access to this course."
+msgstr "Доступ запрещён. У вас нет прав на запись в этот курс."
+
+#: cms/djangoapps/contentstore/errors.py:9
+msgid "Uploaded Tar file not found. Try again."
+msgstr "Загруженный Tar-файл не найден. Попробуйте снова."
+
+#: cms/djangoapps/contentstore/errors.py:11
+msgid "Aborting import since a library with this id already exists."
+msgstr ""
+"Импорт прерван, так как библиотека с данным идентификатором уже существует."
+
+#: cms/djangoapps/contentstore/errors.py:12
+msgid "Course olx validation failed. Please check your email."
+msgstr "Проверка OLX курса не пройдена. Проверьте свою почту."
+
+#: cms/djangoapps/contentstore/errors.py:14
+msgid "Unknown error while importing course."
+msgstr "Неизвестная ошибка при импорте курса."
+
+#: cms/djangoapps/contentstore/errors.py:15
+msgid "An Unknown error occurred during the unpacking step."
+msgstr "Произошла неизвестная ошибка на этапе распаковки."
+
+#: cms/djangoapps/contentstore/errors.py:17
+msgid "Unsafe archive file. Aborting import."
+msgstr "Небезопасный архивный файл. Импорт прерван."
+
+#: cms/djangoapps/contentstore/errors.py:18
+msgid "User permission denied."
+msgstr "Доступ пользователя запрещён."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:39
+msgid ""
+"Non writable git url provided. Expecting something like: "
+"git@github.com:openedx/openedx-demo-course.git"
+msgstr ""
+"Предоставлен некорректный URL Git. Ожидается что-то вроде: "
+"git@github.com:openedx/openedx-demo-course.git"
+
+#: cms/djangoapps/contentstore/helpers.py:214
+msgid "Section"
+msgstr "Раздел"
+
+#: cms/djangoapps/contentstore/helpers.py:216
+msgid "Subsection"
+msgstr "Подраздел"
+
+#: cms/djangoapps/contentstore/helpers.py:225
+#: cms/djangoapps/contentstore/views/component.py:282
+msgid "Problem"
+msgstr "Задача"
+
+#: cms/djangoapps/contentstore/helpers.py:227
+#: cms/djangoapps/contentstore/views/component.py:286
+msgid "Library Content"
+msgstr "Содержимое библиотеки"
+
+#: cms/djangoapps/contentstore/helpers.py:229
+#: cms/djangoapps/contentstore/views/component.py:287
+msgid "Problem Bank"
+msgstr "Банк задач"
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:46
+msgid "COURSE_KEY"
+msgstr "КЛЮЧ_КУРСА"
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:48
+msgid ""
+"Recreate links for xblocks under given course keys. For eg. "
+"course-v1:edX+DemoX.1+2014"
+msgstr ""
+"Восстановить ссылки для xblock в рамках указанных ключей курсов. Например: "
+"course-v1:edX+DemoX.1+2014"
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:55
+msgid ""
+"Recreate links for xblocks under all courses. NOTE: this can take long time "
+"depending on number of course and xblocks"
+msgstr ""
+"Восстановить ссылки для xblock во всех курсах. ВНИМАНИЕ: это может занять "
+"много времени в зависимости от количества курсов и xblock."
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:62
+msgid "Recreate links even for completely processed courses."
+msgstr "Восстановить ссылки даже для полностью обработанных курсов."
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:67
+msgid "Delete all and create links for given course(s)."
+msgstr "Удалить всё и создать ссылки для указанного курса(ов)."
+
+#: cms/djangoapps/contentstore/models.py:95
+msgid "Upstream context key i.e., learning_package/library key"
+msgstr "Ключ контекста вышестоящего пакета обучения/библиотеки"
+
+#: cms/djangoapps/contentstore/models.py:157
+msgid ""
+"Upstream block usage key, this value cannot be null and useful to track "
+"upstream library blocks that do not exist yet"
+msgstr ""
+"Ключ использования вышестоящего блока, это значение не может быть пустым и "
+"полезно для отслеживания вышестоящих блоков библиотеки, которые ещё не "
+"существуют"
+
+#: cms/djangoapps/contentstore/models.py:163
+msgid "Component Link"
+msgstr "Ссылка на компонент"
+
+#: cms/djangoapps/contentstore/models.py:164
+msgid "Component Links"
+msgstr "Ссылки на компоненты"
+
+#: cms/djangoapps/contentstore/models.py:329
+msgid ""
+"Upstream block key (e.g. lct:...), this value cannot be null and is useful "
+"to track upstream library blocks that do not exist yet or were deleted."
+msgstr ""
+"Ключ вышестоящего блока (например, lct:...), это значение не может быть "
+"пустым и полезно для отслеживания вышестоящих блоков библиотеки, которые ещё"
+" не существуют или были удалены."
+
+#: cms/djangoapps/contentstore/models.py:336
+msgid "Container Link"
+msgstr "Ссылка на контейнер"
+
+#: cms/djangoapps/contentstore/models.py:337
+msgid "Container Links"
+msgstr "Ссылки на контейнеры"
+
+#: cms/djangoapps/contentstore/models.py:556
+msgid "Processing"
+msgstr "Обработка"
+
+#: cms/djangoapps/contentstore/models.py:558
+msgid "Completed"
+msgstr "Завершено"
+
+#: cms/djangoapps/contentstore/models.py:570
+msgid "Linking status for course context key"
+msgstr "Статус связывания для ключа контекста курса"
+
+#: cms/djangoapps/contentstore/models.py:575
+msgid "Status of links in given learning context/course."
+msgstr "Статус ссылок в данном контексте обучения/курсе."
+
+#: cms/djangoapps/contentstore/models.py:581
+#: cms/djangoapps/contentstore/models.py:582
+msgid "Learning Context Links status"
+msgstr "Статус ссылок контекста обучения"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:47
+msgid "Marks a field as deprecated."
+msgstr "Помечает поле как устаревшее."
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:48
+msgid "User-friendly display name for the field"
+msgstr "Отображаемое пользователю название поля"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:49
+msgid "Help text that describes the setting."
+msgstr "Справочный текст, описывающий настройку."
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:14
+msgid "Tab type"
+msgstr "Тип вкладки"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:15
+msgid "Default name for the tab displayed to users"
+msgstr "Имя вкладки по умолчанию, отображаемое пользователям"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:18
+msgid "True if it's possible to hide the tab for a course"
+msgstr "Истина, если вкладку можно скрыть для курса"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:21
+msgid "True the tab is hidden for the course"
+msgstr "Истина, если вкладка скрыта для курса"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:25
+msgid "True if it's possible to reorder the tab in the list of tabs"
+msgstr "Истина, если вкладку можно перемещать в списке вкладок"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:29
+msgid "True if this tab should be displayed only for instructors"
+msgstr ""
+"Истина, если эта вкладка должна отображаться только для преподавателей"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:33
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:37
+msgid "Name of the tab displayed to users. Overrides title."
+msgstr ""
+"Название вкладки, отображаемое пользователям. Переопределяет заголовок."
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:41
+msgid "Additional settings specific to the tab"
+msgstr "Дополнительные настройки, специфичные для вкладки"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:74
+msgid "ID of tab to update"
+msgstr "Идентификатор вкладки для обновления"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:75
+msgid "Location (Usage Key) of tab to update"
+msgstr "Расположение (ключ использования) вкладки для обновления"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:89
+msgid "Need to supply either a valid tab_id or a tab_location."
+msgstr "Необходимо указать либо действительный tab_id, либо tab_location."
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:100
+msgid "True to hide the tab, and False to show it."
+msgstr "Установите True, чтобы скрыть вкладку, и False, чтобы показать её."
+
+#: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py:112
+msgid "Change the visibility of tabs in a course."
+msgstr "Изменение видимости вкладок в курсе."
+
+#: cms/djangoapps/contentstore/transcript_storage_handlers.py:117
+msgid "The information you entered is incorrect."
+msgstr "Введённая вами информация неверна."
+
+#: cms/djangoapps/contentstore/video_storage_handlers.py:122
+#: openedx/core/djangoapps/content_staging/data.py:21
+msgid "Ready"
+msgstr "Готово"
+
+#: cms/djangoapps/contentstore/video_storage_handlers.py:142
+msgid "Transcription in Progress"
+msgstr "Идёт транскрипция"
+
+#: cms/djangoapps/contentstore/video_storage_handlers.py:144
+msgid "Transcript Ready"
+msgstr "Транскрипт готов"
+
+#: cms/djangoapps/contentstore/video_storage_handlers.py:146
+msgid "Partial Failure"
+msgstr "Частичный сбой"
+
+#: cms/djangoapps/contentstore/video_storage_handlers.py:148
+msgid "Transcript Failed"
+msgstr "Не удалось создать транскрипт"
+
+#: cms/djangoapps/contentstore/video_storage_handlers.py:337
+msgid "An image file is required."
+msgstr "Требуется файл изображения."
+
+#: cms/djangoapps/contentstore/video_storage_handlers.py:519
+msgid "Status"
+msgstr "Статус"
+
+#: cms/djangoapps/contentstore/video_utils.py:42
+msgid "The image must have name, content type, and size information."
+msgstr ""
+"Изображение должно содержать информацию о названии, типе контента и размере."
+
+#: cms/djangoapps/contentstore/video_utils.py:44
+#, python-brace-format
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supported_file_formats}."
+msgstr ""
+"Этот тип файла изображения не поддерживается. Поддерживаемые форматы: "
+"{supported_file_formats}."
+
+#: cms/djangoapps/contentstore/video_utils.py:48
+#, python-brace-format
+msgid "This image file must be smaller than {image_max_size}."
+msgstr "Этот файл изображения должен быть меньше {image_max_size}."
+
+#: cms/djangoapps/contentstore/video_utils.py:52
+#, python-brace-format
+msgid "This image file must be larger than {image_min_size}."
+msgstr "Этот файл изображения должен быть больше {image_min_size}."
+
+#: cms/djangoapps/contentstore/video_utils.py:59
+#: cms/djangoapps/contentstore/video_utils.py:61
+msgid ""
+"There is a problem with this image file. Try to upload a different file."
+msgstr ""
+"Возникла проблема с этим файлом изображения. Попробуйте загрузить другой "
+"файл."
+
+#: cms/djangoapps/contentstore/video_utils.py:64
+#, python-brace-format
+msgid ""
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
+msgstr ""
+"Рекомендуемое разрешение изображения: "
+"{image_file_max_width}x{image_file_max_height}. Минимальное разрешение: "
+"{image_file_min_width}x{image_file_min_height}."
+
+#: cms/djangoapps/contentstore/video_utils.py:72
+#, python-brace-format
+msgid ""
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
+msgstr ""
+"Этот файл изображения должен иметь соотношение сторон "
+"{video_image_aspect_ratio_text}."
+
+#: cms/djangoapps/contentstore/video_utils.py:79
+msgid ""
+"The image file name can only contain letters, numbers, hyphens (-), and "
+"underscores (_)."
+msgstr ""
+"Имя файла изображения может содержать только буквы, цифры, дефисы (-) и "
+"подчёркивания (_)."
+
+#: cms/djangoapps/contentstore/views/component.py:283
+#: lms/templates/video.html:56
+msgid "Video"
+msgstr "Видео"
+
+#: cms/djangoapps/contentstore/views/component.py:284
+msgid "Open Response"
+msgstr "Открытый ответ"
+
+#: cms/djangoapps/contentstore/views/component.py:285
+msgid "Legacy Library"
+msgstr "Устаревшая библиотека"
+
+#: cms/djangoapps/contentstore/views/component.py:288
+msgid "Drag and Drop"
+msgstr "Перетаскивание"
+
+#: cms/djangoapps/contentstore/views/component.py:332
+msgid "Peer Assessment Only"
+msgstr "Только взаимная оценка"
+
+#: cms/djangoapps/contentstore/views/component.py:336
+#: xmodule/capa_block.py:192
+msgid "Blank Problem"
+msgstr "Пустая задача"
+
+#: cms/djangoapps/contentstore/views/course.py:950
+msgid ""
+"User does not have the permission to create courses in this organization or "
+"course creation is disabled"
+msgstr ""
+"У пользователя нет прав на создание курсов в этой организации или создание "
+"курсов отключено"
+
+#: cms/djangoapps/contentstore/views/import_export.py:150
+#, python-brace-format
+msgid ""
+"We support uploading files in one of the following formats: "
+"{IMPORTABLE_FILE_TYPES}"
+msgstr ""
+"Мы поддерживаем загрузку файлов в одном из следующих форматов: "
+"{IMPORTABLE_FILE_TYPES}"
+
+#: cms/djangoapps/contentstore/views/import_export.py:179
+msgid "Some chunks missed during file upload. Please try again"
+msgstr "Некоторые части файла не были загружены. Пожалуйста, попробуйте снова"
+
+#: cms/djangoapps/contentstore/views/import_export.py:190
+msgid "File upload failed. Please try again"
+msgstr "Не удалось загрузить файл. Пожалуйста, попробуйте снова"
+
+#: cms/djangoapps/contentstore/views/library.py:240
+msgid ""
+"User does not have the permission to create library in this organization or "
+"course creation is disabled"
+msgstr ""
+"У пользователя нет прав на создание библиотеки в этой организации или "
+"создание курсов отключено"
+
+#: cms/djangoapps/contentstore/views/library.py:267
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
+"'{organization_key}' не является допустимым идентификатором организации."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:195
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:527
+msgid "Transcripts are supported only for \"video\" blocks."
+msgstr "Транскрипты поддерживаются только для блоков «видео»."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:198
+msgid "Cannot find item by locator."
+msgstr "Не удалось найти элемент по локатору."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:219
+msgid "Video locator is required."
+msgstr "Требуется локатор видео."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:223
+msgid "This transcript file type is not supported."
+msgstr "Этот тип файла транскрипта не поддерживается."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:225
+msgid "Video ID is required."
+msgstr "Требуется идентификатор видео."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:610
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:664
+msgid "No such transcript."
+msgstr "Такой транскрипт не найден."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:634
+msgid "There is a problem with the chosen transcript file."
+msgstr "Возникла проблема с выбранным файлом транскрипта."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:689
+msgid ""
+"There is a problem with the existing transcript file. Please upload a "
+"different file."
+msgstr ""
+"Возникла проблема с существующим файлом транскрипта. Пожалуйста, загрузите "
+"другой файл."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:710
+msgid "YouTube ID is required."
+msgstr "Требуется идентификатор YouTube."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:750
+msgid "There is a problem with the YouTube transcript file."
+msgstr "Возникла проблема с файлом транскрипта YouTube."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:774
+msgid "Transcripts are not yet supported for this type of block"
+msgstr "Транскрипты пока не поддерживаются для этого типа блока"
+
+#: cms/djangoapps/contentstore/views/user.py:154
+#, python-brace-format
+msgid "User {email} has registered but has not yet activated their account."
+msgstr ""
+"Пользователь {email} зарегистрирован, но ещё не активировал свою учётную "
+"запись."
+
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:230
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:682
+#, python-brace-format
+msgid "Libraries cannot have more than {limit} components"
+msgstr ""
+
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:436
+#: openedx/core/djangoapps/xblock/rest_api/views.py:341
+msgid "Invalid data"
+msgstr "Неверные данные"
+
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:438
+#: openedx/core/djangoapps/xblock/rest_api/views.py:343
+#, python-brace-format
+msgid "Invalid data ({details})"
+msgstr "Неверные данные ({details})"
+
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:656
+msgid "There was a problem pasting your component."
+msgstr "Возникла проблема при вставке вашего компонента."
+
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:660
+msgid "Your clipboard is empty or invalid."
+msgstr "Ваш буфер обмена пуст или недействителен."
+
+#: cms/djangoapps/course_creators/models.py:54
+msgid "Organizations under which the user is allowed to create courses."
+msgstr "Организации, в которых пользователю разрешено создавать курсы."
+
+#: cms/djangoapps/course_creators/models.py:57
+msgid "Grant the user the permission to create courses in ALL organizations"
+msgstr "Предоставить пользователю право создавать курсы во ВСЕХ организациях"
+
+#: cms/lib/xblock/upstream_sync.py:72
+msgid "Content is not linked to a Content Library."
+msgstr "Контент не связан с библиотекой контента."
+
+#: cms/lib/xblock/upstream_sync.py:255
+msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
+msgstr ""
+"Нижестоящий элемент не является XBlock или отсутствует необходимый "
+"UpstreamSyncMixin"
+
+#: cms/lib/xblock/upstream_sync.py:259
+msgid "Cannot update content because it does not belong to a course."
+msgstr "Невозможно обновить контент, так как он не принадлежит курсу."
+
+#: cms/lib/xblock/upstream_sync.py:269
+msgid "Reference to linked library item is malformed"
+msgstr "Некорректная ссылка на связанный элемент библиотеки"
+
+#: cms/lib/xblock/upstream_sync.py:275
+msgid ""
+"Updating content with children is not yet supported unless the upstream is a"
+" container."
+msgstr ""
+"Обновление контента с дочерними элементами пока не поддерживается, если "
+"вышестоящий элемент не является контейнером."
+
+#: cms/lib/xblock/upstream_sync.py:281
+msgid "Linked upstream library block was not found in the system"
+msgstr "Связанный вышестоящий блок библиотеки не найден в системе"
+
+#: cms/lib/xblock/upstream_sync.py:288
+msgid "Linked upstream library container was not found in the system"
+msgstr "Связанный вышестоящий контейнер библиотеки не найден в системе"
+
+#: cms/lib/xblock/upstream_sync.py:301
+#, python-brace-format
+msgid ""
+"Content type mismatch: {downstream_id} ({downstream_type}) cannot be linked "
+"to {upstream_id}."
+msgstr ""
+"Несоответствие типов контента: {downstream_id} ({downstream_type}) не может "
+"быть связан с {upstream_id}."
+
+#: cms/lib/xblock/upstream_sync_block.py:108
+msgid "Linked library item could not be loaded: {}"
+msgstr "Не удалось загрузить связанный элемент библиотеки: {}"
+
+#: common/djangoapps/course_modes/models.py:94
+msgid "Lock upgrade deadline date"
+msgstr "Дата блокировки обновления крайнего срока"
+
+#: common/djangoapps/course_modes/models.py:96
+msgid ""
+"OPTIONAL: Set to True to lock in the explicitly defined upgrade deadline "
+"date. Set to False if there is no upgrade deadline or to use the default "
+"upgrade deadline."
+msgstr ""
+"НЕОБЯЗАТЕЛЬНО: Установите True, чтобы зафиксировать явно заданную дату "
+"крайнего срока обновления. Установите False, если нет крайнего срока "
+"обновления или для использования стандартного крайнего срока."
+
+#: common/djangoapps/course_modes/models.py:133
+msgid ""
+"OPTIONAL: This is the Android SKU registered on play store for this mode of "
+"the course. Leave this blank if the course has not yet been migrated to the "
+"ecommerce service."
+msgstr ""
+"НЕОБЯЗАТЕЛЬНО: Это Android SKU, зарегистрированный в Google Play для этого "
+"режима курса. Оставьте пустым, если курс ещё не был перенесён в службу "
+"электронной коммерции."
+
+#: common/djangoapps/course_modes/models.py:145
+msgid ""
+"OPTIONAL: This is the iOS SKU registered on app store for this mode of the "
+"course.  Leave this blank if the course has not yet been migrated to the "
+"ecommerce service."
+msgstr ""
+"НЕОБЯЗАТЕЛЬНО: Это iOS SKU, зарегистрированный в App Store для этого режима "
+"курса. Оставьте пустым, если курс ещё не был перенесён в службу электронной "
+"коммерции."
+
+#: common/djangoapps/student/admin.py:657
+#, python-format
+msgid "%(count)d student account was unlocked."
+msgid_plural "%(count)d student accounts were unlocked."
+msgstr[0] "Была разблокирована %(count)d учётная запись студента."
+msgstr[1] "Была разблокирована %(count)d учётная запись студента."
+msgstr[2] "Было разблокировано %(count)d учётных записей студентов."
+msgstr[3] "Было разблокировано %(count)d учётных записей студентов."
+
+#: common/djangoapps/student/admin.py:714
+#, python-brace-format
+msgid ""
+"Please add a key/value 'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' in"
+" SiteConfiguration model's site_values field."
+msgstr ""
+"Добавьте пару ключ/значение "
+"'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' в поле site_values модели"
+" SiteConfiguration."
+
+#: common/djangoapps/student/admin.py:719
+#, python-brace-format
+msgid "Email doesn't have {allowed_site_email_domain} domain name."
+msgstr ""
+"Электронная почта не содержит доменное имя {allowed_site_email_domain}."
+
+#: common/djangoapps/student/admin.py:722
+msgid "User with this email doesn't exist in system."
+msgstr "Пользователь с такой электронной почтой не существует в системе."
+
+#: common/djangoapps/student/models/course_enrollment.py:1763
+msgid ""
+"It expect that the data will be provided in a csv file format with"
+"                     first row being the header and columns will be as "
+"follows:                     user_id, username, email, course_id, "
+"is_verified, verification_date"
+msgstr ""
+"Ожидается, что данные будут предоставлены в формате CSV-файла, где первая "
+"строка — заголовок, а столбцы следующие: user_id, username, email, "
+"course_id, is_verified, verification_date"
+
+#: common/djangoapps/student/models/course_enrollment.py:1777
+msgid ""
+"It expect that the data will be provided in a csv file format with"
+"                     first row being the header and columns will be as "
+"follows:                     course_id, username, mode"
+msgstr ""
+"Ожидается, что данные будут предоставлены в формате CSV-файла, где первая "
+"строка — заголовок, а столбцы следующие: course_id, username, mode"
+
+#: common/djangoapps/student/models/user.py:1374
+msgid ""
+"Your organization ID (if your organization has an existing page on LinkedIn)"
+" e.g 1337. If not provided, will default to sending Platform Name (e.g. edX)"
+" instead."
+msgstr ""
+"Идентификатор вашей организации (если у вашей организации есть существующая "
+"страница на LinkedIn), например, 1337. Если не указан, будет использоваться "
+"название платформы (например, edX)."
+
+#: common/djangoapps/student/models/user.py:1745
+msgid ""
+"An employee (a user whose email has current site's domain name) whose email "
+"exists in this model, can be able to login from login screen through email "
+"and password. And if any employee's email doesn't exist in this model then "
+"that employee can login via third party authentication backend only."
+msgstr ""
+"Сотрудник (пользователь, чья электронная почта содержит доменное имя "
+"текущего сайта), чья почта существует в этой модели, может войти в систему "
+"через экран входа с помощью электронной почты и пароля. Если электронная "
+"почта сотрудника не существует в этой модели, то этот сотрудник может войти "
+"только через стороннюю аутентификацию."
+
+#: common/djangoapps/student/models/user.py:1760
+msgid ""
+"It expect that the data will be provided in a csv file format with"
+"                     first row being the header and columns will be as "
+"follows:                     username, current_email, desired_email"
+msgstr ""
+"Ожидается, что данные будут предоставлены в формате CSV-файла, где первая "
+"строка — заголовок, а столбцы следующие: username, current_email, "
+"desired_email"
+
+#: common/djangoapps/student/models/user.py:1942
+msgid "Add a reason"
+msgstr "Добавить причину"
+
+#: common/djangoapps/student/views/management.py:450
+msgid "Unenrollment is currently disabled"
+msgstr "Отмена записи в настоящее время отключена"
+
+#: common/djangoapps/student/views/management.py:580
+#, python-brace-format
+msgid ""
+"{html_start}Your {account_or_email} could not be "
+"{activated_or_confirmed}{html_end}Something went wrong, please <a "
+"href=\"{support_url}\">contact support</a> to resolve this issue."
+msgstr ""
+"{html_start}Ваш {account_or_email} не может быть "
+"{activated_or_confirmed}{html_end}Что-то пошло не так, пожалуйста, <a "
+"href=\"{support_url}\">свяжитесь с поддержкой</a>, чтобы решить эту "
+"проблему."
+
+#: common/djangoapps/student/views/management.py:615
+#, python-brace-format
+msgid ""
+"{html_start}This {account_or_email} has already been "
+"{activated_or_confirmed}.{html_end}"
+msgstr ""
+"{html_start}Этот {account_or_email} уже был "
+"{activated_or_confirmed}.{html_end}"
+
+#: common/djangoapps/student/views/management.py:627
+#, python-brace-format
+msgid ""
+"{html_start}Success{html_end} You have {activated_or_confirmed} your "
+"{account_or_email}."
+msgstr ""
+"{html_start}Успех{html_end} Вы {activated_or_confirmed} свой "
+"{account_or_email}."
+
+#: common/djangoapps/student/views/management.py:640
+#, python-brace-format
+msgid ""
+"{html_start}Success! You have {activated_or_confirmed} your "
+"{account_or_email}.{html_end}You will now receive email updates and alerts "
+"from us related to the courses you are enrolled in. Sign In to continue."
+msgstr ""
+"{html_start}Успех! Вы {activated_or_confirmed} свой "
+"{account_or_email}.{html_end}Теперь вы будете получать обновления и "
+"оповещения от нас, связанные с курсами, на которые вы записаны. Войдите в "
+"систему, чтобы продолжить."
+
+#: common/djangoapps/third_party_auth/models.py:244
+msgid ""
+"IDPs with this set to True will be excluded from the dropdown IDP selection "
+"in the EnterpriseCustomer Django Admin form."
+msgstr ""
+"Поставщики удостоверений с этой настройкой в значении True будут исключены "
+"из выпадающего списка выбора поставщика удостоверений в форме администратора"
+" EnterpriseCustomer Django."
+
+#: common/djangoapps/third_party_auth/models.py:629
+msgid "A configuration nickname."
+msgstr "Псевдоним конфигурации."
+
+#: common/djangoapps/util/file.py:67
+#, python-brace-format
+msgid "The file must end with the extension '{file_types}'."
+msgid_plural ""
+"The file must end with one of the following extensions: '{file_types}'."
+msgstr[0] "Файл должен заканчиваться расширением '{file_types}'."
+msgstr[1] ""
+"Файл должен заканчиваться одним из следующих расширений: '{file_types}'."
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/djangoapps/util/password_policy_validators.py:149
+#, python-format
+msgid "at least %(min_length)d character"
+msgid_plural "at least %(min_length)d characters"
+msgstr[0] "не менее %(min_length)d символа"
+msgstr[1] "не менее %(min_length)d символа"
+msgstr[2] "не менее %(min_length)d символов"
+msgstr[3] "не менее %(min_length)d символов"
+
+#: common/djangoapps/util/password_policy_validators.py:175
+#, python-format
+msgid ""
+"This password is too long. It must contain no more than %(max_length)d "
+"character."
+msgid_plural ""
+"This password is too long. It must contain no more than %(max_length)d "
+"characters."
+msgstr[0] ""
+"Этот пароль слишком длинный. Он должен содержать не более %(max_length)d "
+"символа."
+msgstr[1] ""
+"Этот пароль слишком длинный. Он должен содержать не более %(max_length)d "
+"символа."
+msgstr[2] ""
+"Этот пароль слишком длинный. Он должен содержать не более %(max_length)d "
+"символов."
+msgstr[3] ""
+"Этот пароль слишком длинный. Он должен содержать не более %(max_length)d "
+"символов."
+
+#: common/djangoapps/util/password_policy_validators.py:185
+#, python-format
+msgid "Your password must contain no more than %(max_length)d character."
+msgid_plural ""
+"Your password must contain no more than %(max_length)d characters."
+msgstr[0] "Ваш пароль должен содержать не более %(max_length)d символа."
+msgstr[1] "Ваш пароль должен содержать не более %(max_length)d символа."
+msgstr[2] "Ваш пароль должен содержать не более %(max_length)d символов."
+msgstr[3] "Ваш пароль должен содержать не более %(max_length)d символов."
+
+#: common/djangoapps/util/password_policy_validators.py:213
+#, python-format
+msgid "This password must contain at least %(min_alphabetic)d letter."
+msgid_plural "This password must contain at least %(min_alphabetic)d letters."
+msgstr[0] "Этот пароль должен содержать не менее %(min_alphabetic)d буквы."
+msgstr[1] "Этот пароль должен содержать не менее %(min_alphabetic)d буквы."
+msgstr[2] "Этот пароль должен содержать не менее %(min_alphabetic)d букв."
+msgstr[3] "Этот пароль должен содержать не менее %(min_alphabetic)d букв."
+
+#: common/djangoapps/util/password_policy_validators.py:223
+#, python-format
+msgid "Your password must contain at least %(min_alphabetic)d letter."
+msgid_plural "Your password must contain at least %(min_alphabetic)d letters."
+msgstr[0] "Ваш пароль должен содержать не менее %(min_alphabetic)d буквы."
+msgstr[1] "Ваш пароль должен содержать не менее %(min_alphabetic)d буквы."
+msgstr[2] "Ваш пароль должен содержать не менее %(min_alphabetic)d букв."
+msgstr[3] "Ваш пароль должен содержать не менее %(min_alphabetic)d букв."
+
+#: common/djangoapps/util/password_policy_validators.py:231
+#, python-format
+msgid "%(num)d letter"
+msgid_plural "%(num)d letters"
+msgstr[0] "%(num)d буква"
+msgstr[1] "%(num)d буква"
+msgstr[2] "%(num)d буквы"
+msgstr[3] "%(num)d букв"
+
+#: common/djangoapps/util/password_policy_validators.py:261
+#, python-format
+msgid "This password must contain at least %(min_numeric)d number."
+msgid_plural "This password must contain at least %(min_numeric)d numbers."
+msgstr[0] "Этот пароль должен содержать не менее %(min_numeric)d цифры."
+msgstr[1] "Этот пароль должен содержать не менее %(min_numeric)d цифры."
+msgstr[2] "Этот пароль должен содержать не менее %(min_numeric)d цифр."
+msgstr[3] "Этот пароль должен содержать не менее %(min_numeric)d цифр."
+
+#: common/djangoapps/util/password_policy_validators.py:271
+#, python-format
+msgid "Your password must contain at least %(min_numeric)d number."
+msgid_plural "Your password must contain at least %(min_numeric)d numbers."
+msgstr[0] "Ваш пароль должен содержать не менее %(min_numeric)d цифры."
+msgstr[1] "Ваш пароль должен содержать не менее %(min_numeric)d цифры."
+msgstr[2] "Ваш пароль должен содержать не менее %(min_numeric)d цифр."
+msgstr[3] "Ваш пароль должен содержать не менее %(min_numeric)d цифр."
+
+#: common/djangoapps/util/password_policy_validators.py:279
+#, python-format
+msgid "%(num)d number"
+msgid_plural "%(num)d numbers"
+msgstr[0] "%(num)d цифра"
+msgstr[1] "%(num)d цифра"
+msgstr[2] "%(num)d цифры"
+msgstr[3] "%(num)d цифр"
+
+#: common/djangoapps/util/password_policy_validators.py:309
+#, python-format
+msgid "This password must contain at least %(min_upper)d uppercase letter."
+msgid_plural ""
+"This password must contain at least %(min_upper)d uppercase letters."
+msgstr[0] ""
+"Этот пароль должен содержать не менее %(min_upper)d заглавной буквы."
+msgstr[1] ""
+"Этот пароль должен содержать не менее %(min_upper)d заглавной буквы."
+msgstr[2] ""
+"Этот пароль должен содержать не менее %(min_upper)d заглавных букв."
+msgstr[3] ""
+"Этот пароль должен содержать не менее %(min_upper)d заглавных букв."
+
+#: common/djangoapps/util/password_policy_validators.py:319
+#, python-format
+msgid "Your password must contain at least %(min_upper)d uppercase letter."
+msgid_plural ""
+"Your password must contain at least %(min_upper)d uppercase letters."
+msgstr[0] ""
+"Ваш пароль должен содержать не менее %(min_upper)d заглавной буквы."
+msgstr[1] ""
+"Ваш пароль должен содержать не менее %(min_upper)d заглавной буквы."
+msgstr[2] "Ваш пароль должен содержать не менее %(min_upper)d заглавных букв."
+msgstr[3] "Ваш пароль должен содержать не менее %(min_upper)d заглавных букв."
+
+#: common/djangoapps/util/password_policy_validators.py:327
+#, python-format
+msgid "%(num)d uppercase letter"
+msgid_plural "%(num)d uppercase letters"
+msgstr[0] "%(num)d заглавная буква"
+msgstr[1] "%(num)d заглавная буква"
+msgstr[2] "%(num)d заглавные буквы"
+msgstr[3] "%(num)d заглавных букв"
+
+#: common/djangoapps/util/password_policy_validators.py:357
+#, python-format
+msgid "This password must contain at least %(min_lower)d lowercase letter."
+msgid_plural ""
+"This password must contain at least %(min_lower)d lowercase letters."
+msgstr[0] ""
+"Этот пароль должен содержать не менее %(min_lower)d строчной буквы."
+msgstr[1] ""
+"Этот пароль должен содержать не менее %(min_lower)d строчной буквы."
+msgstr[2] "Этот пароль должен содержать не менее %(min_lower)d строчных букв."
+msgstr[3] "Этот пароль должен содержать не менее %(min_lower)d строчных букв."
+
+#: common/djangoapps/util/password_policy_validators.py:367
+#, python-format
+msgid "Your password must contain at least %(min_lower)d lowercase letter."
+msgid_plural ""
+"Your password must contain at least %(min_lower)d lowercase letters."
+msgstr[0] "Ваш пароль должен содержать не менее %(min_lower)d строчной буквы."
+msgstr[1] "Ваш пароль должен содержать не менее %(min_lower)d строчной буквы."
+msgstr[2] "Ваш пароль должен содержать не менее %(min_lower)d строчных букв."
+msgstr[3] "Ваш пароль должен содержать не менее %(min_lower)d строчных букв."
+
+#: common/djangoapps/util/password_policy_validators.py:375
+#, python-format
+msgid "%(num)d lowercase letter"
+msgid_plural "%(num)d lowercase letters"
+msgstr[0] "%(num)d строчная буква"
+msgstr[1] "%(num)d строчная буква"
+msgstr[2] "%(num)d строчные буквы"
+msgstr[3] "%(num)d строчных букв"
+
+#: common/djangoapps/util/password_policy_validators.py:406
+#, python-format
+msgid ""
+"This password must contain at least %(min_punctuation)d punctuation mark."
+msgid_plural ""
+"This password must contain at least %(min_punctuation)d punctuation marks."
+msgstr[0] ""
+"Этот пароль должен содержать не менее %(min_punctuation)d знака препинания."
+msgstr[1] ""
+"Этот пароль должен содержать не менее %(min_punctuation)d знака препинания."
+msgstr[2] ""
+"Этот пароль должен содержать не менее %(min_punctuation)d знаков препинания."
+msgstr[3] ""
+"Этот пароль должен содержать не менее %(min_punctuation)d знаков препинания."
+
+#: common/djangoapps/util/password_policy_validators.py:416
+#, python-format
+msgid ""
+"Your password must contain at least %(min_punctuation)d punctuation mark."
+msgid_plural ""
+"Your password must contain at least %(min_punctuation)d punctuation marks."
+msgstr[0] ""
+"Ваш пароль должен содержать не менее %(min_punctuation)d знака препинания."
+msgstr[1] ""
+"Ваш пароль должен содержать не менее %(min_punctuation)d знака препинания."
+msgstr[2] ""
+"Ваш пароль должен содержать не менее %(min_punctuation)d знаков препинания."
+msgstr[3] ""
+"Ваш пароль должен содержать не менее %(min_punctuation)d знаков препинания."
+
+#: common/djangoapps/util/password_policy_validators.py:424
+#, python-format
+msgid "%(num)d punctuation mark"
+msgid_plural "%(num)d punctuation marks"
+msgstr[0] "%(num)d знак препинания"
+msgstr[1] "%(num)d знак препинания"
+msgstr[2] "%(num)d знака препинания"
+msgstr[3] "%(num)d знаков препинания"
+
+#: common/djangoapps/util/password_policy_validators.py:454
+#, python-format
+msgid "This password must contain at least %(min_symbol)d symbol."
+msgid_plural "This password must contain at least %(min_symbol)d symbols."
+msgstr[0] "Этот пароль должен содержать не менее %(min_symbol)d символа."
+msgstr[1] "Этот пароль должен содержать не менее %(min_symbol)d символа."
+msgstr[2] "Этот пароль должен содержать не менее %(min_symbol)d символов."
+msgstr[3] "Этот пароль должен содержать не менее %(min_symbol)d символов."
+
+#: common/djangoapps/util/password_policy_validators.py:464
+#, python-format
+msgid "Your password must contain at least %(min_symbol)d symbol."
+msgid_plural "Your password must contain at least %(min_symbol)d symbols."
+msgstr[0] "Ваш пароль должен содержать не менее %(min_symbol)d символа."
+msgstr[1] "Ваш пароль должен содержать не менее %(min_symbol)d символа."
+msgstr[2] "Ваш пароль должен содержать не менее %(min_symbol)d символов."
+msgstr[3] "Ваш пароль должен содержать не менее %(min_symbol)d символов."
+
+#: common/djangoapps/util/password_policy_validators.py:472
+#, python-format
+msgid "%(num)d symbol"
+msgid_plural "%(num)d symbols"
+msgstr[0] "%(num)d символ"
+msgstr[1] "%(num)d символ"
+msgstr[2] "%(num)d символа"
+msgstr[3] "%(num)d символов"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:13
+#, python-format
+msgid ""
+"This is a routed Account Activation email for %(routed_user)s "
+"(%(routed_user_email)s): %(routed_profile_name)s"
+msgstr ""
+"Это письмо с маршрутизацией активации учётной записи для %(routed_user)s "
+"(%(routed_user_email)s): %(routed_profile_name)s"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:23
+msgid "Account activation"
+msgstr "Активация учётной записи"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:27
+#, python-format
+msgid ""
+"You're almost there! Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"Вы почти у цели! Используйте ссылку ниже, чтобы активировать свою учётную "
+"запись и получить доступ к увлекательным и качественным курсам "
+"%(platform_name)s. Обратите внимание, что вы не сможете войти в свою учётную"
+" запись, пока не активируете её."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:33
+msgid "Activate your account"
+msgstr "Активируйте свою учётную запись"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:42
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:6
+#, python-format
+msgid "Enjoy learning with %(platform_name)s."
+msgstr "Наслаждайтесь обучением с %(platform_name)s."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:50
+#, python-format, python-brace-format
+msgid ""
+"If you need help, please use our web form at "
+"{start_anchor_web}%(support_url)s{end_anchor} or email "
+"{start_anchor_email}%(support_email)s{end_anchor}."
+msgstr ""
+"Если вам нужна помощь, воспользуйтесь нашей веб-формой по адресу "
+"{start_anchor_web}%(support_url)s{end_anchor} или напишите нам по "
+"электронной почте {start_anchor_email}%(support_email)s{end_anchor}."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:64
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:10
+#, python-format
+msgid ""
+"This email message was automatically sent by %(lms_url)s because someone "
+"attempted to create an account on %(platform_name)s using this email "
+"address."
+msgstr ""
+"Это сообщение было автоматически отправлено %(lms_url)s, так как кто-то "
+"попытался создать учётную запись на %(platform_name)s, используя этот адрес "
+"электронной почты."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:2
+#, python-format
+msgid ""
+"You’re almost there! Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"Вы почти у цели! Используйте ссылку ниже, чтобы активировать свою учётную "
+"запись и получить доступ к увлекательным и качественным курсам "
+"%(platform_name)s. Обратите внимание, что вы не сможете войти в свою учётную"
+" запись, пока не активируете её."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:8
+#, python-format
+msgid ""
+"If you need help, please use our web form at %(support_url)s or email "
+"%(support_email)s."
+msgstr ""
+"Если вам нужна помощь, воспользуйтесь нашей веб-формой по адресу "
+"%(support_url)s или напишите нам по электронной почте %(support_email)s."
+
+#: common/templates/student/edx_ace/accountactivation/email/subject.txt:3
+#, python-format
+msgid "Action Required: Activate your %(platform_name)s account"
+msgstr "Требуется действие: Активируйте свою учётную запись %(platform_name)s"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:12
+#, python-format
+msgid ""
+"\n"
+"                    Proctoring requirements for %(course_name)s\n"
+"                "
+msgstr ""
+"\n"
+"Требования к прокторингу для %(course_name)s"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:20
+#, python-format
+msgid ""
+"\n"
+"                    Hello %(full_name)s,\n"
+"                "
+msgstr ""
+"\n"
+"Здравствуйте, %(full_name)s,"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
+#, python-format
+msgid ""
+"\n"
+"                    You are enrolled in %(course_name)s at %(platform_name)s. This course contains proctored exams.\n"
+"                "
+msgstr ""
+"\n"
+"Вы записаны на курс %(course_name)s на платформе %(platform_name)s. Этот курс содержит экзамены с прокторингом."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
+#, python-format
+msgid ""
+"\n"
+"                    Proctored exams are timed exams that you take while proctoring software monitors your computer's desktop, webcam video, and audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
+"                "
+msgstr ""
+"\n"
+"Экзамены с прокторингом — это экзамены с ограничением по времени, которые вы сдаёте под наблюдением программного обеспечения для прокторинга, отслеживающего рабочий стол вашего компьютера, видео с веб-камеры и звук. В вашем курсе используется программное обеспечение %(proctoring_provider)s для прокторинга."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:46
+msgid ""
+"\n"
+"                    Carefully review the system requirements as well as the steps to take a proctored exam in order to ensure that you are prepared.\n"
+"                "
+msgstr ""
+"\n"
+"Внимательно ознакомьтесь с системными требованиями, а также с шагами для сдачи экзамена с прокторингом, чтобы убедиться, что вы готовы."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:53
+msgid ""
+"\n"
+"                Proctoring Instructions and Requirements\n"
+"            "
+msgstr ""
+"\n"
+"Инструкции и требования к прокторингу"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:1
+#, python-format
+msgid "Hello %(full_name)s"
+msgstr "Здравствуйте, %(full_name)s"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:3
+#, python-format
+msgid ""
+"You are enrolled in %(course_name)s at %(platform_name)s. This course "
+"contains proctored exams."
+msgstr ""
+"Вы записаны на курс %(course_name)s на платформе %(platform_name)s. Этот "
+"курс содержит экзамены с прокторингом."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:5
+#, python-format
+msgid ""
+"Proctored exams are timed exams that you take while proctoring software "
+"monitors your computer's desktop, webcam video, and audio. Your course uses "
+"%(proctoring_provider)s software for proctoring."
+msgstr ""
+"Экзамены с прокторингом — это экзамены с ограничением по времени, которые вы"
+" сдаёте под наблюдением программного обеспечения для прокторинга, "
+"отслеживающего рабочий стол вашего компьютера, видео с веб-камеры и звук. В "
+"вашем курсе используется программное обеспечение %(proctoring_provider)s для"
+" прокторинга."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:7
+msgid ""
+"Carefully review the system requirements as well as the steps to take a "
+"proctored exam in order to ensure that you are prepared."
+msgstr ""
+"Внимательно ознакомьтесь с системными требованиями, а также с шагами для "
+"сдачи экзамена с прокторингом, чтобы убедиться, что вы готовы."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:9
+#, python-format
+msgid ""
+"To view proctoring instructions and requirements, please visit: "
+"%(proctoring_requirements_url)s"
+msgstr ""
+"Чтобы просмотреть инструкции и требования к прокторингу, перейдите по "
+"ссылке: %(proctoring_requirements_url)s"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:14
+#, python-format
+msgid ""
+"This email was automatically sent from %(platform_name)s to %(full_name)s."
+msgstr ""
+"Это письмо было автоматически отправлено с %(platform_name)s пользователю "
+"%(full_name)s."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/subject.txt:3
+#, python-format
+msgid "Proctoring requirements for %(course_name)s"
+msgstr "Требования к прокторингу для %(course_name)s"
+
+#: lms/djangoapps/branding/api.py:131
+#, python-brace-format
+msgid ""
+"© {org_name}.  All rights reserved except where noted.  edX, Open edX and "
+"their respective logos are registered trademarks of edX Inc."
+msgstr ""
+"© {org_name}. Все права защищены, если не указано иное. edX, Open edX и их "
+"соответствующие логотипы являются зарегистрированными товарными знаками edX "
+"Inc."
+
+#: lms/djangoapps/branding/api.py:257
+msgid "Security"
+msgstr "Безопасность"
+
+#: lms/djangoapps/branding/api.py:393
+msgid "Cookie Policy"
+msgstr "Политика использования файлов cookie"
+
+#: lms/djangoapps/branding/api.py:395
+msgid "Your Privacy Choices"
+msgstr "Ваши настройки конфиденциальности"
+
+#: lms/djangoapps/certificates/views/support.py:197
+#, python-brace-format
+msgid "User {user_id} is not enrolled in the course {course_key}"
+msgstr "Пользователь {user_id} не записан на курс {course_key}"
+
+#: lms/djangoapps/certificates/views/webview.py:80
+#, python-brace-format
+msgid ""
+"A {cert_type} certificate signifies that a learner has agreed to abide by "
+"the honor code established by {platform_name} and has completed all of the "
+"required tasks for this course under its guidelines. "
+msgstr ""
+"Сертификат {cert_type} означает, что учащийся согласился соблюдать кодекс "
+"чести, установленный {platform_name}, и выполнил все необходимые задания для"
+" этого курса в соответствии с его правилами."
+
+#: lms/djangoapps/certificates/views/webview.py:86
+#, python-brace-format
+msgid ""
+"A {cert_type} certificate also indicates that the identity of the learner "
+"has been checked and is valid."
+msgstr ""
+"Сертификат {cert_type} также указывает на то, что личность учащегося была "
+"проверена и является действительной."
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py:191
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:88
+msgid "Practice Exam"
+msgstr "Практический экзамен"
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py:193
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:90
+msgid "Proctored Exam"
+msgstr "Экзамен с прокторингом"
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py:195
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:92
+msgid "Timed Exam"
+msgstr "Экзамен с ограничением по времени"
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py:198
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:95
+msgid "Exam"
+msgstr "Экзамен"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:33
+msgid "There’s still time to reach your goal"
+msgstr "У вас ещё есть время, чтобы достичь своей цели"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:41
+#, python-format
+msgid ""
+"\n"
+"            You’re almost there, %(user_name)s!\n"
+"        "
+msgstr ""
+"\n"
+"Вы почти у цели, %(user_name)s!"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:49
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                "
+msgstr[0] ""
+"\n"
+"Вы поставили цель учиться {start_bold}%(days_per_week)s раз в неделю в курсе %(course_name)s{end_bold}. Теперь всё зависит от вас, чтобы воплотить эти цели в реальность."
+msgstr[1] ""
+"\n"
+"Вы поставили цель учиться {start_bold}%(days_per_week)s раз в неделю в курсе %(course_name)s{end_bold}. Теперь всё зависит от вас, чтобы воплотить эти цели в реальность."
+msgstr[2] ""
+"\n"
+"Вы поставили цель учиться {start_bold}%(days_per_week)s раза в неделю в курсе %(course_name)s{end_bold}. Теперь всё зависит от вас, чтобы воплотить эти цели в реальность."
+msgstr[3] ""
+"\n"
+"Вы поставили цель учиться {start_bold}%(days_per_week)s раз в неделю в курсе %(course_name)s{end_bold}. Теперь всё зависит от вас, чтобы воплотить эти цели в реальность."
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:79
+msgid ""
+"\n"
+"                        Jump back in\n"
+"                    "
+msgstr ""
+"\n"
+"Вернитесь к обучению"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:98
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:117
+msgid "Remember: the best goal is one that you can stick to. "
+msgstr "Помните: лучшая цель — та, которой вы можете придерживаться."
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:99
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:118
+msgid "You can always"
+msgstr "Вы всегда можете"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:101
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:120
+msgid "if you need to."
+msgstr "если это необходимо."
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:144
+msgid ""
+"\n"
+"                            Unsubscribe from goal reminder emails for this course\n"
+"                        "
+msgstr ""
+"\n"
+"Отписаться от писем-напоминаний о цели для этого курса"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:158
+msgid ""
+"\n"
+"                                Unsubscribe from goal reminder emails for this course\n"
+"                                "
+msgstr ""
+"\n"
+"Отписаться от писем-напоминаний о цели для этого курса"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
+msgid "You're almost there!"
+msgstr "Вы почти у цели!"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:3
+msgid "There's still time to reach your goal"
+msgstr "У вас ещё есть время, чтобы достичь своей цели"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:5
+#, python-format
+msgid ""
+"You set a goal of learning %(days_per_week)s times a week in "
+"%(course_name)s. You're not quite there, but there's still time to reach "
+"that goal!"
+msgstr ""
+"Вы поставили цель учиться %(days_per_week)s раза в неделю в курсе "
+"%(course_name)s. Вы ещё не достигли цели, но у вас есть время!"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:9
+msgid ""
+"Remember, you can always change your learning goal. The best goal is one "
+"that you can stick to.  "
+msgstr ""
+"Помните, что вы всегда можете изменить свою учебную цель. Лучшая цель — та, "
+"которой вы можете придерживаться."
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/footer.html:174
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/footer.html:174
+msgid "edX is the trusted platform for education and learning"
+msgstr "edX — это надёжная платформа для образования и обучения"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/footer.html:180
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:240
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/footer.html:180
+msgid "Unsubscribe from these emails."
+msgstr "Отписаться от этих писем."
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/subject.txt:3
+#, python-format
+msgid "You've almost reached your goal in %(course_name)s"
+msgstr "Вы почти достигли своей цели в курсе %(course_name)s"
+
+#: lms/djangoapps/course_home_api/admin.py:21
+msgid ""
+"These define the context to disable the frontend-app-learning progress "
+"page.If no values are set, then the configuration applies globally. If a "
+"single value is set, then the configuration applies to all courses within "
+"that context. At most one value can be set at a time.<br>If multiple "
+"contexts apply to a course (for example, if configuration is specified for "
+"the course specifically, and for the org that the course is in, then the "
+"more specific context overrides the more general context."
+msgstr ""
+"Эти параметры определяют контекст для отключения страницы прогресса в "
+"приложении frontend-app-learning. Если значения не установлены, то "
+"конфигурация применяется глобально. Если установлено одно значение, то "
+"конфигурация применяется ко всем курсам в этом контексте. Одновременно может"
+" быть установлено не более одного значения.<br>Если к курсу применяются "
+"несколько контекстов (например, если конфигурация указана для курса и для "
+"организации, в которой находится курс), то более конкретный контекст "
+"переопределяет более общий."
+
+#: lms/djangoapps/course_home_api/admin.py:33
+#: openedx/features/discounts/admin.py:34
+msgid ""
+"If any of these values is left empty or \"Unknown\", then their value at "
+"runtime will be retrieved from the next most specific context that applies. "
+"For example, if \"Disabled\" is left as \"Unknown\" in the course context, "
+"then that course will be Disabled only if the org that it is in is Disabled."
+msgstr ""
+"Если какое-либо из этих значений оставлено пустым или «Неизвестно», то его "
+"значение во время выполнения будет получено из следующего наиболее "
+"конкретного контекста. Например, если «Отключено» оставлено как «Неизвестно»"
+" в контексте курса, то этот курс будет отключён только в том случае, если "
+"организация, в которой он находится, отключена."
+
+#: lms/djangoapps/course_home_api/models.py:22
+#: openedx/features/discounts/models.py:25
+msgid "Disabled"
+msgstr "Отключено"
+
+#: lms/djangoapps/course_home_api/outline/serializers.py:33
+#, python-brace-format
+msgid "({number} Question)"
+msgid_plural "({number} Questions)"
+msgstr[0] "({number} вопрос)"
+msgstr[1] "({number} вопрос)"
+msgstr[2] "({number} вопроса)"
+msgstr[3] "({number} вопросов)"
+
+#: lms/djangoapps/course_home_api/outline/views.py:293
+#, python-brace-format
+msgid ""
+"Please contact your degree administrator or {platform_name} Support if you "
+"have questions."
+msgstr ""
+"Если у вас есть вопросы, свяжитесь с администратором вашей программы или "
+"службой поддержки {platform_name}."
+
+#: lms/djangoapps/course_home_api/outline/views.py:300
+msgid "Course is full"
+msgstr "Курс заполнен"
+
+#: lms/djangoapps/course_home_api/outline/views.py:654
+msgid "'course_id' is required."
+msgstr "Требуется 'course_id'."
+
+#: lms/djangoapps/course_home_api/outline/views.py:658
+msgid "Only 'course_id' is expected."
+msgstr "Ожидается только 'course_id'."
+
+#: lms/djangoapps/course_home_api/outline/views.py:664
+msgid "Welcome message successfully dismissed."
+msgstr "Приветственное сообщение успешно отклонено."
+
+#: lms/djangoapps/course_home_api/outline/views.py:694
+msgid "Your course goal has been successfully set."
+msgstr "Ваша учебная цель успешно установлена."
+
+#: lms/djangoapps/course_home_api/outline/views.py:695
+msgid "Course goal updated successfully."
+msgstr "Учебная цель успешно обновлена."
+
+#: lms/djangoapps/course_wiki/plugins/course_app.py:32
+msgid ""
+"Enable learners to access, and collaborate on course-related information."
+msgstr ""
+"Позвольте учащимся получать доступ и сотрудничать по информации, связанной с"
+" курсом."
+
+#: lms/djangoapps/courseware/access_response.py:253
+msgid "You must be enrolled in the course"
+msgstr "Вы должны быть записаны на курс"
+
+#: lms/djangoapps/courseware/access_response.py:264
+#, python-brace-format
+msgid ""
+"You are enrolled in this course with '{enrollment_enterprise_name}'. "
+"However, you are currently logged in as a '{active_enterprise_name}' user. "
+"Please log in with '{enrollment_enterprise_name}' to access this course."
+msgstr ""
+"Вы записаны на этот курс как пользователь '{enrollment_enterprise_name}'. "
+"Однако сейчас вы вошли в систему как пользователь "
+"'{active_enterprise_name}'. Пожалуйста, войдите в систему как пользователь "
+"'{enrollment_enterprise_name}', чтобы получить доступ к этому курсу."
+
+#: lms/djangoapps/courseware/access_response.py:280
+msgid "You must give Data Sharing Consent for the course"
+msgstr "Вы должны дать согласие на обмен данными для этого курса"
+
+#: lms/djangoapps/courseware/access_response.py:291
+msgid "You must be logged in to see this course"
+msgstr "Вы должны войти в систему, чтобы увидеть этот курс"
+
+#: lms/djangoapps/courseware/access_response.py:302
+#, python-brace-format
+msgid "{course_name} is no longer available."
+msgstr "{course_name} больше недоступен."
+
+#: lms/djangoapps/courseware/course_tools.py:77
+msgid "Financial Assistance"
+msgstr "Финансовая помощь"
+
+#: lms/djangoapps/courseware/courses.py:652
+msgid "Assignment"
+msgstr "Задание"
+
+#: lms/djangoapps/courseware/courses.py:743
+msgid "Open Response Assessment"
+msgstr "Открытая оценка ответов"
+
+#: lms/djangoapps/courseware/courses.py:766
+msgid ""
+"This Open Response Assessment's due dates are set by your instructor and "
+"can't be shifted."
+msgstr ""
+"Сроки выполнения этой открытой оценки ответов установлены вашим "
+"преподавателем и не могут быть изменены."
+
+#: lms/djangoapps/courseware/courses.py:777
+msgid "Self Assessment"
+msgstr "Самооценка"
+
+#: lms/djangoapps/courseware/courses.py:779
+msgid "Peer Assessment"
+msgstr "Взаимная оценка"
+
+#: lms/djangoapps/courseware/courses.py:781
+msgid "Staff Assessment"
+msgstr "Оценка преподавателем"
+
+#: lms/djangoapps/courseware/courses.py:783
+msgid "Submission"
+msgstr "Отправка"
+
+#: lms/djangoapps/courseware/date_summary.py:273
+msgid "Course starts"
+msgstr "Начало курса"
+
+#: lms/djangoapps/courseware/date_summary.py:281
+msgid "Course ends"
+msgstr "Окончание курса"
+
+#: lms/djangoapps/courseware/date_summary.py:298
+msgid ""
+"After this date, the course will be archived, which means you can review the"
+" course content but can no longer participate in graded assignments or work "
+"towards earning a certificate."
+msgstr ""
+"После этой даты курс будет архивирован, что означает, что вы сможете "
+"просматривать материалы курса, но больше не сможете участвовать в "
+"оцениваемых заданиях или работать над получением сертификата."
+
+#: lms/djangoapps/courseware/date_summary.py:302
+msgid ""
+"After the course ends, the course content will be archived and no longer "
+"active."
+msgstr ""
+"После окончания курса материалы курса будут архивированы и больше не будут "
+"активными."
+
+#: lms/djangoapps/courseware/date_summary.py:404
+msgid "You lose all access to this course, including your progress."
+msgstr "Вы потеряете весь доступ к этому курсу, включая свой прогресс."
+
+#: lms/djangoapps/courseware/date_summary.py:408
+msgid "Audit Access Expires"
+msgstr "Истекает доступ для аудита"
+
+#: lms/djangoapps/courseware/masquerade.py:188
+#, python-brace-format
+msgid ""
+"There is no user with the username or email address \"{user_identifier}\" "
+"enrolled in this course."
+msgstr ""
+"Пользователь с именем пользователя или адресом электронной почты "
+"\"{user_identifier}\" не записан на этот курс."
+
+#: lms/djangoapps/courseware/models.py:563
+msgid "Internal API Base URL"
+msgstr "Базовый URL внутреннего API"
+
+#: lms/djangoapps/courseware/models.py:564
+msgid "Financial Assistance Backend API Base URL."
+msgstr "Базовый URL API серверной части финансовой помощи."
+
+#: lms/djangoapps/courseware/models.py:572
+msgid ""
+"Username created for Financial Assistance Backend, e.g. "
+"financial_assistance_service_user."
+msgstr ""
+"Имя пользователя, созданное для серверной части финансовой помощи, например,"
+" financial_assistance_service_user."
+
+#: lms/djangoapps/courseware/models.py:577
+msgid "Percentage of courses allowed to use edx-financial-assistance"
+msgstr ""
+"Процент курсов, которым разрешено использовать edx-financial-assistance"
+
+#: lms/djangoapps/courseware/plugins.py:28
+msgid "Keep learners engaged and on track throughout the course."
+msgstr ""
+"Поддерживайте вовлечённость и мотивацию учащихся на протяжении всего курса."
+
+#: lms/djangoapps/courseware/plugins.py:75
+msgid ""
+"Create and manage a library of course readings, textbooks, and chapters."
+msgstr ""
+"Создавайте и управляйте библиотекой учебных материалов, учебников и глав."
+
+#: lms/djangoapps/courseware/plugins.py:125
+msgid "Calculator"
+msgstr "Калькулятор"
+
+#: lms/djangoapps/courseware/plugins.py:126
+msgid "Provide an in-course calculator for simple and complex calculations."
+msgstr "Предоставьте встроенный калькулятор для простых и сложных вычислений."
+
+#: lms/djangoapps/courseware/plugins.py:173
+msgid "Proctoring"
+msgstr "Прокторинг"
+
+#: lms/djangoapps/courseware/plugins.py:174
+msgid ""
+"Maintain exam integrity by enabling a proctoring solution for your course"
+msgstr ""
+"Обеспечьте целостность экзаменов, включив решение для прокторинга в вашем "
+"курсе"
+
+#: lms/djangoapps/courseware/plugins.py:219
+msgid "Custom pages"
+msgstr "Пользовательские страницы"
+
+#: lms/djangoapps/courseware/plugins.py:220
+msgid "Provide additional course content and resources with custom pages"
+msgstr ""
+"Предоставьте дополнительный контент и ресурсы курса с помощью "
+"пользовательских страниц"
+
+#: lms/djangoapps/courseware/plugins.py:271
+msgid "Flexible Peer Grading for ORAs"
+msgstr "Гибкая взаимная оценка для ORA"
+
+#: lms/djangoapps/courseware/plugins.py:272
+msgid ""
+"Course level settings for Flexible Peer Grading Open Response Assessments."
+msgstr ""
+"Настройки уровня курса для гибкой оценки открытых ответов с помощью "
+"равноправного оценивания."
+
+#: lms/djangoapps/courseware/tabs.py:307
+msgid "Dates"
+msgstr "Даты"
+
+#: lms/djangoapps/courseware/views/views.py:236
+msgid "Your certificate will be available soon!"
+msgstr "Ваш сертификат скоро будет доступен!"
+
+#: lms/djangoapps/courseware/views/views.py:237
+#: lms/djangoapps/courseware/views/views.py:248
+msgid ""
+"After this course officially ends, you will receive an email notification "
+"with your certificate."
+msgstr ""
+"После официального окончания курса вы получите уведомление по электронной "
+"почте с вашим сертификатом."
+
+#: lms/djangoapps/courseware/views/views.py:247
+msgid "Your certificate will be available after the indicated date"
+msgstr "Ваш сертификат будет доступен после указанной даты"
+
+#: lms/djangoapps/courseware/views/views.py:608
+#, python-brace-format
+msgid ""
+"You must be enrolled in the course to see course content. "
+"{enroll_link_start}Enroll now{enroll_link_end}."
+msgstr ""
+"Вы должны быть записаны на курс, чтобы видеть его содержимое. "
+"{enroll_link_start}Запишитесь сейчас{enroll_link_end}."
+
+#: lms/djangoapps/courseware/views/views.py:2062
+msgid ""
+"We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance program. \n"
+"Please note that while assistance is available in most courses that offer verified certificates, a few courses and programs are not eligible. You must complete a separate application for each course you take. You may be approved for financial assistance five (5) times each year (based on 12-month period from you first approval). \n"
+"To apply for financial assistance: \n"
+"1. Enroll in the audit track for an eligible course that offers Verified Certificates. \n"
+"2. Complete this application. \n"
+"3. Check your email, please allow 4 weeks for your application to be processed."
+msgstr ""
+"Мы планируем использовать эту информацию для оценки вашей заявки на финансовую помощь и для дальнейшего развития нашей программы финансовой помощи. \n"
+"Обратите внимание, что помощь доступна в большинстве курсов, предлагающих проверенные сертификаты, но некоторые курсы и программы не подходят. Вы должны заполнить отдельную заявку для каждого курса, который вы проходите. Финансовая помощь может быть одобрена пять (5) раз в год (на основе 12-месячного периода с момента вашего первого одобрения). \n"
+"Чтобы подать заявку на финансовую помощь: \n"
+"1. Запишитесь на ознакомительный трек для подходящего курса, предлагающего проверенные сертификаты. \n"
+"2. Заполните эту заявку. \n"
+"3. Проверьте свою электронную почту, обработка вашей заявки может занять до 4 недель."
+
+#: lms/djangoapps/courseware/views/views.py:2264
+msgid "I certify that: "
+msgstr "Я подтверждаю, что:"
+
+#: lms/djangoapps/courseware/views/views.py:2271
+msgid ""
+"Paying the verified certificate fee for the above course would cause me "
+"economic hardship"
+msgstr ""
+"Оплата за проверенный сертификат для вышеуказанного курса вызовет у меня "
+"финансовые трудности"
+
+#: lms/djangoapps/courseware/views/views.py:2283
+msgid ""
+"I will work diligently to complete the course work and receive a certificate"
+msgstr ""
+"Я буду усердно работать над выполнением заданий курса и получу сертификат"
+
+#: lms/djangoapps/courseware/views/views.py:2295
+#, python-brace-format
+msgid ""
+"I have read, understand, and will abide by the {honor_code_link} for the edX"
+" Site"
+msgstr ""
+"Я прочитал(а), понял(а) и буду соблюдать {honor_code_link} для сайта edX"
+
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:165
+msgid "your"
+msgstr "ваш"
+
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:169
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:259
+msgid "their"
+msgstr "их"
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:26
+msgid "Add a Post"
+msgstr "Добавить пост"
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:46
+msgid "New topic form"
+msgstr "Форма новой темы"
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:50
+msgid "Discussion thread list"
+msgstr "Список тем обсуждения"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/commentnotification/push/body.txt:2
+#, python-format
+msgid "%(comment_username)s commented to %(thread_title)s:"
+msgstr "%(comment_username)s прокомментировал(а) %(thread_title)s:"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/commentnotification/push/title.txt:2
+#, python-format
+msgid "Comment to %(thread_title)s"
+msgstr "Комментарий к %(thread_title)s"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.html:12
+#, python-format
+msgid ""
+"\n"
+"                        %(course_name)s: Reported content awaits review\n"
+"                    "
+msgstr ""
+"\n"
+"%(course_name)s: Ждёт проверки сообщение с нарушением"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.html:24
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.txt:18
+msgid "Go to Discussion"
+msgstr "Перейти к обсуждению"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.txt:4
+#, python-format
+msgid "%(course_name)s: Reported content awaits review"
+msgstr "%(course_name)s: Ждёт проверки сообщение с нарушением"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/subject.txt:3
+#, python-format
+msgid " %(course_name)s %(course_id)s moderator content for review "
+msgstr "%(course_name)s %(course_id)s модераторский контент для проверки"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.html:11
+#, python-format, python-brace-format
+msgid "%(comment_username)s replied to {start_tag}%(thread_title)s{end_tag}:"
+msgstr ""
+"%(comment_username)s ответил(а) на {start_tag}%(thread_title)s{end_tag}:"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/push/body.txt:2
+#, python-format
+msgid ""
+"%(comment_username)s replied to %(thread_title)s: "
+"%(comment_body|truncatechars:200)s"
+msgstr ""
+"%(comment_username)s ответил(а) на %(thread_title)s: "
+"%(comment_body|truncatechars:200)s"
+
+#: lms/djangoapps/discussion/views.py:80
+msgid "Access to this discussion is restricted to team members and staff."
+msgstr ""
+"Доступ к этому обсуждению ограничен для участников команды и персонала."
+
+#: lms/djangoapps/edxnotes/plugins.py:58
+msgid ""
+"Allow learners to highlight passages and make notes right in the course."
+msgstr "Разрешить учащимся выделять отрывки и делать заметки прямо в курсе."
+
+#: lms/djangoapps/grades/rest_api/v1/gradebook_views.py:1142
+msgid ""
+"Cannot override subsection grade: subsection is not available for target "
+"learner."
+msgstr ""
+"Невозможно переопределить оценку подраздела: подраздел недоступен для "
+"целевого учащегося."
+
+#: lms/djangoapps/instructor/views/api.py:357
+#, python-brace-format
+msgid ""
+"Data in row #{row_num} must have between four and six columns: email, "
+"username, full name, country, cohort, and course mode. The last two columns "
+"are optional."
+msgstr ""
+"Данные в строке #{row_num} должны содержать от четырёх до шести столбцов: "
+"email, имя пользователя, полное имя, страна, когорта и режим курса. "
+"Последние два столбца необязательны."
+
+#: lms/djangoapps/instructor/views/api.py:362
+#, python-brace-format
+msgid ""
+"Data in row #{row_num} must have exactly four columns: email, username, full"
+" name, and country."
+msgstr ""
+"Данные в строке #{row_num} должны содержать ровно четыре столбца: email, имя"
+" пользователя, полное имя и страна."
+
+#: lms/djangoapps/instructor/views/api.py:391
+msgid ""
+"Course is not cohorted but cohort provided. Ignoring cohort assignment for "
+"all users."
+msgstr ""
+"Курс не разделен на когорты, но когорта указана. Игнорирую назначение "
+"когорты для всех пользователей."
+
+#: lms/djangoapps/instructor/views/api.py:406
+#, python-brace-format
+msgid ""
+"Cohort name not found: {cohort}. Ignoring cohort assignment for all users."
+msgstr ""
+"Когорта не найдена: {cohort}. Игнорирую назначение когорты для всех "
+"пользователей."
+
+#: lms/djangoapps/instructor/views/api.py:423
+#, python-brace-format
+msgid ""
+"Invalid course mode: {mode}. Falling back to the default mode, or keeping "
+"the current mode in case the user is already enrolled."
+msgstr ""
+"Неверный режим курса: {mode}. Возврат к режиму по умолчанию или сохранение "
+"текущего режима, если пользователь уже записан."
+
+#: lms/djangoapps/instructor/views/api.py:429
+#, python-brace-format
+msgid ""
+"Invalid course mode: {mode}.  Failling back to {default_mode}, or resetting "
+"to {default_mode} in case the user is already enrolled."
+msgstr ""
+"Неверный режим курса: {mode}. Возврат к {default_mode} или сброс на "
+"{default_mode}, если пользователь уже записан."
+
+#: lms/djangoapps/instructor/views/api.py:1109
+msgid ""
+"A usage key location for a section or a problem. If the location is a block "
+"that contains other blocks, (such as the course, section, subsection, or "
+"unit blocks) then all blocks under that block will be included in the "
+"report."
+msgstr ""
+"Ключ местоположения раздела или задачи. Если местоположение относится к "
+"блоку, содержащему другие блоки (например, курс, раздел, подраздел или блок "
+"юнита), то все блоки под этим блоком будут включены в отчёт."
+
+#: lms/djangoapps/instructor/views/api.py:1118
+msgid "A list of usage keys for the blocks to include in the report. "
+msgstr ""
+"Список ключей использования для блоков, которые нужно включить в отчёт."
+
+#: lms/djangoapps/instructor/views/api.py:1126
+msgid ""
+"A list of problem/block types to generate the report for. This field can be "
+"omitted if the report should include details of allblock types. "
+msgstr ""
+"Список типов задач/блоков для создания отчёта. Это поле можно опустить, если"
+" отчёт должен включать детали всех типов блоков."
+
+#: lms/djangoapps/instructor/views/api.py:1137
+msgid "User-friendly text describing current status of report generation."
+msgstr ""
+"Понятный пользователю текст, описывающий текущий статус генерации отчёта."
+
+#: lms/djangoapps/instructor/views/api.py:1140
+msgid ""
+"A unique id for the report generation task. It can be used to query the "
+"latest report generation status."
+msgstr ""
+"Уникальный идентификатор задачи генерации отчёта. Его можно использовать для"
+" запроса последнего статуса генерации отчёта."
+
+#: lms/djangoapps/instructor/views/api.py:1166
+msgid ""
+"The provided parameters were invalid. Make sure you've provided at least one"
+" valid usage key for `problem_locations`."
+msgstr ""
+"Предоставленные параметры недействительны. Убедитесь, что вы предоставили "
+"хотя бы один действительный ключ использования для `problem_locations`."
+
+#: lms/djangoapps/instructor/views/api.py:1169
+#: lms/djangoapps/instructor/views/api.py:2499
+#: lms/djangoapps/instructor/views/api.py:2709
+msgid "The requesting user is not authenticated."
+msgstr "Запрашивающий пользователь не аутентифицирован."
+
+#: lms/djangoapps/instructor/views/api.py:1170
+#: lms/djangoapps/instructor/views/api.py:2500
+#: lms/djangoapps/instructor/views/api.py:2710
+msgid "The requesting user lacks access to the course."
+msgstr "У запрашивающего пользователя нет доступа к курсу."
+
+#: lms/djangoapps/instructor/views/api.py:1502
+msgid "Birth Year"
+msgstr "Год рождения"
+
+#: lms/djangoapps/instructor/views/api.py:1508
+msgid "Last Login"
+msgstr "Последний вход"
+
+#: lms/djangoapps/instructor/views/api.py:1509
+msgid "Date Joined"
+msgstr "Дата регистрации"
+
+#: lms/djangoapps/instructor/views/api.py:1510
+msgid "External User Key"
+msgstr "Внешний ключ пользователя"
+
+#: lms/djangoapps/instructor/views/api.py:1623
+#: lms/djangoapps/instructor_task/api_helper.py:117
+msgid "inactive enrollment"
+msgstr "неактивная запись"
+
+#: lms/djangoapps/instructor/views/api.py:1813
+msgid "Anonymized User IDs"
+msgstr "Анонимизированные идентификаторы пользователей"
+
+#: lms/djangoapps/instructor/views/api.py:2018
+msgid "An error occurred while attempting to reset for all students."
+msgstr "Произошла ошибка при попытке сброса для всех студентов."
+
+#: lms/djangoapps/instructor/views/api.py:2417
+msgid "Current status of task."
+msgstr "Текущий статус задачи."
+
+#: lms/djangoapps/instructor/views/api.py:2418
+msgid "Identifies the kind of task being performed, e.g. rescoring."
+msgstr "Определяет тип выполняемой задачи, например, переоценка."
+
+#: lms/djangoapps/instructor/views/api.py:2419
+msgid "The celery ID for the task."
+msgstr "Celery ID задачи."
+
+#: lms/djangoapps/instructor/views/api.py:2420
+msgid "The date and time when the task was created."
+msgstr "Дата и время создания задачи."
+
+#: lms/djangoapps/instructor/views/api.py:2423
+msgid ""
+"The input parameters for the task. The format and content of this data will "
+"depend on the kind of task being performed. For instanceit may contain the "
+"problem locations for a problem resources task."
+msgstr ""
+"Входные параметры для задачи. Формат и содержимое этих данных зависят от "
+"типа выполняемой задачи. Например, могут содержать местоположения задач для "
+"задачи ресурсов."
+
+#: lms/djangoapps/instructor/views/api.py:2427
+msgid "The username of the user who initiated this task."
+msgstr "Имя пользователя, который инициировал эту задачу."
+
+#: lms/djangoapps/instructor/views/api.py:2428
+msgid "The last knows state of the celery task."
+msgstr "Последнее известное состояние задачи Celery."
+
+#: lms/djangoapps/instructor/views/api.py:2429
+msgid "Task duration information, if known"
+msgstr "Информация о продолжительности задачи, если известна"
+
+#: lms/djangoapps/instructor/views/api.py:2430
+msgid "User-friendly task status information, if available."
+msgstr "Понятный пользователю статус задачи, если доступен."
+
+#: lms/djangoapps/instructor/views/api.py:2439
+msgid "List of instructor tasks."
+msgstr "Список задач инструктора."
+
+#: lms/djangoapps/instructor/views/api.py:2501
+#: lms/djangoapps/instructor/views/api.py:2711
+msgid "The requested course does not exist."
+msgstr "Запрашиваемый курс не существует."
+
+#: lms/djangoapps/instructor/views/api.py:2673
+msgid "URL from which report can be downloaded."
+msgstr "URL, по которому можно скачать отчёт."
+
+#: lms/djangoapps/instructor/views/api.py:2674
+msgid "Name of report."
+msgstr "Название отчёта."
+
+#: lms/djangoapps/instructor/views/api.py:2675
+msgid "HTML anchor tag that contains the name and link."
+msgstr "HTML-тег привязки, содержащий название и ссылку."
+
+#: lms/djangoapps/instructor/views/api.py:2684
+msgid "List of report downloads"
+msgstr "Список загрузок отчётов"
+
+#: lms/djangoapps/instructor/views/api.py:2698
+msgid "ID for the course whose reports need to be listed."
+msgstr "ID курса, отчёты которого нужно перечислить."
+
+#: lms/djangoapps/instructor/views/api.py:2704
+msgid ""
+"Filter results to only return details of for the report with the specified "
+"name."
+msgstr ""
+"Отфильтровать результаты, чтобы вернуть только детали отчёта с указанным "
+"названием."
+
+#: lms/djangoapps/instructor/views/api.py:2860
+msgid "ORA summary"
+msgstr "Итог по ORA"
+
+#: lms/djangoapps/instructor/views/api.py:2889
+msgid "Attachments archive is being created."
+msgstr "Создаётся архив вложений."
+
+#: lms/djangoapps/instructor/views/api.py:3205
+msgid "All fields must be filled out"
+msgstr "Все поля должны быть заполнены"
+
+#: lms/djangoapps/instructor/views/api.py:3211
+#, python-brace-format
+msgid "Could not find student matching identifier: {student}"
+msgstr "Не удалось найти студента по идентификатору: {student}"
+
+#: lms/djangoapps/instructor/views/api.py:3220
+#: lms/djangoapps/instructor/views/serializers_v2.py:417
+msgid "The extension due date and time format is incorrect"
+msgstr "Неверный формат даты и времени продления срока"
+
+#: lms/djangoapps/instructor/views/api.py:3816
+#, python-brace-format
+msgid ""
+"Student {user} is not enrolled in this course. Please check your spelling "
+"and retry."
+msgstr ""
+"Студент {user} не записан на этот курс. Проверьте правильность написания и "
+"повторите попытку."
+
+#: lms/djangoapps/instructor/views/api.py:3823
+#, python-brace-format
+msgid ""
+"Student {user} is already on the certificate invalidation list and cannot be"
+" added to the certificate exception list."
+msgstr ""
+"Студент {user} уже находится в списке недействительных сертификатов и не "
+"может быть добавлен в список исключений для сертификатов."
+
+#: lms/djangoapps/instructor/views/api.py:3865
+#, python-brace-format
+msgid ""
+"Error occurred removing the allowlist entry for student {student}. Please "
+"refresh the page and try again"
+msgstr ""
+"Произошла ошибка при удалении записи из разрешительного списка для студента "
+"{student}. Обновите страницу и попробуйте снова"
+
+#: lms/djangoapps/instructor/views/api.py:3966
+msgid "Certificate generation started for students on the allowlist."
+msgstr ""
+"Начата генерация сертификатов для студентов из разрешительного списка."
+
+#: lms/djangoapps/instructor/views/api.py:4130
+#, python-brace-format
+msgid ""
+"The student {student} appears on the Certificate Exception list in course "
+"{course}. Please remove them from the Certificate Exception list before "
+"attempting to invalidate their certificate."
+msgstr ""
+"Студент {student} находится в списке исключений для сертификатов в курсе "
+"{course}. Пожалуйста, удалите его из списка исключений для сертификатов, "
+"прежде чем пытаться аннулировать его сертификат."
+
+#: lms/djangoapps/instructor/views/instructor_task_helpers.py:90
+#, python-brace-format
+msgid "{num_emails} sent"
+msgid_plural "{num_emails} sent"
+msgstr[0] "{num_emails} отправлено"
+msgstr[1] "{num_emails} отправлено"
+msgstr[2] "{num_emails} отправлено"
+msgstr[3] "{num_emails} отправлено"
+
+#: lms/djangoapps/instructor/views/instructor_task_helpers.py:99
+#, python-brace-format
+msgid "{num_emails} failed"
+msgid_plural "{num_emails} failed"
+msgstr[0] "{num_emails} не отправлено"
+msgstr[1] "{num_emails} не отправлено"
+msgstr[2] "{num_emails} не отправлено"
+msgstr[3] "{num_emails} не отправлено"
+
+#: lms/djangoapps/instructor/views/serializer.py:31
+#: lms/djangoapps/instructor/views/serializer.py:89
+msgid "Role name"
+msgstr "Название роли"
+
+#: lms/djangoapps/instructor/views/serializer.py:38
+#: lms/djangoapps/instructor/views/serializer.py:99
+msgid "Invalid role name."
+msgstr "Неверное название роли."
+
+#: lms/djangoapps/instructor/views/serializer.py:344
+msgid "The URL name of the problem to reset."
+msgstr "URL-имя задачи для сброса."
+
+#: lms/djangoapps/instructor/views/serializer.py:346
+#: lms/djangoapps/instructor/views/serializer.py:567
+msgid "Problem URL name cannot be blank."
+msgstr "URL-имя задачи не может быть пустым."
+
+#: lms/djangoapps/instructor/views/serializer.py:351
+msgid "Whether to reset the problem for all students."
+msgstr "Сбросить задачу для всех студентов."
+
+#: lms/djangoapps/instructor/views/serializer.py:361
+#: lms/djangoapps/instructor/views/serializer.py:508
+msgid "unique student identifier."
+msgstr "Уникальный идентификатор студента."
+
+#: lms/djangoapps/instructor/views/tools.py:171
+msgid "Could not find student enrollment in the course."
+msgstr "Не удалось найти запись студента на курс."
+
+#: lms/djangoapps/instructor_task/models.py:115
+msgid "An error has occurred. Task was not created."
+msgstr "Произошла ошибка. Задача не была создана."
+
+#: lms/djangoapps/instructor_task/tasks.py:326
+msgid "generate_anonymized_id"
+msgstr "generate_anonymized_id"
+
+#: lms/djangoapps/instructor_task/tasks.py:349
+msgid "compressed"
+msgstr "сжатый"
+
+#: lms/djangoapps/learner_dashboard/programs.py:78
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:103
+msgid "Programs"
+msgstr "Программы"
+
+#: lms/djangoapps/learner_dashboard/programs.py:155
+msgid "Program Details"
+msgstr "Детали программы"
+
+#: lms/djangoapps/lms_xblock/mixin.py:56
+msgid "Whether to display this block in the table of contents"
+msgstr "Отображать этот блок в оглавлении"
+
+#: lms/djangoapps/lms_xblock/mixin.py:62
+msgid ""
+"What format this block is in (used for deciding which grader to apply, and "
+"what to show in the TOC)"
+msgstr ""
+"Формат этого блока (используется для выбора оценщика и отображения в "
+"оглавлении)"
+
+#: lms/djangoapps/lti_provider/models.py:39
+msgid ""
+"When checked, the LTI content will load only for learners who have an "
+"account in this instance. This is required only for linking learner accounts"
+" with the LTI consumer. See the Open edX LTI Provider documentation for more"
+" details."
+msgstr ""
+"Если отмечено, контент LTI будет загружаться только для учащихся, у которых "
+"есть учётная запись в этом экземпляре. Это необходимо только для связывания "
+"учётных записей учащихся с потребителем LTI. Дополнительные сведения см. в "
+"документации Open edX LTI Provider."
+
+#: lms/djangoapps/program_enrollments/models.py:57
+msgid "One of user or external_user_key must not be null."
+msgstr "Одно из значений user или external_user_key не должно быть пустым."
+
+#: lms/djangoapps/support/views/index.py:40
+msgid "Link Program Enrollments"
+msgstr "Связь с записями на программы"
+
+#: lms/djangoapps/support/views/index.py:41
+msgid "Link LMS users to program enrollments"
+msgstr "Связь пользователей LMS с записями на программы"
+
+#: lms/djangoapps/support/views/index.py:45
+msgid "Program Enrollments Inspector Tool"
+msgstr "Инструмент проверки записей на программы"
+
+#: lms/djangoapps/support/views/index.py:46
+msgid "Find information related to a learner's program enrollments"
+msgstr "Найти информацию, связанную с записями учащегося на программы"
+
+#: lms/djangoapps/survey/utils.py:20
+msgid "You must complete a survey"
+msgstr "Вы должны заполнить опрос"
+
+#: lms/djangoapps/teams/plugins.py:54
+msgid "Leverage teams to allow learners to connect by topic of interest."
+msgstr ""
+"Используйте команды, чтобы позволить учащимся общаться по интересующей теме."
+
+#: lms/djangoapps/teams/views.py:573
+msgid "topic_id is required"
+msgstr "требуется topic_id"
+
+#: lms/djangoapps/teams/views.py:592
+msgid "You can't create a team in an instructor managed topic."
+msgstr "Вы не можете создать команду в теме, управляемой инструктором."
+
+#: lms/djangoapps/teams/views.py:604
+msgid "You are already in a team in this teamset."
+msgstr "Вы уже состоите в команде в этом наборе команд."
+
+#: lms/djangoapps/teams/views.py:1350
+msgid "teamset_id and team_id are mutually exclusive options."
+msgstr "teamset_id и team_id являются взаимоисключающими опциями."
+
+#: lms/djangoapps/teams/views.py:1370
+msgid "teamset_id requires course_id to also be provided."
+msgstr "teamset_id требует, чтобы также был предоставлен course_id."
+
+#: lms/djangoapps/teams/views.py:1386 lms/djangoapps/teams/views.py:1399
+msgid "No teamset found in given course with given id"
+msgstr "Набор команд с данным идентификатором не найден в указанном курсе"
+
+#: lms/djangoapps/teams/views.py:1420
+msgid "username or (team_id or teamset_id) must be specified."
+msgstr "Необходимо указать username или (team_id или teamset_id)."
+
+#: lms/djangoapps/teams/views.py:1479
+msgid "You can't join an instructor managed team."
+msgstr "Вы не можете присоединиться к команде, управляемой инструктором."
+
+#: lms/djangoapps/teams/views.py:1497
+#, python-brace-format
+msgid "The user {username} is already a member of a team in this teamset."
+msgstr ""
+"Пользователь {username} уже является членом команды в этом наборе команд."
+
+#: lms/djangoapps/teams/views.py:1631
+msgid "You can't leave an instructor managed team."
+msgstr "Вы не можете покинуть команду, управляемую инструктором."
+
+#: lms/djangoapps/user_tours/models.py:19
+msgid "Show existing user tour"
+msgstr "Показать существующий тур для пользователя"
+
+#: lms/djangoapps/user_tours/models.py:20
+msgid "Show new user tour"
+msgstr "Показать тур для новых пользователей"
+
+#: lms/djangoapps/user_tours/models.py:21
+msgid "Do not show user tour"
+msgstr "Не показывать тур для пользователя"
+
+#: lms/djangoapps/verify_student/api.py:42
+#, python-brace-format
+msgid "Your {platform_name} ID verification was approved!"
+msgstr "Ваша проверка личности на {platform_name} одобрена!"
+
+#: lms/djangoapps/verify_student/views.py:941
+msgid "Image data is in an unsupported format."
+msgstr "Данные изображения в неподдерживаемом формате."
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:18
+#, python-format
+msgid ""
+"\n"
+"            This email was automatically sent from %(platform_name)s.\n"
+"          "
+msgstr ""
+"\n"
+"Это письмо было автоматически отправлено с %(platform_name)s."
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
+#, python-format
+msgid ""
+"\n"
+"            You are receiving this email at address %(email)s because you are enrolled in\n"
+"          "
+msgstr ""
+"\n"
+"Вы получаете это письмо на адрес %(email)s, потому что вы записаны на"
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
+msgid ""
+"\n"
+"            To stop receiving email like this, update your course email settings\n"
+"          "
+msgstr ""
+"\n"
+"Чтобы прекратить получение подобных писем, обновите настройки электронной почты курса"
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:33
+msgid "here"
+msgstr "здесь"
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:34
+msgid "unsubscribe"
+msgstr "отписаться"
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:7
+#, python-format
+msgid "This email was automatically sent from %(platform_name)s."
+msgstr "Это письмо было автоматически отправлено с %(platform_name)s."
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:8
+#, python-format
+msgid ""
+"You are receiving this email at address %(email)s because you are enrolled "
+"in %(course_title)s."
+msgstr ""
+"Вы получаете это письмо на адрес %(email)s, потому что вы записаны на "
+"%(course_title)s."
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:9
+#, python-format
+msgid ""
+"To stop receiving email like this, update your course email settings here "
+"%(email_settings_url)s"
+msgstr ""
+"Чтобы прекратить получение подобных писем, обновите настройки электронной "
+"почты курса здесь %(email_settings_url)s"
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:10
+#, python-format
+msgid "To unsubscribe click here %(unsubscribe_link)s"
+msgstr "Чтобы отписаться, нажмите здесь %(unsubscribe_link)s"
+
+#: lms/templates/discussion/_discussion_inline.html:23
+#, python-format
+msgid "%(title)s"
+msgstr "%(title)s"
+
+#: lms/templates/discussion/_discussion_inline.html:27
+msgid "Topic:"
+msgstr "Тема:"
+
+#: lms/templates/discussion/_discussion_inline.html:37
+msgid "Show Discussion"
+msgstr "Показать обсуждение"
+
+#: lms/templates/discussion/_discussion_inline_studio.html:7
+msgid "To view live discussions, click Preview or View Live in Unit Settings."
+msgstr ""
+"Чтобы просмотреть живые обсуждения, нажмите «Предпросмотр» или «Просмотр в "
+"реальном времени» в настройках юнита."
+
+#: lms/templates/discussion/_discussion_inline_studio.html:9
+#, python-format
+msgid "Discussion ID: %(discussion_id)s"
+msgstr "Идентификатор обсуждения: %(discussion_id)s"
+
+#: lms/templates/discussion/_discussion_inline_studio.html:12
+msgid ""
+"The discussion block is disabled for this course as it is not using a "
+"compatible discussion provider."
+msgstr ""
+"Блок обсуждений отключён для этого курса, так как он не использует "
+"совместимого провайдера обсуждений."
+
+#: lms/templates/discussion/_filter_dropdown.html:5
+msgid "Discussion topics list"
+msgstr "Список тем обсуждения"
+
+#: lms/templates/discussion/_filter_dropdown.html:9
+#: lms/templates/discussion/_filter_dropdown.html:12
+msgid "Filter Topics"
+msgstr "Фильтровать темы"
+
+#: lms/templates/discussion/_filter_dropdown.html:21
+msgid "filter topics"
+msgstr "фильтровать темы"
+
+#: lms/templates/discussion/_filter_dropdown.html:28
+msgid "All Discussions"
+msgstr "Все обсуждения"
+
+#: lms/templates/discussion/_filter_dropdown.html:32
+msgid "Posts I'm Following"
+msgstr "Посты, на которые я подписан(а)"
+
+#: lms/templates/discussion/_thread_list_template.html:8
+msgid "Filter:"
+msgstr "Фильтр:"
+
+#: lms/templates/discussion/_thread_list_template.html:11
+msgid "Show all posts"
+msgstr "Показать все посты"
+
+#: lms/templates/discussion/_thread_list_template.html:13
+msgid "Unread posts"
+msgstr "Непрочитанные посты"
+
+#: lms/templates/discussion/_thread_list_template.html:16
+msgid "Unanswered posts"
+msgstr "Без ответов"
+
+#: lms/templates/discussion/_thread_list_template.html:20
+msgid "Flagged"
+msgstr "Помеченные"
+
+#: lms/templates/discussion/_thread_list_template.html:27
+msgid "Group:"
+msgstr "Группа:"
+
+#: lms/templates/discussion/_thread_list_template.html:29
+msgid "in all groups"
+msgstr "во всех группах"
+
+#: lms/templates/discussion/_thread_list_template.html:41
+msgid "Sort:"
+msgstr "Сортировка:"
+
+#: lms/templates/discussion/_thread_list_template.html:44
+msgid "by recent activity"
+msgstr "по последней активности"
+
+#: lms/templates/discussion/_thread_list_template.html:46
+msgid "by most activity"
+msgstr "по наибольшей активности"
+
+#: lms/templates/discussion/_thread_list_template.html:48
+msgid "by most votes"
+msgstr "по количеству голосов"
+
+#: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:48
+msgid "You may access your course."
+msgstr "Вы можете получить доступ к своему курсу."
+
+#: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:11
+#, python-format
+msgid "You may access your course at: %(course_url)s."
+msgstr "Вы можете получить доступ к своему курсу по адресу: %(course_url)s."
+
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.html:54
+#, python-format
+msgid ""
+"Visit %(site_name)s\n"
+"                "
+msgstr "Посетите %(site_name)s"
+
+#: lms/templates/instructor/edx_ace/addbetatester/push/body.txt:3
+#: lms/templates/instructor/edx_ace/enrolledunenroll/push/body.txt:3
+#: lms/templates/instructor/edx_ace/enrollenrolled/push/body.txt:3
+#: lms/templates/instructor/edx_ace/removebetatester/push/body.txt:3
+#, python-format
+msgid "Dear %(full_name)s,"
+msgstr "Уважаемый(ая) %(full_name)s,"
+
+#: lms/templates/instructor/edx_ace/addbetatester/push/body.txt:4
+#, python-format
+msgid ""
+"You have been invited to be a beta tester for %(course_name)s at "
+"%(site_name)s."
+msgstr ""
+"Вас пригласили стать бета-тестером для %(course_name)s на %(site_name)s."
+
+#: lms/templates/instructor/edx_ace/addbetatester/push/title.txt:3
+#, python-format
+msgid ""
+"You have been invited to a beta test for %(course_name)s at %(site_name)s."
+msgstr "Вас пригласили на бета-тестирование %(course_name)s на %(site_name)s."
+
+#: lms/templates/instructor/edx_ace/allowedenroll/push/body.txt:3
+#, python-format
+msgid ""
+"You have been enrolled in %(course_name)s at %(site_name)s. This course will"
+" now appear on your %(site_name)s dashboard."
+msgstr ""
+"Вы записаны на %(course_name)s на %(site_name)s. Этот курс теперь будет "
+"отображаться на вашей панели управления %(site_name)s."
+
+#: lms/templates/instructor/edx_ace/allowedenroll/push/title.txt:3
+#, python-format
+msgid "You have been invited to register for %(course_name)s."
+msgstr "Вас пригласили зарегистрироваться на %(course_name)s."
+
+#: lms/templates/instructor/edx_ace/allowedunenroll/push/body.txt:3
+#, python-format
+msgid ""
+"You have been unenrolled from the course %(course_name)s. Please disregard "
+"the invitation previously sent."
+msgstr ""
+"Вы отписаны от курса %(course_name)s. Пожалуйста, проигнорируйте ранее "
+"отправленное приглашение."
+
+#: lms/templates/instructor/edx_ace/enrolledunenroll/push/body.txt:4
+#, python-format
+msgid ""
+"You have been unenrolled from %(course_name)s at %(site_name)s. This course "
+"will no longer appear on your %(site_name)s dashboard."
+msgstr ""
+"Вы отписаны от %(course_name)s на %(site_name)s. Этот курс больше не будет "
+"отображаться на вашей панели управления %(site_name)s."
+
+#: lms/templates/instructor/edx_ace/enrollenrolled/push/body.txt:4
+#, python-format
+msgid "You have been invited to join %(course_name)s at %(site_name)s."
+msgstr "Вас пригласили присоединиться к %(course_name)s на %(site_name)s."
+
+#: lms/templates/instructor/edx_ace/removebetatester/push/body.txt:4
+#, python-format
+msgid ""
+"You have been removed as a beta tester for %(course_name)s at %(site_name)s."
+" This course will remain on your dashboard, but you will no longer be part "
+"of the beta testing group."
+msgstr ""
+"Вы удалены из числа бета-тестеров для %(course_name)s на %(site_name)s. Этот"
+" курс останется на вашей панели управления, но вы больше не будете частью "
+"группы бета-тестирования."
+
+#: lms/templates/instructor/edx_ace/removebetatester/push/title.txt:3
+#, python-format
+msgid ""
+"You have been removed as a beta tester for %(course_name)s at %(site_name)s."
+msgstr ""
+"Вы удалены из числа бета-тестеров для %(course_name)s на %(site_name)s."
+
+#: lms/templates/logout.html:12
+#, python-format, python-brace-format
+msgid ""
+"{start_anchor}%(tpa_logout_url)s{middle_anchor}Click here{end_anchor} to "
+"delete your single signed on (SSO) session."
+msgstr ""
+"{start_anchor}%(tpa_logout_url)s{middle_anchor}Нажмите здесь{end_anchor}, "
+"чтобы удалить сессию единого входа (SSO)."
+
+#: lms/templates/logout.html:26
+msgid "We are signing you in."
+msgstr "Мы входим вас в систему."
+
+#: lms/templates/logout.html:30
+msgid ""
+"\n"
+"                  This may take a minute. If you are not redirected, go to the home page.\n"
+"                "
+msgstr ""
+"\n"
+"Это может занять минуту. Если вы не перенаправлены, перейдите на главную страницу."
+
+#: lms/templates/logout.html:39
+#, python-format, python-brace-format
+msgid ""
+"If you are not redirected within 5 seconds, "
+"{start_anchor}%(target)s{middle_anchor}click here to go to the home "
+"page{end_anchor}."
+msgstr ""
+"Если вы не будете перенаправлены в течение 5 секунд, "
+"{start_anchor}%(target)s{middle_anchor}нажмите здесь, чтобы перейти на "
+"главную страницу{end_anchor}."
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:11
+#: lms/templates/support/edx_ace/wholecoursereset/email/subject.txt:3
+#, python-format
+msgid "The course %(course_title)s has been reset !"
+msgstr "Курс %(course_title)s был сброшен!"
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:21
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:3
+#, python-format
+msgid ""
+"Your progress in course %(course_title)s has been reset on your behalf."
+msgstr "Ваш прогресс в курсе %(course_title)s был сброшен по вашей просьбе."
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:25
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:4
+msgid ""
+"You will be able to re-attempt this course and earn a verified certificate "
+"upon successful completion."
+msgstr ""
+"Вы сможете повторно пройти этот курс и получить проверенный сертификат после"
+" успешного завершения."
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:31
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:6
+msgid "Best,"
+msgstr "С наилучшими пожеланиями,"
+
+#: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html:10
+msgid "ID Verification Approved"
+msgstr "Проверка личности одобрена"
+
+#: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html:19
+#: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt:3
+#, python-format
+msgid "Your %(platform_name)s ID verification photos have been approved."
+msgstr ""
+"Ваши фотографии для проверки личности на %(platform_name)s были одобрены."
+
+#: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html:23
+#: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt:4
+#, python-format
+msgid ""
+"Your approval status remains valid for two years, and it will expire "
+"%(expiration_datetime)s."
+msgstr ""
+"Ваш статус одобрения действителен в течение двух лет и истечёт "
+"%(expiration_datetime)s."
+
+#: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html:29
+#: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt:6
+msgid "Enjoy your studies,"
+msgstr "Удачи в учёбе,"
+
+#: lms/templates/verify_student/edx_ace/verificationapproved/email/subject.txt:3
+#, python-format
+msgid "Your %(platform_name)s ID verification was approved!"
+msgstr "Ваша проверка личности на %(platform_name)s одобрена!"
+
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html:10
+msgid "ID Verification Submitted"
+msgstr "Проверка личности отправлена"
+
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html:19
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:3
+#, python-format
+msgid ""
+"Thank you for submitting your photos for identity verification with "
+"%(platform_name)s. "
+msgstr ""
+"Благодарим за отправку фотографий для проверки личности на "
+"%(platform_name)s."
+
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html:24
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:4
+msgid ""
+"We have received your photos and they will be reviewed within 3-5 days."
+msgstr ""
+"Мы получили ваши фотографии, и они будут рассмотрены в течение 3-5 дней."
+
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html:27
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:5
+#, python-format
+msgid "You may check the status on your dashboard: %(dashboard_link)s "
+msgstr ""
+"Вы можете проверить статус на вашей панели управления: %(dashboard_link)s"
+
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html:32
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:7
+msgid "Best regards,"
+msgstr "С уважением,"
+
+#: lms/templates/verify_student/edx_ace/verificationsubmitted/email/subject.txt:3
+msgid "Thank you for submitting your photos!"
+msgstr "Благодарим за отправку ваших фотографий!"
+
+#: lms/templates/video.html:71 lms/templates/video.html:74
+msgid "Share this video"
+msgstr "Поделиться этим видео"
+
+#: lms/templates/video.html:116
+msgid "Copy"
+msgstr "Копировать"
+
+#: lms/templates/wiki/includes/anonymous_blocked.html:7
+#, python-brace-format
+msgid ""
+"You need to {anchor_start_login}log in{anchor_end} or "
+"{anchor_start_signup}sign up{anchor_end} to use this function."
+msgstr ""
+"Вам нужно {anchor_start_login}войти{anchor_end} или "
+"{anchor_start_signup}зарегистрироваться{anchor_end}, чтобы использовать эту "
+"функцию."
+
+#: lms/templates/wiki/includes/cheatsheet.html:15
+#, python-brace-format
+msgid ""
+"This wiki uses {start_strong}Markdown{end_strong} for styling. There are "
+"several useful guides online. See any of the links below for in-depth "
+"details:"
+msgstr ""
+"Эта вики использует {start_strong}Markdown{end_strong} для стилизации. В "
+"интернете есть несколько полезных руководств. Смотрите любые из приведённых "
+"ниже ссылок для подробной информации:"
+
+#: lms/templates/wiki/includes/editor_widget.html:4
+#, python-brace-format
+msgid ""
+"Markdown syntax is allowed. See the {start_link}cheatsheet{end_link} for "
+"help."
+msgstr ""
+"Разрешён синтаксис Markdown. См. {start_link}шпаргалку{end_link} для "
+"справки."
+
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:97
+msgid "Courses"
+msgstr "Курсы"
+
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:233
+msgid "Our mailing address is:"
+msgstr "Наш почтовый адрес:"
+
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_head.html:7
+#, python-format
+msgid "%(platform_name)s Email"
+msgstr "Электронная почта %(platform_name)s"
+
+#: openedx/core/djangoapps/auth_exchange/forms.py:72
+#, python-format
+msgid "'%s' is not a valid scope."
+msgstr "'%s' не является допустимой областью."
+
+#: openedx/core/djangoapps/config_model_utils/admin.py:41
+#, python-brace-format
+msgid ""
+"These define the context to enable this configuration on. If no values are "
+"set, then the configuration applies globally. If a single value is set, then"
+" the configuration applies to all courses within that context. At most one "
+"value can be set at a time.{br}If multiple contexts apply to a course (for "
+"example, if configuration is specified for the course specifically, and for "
+"the org that the course is in, then the more specific context overrides the "
+"more general context."
+msgstr ""
+"Они определяют контекст для включения этой конфигурации. Если значения не "
+"установлены, конфигурация применяется глобально. Если установлено одно "
+"значение, конфигурация применяется ко всем курсам в этом контексте. "
+"Одновременно может быть установлено не более одного значения.{br}Если "
+"несколько контекстов применяются к курсу (например, если конфигурация "
+"указана для курса конкретно и для организации, в которой находится курс), то"
+" более конкретный контекст переопределяет более общий."
+
+#: openedx/core/djangoapps/config_model_utils/admin.py:53
+msgid ""
+"If any of these values are left empty or \"Unknown\", then their value at "
+"runtime will be retrieved from the next most specific context that applies. "
+"For example, if \"Enabled\" is left as \"Unknown\" in the course context, "
+"then that course will be Enabled only if the org that it is in is Enabled."
+msgstr ""
+"Если какие-либо из этих значений оставлены пустыми или «Неизвестно», то их "
+"значение во время выполнения будет получено из следующего наиболее "
+"конкретного контекста. Например, если «Включено» оставлено как «Неизвестно» "
+"в контексте курса, то этот курс будет включён только в том случае, если "
+"организация, к которой он относится, включена."
+
+#: openedx/core/djangoapps/content/learning_sequences/admin.py:26
+msgid "Error Status"
+msgstr "Статус ошибки"
+
+#: openedx/core/djangoapps/content/learning_sequences/admin.py:31
+msgid "Courses with Errors"
+msgstr "Курсы с ошибками"
+
+#: openedx/core/djangoapps/content/learning_sequences/apps.py:10
+msgid "Learning Sequences and Outlines"
+msgstr "Образовательные последовательности и планы"
+
+#: openedx/core/djangoapps/content/search/models.py:28
+msgid ""
+"Numeric ID for each Course / Library context. This ID will generally require"
+" fewer bits than the full LearningContextKey, allowing more courses and "
+"libraries to be represented in content search filters."
+msgstr ""
+"Числовой идентификатор для каждого контекста курса/библиотеки. Этот "
+"идентификатор обычно требует меньше битов, чем полный LearningContextKey, "
+"что позволяет представлять больше курсов и библиотек в фильтрах поиска "
+"контента."
+
+#: openedx/core/djangoapps/content_libraries/api/libraries.py:533
+msgid "Cannot change or remove the access level for the only admin."
+msgstr ""
+"Невозможно изменить или удалить уровень доступа для единственного "
+"администратора."
+
+#: openedx/core/djangoapps/content_libraries/constants.py:15
+msgid "All Rights Reserved."
+msgstr "Все права защищены."
+
+#: openedx/core/djangoapps/content_libraries/constants.py:16
+msgid "Creative Commons Attribution 4.0"
+msgstr "Creative Commons Attribution 4.0"
+
+#: openedx/core/djangoapps/content_libraries/constants.py:17
+msgid "Creative Commons Attribution-NonCommercial 4.0"
+msgstr "Creative Commons Attribution-NonCommercial 4.0"
+
+#: openedx/core/djangoapps/content_libraries/constants.py:18
+msgid "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0"
+msgstr "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0"
+
+#: openedx/core/djangoapps/content_libraries/constants.py:19
+msgid "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+msgstr "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+
+#: openedx/core/djangoapps/content_libraries/constants.py:20
+msgid "Creative Commons Attribution-NoDerivatives 4.0"
+msgstr "Creative Commons Attribution-NoDerivatives 4.0"
+
+#: openedx/core/djangoapps/content_libraries/constants.py:21
+msgid "Creative Commons Attribution-ShareAlike 4.0"
+msgstr "Creative Commons Attribution-ShareAlike 4.0"
+
+#: openedx/core/djangoapps/content_libraries/models.py:201
+msgid "Administer users and author content"
+msgstr "Управление пользователями и создание контента"
+
+#: openedx/core/djangoapps/content_libraries/models.py:202
+msgid "Author content"
+msgstr "Создание контента"
+
+#: openedx/core/djangoapps/content_libraries/models.py:203
+msgid "Read-only"
+msgstr "Только для чтения"
+
+#: openedx/core/djangoapps/content_libraries/models.py:223
+msgid "One and only one of 'user' and 'group' must be set."
+msgstr ""
+"Должно быть установлено одно и только одно из значений: 'user' или 'group'."
+
+#: openedx/core/djangoapps/content_libraries/models.py:251
+msgid "Task was created, but not queued to run."
+msgstr "Задача создана, но не поставлена в очередь на выполнение."
+
+#: openedx/core/djangoapps/content_libraries/models.py:252
+msgid "Task was created and queued to run."
+msgstr "Задача создана и поставлена в очередь на выполнение."
+
+#: openedx/core/djangoapps/content_libraries/models.py:253
+msgid "Task is running."
+msgstr "Задача выполняется."
+
+#: openedx/core/djangoapps/content_libraries/models.py:254
+msgid "Task finished, but some blocks failed to import."
+msgstr "Задача завершена, но некоторые блоки не удалось импортировать."
+
+#: openedx/core/djangoapps/content_libraries/models.py:255
+msgid "Task finished successfully."
+msgstr "Задача успешно завершена."
+
+#: openedx/core/djangoapps/content_libraries/models.py:262
+msgid "state"
+msgstr "состояние"
+
+#: openedx/core/djangoapps/content_libraries/models.py:263
+msgid "The state of the block import task."
+msgstr "Состояние задачи импорта блоков."
+
+#: openedx/core/djangoapps/content_libraries/models.py:268
+msgid "progress"
+msgstr "прогресс"
+
+#: openedx/core/djangoapps/content_libraries/models.py:269
+msgid "A float from 0.0 to 1.0 representing the task progress."
+msgstr "Число от 0.0 до 1.0, представляющее прогресс выполнения задачи."
+
+#: openedx/core/djangoapps/content_libraries/models.py:275
+msgid "course ID"
+msgstr "ID курса"
+
+#: openedx/core/djangoapps/content_libraries/models.py:276
+msgid "ID of the imported course."
+msgstr "ID импортированного курса."
+
+#: openedx/core/djangoapps/content_libraries/models.py:353
+msgid "open edx user"
+msgstr "пользователь Open edX"
+
+#: openedx/core/djangoapps/content_libraries/models.py:358
+msgid "lti platform identifier"
+msgstr "идентификатор LTI-платформы"
+
+#: openedx/core/djangoapps/content_libraries/models.py:359
+msgid "The LTI platform identifier to which this profile belongs to."
+msgstr "Идентификатор LTI-платформы, к которой принадлежит этот профиль."
+
+#: openedx/core/djangoapps/content_libraries/models.py:365
+msgid "client identifier"
+msgstr "идентификатор клиента"
+
+#: openedx/core/djangoapps/content_libraries/models.py:366
+msgid "The LTI client identifier generated by the LTI platform."
+msgstr "Идентификатор LTI-клиента, сгенерированный LTI-платформой."
+
+#: openedx/core/djangoapps/content_libraries/models.py:371
+msgid "subject identifier"
+msgstr "идентификатор субъекта"
+
+#: openedx/core/djangoapps/content_libraries/models.py:372
+msgid ""
+"Identifies the entity that initiated the launch request, commonly a user."
+msgstr ""
+"Идентифицирует сущность, инициировавшую запрос на запуск, обычно "
+"пользователя."
+
+#: openedx/core/djangoapps/content_libraries/models.py:475
+msgid ""
+"The authorized LTI profile that launched the resource (identifies the user)."
+msgstr ""
+"Авторизованный LTI-профиль, запустивший ресурс (идентифицирует "
+"пользователя)."
+
+#: openedx/core/djangoapps/content_libraries/models.py:480
+msgid ""
+"The usage key string of the resource serving the content of this launch."
+msgstr ""
+"Строковый идентификатор использования ресурса, предоставляющего контент "
+"этого запуска."
+
+#: openedx/core/djangoapps/content_libraries/models.py:486
+msgid ""
+"The LTI platform unique identifier of this resource, also known as the "
+"\"resource link id\"."
+msgstr ""
+"Уникальный идентификатор этого ресурса на LTI-платформе, также известный как"
+" \"идентификатор ресурсной ссылки\"."
+
+#: openedx/core/djangoapps/content_libraries/models.py:493
+msgid "The LTI platform descriptive title for this resource."
+msgstr "Описательный заголовок этого ресурса на LTI-платформе."
+
+#: openedx/core/djangoapps/content_libraries/models.py:499
+msgid "If AGS was enabled during launch, this should hold the lineitem ID."
+msgstr ""
+"Если AGS был включен при запуске, здесь должен храниться идентификатор "
+"lineitem."
+
+#: openedx/core/djangoapps/content_libraries/rest_api/libraries.py:340
+msgid "We could not find a user with that email address."
+msgstr "Мы не смогли найти пользователя с таким адресом электронной почты."
+
+#: openedx/core/djangoapps/content_libraries/rest_api/libraries.py:344
+msgid "This user already has access to this library."
+msgstr "Этот пользователь уже имеет доступ к этой библиотеке."
+
+#: openedx/core/djangoapps/content_staging/data.py:19
+msgid "Loading"
+msgstr "Загрузка"
+
+#: openedx/core/djangoapps/content_staging/data.py:23
+msgid "Expired"
+msgstr "Истекло"
+
+#: openedx/core/djangoapps/content_staging/models.py:43
+msgid "Staged Content"
+msgstr "Подготовленный контент"
+
+#: openedx/core/djangoapps/content_staging/models.py:55
+msgid ""
+"\n"
+"            What type of content is staged. Only OLX content is supported, and\n"
+"            this field must be the same as the root tag of the OLX.\n"
+"            e.g. \"video\" if a video is staged, or \"vertical\" for a unit.\n"
+"        "
+msgstr ""
+"\n"
+"Какой тип контента подготовлен. Поддерживается только OLX-контент,\n"
+"            и это поле должно совпадать с корневым тегом OLX.\n"
+"            Например, \"video\", если подготовлено видео, или \"vertical\" для юнита."
+
+#: openedx/core/djangoapps/content_staging/models.py:72
+msgid "Content tags applied to these blocks"
+msgstr "Теги контента, примененные к этим блокам"
+
+#: openedx/core/djangoapps/content_staging/models.py:116
+msgid "Original usage key/ID of the thing that is in the clipboard."
+msgstr ""
+"Исходный ключ использования/ID элемента, который находится в буфере обмена."
+
+#: openedx/core/djangoapps/content_tagging/models/base.py:24
+msgid "owner"
+msgstr "владелец"
+
+#: openedx/core/djangoapps/content_tagging/models/base.py:33
+msgid ""
+"Organization that is related to this taxonomy.If None, then this taxonomy is"
+" related to all organizations."
+msgstr ""
+"Организация, связанная с этой таксономией. Если None, то эта таксономия "
+"связана со всеми организациями."
+
+#: openedx/core/djangoapps/course_live/models.py:21
+msgid "If disabled, the LTI in the associated course will be disabled."
+msgstr "Если отключено, LTI в связанном курсе будет отключен."
+
+#: openedx/core/djangoapps/course_live/models.py:28
+msgid "The LTI configuration data for this course/provider."
+msgstr "Данные конфигурации LTI для этого курса/провайдера."
+
+#: openedx/core/djangoapps/course_live/models.py:33
+#: openedx/core/djangoapps/programs/models.py:57
+msgid "LTI provider"
+msgstr "Провайдер LTI"
+
+#: openedx/core/djangoapps/course_live/models.py:34
+#: openedx/core/djangoapps/programs/models.py:58
+msgid "The LTI provider's id"
+msgstr "Идентификатор провайдера LTI"
+
+#: openedx/core/djangoapps/course_live/models.py:38
+msgid "True, if LTI credential are provided by Org globally"
+msgstr ""
+"Истина, если учетные данные LTI предоставляются глобально организацией"
+
+#: openedx/core/djangoapps/course_live/plugins.py:25
+#: openedx/core/djangoapps/course_live/tab.py:47
+msgid "Live"
+msgstr "Активно"
+
+#: openedx/core/djangoapps/course_live/plugins.py:26
+msgid "Enable in-platform video conferencing by configuring live"
+msgstr "Настройте проведение видеоконференций внутри платформы, настроив live"
+
+#: openedx/core/djangoapps/discussions/models.py:126
+#, python-brace-format
+msgid ""
+"{provider} requires that LTI advanced sharing be enabled for your course, as"
+" this provider uses email address and username to personalize the "
+"experience. Please contact {support_contact} to enable this feature."
+msgstr ""
+"{provider} требует, чтобы для вашего курса было включено расширенное "
+"совместное использование LTI, так как этот провайдер использует адрес "
+"электронной почты и имя пользователя для персонализации. Пожалуйста, "
+"свяжитесь с {support_contact}, чтобы включить эту функцию."
+
+#: openedx/core/djangoapps/discussions/models.py:134
+msgid "technical support"
+msgstr "техническая поддержка"
+
+#: openedx/core/djangoapps/discussions/models.py:334
+#, python-brace-format
+msgid "Comma-separated list of providers to allow, eg: {choices}"
+msgstr "Список разрешенных провайдеров через запятую, например: {choices}"
+
+#: openedx/core/djangoapps/discussions/models.py:342
+msgid "Allow List"
+msgstr "Список разрешенных"
+
+#: openedx/core/djangoapps/discussions/models.py:353
+#, python-brace-format
+msgid "Comma-separated list of providers to deny, eg: {choices}"
+msgstr "Список запрещенных провайдеров через запятую, например: {choices}"
+
+#: openedx/core/djangoapps/discussions/models.py:361
+msgid "Deny List"
+msgstr "Список запрещенных"
+
+#: openedx/core/djangoapps/discussions/models.py:423
+#: openedx/core/djangoapps/discussions/models.py:570
+msgid "Learning Context Key"
+msgstr "Ключ учебного контекста"
+
+#: openedx/core/djangoapps/discussions/models.py:427
+msgid ""
+"If disabled, the discussions in the associated learning context/course will "
+"be disabled."
+msgstr ""
+"Если отключено, обсуждения в связанном учебном контексте/курсе будут "
+"отключены."
+
+#: openedx/core/djangoapps/discussions/models.py:434
+msgid ""
+"The Posting availability in discussions whether it will be enabled, "
+"scheduled or indefinitely disabled."
+msgstr ""
+"Доступность публикаций в обсуждениях: будет ли она включена, запланирована "
+"или отключена на неопределенный срок."
+
+#: openedx/core/djangoapps/discussions/models.py:442
+msgid "The LTI configuration data for this context/provider."
+msgstr "Данные конфигурации LTI для этого контекста/провайдера."
+
+#: openedx/core/djangoapps/discussions/models.py:447
+msgid ""
+"If enabled, discussion topics will be created for each non-graded unit in "
+"the course. A UI for discussions will show up with each unit."
+msgstr ""
+"Если включено, темы обсуждений будут создаваться для каждого неоцененного "
+"юнита в курсе. Интерфейс обсуждений будет отображаться вместе с каждым "
+"юнитом."
+
+#: openedx/core/djangoapps/discussions/models.py:453
+msgid ""
+"If enabled, discussion topics will be created for graded units as well."
+msgstr ""
+"Если включено, темы обсуждений будут создаваться и для оцененных юнитов."
+
+#: openedx/core/djangoapps/discussions/models.py:457
+msgid ""
+"If enabled, discussions will need to be manually enabled for each unit."
+msgstr ""
+"Если включено, обсуждения нужно будет включать вручную для каждого юнита."
+
+#: openedx/core/djangoapps/discussions/models.py:462
+msgid "The plugin configuration data for this context/provider."
+msgstr "Данные конфигурации плагина для этого контекста/провайдера."
+
+#: openedx/core/djangoapps/discussions/models.py:467
+msgid "Discussion provider"
+msgstr "Провайдер обсуждений"
+
+#: openedx/core/djangoapps/discussions/models.py:468
+msgid "The discussion tool/provider's id"
+msgstr "Идентификатор инструмента/провайдера обсуждений"
+
+#: openedx/core/djangoapps/discussions/models.py:571
+msgid "Context key for context in which this discussion topic exists."
+msgstr "Ключ контекста, в котором существует эта тема обсуждения."
+
+#: openedx/core/djangoapps/discussions/models.py:578
+msgid ""
+"Usage key for in-context discussion topic. Set to null for course-level "
+"topics."
+msgstr ""
+"Ключ использования для обсуждения в контексте. Установите значение null для "
+"тем на уровне курса."
+
+#: openedx/core/djangoapps/discussions/models.py:582
+msgid "Title for discussion topic."
+msgstr "Название темы обсуждения."
+
+#: openedx/core/djangoapps/discussions/models.py:589
+msgid "Group for divided discussions."
+msgstr "Группа для разделенных обсуждений."
+
+#: openedx/core/djangoapps/discussions/models.py:593
+msgid "Provider id for discussion provider."
+msgstr "Идентификатор провайдера обсуждений."
+
+#: openedx/core/djangoapps/discussions/models.py:598
+msgid ""
+"Discussion context ID in external forum provider. e.g. commentable_id for "
+"cs_comments_service."
+msgstr ""
+"Идентификатор контекста обсуждения во внешнем провайдере форума. Например, "
+"commentable_id для cs_comments_service."
+
+#: openedx/core/djangoapps/discussions/models.py:602
+msgid "Whether this topic should be shown in-context in the course."
+msgstr "Следует ли отображать эту тему в контексте курса."
+
+#: openedx/core/djangoapps/discussions/models.py:606
+msgid "Ordering of this topic in its learning context"
+msgstr "Порядок этой темы в ее учебном контексте"
+
+#: openedx/core/djangoapps/discussions/models.py:610
+msgid "Additional context for this topic, such as its section, and subsection"
+msgstr ""
+"Дополнительный контекст для этой темы, например, ее раздел и подраздел"
+
+#: openedx/core/djangoapps/discussions/plugins.py:24
+msgid ""
+"Encourage participation and engagement in your course with discussions."
+msgstr "Поощряйте участие и вовлеченность в вашем курсе с помощью обсуждений."
+
+#: openedx/core/djangoapps/notifications/admin.py:16
+msgid "Notification App"
+msgstr "Приложение уведомлений"
+
+#: openedx/core/djangoapps/notifications/admin.py:37
+msgid "Notification Type"
+msgstr "Тип уведомления"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:69
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> commented on your response to the "
+"post <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong>} прокомментировал ваш ответ на пост "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:82
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> commented on "
+"<{strong}>{author_name}</{strong}> response to your post "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> прокомментировал ответ "
+"<{strong}>{author_name}</{strong}> на ваш пост "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:96
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> responded to your post "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> ответил на ваш пост "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:117
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{username}</{strong}> posted "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{username}</{strong}> опубликовал "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:118
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> and others started new "
+"discussions</{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> и другие начали новые "
+"обсуждения</{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:137
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{username}</{strong}> asked "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{username}</{strong}> задал вопрос "
+"<{strong}>{post_title}</{strong></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:149
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> responded to a post you’re "
+"following: <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> ответил на пост, за которым вы "
+"следите: <{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:164
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> commented on "
+"<{strong}>{author_name}</{strong}> response in a post you’re following "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> прокомментировал ответ "
+"<{strong}>{author_name}</{strong}> в посте, за которым вы следите: "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:185
+#, python-brace-format
+msgid ""
+"<p><strong>{username}’s </strong> {content_type} has been reported <strong> "
+"{content}</strong></p>"
+msgstr ""
+"<p><strong>{username}</strong>: {content_type} был(а) отправлен на "
+"модерацию: <strong>{content}</strong></p>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:200
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}'s</{strong}> response has been endorsed in "
+"your post <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}>: ваш ответ был одобрен в посте "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:213
+#, python-brace-format
+msgid ""
+"<{p}>Your response has been endorsed on the post "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}>Ваш ответ был одобрен в посте <{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:231
+#, python-brace-format
+msgid "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
+msgstr "<{p}><{strong}>{course_update_content}</{strong></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:248
+#, python-brace-format
+msgid ""
+"<{p}>You have a new open response submission awaiting review for "
+"<{strong}>{ora_name}</{strong}></{p}>"
+msgstr ""
+"<{p}>У вас есть новое открытое задание, ожидающее проверки: "
+"<{strong}>{ora_name}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:250
+#, python-brace-format
+msgid ""
+"<{p}>You have multiple submissions awaiting review for "
+"<{strong}>{ora_name}</{strong}></{p}>"
+msgstr ""
+"<{p}>У вас есть несколько заданий, ожидающих проверки: "
+"<{strong}>{ora_name}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:269
+#, python-brace-format
+msgid ""
+"<{p}>You have received {points_earned} out of {points_possible} on your "
+"assessment: <{strong}>{ora_name}</{strong}></{p}>"
+msgstr ""
+"<{p}>Вы получили {points_earned} из {points_possible} за оценку: "
+"<{strong}>{ora_name}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:289
+#, python-brace-format
+msgid "<{p}>Your instructor posted <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}>Ваш преподаватель опубликовал <{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:337
+msgid ""
+"Notifications for responses and comments on your posts, and the ones you’re "
+"following, including endorsements to your responses and on your posts."
+msgstr ""
+"Уведомления о ответах и комментариях к вашим постам и тем, за которыми вы "
+"следите, включая одобрения ваших ответов и постов."
+
+#: openedx/core/djangoapps/notifications/base_notification.py:347
+msgid "Notifications for new announcements and updates from the course team."
+msgstr "Уведомления о новых объявлениях и обновлениях от команды курса."
+
+#: openedx/core/djangoapps/notifications/base_notification.py:356
+msgid "Notifications for submission grading."
+msgstr "Уведомления о проверке заданий."
+
+#: openedx/core/djangoapps/notifications/email/tasks.py:266
+msgid "New Course Update"
+msgstr "Новое обновление курса"
+
+#: openedx/core/djangoapps/notifications/email/tasks.py:278
+msgid ""
+"You are receiving this email because you are enrolled in the edX course "
+msgstr "Вы получаете это письмо, потому что зарегистрированы на курс edX"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:145
+msgid "Total Notifications"
+msgstr "Всего уведомлений"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:221
+msgid "Today"
+msgstr "Сегодня"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:383
+msgid "Grades"
+msgstr "Оценки"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:404
+msgid "discussion"
+msgstr "обсуждение"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:405
+msgid "update"
+msgstr "обновление"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:406
+msgid "assessment"
+msgstr "оценка"
+
+#: openedx/core/djangoapps/notifications/email_notifications.py:16
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: openedx/core/djangoapps/notifications/email_notifications.py:17
+msgid "Weekly"
+msgstr "Еженедельно"
+
+#: openedx/core/djangoapps/notifications/email_notifications.py:18
+msgid "Immediately"
+msgstr "Немедленно"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/batched_email_header.html:12
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:12
+#: openedx/core/djangoapps/notifications/templates/notifications/immediate_email_content.html:8
+msgid "Unsubscribe"
+msgstr "Отписаться"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_content.html:15
+msgid "View all"
+msgstr "Посмотреть все"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_content.html:63
+msgid "more"
+msgstr "ещё"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:38
+msgid ""
+"You are receiving this email because you have subscribed to email digest"
+msgstr ""
+"Вы получаете это письмо, потому что подписались на дайджест электронной "
+"почты"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:43
+msgid "Notification Settings"
+msgstr "Настройки уведомлений"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:46
+msgid "Unsubscribe from email digest for learning activity"
+msgstr "Отписаться от дайджеста электронной почты для учебной активности"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:25
+msgid "Weekly Notifications Digest"
+msgstr "Еженедельный дайджест уведомлений"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:27
+msgid "Daily Notifications Digest"
+msgstr "Ежедневный дайджест уведомлений"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:4
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:4
+msgid "Weekly Notifications Digest for the Week of"
+msgstr "Еженедельный дайджест уведомлений за неделю от"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:6
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:6
+msgid "Daily Notifications Digest for"
+msgstr "Ежедневный дайджест уведомлений за"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/email_digest_preference_update.html:5
+msgid "Email Digest Preferences Updated"
+msgstr "Настройки дайджеста электронной почты обновлены"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/email_digest_preference_update.html:9
+msgid ""
+"You have successfully unsubscribed from email digest for learning activity"
+msgstr ""
+"Вы успешно отписались от дайджеста электронной почты для учебной активности"
+
+#: openedx/core/djangoapps/notifications/views.py:174
+msgid "Invalid app name."
+msgstr "Неверное название приложения."
+
+#: openedx/core/djangoapps/notifications/views.py:184
+msgid "Notifications marked as seen."
+msgstr "Уведомления отмечены как просмотренные."
+
+#: openedx/core/djangoapps/notifications/views.py:223
+msgid "Notification marked read."
+msgstr "Уведомление отмечено как прочитанное."
+
+#: openedx/core/djangoapps/notifications/views.py:235
+msgid "Notifications marked read."
+msgstr "Уведомления отмечены как прочитанные."
+
+#: openedx/core/djangoapps/notifications/views.py:237
+msgid "Invalid app_name or notification_id."
+msgstr "Неверное название приложения или идентификатор уведомления."
+
+#: openedx/core/djangoapps/oauth_dispatch/models.py:88
+msgid ""
+"Comma-separated list of filters that this application will be allowed to "
+"request."
+msgstr ""
+"Список фильтров через запятую, которые это приложение будет разрешено "
+"запрашивать."
+
+#: openedx/core/djangoapps/programs/models.py:41
+msgid "Program UUID"
+msgstr "UUID программы"
+
+#: openedx/core/djangoapps/programs/models.py:45
+msgid "If disabled, the LTI in the associated program will be disabled."
+msgstr "Если отключено, LTI в связанной программе будет отключен."
+
+#: openedx/core/djangoapps/programs/models.py:52
+msgid "The LTI configuration data for this program/provider."
+msgstr "Данные конфигурации LTI для этой программы/провайдера."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:22
+#, python-format
+msgid ""
+"This is a routed Account Activation email for %(routed_profile_name)s "
+"(%(routed_user_email)s): %(routed_profile_name)s"
+msgstr ""
+"Это маршрутизированное письмо активации учетной записи для "
+"%(routed_profile_name)s (%(routed_user_email)s): %(routed_profile_name)s"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:36
+msgid "Welcome to edX. It’s time for your next career move"
+msgstr ""
+"Добро пожаловать в edX. Пришло время для вашего следующего карьерного шага"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:62
+msgid "Resume your course "
+msgstr "Продолжите свой курс"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:82
+msgid "Your focused attention will pay off in the end!"
+msgstr "Ваше сосредоточенное внимание окупится в конце!"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:84
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:101
+msgid ""
+"With self-paced courses, you learn on your own schedule. It’s a good idea to"
+" spend time with the course each week and check in with your goals often."
+msgstr ""
+"В курсах с самостоятельным темпом обучения вы учитесь по собственному "
+"графику. Рекомендуется уделять время курсу каждую неделю и часто сверяться "
+"со своими целями."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:100
+msgid "Your focused attention will pay off in the end! "
+msgstr "Ваше сосредоточенное внимание окупится в конце!"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.html:18
+#, python-brace-format
+msgid ""
+"We hope you're enjoying {start_strong}{course_name}{end_strong}! We want to "
+"let you know what you can look forward to in the coming weeks:"
+msgstr ""
+"Надеемся, вам нравится {start_strong}{course_name}{end_strong}! Мы хотим "
+"сообщить вам, чего ожидать в ближайшие недели:"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.html:31
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.txt:13
+msgid ""
+"We encourage you to spend time with the course each week. Your focused "
+"attention will pay off in the end!"
+msgstr ""
+"Мы рекомендуем уделять время курсу каждую неделю. Ваше сосредоточенное "
+"внимание окупится в конце!"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.txt:4
+#, python-format
+msgid ""
+"We hope you're enjoying %(course_name)s! We want to let you know what you "
+"can look forward to in the coming weeks:"
+msgstr ""
+"Надеемся, вам нравится %(course_name)s! Мы хотим сообщить вам, чего ожидать "
+"в ближайшие недели:"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/subject.txt:4
+#, python-format
+msgid "%(course_name)s Weekly Update"
+msgstr "Еженедельное обновление по %(course_name)s"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:38
+#, python-brace-format
+msgid ""
+"Many {platform_name} learners in {start_strong}{course_name}{end_strong} are"
+" completing more problems every week, and participating in the discussion "
+"forums. What do you want to do to keep learning?"
+msgstr ""
+"Многие учащиеся {platform_name} в {start_strong}{course_name}{end_strong} "
+"выполняют больше заданий каждую неделю и участвуют в форумах обсуждений. Что"
+" вы хотите сделать, чтобы продолжать учиться?"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:31
+#, python-brace-format
+msgid ""
+"Remember when you enrolled in {start_strong}{course_name}{end_strong}, and "
+"other courses on {platform_name}? We do, and we’re glad to have you! Come "
+"see what everyone is learning."
+msgstr ""
+"Помните, когда вы записались на {start_strong}{course_name}{end_strong} и "
+"другие курсы на {platform_name}? Мы помним, и рады, что вы с нами! Приходите"
+" посмотреть, чему учатся все."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:37
+#, python-brace-format
+msgid ""
+"Remember when you enrolled in {start_strong}{course_name}{end_strong} on "
+"{platform_name}? We do, and we’re glad to have you! Come see what everyone "
+"is learning."
+msgstr ""
+"Помните, когда вы записались на {start_strong}{course_name}{end_strong} на "
+"{platform_name}? Мы помним, и рады, что вы с нами! Приходите посмотреть, "
+"чему учатся все."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:39
+#, python-format, python-brace-format
+msgid ""
+"We hope you are enjoying learning with us so far on "
+"{start_strong}%(platform_name)s{end_strong}! A verified certificate allows "
+"you to highlight your new knowledge and skills. An %(platform_name)s "
+"certificate is official and easily shareable."
+msgstr ""
+"Надеемся, вам нравится учиться с нами на "
+"{start_strong}%(platform_name)s{end_strong}! Проверенный сертификат "
+"позволяет выделить ваши новые знания и навыки. Сертификат {platform_name} "
+"является официальным и легко распространяемым."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:46
+#, python-brace-format
+msgid ""
+"We hope you are enjoying learning with us so far in "
+"{start_strong}{first_course_name}{end_strong}! A verified certificate allows"
+" you to highlight your new knowledge and skills. An {platform_name} "
+"certificate is official and easily shareable."
+msgstr ""
+"Надеемся, вам нравится учиться с нами в "
+"{start_strong}{first_course_name}{end_strong}! Проверенный сертификат "
+"позволяет выделить ваши новые знания и навыки. Сертификат {platform_name} "
+"является официальным и легко распространяемым."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:55
+#, python-format, python-brace-format
+msgid ""
+"Upgrade by "
+"{start_strong}%(user_schedule_upgrade_deadline_time)s{end_strong}."
+msgstr ""
+"Обновите до "
+"{start_strong}%(user_schedule_upgrade_deadline_time)s{end_strong}."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:55
+msgid "Enter a valid email address"
+msgstr "Введите действительный адрес электронной почты"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:64
+msgid "This email is already associated with an existing account"
+msgstr ""
+"Этот адрес электронной почты уже связан с существующей учетной записью"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:66
+msgid "This email is associated to a retired account."
+msgstr "Этот адрес электронной почты связан с удаленной учетной записью."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:69
+msgid ""
+"The password you entered is on a list of known compromised passwords. Please"
+" choose a different one."
+msgstr ""
+"Введенный вами пароль находится в списке известных скомпрометированных "
+"паролей. Пожалуйста, выберите другой."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:75
+msgid "It looks like this username is already taken"
+msgstr "Похоже, это имя пользователя уже занято"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:96
+msgid "Enter your full name"
+msgstr "Введите ваше полное имя"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:97
+msgid "Enter your first name"
+msgstr "Введите ваше имя"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:98
+msgid "Enter your last name"
+msgstr "Введите вашу фамилию"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:99
+msgid "The email addresses do not match"
+msgstr "Адреса электронной почты не совпадают"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:100
+msgid "Enter your confirm email"
+msgstr "Подтвердите ваш email"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:101
+msgid "Select your country or region of residence"
+msgstr "Выберите вашу страну или регион проживания"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:102
+msgid "Select your profession"
+msgstr "Выберите вашу профессию"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:103
+msgid "Select your specialty"
+msgstr "Выберите вашу специализацию"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:104
+msgid "Enter your profession"
+msgstr "Введите вашу профессию"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:105
+msgid "Enter your specialty"
+msgstr "Введите вашу специализацию"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:106
+msgid "Enter your state"
+msgstr "Введите ваш штат"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:107
+msgid "Enter your city"
+msgstr "Введите ваш город"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:108
+msgid "Tell us your goals"
+msgstr "Расскажите нам о ваших целях"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:109
+msgid "Select the highest level of education you have completed"
+msgstr "Выберите самый высокий уровень образования, который вы завершили"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:110
+msgid "Select your year of birth"
+msgstr "Выберите ваш год рождения"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:111
+msgid "Select your gender"
+msgstr "Выберите ваш пол"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:112
+msgid "Enter your mailing address"
+msgstr "Введите ваш почтовый адрес"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:116
+msgid ""
+"Our system detected that your password is vulnerable. Change your password "
+"so that your account stays secure."
+msgstr ""
+"Наша система обнаружила, что ваш пароль уязвим. Измените пароль, чтобы ваша "
+"учетная запись оставалась защищенной."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:119
+msgid ""
+"Our system detected that your password is vulnerable. We recommend you "
+"change it so that your account stays secure."
+msgstr ""
+"Наша система обнаружила, что ваш пароль уязвим. Мы рекомендуем вам изменить "
+"его, чтобы ваша учетная запись оставалась защищенной."
+
+#: openedx/core/djangoapps/user_api/accounts/api.py:436
+msgid "Full name can't be longer than 255 symbols"
+msgstr "Полное имя не может быть длиннее 255 символов"
+
+#: openedx/core/djangoapps/user_api/accounts/api.py:438
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:109
+msgid "Enter a valid name"
+msgstr "Введите действительное имя"
+
+#: openedx/core/djangoapps/user_api/accounts/utils.py:45
+#, python-brace-format
+msgid ""
+"Make sure that you are providing a valid username or a URL that contains "
+"\"{url_stub}\". To remove the link from your {platform_name} profile, leave "
+"this field blank."
+msgstr ""
+"Убедитесь, что вы указываете действительное имя пользователя или URL, "
+"содержащий \"{url_stub}\". Чтобы удалить ссылку из вашего профиля "
+"{platform_name}, оставьте это поле пустым."
+
+#: openedx/core/djangoapps/user_api/models.py:444
+msgid ""
+"Comma separated file that have username and user_email of the users that "
+"needs to be retired"
+msgstr ""
+"Файл с разделением запятыми, содержащий имя пользователя и адрес электронной"
+" почты пользователей, которых необходимо удалить"
+
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:376
+msgid "Work experience"
+msgstr "Опыт работы"
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html:10
+msgid "Password reset"
+msgstr "Сброс пароля"
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html:37
+msgid "Reset my password"
+msgstr "Сбросить мой пароль"
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:10
+msgid "Password reset success"
+msgstr "Пароль успешно сброшен"
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:14
+#, python-format
+msgid "Hello %(name)s,"
+msgstr "Здравствуйте, %(name)s,"
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:19
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt:3
+#, python-format
+msgid ""
+"This is to confirm that you have successfully changed your password "
+"associated with %(platform_name)s account. Please sign-in to your account."
+msgstr ""
+"Это подтверждение того, что вы успешно изменили свой пароль, связанный с "
+"учетной записью %(platform_name)s. Пожалуйста, войдите в свою учетную "
+"запись."
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt:2
+#, python-format
+msgid "Hello %(name)s, "
+msgstr "Здравствуйте, %(name)s,"
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/subject.txt:3
+#, python-format
+msgid "Password reset completed on %(platform_name)s"
+msgstr "Сброс пароля завершен на %(platform_name)s"
+
+#: openedx/core/djangoapps/user_authn/views/login.py:91
+#, python-brace-format
+msgid ""
+"You've successfully signed in to your {provider_name} account, but this "
+"account isn't linked with your {platform_name} account yet. {blank_lines}Use"
+" your {platform_name} username and password to sign in to {platform_name} "
+"below, and then link your {platform_name} account with {provider_name} from "
+"your dashboard. {blank_lines}If you don't have an account on {platform_name}"
+" yet, click {register_label_strong} at the top of the page."
+msgstr ""
+"Вы успешно вошли в свою учетную запись {provider_name}, но эта учетная "
+"запись еще не связана с вашей учетной записью {platform_name}. "
+"{blank_lines}Используйте свое имя пользователя и пароль {platform_name} для "
+"входа в {platform_name} ниже, а затем свяжите свою учетную запись "
+"{platform_name} с {provider_name} на вашей панели управления. "
+"{blank_lines}Если у вас еще нет учетной записи на {platform_name}, нажмите "
+"{register_label_strong} в верхней части страницы."
+
+#: openedx/core/djangoapps/user_authn/views/login.py:102
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: openedx/core/djangoapps/user_authn/views/login.py:172
+#, python-brace-format
+msgid ""
+"To protect your account, it’s been temporarily locked. Try again in "
+"{locked_out_period} minutes.{li_start}To be on the safe side, you can reset "
+"your password {link_start}here{link_end} before you try again."
+msgstr ""
+"Для защиты вашей учетной записи она была временно заблокирована. Попробуйте "
+"снова через {locked_out_period} минут.{li_start}В целях безопасности вы "
+"можете сбросить свой пароль {link_start}здесь{link_end} перед повторной "
+"попыткой."
+
+#: openedx/core/djangoapps/user_authn/views/login.py:285
+#, python-brace-format
+msgid ""
+"Email or password is incorrect.{li_start}You have {remaining_attempts} more "
+"sign-in attempts before your account is temporarily "
+"locked.{li_end}{li_start}If you've forgotten your password, click "
+"{link_start}here{link_end} to reset.{li_end}"
+msgstr ""
+"Неверный email или пароль.{li_start}У вас осталось {remaining_attempts} "
+"попыток входа, прежде чем ваша учетная запись будет временно "
+"заблокирована.{li_end}{li_start}Если вы забыли свой пароль, нажмите "
+"{link_start}здесь{link_end}, чтобы сбросить.{li_end}"
+
+#: openedx/core/djangoapps/user_authn/views/login.py:393
+#, python-brace-format
+msgid ""
+"As {allowed_domain} user, You must login with your {allowed_domain} "
+"{link_start}{provider} account{link_end}."
+msgstr ""
+"Как пользователь {allowed_domain}, вы должны войти с помощью вашей учетной "
+"записи {allowed_domain} {link_start}{provider}{link_end}."
+
+#: openedx/core/djangoapps/user_authn/views/password_reset.py:307
+#: openedx/core/djangoapps/user_authn/views/password_reset.py:630
+msgid ""
+"Your previous request is in progress, please try again in a few moments."
+msgstr ""
+"Ваш предыдущий запрос обрабатывается, пожалуйста, попробуйте снова через "
+"несколько минут."
+
+#: openedx/core/djangoapps/user_authn/views/password_reset.py:664
+msgid "Some error occurred during password change. Please try again"
+msgstr "Произошла ошибка при смене пароля. Пожалуйста, попробуйте снова"
+
+#: openedx/core/djangoapps/user_authn/views/password_reset.py:746
+msgid ""
+"An error has occurred. Try refreshing the page, or check your internet "
+"connection."
+msgstr ""
+"Произошла ошибка. Попробуйте обновить страницу или проверьте подключение к "
+"интернету."
+
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:148
+msgid "Your legal name must be a minimum of one character long"
+msgstr "Ваше юридическое имя должно содержать минимум один символ"
+
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:149
+#, python-format
+msgid ""
+"Your legal name is too long. It must not exceed %(max_length)s characters"
+msgstr ""
+"Ваше юридическое имя слишком длинное. Оно не должно превышать %(max_length)s"
+" символов"
+
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:311
+msgid "Registration from this country is not allowed due to restrictions."
+msgstr "Регистрация из этой страны запрещена из-за ограничений."
+
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:702
+#, python-brace-format
+msgid "I agree that {platform_name} may send me marketing messages."
+msgstr ""
+"Я согласен(на), что {platform_name} может отправлять мне рекламные "
+"сообщения."
+
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1045
+#, python-brace-format
+msgid ""
+"By creating an account, you agree to the                   "
+"{terms_of_service_link_start}{terms_of_service}{terms_of_service_link_end}"
+"                   and you acknowledge that {platform_name} and each Member "
+"process your personal data in accordance                   with the "
+"{privacy_policy_link_start}Privacy Policy{privacy_policy_link_end}."
+msgstr ""
+"Создавая учетную запись, вы соглашаетесь с "
+"{terms_of_service_link_start}Условиями "
+"использования{terms_of_service_link_end} и признаете, что {platform_name} и "
+"каждый участник обрабатывают ваши персональные данные в соответствии с "
+"{privacy_policy_link_start}Политикой "
+"конфиденциальности{privacy_policy_link_end}."
+
+#: openedx/core/djangoapps/video_config/sharing_sites.py:77
+#, python-brace-format
+msgid ""
+"Here's a fun clip from a class I'm taking on {social_account_handle} from {organization_name}.\n"
+"\n"
+msgstr ""
+"Вот забавный ролик из курса, который я прохожу на {social_account_handle} от"
+" {organization_name}.\n"
+
+#: openedx/core/djangoapps/video_config/sharing_sites.py:84
+#, python-brace-format
+msgid ""
+"Here's a fun clip from a class I'm taking on {social_account_handle}.\n"
+"\n"
+msgstr ""
+"Вот забавный ролик из курса, который я прохожу на {social_account_handle}.\n"
+
+#: openedx/core/djangoapps/video_config/sharing_sites.py:88
+#, python-brace-format
+msgid ""
+"Here's a fun clip from a class I'm taking from {organization_name}.\n"
+"\n"
+msgstr ""
+"Вот забавный ролик из курса, который я прохожу от {organization_name}.\n"
+
+#: openedx/core/djangoapps/video_config/sharing_sites.py:92
+#, python-brace-format
+msgid ""
+"Here's a fun clip from a class I'm taking on {platform_name}.\n"
+"\n"
+msgstr "Вот забавный ролик из курса, который я прохожу на {platform_name}.\n"
+
+#: openedx/core/djangoapps/video_config/transcripts_utils.py:213
+#, python-brace-format
+msgid "Can't get transcript link from Youtube for {youtube_id}."
+msgstr "Не удалось получить ссылку на транскрипт с YouTube для {youtube_id}."
+
+#: openedx/core/djangoapps/video_pipeline/models.py:33
+msgid "Oauth client name of VEM service."
+msgstr "Имя OAuth-клиента сервиса VEM."
+
+#: openedx/core/djangoapps/video_pipeline/models.py:38
+msgid "video encode manager API URL."
+msgstr "URL API менеджера кодирования видео."
+
+#: openedx/core/djangoapps/video_pipeline/models.py:46
+msgid "Username created for VEM Integration, e.g. vem_service_user."
+msgstr ""
+"Имя пользователя, созданное для интеграции с VEM, например, "
+"vem_service_user."
+
+#: openedx/core/djangoapps/xblock/runtime/mixin.py:65
+msgid ""
+"This content is only accessible to registered learners. Sign in or register "
+"to view it."
+msgstr ""
+"Этот контент доступен только зарегистрированным учащимся. Войдите или "
+"зарегистрируйтесь, чтобы просмотреть его."
+
+#: openedx/core/djangoapps/xblock/runtime/mixin.py:69
+msgid "This content is only accessible to enrolled learners. "
+msgstr "Этот контент доступен только записанным на курс учащимся."
+
+#: openedx/core/lib/api/view_utils.py:159
+#, python-brace-format
+msgid "The about me field must be at most {BIO_MAX_LENGTH} characters long."
+msgstr "Поле 'Обо мне' должно содержать не более {BIO_MAX_LENGTH} символов."
+
+#: openedx/core/lib/teams_config.py:386
+#, python-brace-format
+msgid "Team Group: {team_set_name}"
+msgstr "Группа команд: {team_set_name}"
+
+#: openedx/core/lib/teams_config.py:387
+msgid "Partition for segmenting users by team-set"
+msgstr "Раздел для сегментации пользователей по набору команд"
+
+#: openedx/features/calendar_sync/ics.py:36
+#, python-brace-format
+msgid "{assignment} is due for {course}."
+msgstr "{assignment} должен быть сдан для курса {course}."
+
+#: openedx/features/calendar_sync/plugins.py:21
+msgid "Calendar Sync"
+msgstr "Синхронизация календаря"
+
+#: openedx/features/calendar_sync/plugins.py:42
+msgid "Unsubscribe from calendar updates"
+msgstr "Отписаться от обновлений календаря"
+
+#: openedx/features/calendar_sync/plugins.py:45
+msgid "Subscribe to calendar updates"
+msgstr "Подписаться на обновления календаря"
+
+#: openedx/features/calendar_sync/utils.py:16
+#, python-brace-format
+msgid "Sync {course} to your calendar"
+msgstr "Синхронизировать {course} с вашим календарём"
+
+#: openedx/features/calendar_sync/utils.py:17
+#, python-brace-format
+msgid ""
+"Sticking to a schedule is the best way to ensure that you successfully "
+"complete your self-paced course. This schedule for {course} will help you "
+"stay on track!"
+msgstr ""
+"Соблюдение графика — лучший способ успешно завершить курс в своём темпе. "
+"Этот график для {course} поможет вам не сбиться с пути!"
+
+#: openedx/features/calendar_sync/utils.py:20
+msgid ""
+"Once you sync your course schedule to your calendar, any updates to the "
+"course from your instructor will be automatically reflected. You can remove "
+"the course from your calendar at any time."
+msgstr ""
+"После синхронизации графика курса с вашим календарём любые обновления курса "
+"от преподавателя будут автоматически отображаться. Вы можете удалить курс из"
+" календаря в любое время."
+
+#: openedx/features/calendar_sync/utils.py:33
+#, python-brace-format
+msgid "{course} dates have been updated on your calendar"
+msgstr "Даты курса {course} обновлены в вашем календаре"
+
+#: openedx/features/calendar_sync/utils.py:34
+msgid ""
+"You have successfully shifted your course schedule and your calendar is up "
+"to date."
+msgstr "Вы успешно изменили график курса, и ваш календарь обновлён."
+
+#: openedx/features/course_experience/api/v1/views.py:60
+msgid "'course_key' is required."
+msgstr "Требуется параметр 'course_key'."
+
+#: openedx/features/course_experience/api/v1/views.py:69
+#: openedx/features/course_experience/api/v1/views.py:72
+msgid "View all dates"
+msgstr "Просмотреть все даты"
+
+#: openedx/features/course_experience/api/v1/views.py:70
+msgid ""
+"Your due dates have been successfully shifted to help you stay on track."
+msgstr ""
+"Ваши сроки сдачи успешно изменены, чтобы помочь вам оставаться в графике."
+
+#: openedx/features/course_experience/api/v1/views.py:73
+msgid "Deadlines successfully reset."
+msgstr "Сроки успешно сброшены."
+
+#: openedx/features/discounts/admin.py:22
+msgid ""
+"These define the context to disable lms-controlled discounts on. If no "
+"values are set, then the configuration applies globally. If a single value "
+"is set, then the configuration applies to all courses within that context. "
+"At most one value can be set at a time.<br>If multiple contexts apply to a "
+"course (for example, if configuration is specified for the course "
+"specifically, and for the org that the course is in, then the more specific "
+"context overrides the more general context."
+msgstr ""
+"Эти параметры определяют контекст для отключения скидок, контролируемых LMS."
+" Если значения не заданы, конфигурация применяется глобально. Если задано "
+"одно значение, конфигурация применяется ко всем курсам в этом контексте. "
+"Одновременно может быть задано не более одного значения.<br>Если к курсу "
+"применяются несколько контекстов (например, если конфигурация указана для "
+"курса и для организации, в которой находится курс), то более конкретный "
+"контекст переопределяет более общий."
+
+#: openedx/features/discounts/admin.py:54
+msgid ""
+"These define the context to configure the percentage for the first purchase "
+"discount.If multiple contexts apply to a course (for example, if "
+"configuration is specified for the course specifically, and for the org that"
+" the course is in, then the more specific context overrides the more general"
+" context."
+msgstr ""
+"Эти параметры определяют контекст для настройки процента скидки на первую "
+"покупку. Если к курсу применяются несколько контекстов (например, если "
+"конфигурация указана для курса и для организации, в которой находится курс),"
+" то более конкретный контекст переопределяет более общий."
+
+#: openedx/features/discounts/utils.py:142
+#, python-brace-format
+msgid ""
+"{s_sr}Original price: {s_op}{original_price}{e_p}, discount price: "
+"{e_sr}{formatted_discount_price}"
+msgstr ""
+"{s_sr}Исходная цена: {s_op}{original_price}{e_p}, цена со скидкой: "
+"{e_sr}{formatted_discount_price}"
+
+#: openedx/features/enterprise_support/admin/forms.py:13
+msgid "CSV File"
+msgstr "CSV-файл"
+
+#: openedx/features/enterprise_support/admin/forms.py:14
+msgid ""
+"CSV file should have 3 columns having names lms_user_id, course_id, "
+"opportunity_id"
+msgstr ""
+"CSV-файл должен содержать 3 столбца с названиями lms_user_id, course_id, "
+"opportunity_id"
+
+#: openedx/features/enterprise_support/admin/views.py:66
+#, python-brace-format
+msgid ""
+"Enrollment attributes were not updated for records at following line numbers"
+" in csv because no enrollment found for these records: {error_line_numbers}"
+msgstr ""
+"Атрибуты зачисления не были обновлены для записей в следующих строках CSV-"
+"файла, так как для этих записей не найдено зачислений: {error_line_numbers}"
+
+#: openedx/features/enterprise_support/api.py:903
+#, python-brace-format
+msgid ""
+"You have access to the {bold_start}{enterprise_name}{bold_end} dashboard. To"
+" access the courses available to you through {enterprise_name}, "
+"{link_start}visit the {enterprise_name} dashboard{link_end}."
+msgstr ""
+"У вас есть доступ к панели управления "
+"{bold_start}{enterprise_name}{bold_end}. Чтобы получить доступ к курсам, "
+"доступным вам через {enterprise_name}, {link_start}посетите панель "
+"управления {enterprise_name}{link_end}."
+
+#: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:17
+msgid "Enterprise Course Enrollments"
+msgstr "Зачисления на корпоративные курсы"
+
+#: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:18
+msgid "Override Enrollment Attributes"
+msgstr "Переопределить атрибуты зачисления"
+
+#: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:25
+msgid "Upload CSV to override enrollment attributes for learners"
+msgstr "Загрузите CSV-файл для переопределения атрибутов зачисления учащихся"
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:121
+msgid "The deadline to complete this assignment has passed."
+msgstr "Срок сдачи этого задания истёк."
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:127
+msgid "Shift due dates"
+msgstr "Сдвинуть сроки сдачи"
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:134
+msgid ""
+"It looks like you missed some important deadlines based on our suggested "
+"schedule."
+msgstr ""
+"Похоже, вы пропустили некоторые важные сроки согласно нашему "
+"рекомендованному графику."
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:135
+msgid ""
+"To keep yourself on track, you can update this schedule and shift the past "
+"due assignments into the future. Don’t worry—you won’t lose any of the "
+"progress you’ve made when you shift your due dates."
+msgstr ""
+"Чтобы оставаться в графике, вы можете обновить этот график и перенести "
+"просроченные задания на будущее. Не беспокойтесь — вы не потеряете прогресс,"
+" достигнутый при сдвиге сроков сдачи."
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:145
+#, python-brace-format
+msgid "Try again ({attempts} attempt remaining)"
+msgid_plural "Try again ({attempts} attempts remaining)"
+msgstr[0] "Попробуйте ещё раз ({attempts} попытка осталась)"
+msgstr[1] "Попробуйте ещё раз ({attempts} попытки осталось)"
+msgstr[2] "Попробуйте ещё раз ({attempts} попытки осталось)"
+msgstr[3] "Попробуйте ещё раз ({attempts} попыток осталось)"
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:150
+#, python-brace-format
+msgid "You have used {attempts} of {max_attempts} attempts for this problem."
+msgstr "Вы использовали {attempts} из {max_attempts} попыток для этой задачи."
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:155
+msgid "Try again (unlimited attempts)"
+msgstr "Попробуйте ещё раз (неограниченное количество попыток)"
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:156
+#, python-brace-format
+msgid "You have used {attempts} of unlimited attempts for this problem."
+msgstr ""
+"Вы использовали {attempts} из неограниченного количества попыток для этой "
+"задачи."
+
+#: xmodule/capa/capa_problem.py:619
+msgid "Question {}"
+msgstr "Вопрос {}"
+
+#: xmodule/capa/safe_exec/remote_exec.py:120
+msgid ""
+"Codejail API Service is unavailable. Please try again in a few minutes."
+msgstr ""
+"Сервис Codejail API недоступен. Пожалуйста, попробуйте снова через несколько"
+" минут."
+
+#: xmodule/capa/safe_exec/remote_exec.py:126
+msgid "Codejail API Service invalid response."
+msgstr "Некорректный ответ от сервиса Codejail API."
+
+#: xmodule/capa/safe_exec/remote_exec.py:132
+msgid "Invalid JSON response received from codejail api service."
+msgstr "Получен некорректный JSON-ответ от сервиса Codejail API."
+
+#: xmodule/capa_block.py:207
+msgid "Grading Method"
+msgstr "Метод оценивания"
+
+#: xmodule/capa_block.py:209
+msgid ""
+"Define the grading method for this problem. By default, it's the score of "
+"the last submission made by the student."
+msgstr ""
+"Определите метод оценивания для этой задачи. По умолчанию используется "
+"оценка последней попытки, сделанной студентом."
+
+#: xmodule/capa_block.py:215 xmodule/capa_block.py:506
+msgid "Last Score"
+msgstr "Последняя оценка"
+
+#: xmodule/capa_block.py:216 xmodule/capa_block.py:507
+msgid "First Score"
+msgstr "Первая оценка"
+
+#: xmodule/capa_block.py:217 xmodule/capa_block.py:508
+msgid "Highest Score"
+msgstr "Наивысшая оценка"
+
+#: xmodule/capa_block.py:218 xmodule/capa_block.py:509
+msgid "Average Score"
+msgstr "Средняя оценка"
+
+#: xmodule/capa_block.py:247
+msgid "Attempted or Past Due"
+msgstr "Попытка или просрочено"
+
+#: xmodule/capa_block.py:254
+msgid "After All Attempts"
+msgstr "После всех попыток"
+
+#: xmodule/capa_block.py:255
+msgid "After All Attempts or Correct"
+msgstr "После всех попыток или правильный ответ"
+
+#: xmodule/capa_block.py:304
+msgid "List of correctness maps for each attempt"
+msgstr "Список карт правильности для каждой попытки"
+
+#: xmodule/capa_block.py:308
+msgid "List of student answers for each attempt"
+msgstr "Список ответов студента для каждой попытки"
+
+#: xmodule/capa_block.py:314
+msgid "List of scores for each attempt"
+msgstr "Список оценок для каждой попытки"
+
+#: xmodule/capa_block.py:354
+msgid ""
+"Indicates if the problem was edited using the Markdown editor in the "
+"Authoring MFE."
+msgstr ""
+"Указывает, была ли задача отредактирована с помощью редактора Markdown в "
+"Authoring MFE."
+
+#: xmodule/capa_block.py:1379
+#, python-brace-format
+msgid "Incorrect ({progress} point)"
+msgid_plural "Incorrect ({progress} points)"
+msgstr[0] "Неверно ({progress} балл)"
+msgstr[1] "Неверно ({progress} балла)"
+msgstr[2] "Неверно ({progress} балла)"
+msgstr[3] "Неверно ({progress} баллов)"
+
+#: xmodule/capa_block.py:1386
+#, python-brace-format
+msgid "Correct ({progress} point)"
+msgid_plural "Correct ({progress} points)"
+msgstr[0] "Верно ({progress} балл)"
+msgstr[1] "Верно ({progress} балла)"
+msgstr[2] "Верно ({progress} балла)"
+msgstr[3] "Верно ({progress} баллов)"
+
+#: xmodule/capa_block.py:1393
+#, python-brace-format
+msgid "Partially correct ({progress} point)"
+msgid_plural "Partially correct ({progress} points)"
+msgstr[0] "Частично верно ({progress} балл)"
+msgstr[1] "Частично верно ({progress} балла)"
+msgstr[2] "Частично верно ({progress} балла)"
+msgstr[3] "Частично верно ({progress} баллов)"
+
+#: xmodule/capa_block.py:1992
+#, python-brace-format
+msgid "{num_hour} hour"
+msgid_plural "{num_hour} hours"
+msgstr[0] "{num_hour} час"
+msgstr[1] "{num_hour} часа"
+msgstr[2] "{num_hour} часа"
+msgstr[3] "{num_hour} часов"
+
+#: xmodule/capa_block.py:1997
+#, python-brace-format
+msgid "{num_minute} minute"
+msgid_plural "{num_minute} minutes"
+msgstr[0] "{num_minute} минута"
+msgstr[1] "{num_minute} минуты"
+msgstr[2] "{num_minute} минуты"
+msgstr[3] "{num_minute} минут"
+
+#: xmodule/capa_block.py:2003
+#, python-brace-format
+msgid "{num_second} second"
+msgid_plural "{num_second} seconds"
+msgstr[0] "{num_second} секунда"
+msgstr[1] "{num_second} секунды"
+msgstr[2] "{num_second} секунды"
+msgstr[3] "{num_second} секунд"
+
+#: xmodule/conditional_block.py:101
+msgid ""
+"The component location IDs of all source components that are used to "
+"determine whether a learner is shown the content of this conditional block. "
+"Copy the component location ID of a component from its Settings dialog in "
+"Studio."
+msgstr ""
+"Идентификаторы местоположения компонентов-источников, которые используются "
+"для определения, будет ли учащемуся показано содержимое этого условного "
+"блока. Скопируйте идентификатор местоположения компонента из его диалогового"
+" окна настроек в Studio."
+
+#: xmodule/conditional_block.py:109
+msgid ""
+"The attribute of the source components that determines whether a learner is "
+"shown the content of this conditional block."
+msgstr ""
+"Атрибут компонентов-источников, который определяет, будет ли учащемуся "
+"показано содержимое этого условного блока."
+
+#: xmodule/conditional_block.py:119
+msgid ""
+"The value that the conditional attribute of the source components must match"
+" before a learner is shown the content of this conditional block."
+msgstr ""
+"Значение, которому должен соответствовать условный атрибут компонентов-"
+"источников, прежде чем учащемуся будет показано содержимое этого условного "
+"блока."
+
+#: xmodule/conditional_block.py:127
+#, python-brace-format
+msgid ""
+"The message that is shown to learners when not all conditions are met to "
+"show the content of this conditional block. Include {link} in the text of "
+"your message to give learners a direct link to required units. For example, "
+"'You must complete {link} before you can access this unit'."
+msgstr ""
+"Сообщение, которое будет показано учащимся, если не все условия выполнены "
+"для отображения содержимого этого условного блока. Включите {link} в текст "
+"вашего сообщения, чтобы дать учащимся прямую ссылку на необходимые разделы. "
+"Например, 'Вы должны завершить {link}, прежде чем сможете получить доступ к "
+"этому разделу'."
+
+#: xmodule/course_block.py:366
+msgid "Start time when this block is visible"
+msgstr "Время начала, когда этот блок будет виден"
+
+#: xmodule/course_block.py:410
+msgid "Enter the name of the course as it should appear in the course list."
+msgstr ""
+"Введите название курса так, как оно должно отображаться в списке курсов."
+
+#: xmodule/course_block.py:456
+msgid "Discussions Plugin Settings"
+msgstr "Настройки плагина обсуждений"
+
+#: xmodule/course_block.py:458
+msgid "Settings for discussions plugins."
+msgstr "Настройки плагинов обсуждений."
+
+#: xmodule/course_block.py:481
+msgid ""
+"Enter true or false. If true, the course appears in the list of new courses,"
+" and a New! badge temporarily appears next to the course image."
+msgstr ""
+"Введите true или false. Если true, курс появится в списке новых курсов, и "
+"временно будет отображаться значок 'Новинка!' рядом с изображением курса."
+
+#: xmodule/course_block.py:495
+#, python-brace-format
+msgid ""
+"Enter the unique identifier for your course's video files provided by "
+"{platform_name}."
+msgstr ""
+"Введите уникальный идентификатор видеофайлов вашего курса, предоставленный "
+"{platform_name}."
+
+#: xmodule/course_block.py:540
+#, python-brace-format
+msgid ""
+"Allow course instructors to assign CCX Coach roles, and allow coaches to "
+"manage Custom Courses on {platform_name}. When false, Custom Courses cannot "
+"be created, but existing Custom Courses will be preserved."
+msgstr ""
+"Разрешить преподавателям курса назначать роли тренера CCX и разрешить "
+"тренерам управлять пользовательскими курсами на {platform_name}. Если false,"
+" пользовательские курсы не могут быть созданы, но существующие "
+"пользовательские курсы будут сохранены."
+
+#: xmodule/course_block.py:610
+msgid ""
+"This field, together with certificate_available_date will determine when a "
+"user can see their certificate for the course"
+msgstr ""
+"Это поле вместе с certificate_available_date определяет, когда пользователь "
+"сможет увидеть свой сертификат за курс"
+
+#: xmodule/course_block.py:763
+msgid ""
+"Enter true or false. If true, students can view the course wiki even if "
+"they're not enrolled in the course."
+msgstr ""
+"Введите true или false. Если true, студенты смогут просматривать вики-"
+"страницу курса, даже если они не записаны на курс."
+
+#: xmodule/course_block.py:839
+msgid "Content block identifier (location) of entrance exam."
+msgstr ""
+"Идентификатор (местоположение) блока контента вступительного экзамена."
+
+#: xmodule/course_block.py:865
+msgid ""
+"Configure team sets, limit team sizes, and set visibility settings using "
+"JSON. See <a target=\"&#95;blank\" "
+"href=\"https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html>teams"
+" configuration documentation</a> for help and examples."
+msgstr ""
+"Настройте наборы команд, ограничьте размер команд и установите параметры "
+"видимости с помощью JSON. См. <a target=\"&#95;blank\" "
+"href=\"https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html\">документацию"
+" по настройке команд</a> для получения справки и примеров."
+
+#: xmodule/course_block.py:1003
+msgid "Video Sharing Options"
+msgstr "Параметры обмена видео"
+
+#: xmodule/course_block.py:1005
+msgid ""
+"Specify the video sharing options for the course. This can be set to one of "
+"three values: 'all-on', 'all-off' and 'per-video'. with 'per-video' as the "
+"default."
+msgstr ""
+"Укажите параметры обмена видео для курса. Это может быть установлено в одно "
+"из трёх значений: 'all-on', 'all-off' и 'per-video', по умолчанию 'per-"
+"video'."
+
+#: xmodule/course_block.py:1019
+msgid "Force Flexible Grading for Peer ORAs"
+msgstr "Принудительное гибкое оценивание для одноранговых ORA"
+
+#: xmodule/course_block.py:1020
+msgid ""
+"Setting this flag will force on the flexible grading option for all peer-"
+"graded ORAs in this course."
+msgstr ""
+"Установка этого флага включит опцию гибкого оценивания для всех одноранговых"
+" ORA в этом курсе."
+
+#: xmodule/course_block.py:1066
+msgid "Course-wide Custom JS"
+msgstr "Пользовательский JavaScript для всего курса"
+
+#: xmodule/course_block.py:1067
+msgid ""
+"Enter Javascript resource URLs you want to be loaded globally throughout the"
+" course pages."
+msgstr ""
+"Введите URL-адреса ресурсов JavaScript, которые вы хотите загружать "
+"глобально на всех страницах курса."
+
+#: xmodule/course_block.py:1072
+msgid "Course-wide Custom CSS"
+msgstr "Пользовательский CSS для всего курса"
+
+#: xmodule/course_block.py:1073
+msgid ""
+"Enter CSS resource URLs you want to be loaded globally throughout the course"
+" pages."
+msgstr ""
+"Введите URL-адреса ресурсов CSS, которые вы хотите загружать глобально на "
+"всех страницах курса."
+
+#: xmodule/graders.py:434
+#, python-brace-format
+msgid "{section_type} Average = {percent:.2%}"
+msgstr "Среднее значение {section_type} = {percent:.2%}"
+
+#: xmodule/hidden_block.py:38
+#, python-brace-format
+msgid ""
+"ERROR: \"{block_type}\" is an unknown component type. This component will be"
+" hidden in LMS."
+msgstr ""
+"ОШИБКА: \"{block_type}\" — неизвестный тип компонента. Этот компонент будет "
+"скрыт в LMS."
+
+#: xmodule/html_block.py:64 xmodule/html_block.py:404
+#: xmodule/html_block.py:466
+msgid "Html contents to display for this block"
+msgstr "HTML-содержимое для отображения в этом блоке"
+
+#: xmodule/item_bank_block.py:69
+msgid ""
+"Enter the number of components to display to each student. Set it to -1 to "
+"display all components."
+msgstr ""
+"Введите количество компонентов, которые будут показаны каждому студенту. "
+"Установите -1, чтобы показать все компоненты."
+
+#: xmodule/item_bank_block.py:82
+msgid ""
+"Determines whether a 'Reset Problems' button is shown, so users may reset "
+"their answers and reshuffle selected items."
+msgstr ""
+"Определяет, будет ли показана кнопка 'Сбросить задачи', чтобы пользователи "
+"могли сбросить свои ответы и перемешать выбранные элементы."
+
+#: xmodule/item_bank_block.py:480
+#, python-brace-format
+msgid ""
+"The problem bank has been configured to show {count} problems. Please "
+"specify a positive number of problems, or specify -1 to show all problems."
+msgstr ""
+"В банке задач настроено отображение {count} задач. Укажите положительное "
+"количество задач или -1, чтобы показать все задачи."
+
+#: xmodule/item_bank_block.py:484 xmodule/item_bank_block.py:496
+msgid "Edit the problem bank configuration."
+msgstr "Отредактируйте конфигурацию банка задач."
+
+#: xmodule/item_bank_block.py:492
+#, python-brace-format
+msgid ""
+"The problem bank has been configured to show {count} problems, but only "
+"{actual} have been selected."
+msgstr ""
+"В банке задач настроено отображение {count} задач, но выбрано только "
+"{actual}."
+
+#: xmodule/library_content_block.py:247
+msgid "Source content library has not been specified."
+msgstr "Библиотека исходного контента не указана."
+
+#: xmodule/library_content_block.py:251
+msgid "Content libraries are not available in the current runtime."
+msgstr "Библиотеки контента недоступны в текущей среде выполнения."
+
+#: xmodule/library_content_block.py:254
+#, python-brace-format
+msgid "Source content library does not exist: {source_library_id}"
+msgstr "Библиотека исходного контента не существует: {source_library_id}"
+
+#: xmodule/library_content_block.py:467
+#, python-brace-format
+msgid "There are no problems in the specified library of type {capa_type}."
+msgstr "В указанной библиотеке нет задач типа {capa_type}."
+
+#: xmodule/library_content_block.py:481
+#, python-brace-format
+msgid "The specified library is configured to fetch {count} problem, "
+msgid_plural "The specified library is configured to fetch {count} problems, "
+msgstr[0] "Указанная библиотека настроена на выбор {count} задачи,"
+msgstr[1] "Указанная библиотека настроена на выбор {count} задач,"
+msgstr[2] "Указанная библиотека настроена на выбор {count} задач,"
+msgstr[3] "Указанная библиотека настроена на выбор {count} задач,"
+
+#: xmodule/library_content_block.py:486
+#, python-brace-format
+msgid "but there is only {actual} matching problem."
+msgid_plural "but there are only {actual} matching problems."
+msgstr[0] "но есть только {actual} подходящая задача."
+msgstr[1] "но есть только {actual} подходящие задачи."
+msgstr[2] "но есть только {actual} подходящие задачи."
+msgstr[3] "но есть только {actual} подходящих задач."
+
+#: xmodule/lti_block.py:142
+#, python-brace-format
+msgid ""
+"Enter the LTI ID for the external LTI provider.  This value must be the same"
+" LTI ID that you entered in the LTI Passports setting on the Advanced "
+"Settings page.{break_tag}See {docs_anchor_open}the edX LTI "
+"documentation{anchor_close} for more details on this setting."
+msgstr ""
+"Введите LTI ID для внешнего LTI-провайдера. Это значение должно совпадать с "
+"LTI ID, который вы ввели в настройке LTI Passports на странице "
+"дополнительных настроек.{break_tag}См. {docs_anchor_open}документацию edX по"
+" LTI{anchor_close} для получения дополнительной информации об этой "
+"настройке."
+
+#: xmodule/lti_block.py:157
+#, python-brace-format
+msgid ""
+"Enter the URL of the external tool that this component launches. This "
+"setting is only used when Hide External Tool is set to False.{break_tag}See "
+"{docs_anchor_open}the edX LTI documentation{anchor_close} for more details "
+"on this setting."
+msgstr ""
+"Введите URL внешнего инструмента, который запускает этот компонент. Эта "
+"настройка используется только если 'Скрыть внешний инструмент' установлено в"
+" False.{break_tag}См. {docs_anchor_open}документацию edX по "
+"LTI{anchor_close} для получения дополнительной информации об этой настройке."
+
+#: xmodule/lti_block.py:170
+#, python-brace-format
+msgid ""
+"Add the key/value pair for any custom parameters, such as the page your "
+"e-book should open to or the background color for this "
+"component.{break_tag}See {docs_anchor_open}the edX LTI "
+"documentation{anchor_close} for more details on this setting."
+msgstr ""
+"Добавьте пару ключ/значение для любых пользовательских параметров, таких как"
+" страница, на которую должна открываться ваша электронная книга, или цвет "
+"фона для этого компонента.{break_tag}См. {docs_anchor_open}документацию edX "
+"по LTI{anchor_close} для получения дополнительной информации об этой "
+"настройке."
+
+#: xmodule/modulestore/inheritance.py:52 xmodule/seq_block.py:82
+msgid "Number of Relative Weeks Due By"
+msgstr "Количество недель до сдачи относительно даты зачисления"
+
+#: xmodule/modulestore/inheritance.py:53 xmodule/seq_block.py:83
+msgid ""
+"Enter the number of weeks the problems are due by relative to the learner's "
+"enrollment date"
+msgstr ""
+"Введите количество недель, в течение которых задачи должны быть сданы "
+"относительно даты зачисления учащегося"
+
+#: xmodule/modulestore/inheritance.py:92
+msgid ""
+"Specify when the Show Answer button appears for each problem. Valid values "
+"are \"always\", \"answered\", \"attempted\", \"closed\", \"finished\", "
+"\"past_due\", \"correct_or_past_due\", \"after_all_attempts\", "
+"\"after_all_attempts_or_correct\", \"attempted_no_past_due\", and \"never\"."
+msgstr ""
+"Укажите, когда кнопка 'Показать ответ' будет появляться для каждой задачи. "
+"Допустимые значения: \"always\", \"answered\", \"attempted\", \"closed\", "
+"\"finished\", \"past_due\", \"correct_or_past_due\", \"after_all_attempts\","
+" \"after_all_attempts_or_correct\", \"attempted_no_past_due\" и \"never\"."
+
+#: xmodule/modulestore/inheritance.py:224
+msgid "Tag this block as part of an Entrance Exam section"
+msgstr "Пометьте этот блок как часть раздела вступительного экзамена"
+
+#: xmodule/modulestore/inheritance.py:225
+msgid ""
+"Enter true or false. If true, answer submissions for problem blocks will be "
+"considered in the Entrance Exam scoring/gating algorithm."
+msgstr ""
+"Введите true или false. Если true, отправки ответов для блоков задач будут "
+"учитываться в алгоритме оценивания/ограничения вступительного экзамена."
+
+#: xmodule/modulestore/inheritance.py:243
+msgid "Hide from Table of Contents"
+msgstr "Скрыть в оглавлении"
+
+#: xmodule/modulestore/inheritance.py:244
+msgid ""
+"Enter true or false. If true, this block will be hidden from the Table of "
+"Contents."
+msgstr ""
+"Введите true или false. Если true, этот блок будет скрыт в оглавлении."
+
+#: xmodule/modulestore/xml_importer.py:82
+msgid "Error while reading {}. Check file for XML errors."
+msgstr "Ошибка при чтении {}. Проверьте файл на наличие ошибок XML."
+
+#: xmodule/modulestore/xml_importer.py:94
+msgid "Failed to import block: {} at location: {}"
+msgstr "Не удалось импортировать блок: {} в местоположении: {}"
+
+#: xmodule/seq_block.py:99
+msgid ""
+"Tag this course block as an Entrance Exam. Note, you must enable Entrance "
+"Exams for this course setting to take effect."
+msgstr ""
+"Пометьте этот блок курса как вступительный экзамен. Обратите внимание, что "
+"для применения этой настройки необходимо включить вступительные экзамены для"
+" этого курса."
+
+#: xmodule/split_test_block.py:109
+msgid "Which child block students in a particular group_id should see"
+msgstr "Какой дочерний блок должны видеть студенты с определённым group_id"
+
+#: xmodule/templates/item_bank/author_view.html:8
+#: xmodule/templates/item_bank/author_view.html:18
+#, python-format
+msgid ""
+"\n"
+"                Learners will see the selected component:\n"
+"                "
+msgid_plural ""
+"\n"
+"                Learners will see all of the %(num_selected)s selected components, in random order:\n"
+"                "
+msgstr[0] ""
+"\n"
+"Учащиеся увидят выбранный компонент:"
+msgstr[1] ""
+"\n"
+"Учащиеся увидят все %(num_selected)s выбранных компонента в случайном порядке:"
+msgstr[2] ""
+"\n"
+"Учащиеся увидят все %(num_selected)s выбранных компонента в случайном порядке:"
+msgstr[3] ""
+"\n"
+"Учащиеся увидят все %(num_selected)s выбранных компонентов в случайном порядке:"
+
+#: xmodule/templates/item_bank/author_view.html:32
+#, python-brace-format
+msgid ""
+"Press {link_start}View{link_end} to preview, sync/update, and/or remove the "
+"selected components."
+msgstr ""
+"Нажмите {link_start}Просмотр{link_end}, чтобы предварительно просмотреть, "
+"синхронизировать/обновить и/или удалить выбранные компоненты."
+
+#: xmodule/templates/item_bank/author_view.html:38
+#, python-brace-format
+msgid ""
+"Press {link_start}Edit{link_end} to configure how many will be shown and "
+"other settings."
+msgstr ""
+"Нажмите {link_start}Редактировать{link_end}, чтобы настроить количество "
+"отображаемых компонентов и другие параметры."
+
+#: xmodule/templates/item_bank/author_view.html:44
+msgid "You have not selected any components yet."
+msgstr "Вы ещё не выбрали ни одного компонента."
+
+#: xmodule/templates/item_bank/author_view_add.html:11
+#, python-brace-format
+msgid ""
+"{button_start}Add components{button_end} from a content library to this "
+"problem bank."
+msgstr ""
+"{button_start}Добавить компоненты{button_end} из библиотеки контента в этот "
+"банк задач."
+
+#: xmodule/vertical_block.py:45
+msgid "Enable in-context discussions for the Unit"
+msgstr "Включить обсуждения в контексте для раздела"
+
+#: xmodule/vertical_block.py:46
+msgid "Add discussion for the Unit."
+msgstr "Добавить обсуждение для раздела."
+
+#: xmodule/video_block/video_block.py:538
+#, python-brace-format
+msgid "There is no transcript file associated with the {lang} language."
+msgid_plural ""
+"There are no transcript files associated with the {lang} languages."
+msgstr[0] "Нет файла субтитров, связанного с языком {lang}."
+msgstr[1] "Нет файлов субтитров, связанных с языками {lang}."
+msgstr[2] "Нет файлов субтитров, связанных с языками {lang}."
+msgstr[3] "Нет файлов субтитров, связанных с языками {lang}."
+
+#: xmodule/video_block/video_xfields.py:208
+msgid "Specify whether the video can be accessed publicly by learners."
+msgstr "Укажите, может ли видео быть доступно публично учащимся."
+
+#: xmodule/video_block/video_xfields.py:209
+msgid "Public Access"
+msgstr "Публичный доступ"
+
+#: xmodule/video_block/video_xfields.py:216
+msgid "Add a specific thumbnail for learners to see before playing the video."
+msgstr ""
+"Добавьте конкретный миниатюрный значок, который учащиеся увидят перед "
+"воспроизведением видео."
+
+#: xmodule/video_block/video_xfields.py:217
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: lms/templates/footer.html
+msgid "About Us"
+msgstr "О нас"
+
+#: lms/templates/footer.html
+msgid "Accessibility"
+msgstr "Доступность"
+
+#: lms/templates/footer.html
+msgid "Help"
+msgstr "Помощь"
+
+#: lms/templates/footer.html
+msgid "Footer navigation"
+msgstr "Навигация по нижнему колонтитулу"
+
+#: lms/templates/footer.html
+msgid "edX and Open edX are registered trademarks of edX LLC."
+msgstr ""
+"edX и Open edX являются зарегистрированными товарными знаками edX LLC."
+
+#: lms/templates/header/navbar-authenticated.html
+#: lms/templates/header/user_dropdown.html
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Supplemental Links"
+msgstr "Дополнительные ссылки"
+
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Explore courses"
+msgstr "Изучить курсы"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Options Menu"
+msgstr "Меню опций"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Dashboard for:"
+msgstr "Панель управления для:"
+
+#: lms/templates/header/user_dropdown.html
+msgid "More Options"
+msgstr "Дополнительные опции"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Profile"
+msgstr "Профиль"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Settings"
+msgstr "Настройки"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: lms/templates/header/navbar-logo-header.html
+#, python-brace-format
+msgid "{platform_name} Home Page"
+msgstr "Домашняя страница {platform_name}"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "{course_number} Progress"
+msgstr "Прогресс по курсу {course_number}"
+
+#: lms/templates/courseware/progress.html
+msgid "View Grading in studio"
+msgstr "Просмотреть оценивание в Studio"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "Course Progress for '{username}' ({email})"
+msgstr "Прогресс по курсу для '{username}' ({email})"
+
+#: lms/templates/courseware/progress.html
+msgid "View Certificate"
+msgstr "Просмотреть сертификат"
+
+#: lms/templates/courseware/progress.html
+msgid "Opens in a new browser window"
+msgstr "Открывается в новом окне браузера"
+
+#: lms/templates/courseware/progress.html
+#: lms/templates/dashboard/_dashboard_certificate_information.html
+msgid "Request Certificate"
+msgstr "Запросить сертификат"
+
+#: lms/templates/courseware/progress.html
+msgid "Requirements for Course Credit"
+msgstr "Требования для получения зачёта по курсу"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "{student_name}, you are no longer eligible for credit in this course."
+msgstr "{student_name}, вы больше не имеете права на зачёт по этому курсу."
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid ""
+"{student_name}, you have met the requirements for credit in this course. "
+"{a_start}Go to your dashboard{a_end} to purchase course credit."
+msgstr ""
+"{student_name}, вы выполнили требования для получения зачёта по этому курсу."
+" {a_start}Перейдите на вашу панель управления{a_end}, чтобы приобрести зачёт"
+" по курсу."
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "{student_name}, you have not yet met the requirements for credit."
+msgstr "{student_name}, вы ещё не выполнили требования для получения зачёта."
+
+#: lms/templates/courseware/progress.html
+msgid "Information about course credit requirements"
+msgstr "Информация о требованиях для получения зачёта по курсу"
+
+#: lms/templates/courseware/progress.html
+msgid "Verification Submitted"
+msgstr "Верификация отправлена"
+
+#: lms/templates/courseware/progress.html
+msgid "Verification Failed"
+msgstr "Верификация не пройдена"
+
+#: lms/templates/courseware/progress.html
+msgid "Verification Declined"
+msgstr "Верификация отклонена"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "Completed by {date}"
+msgstr "Завершено {date}"
+
+#: lms/templates/courseware/progress.html
+msgid "Upcoming"
+msgstr "Предстоящие"
+
+#: lms/templates/courseware/progress.html
+msgid "Less"
+msgstr "Меньше"
+
+#: lms/templates/courseware/progress.html
+msgid "Details for each chapter"
+msgstr "Подробности по каждой главе"
+
+#: lms/templates/courseware/progress.html
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "{earned} of {total} possible points"
+msgstr "{earned} из {total} возможных баллов"
+
+#: lms/templates/courseware/progress.html
+#, python-brace-format
+msgid "due {date}"
+msgstr "срок сдачи {date}"
+
+#: lms/templates/courseware/progress.html
+msgid ""
+"Suspicious activity detected during proctored exam review. Exam score 0."
+msgstr ""
+"Обнаружена подозрительная активность во время проверки прокторируемого "
+"экзамена. Оценка экзамена 0."
+
+#: lms/templates/courseware/progress.html
+msgid "Section grade has been overridden."
+msgstr "Оценка раздела была переопределена."
+
+#: lms/templates/courseware/progress.html
+msgid "Problem Scores: "
+msgstr "Оценки за задачи:"
+
+#: lms/templates/courseware/progress.html
+msgid "Practice Scores: "
+msgstr "Оценки за практику:"
+
+#: lms/templates/courseware/progress.html
+msgid "Problem scores are hidden until the due date."
+msgstr "Оценки за задачи скрыты до даты сдачи."
+
+#: lms/templates/courseware/progress.html
+msgid "Practice scores are hidden until the due date."
+msgstr "Оценки за практику скрыты до даты сдачи."
+
+#: lms/templates/courseware/progress.html
+msgid "Problem scores are hidden."
+msgstr "Оценки за задачи скрыты."
+
+#: lms/templates/courseware/progress.html
+msgid "Practice scores are hidden."
+msgstr "Оценки за практику скрыты."
+
+#: lms/templates/courseware/progress.html
+msgid "No problem scores in this section"
+msgstr "Нет оценок за задачи в этом разделе"
+
+#: lms/templates/staff_problem_info.html:27
+msgid "Staff Debug Info"
+msgstr "Отладочная информация для персонала"
+
+#: lms/templates/staff_problem_info.html:31
+msgid "Submission history"
+msgstr "История отправок"
+
+#: lms/templates/preview_menu.html:101
+msgid "View in Studio"
+msgstr "Просмотреть в Studio"
