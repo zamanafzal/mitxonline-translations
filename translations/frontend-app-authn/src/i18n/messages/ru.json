@@ -177,5 +177,6 @@
   "complete.your.profile.2": "ваш профиль",
   "register.page.terms.of.service.and.honor.code": "Создавая учетную запись, вы соглашаетесь с {tosAndHonorCode} и подтверждаете, что {platformName} и каждый Участник обрабатывают ваши персональные данные в соответствии с {privacyPolicy} .",
   "register.page.honor.code": "Я согласен с {platformName} {tosAndHonorCode}",
-  "register.page.terms.of.service": "Я согласен с {platformName} {termsOfService}"
+  "register.page.terms.of.service": "Я согласен с {platformName} {termsOfService}",
+  "registration.forbidden.username": "Имя пользователя не может содержать слова, которые можно принять за роли в курсе. Пожалуйста, выберите другое имя пользователя."
 }
