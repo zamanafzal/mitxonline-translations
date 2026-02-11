@@ -4133,9 +4133,9 @@ msgstr "Désactivé"
 #, python-brace-format
 msgid "({number} Question)"
 msgid_plural "({number} Questions)"
-msgstr[0] "(Question {number})"
-msgstr[1] "(Questions {number})"
-msgstr[2] "(Questions {number})"
+msgstr[0] "({number} Question)"
+msgstr[1] "({number} Questions)"
+msgstr[2] "({number} Questions)"
 
 #: lms/djangoapps/course_home_api/outline/views.py:293
 #, python-brace-format
