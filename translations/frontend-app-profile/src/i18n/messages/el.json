@@ -52,7 +52,7 @@
   "profile.formcontrols.who.can.see": "Ποιος μπορεί να το δει αυτό:",
   "profile.formcontrols.button.cancel": "Ακύρωση",
   "profile.formcontrols.button.save": "Αποθήκευση",
-  "profile.formcontrols.button.saving": "",
+  "profile.formcontrols.button.saving": "Αποθήκευση",
   "profile.formcontrols.button.saved": "Αποθηκεύτηκε",
   "profile.visibility.who.just.me": "Μόνο εγώ",
   "profile.visibility.who.everyone": "Όλοι στο {siteName}"
