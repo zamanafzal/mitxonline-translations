@@ -32,5 +32,7 @@
   "header.menu.aria-label": "Benutzeroptionen",
   "header.user.menu.studio": "Studioheim",
   "header.label.courseOutline": "Zurück zur Kursübersicht im Studio",
-  "header.label.search.nav": "Inhalte durchsuchen"
+  "header.label.search.nav": "Inhalte durchsuchen",
+  "header.user.menu.signout": "Abmelden",
+  "header.user.menu.account.setting": "Einstellungen"
 }
