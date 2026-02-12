@@ -19,7 +19,7 @@
   "footer.legalLinks.trademarkPolicy": "Política de marca comercial",
   "footer.legalLinks.sitemap": "Mapa do site",
   "footer.connectLinks.heading": "Conectar",
-  "footer.connectLinks.blog": "",
+  "footer.connectLinks.blog": "Blog",
   "footer.connectLinks.contact": "Contate-nos",
   "footer.connectLinks.help": "Central de ajuda",
   "footer.connectLinks.mediaKit": "Kit de multimídia",
@@ -37,5 +37,11 @@
   "authoring.footer.termsOfService.link.label": "Termos de Serviço",
   "authoring.footer.privacyPolicy.link.label": "Política de Privacidade",
   "authoring.footer.accessibilityRequest.link.label": "Solicitação de Acomodação de Acessibilidade",
-  "authoring.footer.trademark.message": "edX e Open edX, e os logos edX e Open edX são marcas registradas da"
+  "authoring.footer.trademark.message": "edX e Open edX, e os logos edX e Open edX são marcas registradas da",
+  "footer.links.about.us": "Sobre Nós",
+  "footer.links.terms.of.service": "Termos de Serviço",
+  "footer.links.accessibility": "Acessibilidade",
+  "footer.links.contact.us": "Fale Conosco",
+  "footer.links.help": "Ajuda",
+  "footer.trademark.notice": "edX e Open edX são marcas registradas da edX LLC."
 }
