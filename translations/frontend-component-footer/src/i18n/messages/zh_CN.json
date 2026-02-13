@@ -37,5 +37,12 @@
   "authoring.footer.termsOfService.link.label": "服务条款",
   "authoring.footer.privacyPolicy.link.label": "隐私政策",
   "authoring.footer.accessibilityRequest.link.label": "可访问的住宿申请",
-  "authoring.footer.trademark.message": "edX 和 Open edX，以及 edX 和 Open edX 徽标是以下公司的注册商标"
+  "authoring.footer.trademark.message": "edX 和 Open edX，以及 edX 和 Open edX 徽标是以下公司的注册商标",
+  "footer.links.about.us": "关于我们",
+  "footer.links.terms.of.service": "服务条款",
+  "footer.links.accessibility": "无障碍",
+  "footer.links.contact.us": "联系我们",
+  "footer.links.help": "帮助",
+  "footer.copyright.organization": "© {year} 麻省理工学院",
+  "footer.trademark.notice": "edX 和 Open edX 是 edX LLC 的注册商标。"
 }
