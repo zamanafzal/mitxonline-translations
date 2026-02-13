@@ -2,12 +2,12 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # Translators:
 # Cecilia Liu, 2024
 # Brian Smith, 2025
 # Eden Huthmacher, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -16,10 +16,10 @@ msgstr ""
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Eden Huthmacher, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/open-edx/teams/6205/zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
@@ -12603,3 +12603,824 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr "{display_name} 仅供注册的学员使用。 登录或注册，并注册此课程以查看它。"
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:46
+msgid "COURSE_KEY"
+msgstr "COURSE_KEY"
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:48
+msgid ""
+"Recreate links for xblocks under given course keys. For eg. "
+"course-v1:edX+DemoX.1+2014"
+msgstr "为指定课程密钥下的 xblock 重新创建链接。例如：course-v1:edX+DemoX.1+2014"
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:55
+msgid ""
+"Recreate links for xblocks under all courses. NOTE: this can take long time "
+"depending on number of course and xblocks"
+msgstr "为所有课程下的 xblock 重新创建链接。注意：根据课程和 xblock 的数量，此操作可能需要较长时间。"
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:62
+msgid "Recreate links even for completely processed courses."
+msgstr "即使对于已完全处理的课程，也重新创建链接。"
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:67
+msgid "Delete all and create links for given course(s)."
+msgstr "删除所有并为指定课程创建链接。"
+
+#: cms/djangoapps/contentstore/models.py:95
+msgid "Upstream context key i.e., learning_package/library key"
+msgstr "上游上下文密钥，即学习包/库密钥"
+
+#: cms/djangoapps/contentstore/models.py:157
+msgid ""
+"Upstream block usage key, this value cannot be null and useful to track "
+"upstream library blocks that do not exist yet"
+msgstr "上游块使用密钥，此值不能为空，用于跟踪尚不存在的上游库块"
+
+#: cms/djangoapps/contentstore/models.py:163
+msgid "Component Link"
+msgstr "组件链接"
+
+#: cms/djangoapps/contentstore/models.py:164
+msgid "Component Links"
+msgstr "组件链接"
+
+#: cms/djangoapps/contentstore/models.py:329
+msgid ""
+"Upstream block key (e.g. lct:...), this value cannot be null and is useful "
+"to track upstream library blocks that do not exist yet or were deleted."
+msgstr "上游块密钥（例如 lct:...），此值不能为空，用于跟踪尚不存在或已删除的上游库块。"
+
+#: cms/djangoapps/contentstore/models.py:336
+msgid "Container Link"
+msgstr "容器链接"
+
+#: cms/djangoapps/contentstore/models.py:337
+msgid "Container Links"
+msgstr "容器链接"
+
+#: cms/djangoapps/contentstore/models.py:570
+msgid "Linking status for course context key"
+msgstr "课程上下文密钥的链接状态"
+
+#: cms/djangoapps/contentstore/models.py:575
+msgid "Status of links in given learning context/course."
+msgstr "给定学习上下文/课程中的链接状态。"
+
+#: cms/djangoapps/contentstore/models.py:581
+#: cms/djangoapps/contentstore/models.py:582
+msgid "Learning Context Links status"
+msgstr "学习上下文链接状态"
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:774
+msgid "Transcripts are not yet supported for this type of block"
+msgstr "此类型的块尚不支持字幕"
+
+#: cms/lib/xblock/upstream_sync.py:255
+msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
+msgstr "下游不是 XBlock 或缺少所需的 UpstreamSyncMixin"
+
+#: cms/lib/xblock/upstream_sync.py:275
+msgid ""
+"Updating content with children is not yet supported unless the upstream is a"
+" container."
+msgstr "除非上游是容器，否则不支持更新带有子项的内容。"
+
+#: cms/lib/xblock/upstream_sync.py:281
+msgid "Linked upstream library block was not found in the system"
+msgstr "系统中未找到链接的上游库块"
+
+#: cms/lib/xblock/upstream_sync.py:288
+msgid "Linked upstream library container was not found in the system"
+msgstr "系统中未找到链接的上游库容器"
+
+#: cms/lib/xblock/upstream_sync.py:301
+#, python-brace-format
+msgid ""
+"Content type mismatch: {downstream_id} ({downstream_type}) cannot be linked "
+"to {upstream_id}."
+msgstr "内容类型不匹配：{downstream_id}（{downstream_type}）无法链接到{upstream_id}。"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:12
+#, python-format
+msgid ""
+"\n"
+"                    Proctoring requirements for %(course_name)s\n"
+"                "
+msgstr ""
+"\n"
+"%(course_name)s 的监考要求"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
+#, python-format
+msgid ""
+"\n"
+"                    You are enrolled in %(course_name)s at %(platform_name)s. This course contains proctored exams.\n"
+"                "
+msgstr ""
+"\n"
+"你已注册 %(platform_name)s 的 %(course_name)s 课程。该课程包含监考考试。"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
+#, python-format
+msgid ""
+"\n"
+"                    Proctored exams are timed exams that you take while proctoring software monitors your computer's desktop, webcam video, and audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
+"                "
+msgstr ""
+"\n"
+"监考考试是指在监考软件监控你的电脑桌面、网络摄像头视频和音频的情况下进行的限时考试。你的课程使用 %(proctoring_provider)s 软件进行监考。"
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:53
+msgid ""
+"\n"
+"                Proctoring Instructions and Requirements\n"
+"            "
+msgstr ""
+"\n"
+"监考说明和要求"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:33
+msgid "There’s still time to reach your goal"
+msgstr "你还有时间实现目标"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:41
+#, python-format
+msgid ""
+"\n"
+"            You’re almost there, %(user_name)s!\n"
+"        "
+msgstr ""
+"\n"
+"%(user_name)s，你快要达成目标了！"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:49
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                "
+msgstr[0] ""
+"\n"
+"你设定了在 %(course_name)s 中每周学习 {start_bold}%(days_per_week)s 次{end_bold}的目标。现在就看你如何将目标变为现实。"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:79
+msgid ""
+"\n"
+"                        Jump back in\n"
+"                    "
+msgstr ""
+"\n"
+"继续学习"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:98
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:117
+msgid "Remember: the best goal is one that you can stick to. "
+msgstr "记住：最好的目标是你能坚持的目标。"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:99
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:118
+msgid "You can always"
+msgstr "你可以随时"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:101
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:120
+msgid "if you need to."
+msgstr "如果需要的话。"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:158
+msgid ""
+"\n"
+"                                Unsubscribe from goal reminder emails for this course\n"
+"                                "
+msgstr ""
+"\n"
+"退订此课程的目标提醒邮件"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/footer.html:174
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/footer.html:174
+msgid "edX is the trusted platform for education and learning"
+msgstr "edX 是值得信赖的教育和学习平台"
+
+#: lms/djangoapps/courseware/views/views.py:247
+msgid "Your certificate will be available after the indicated date"
+msgstr "你的证书将在指定日期后提供"
+
+#: lms/djangoapps/courseware/views/views.py:2062
+msgid ""
+"We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance program. \n"
+"Please note that while assistance is available in most courses that offer verified certificates, a few courses and programs are not eligible. You must complete a separate application for each course you take. You may be approved for financial assistance five (5) times each year (based on 12-month period from you first approval). \n"
+"To apply for financial assistance: \n"
+"1. Enroll in the audit track for an eligible course that offers Verified Certificates. \n"
+"2. Complete this application. \n"
+"3. Check your email, please allow 4 weeks for your application to be processed."
+msgstr ""
+"我们计划使用此信息评估你的经济援助申请，并进一步发展我们的经济援助计划。\n"
+"请注意，虽然大多数提供认证证书的课程都有经济援助，但少数课程和项目不符合条件。你必须为每门课程单独提交申请。每年（从首次批准之日起的12个月内）你最多可以获得5次经济援助批准。\n"
+"申请经济援助步骤：\n"
+"1. 注册提供认证证书的符合条件课程的旁听模式。\n"
+"2. 填写此申请。\n"
+"3. 查看你的电子邮件，请留出4周时间处理你的申请。"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/commentnotification/push/body.txt:2
+#, python-format
+msgid "%(comment_username)s commented to %(thread_title)s:"
+msgstr "%(comment_username)s 对 %(thread_title)s 发表了评论："
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/commentnotification/push/title.txt:2
+#, python-format
+msgid "Comment to %(thread_title)s"
+msgstr "对 %(thread_title)s 的评论"
+
+#: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/push/body.txt:2
+#, python-format
+msgid ""
+"%(comment_username)s replied to %(thread_title)s: "
+"%(comment_body|truncatechars:200)s"
+msgstr ""
+"%(comment_username)s 回复了 %(thread_title)s：%(comment_body|truncatechars:200)s"
+
+#: lms/djangoapps/instructor/views/api.py:1540
+msgid "Birth Year"
+msgstr "出生年份"
+
+#: lms/djangoapps/instructor/views/api.py:1661
+#: lms/djangoapps/instructor_task/api_helper.py:117
+msgid "inactive enrollment"
+msgstr "未激活注册"
+
+#: lms/djangoapps/instructor/views/api.py:2056
+msgid "An error occurred while attempting to reset for all students."
+msgstr "尝试为所有学生重置时发生错误。"
+
+#: lms/djangoapps/instructor/views/api.py:3243
+msgid "All fields must be filled out"
+msgstr "所有字段必须填写完整"
+
+#: lms/djangoapps/instructor/views/api.py:3249
+#, python-brace-format
+msgid "Could not find student matching identifier: {student}"
+msgstr "找不到与标识符匹配的学生：{student}"
+
+#: lms/djangoapps/instructor/views/api.py:3258
+#: lms/djangoapps/instructor/views/serializers_v2.py:417
+msgid "The extension due date and time format is incorrect"
+msgstr "延期截止日期和时间格式不正确"
+
+#: lms/djangoapps/instructor/views/serializer.py:31
+#: lms/djangoapps/instructor/views/serializer.py:89
+msgid "Role name"
+msgstr "角色名称"
+
+#: lms/djangoapps/instructor/views/serializer.py:38
+#: lms/djangoapps/instructor/views/serializer.py:99
+msgid "Invalid role name."
+msgstr "角色名称无效。"
+
+#: lms/djangoapps/instructor/views/serializer.py:344
+msgid "The URL name of the problem to reset."
+msgstr "要重置的问题的 URL 名称。"
+
+#: lms/djangoapps/instructor/views/serializer.py:346
+#: lms/djangoapps/instructor/views/serializer.py:567
+msgid "Problem URL name cannot be blank."
+msgstr "问题 URL 名称不能为空。"
+
+#: lms/djangoapps/instructor/views/serializer.py:351
+msgid "Whether to reset the problem for all students."
+msgstr "是否为所有学生重置问题。"
+
+#: lms/djangoapps/instructor/views/serializer.py:361
+#: lms/djangoapps/instructor/views/serializer.py:508
+msgid "unique student identifier."
+msgstr "唯一的学生标识符。"
+
+#: lms/djangoapps/instructor/views/serializers_v2.py:133
+msgid "Bulk Email"
+msgstr "批量邮件"
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
+#, python-format
+msgid ""
+"\n"
+"            You are receiving this email at address %(email)s because you are enrolled in\n"
+"          "
+msgstr ""
+"\n"
+"你收到这封邮件是因为你注册了 %(email)s"
+
+#: lms/templates/instructor/edx_ace/addbetatester/push/body.txt:3
+#: lms/templates/instructor/edx_ace/enrolledunenroll/push/body.txt:3
+#: lms/templates/instructor/edx_ace/enrollenrolled/push/body.txt:3
+#: lms/templates/instructor/edx_ace/removebetatester/push/body.txt:3
+#, python-format
+msgid "Dear %(full_name)s,"
+msgstr "尊敬的 %(full_name)s，"
+
+#: lms/templates/instructor/edx_ace/addbetatester/push/body.txt:4
+#, python-format
+msgid ""
+"You have been invited to be a beta tester for %(course_name)s at "
+"%(site_name)s."
+msgstr "你被邀请成为 %(site_name)s 上 %(course_name)s 的测试人员。"
+
+#: lms/templates/instructor/edx_ace/addbetatester/push/title.txt:3
+#, python-format
+msgid ""
+"You have been invited to a beta test for %(course_name)s at %(site_name)s."
+msgstr "你被邀请参加 %(site_name)s 上 %(course_name)s 的测试。"
+
+#: lms/templates/instructor/edx_ace/allowedenroll/push/body.txt:3
+#, python-format
+msgid ""
+"You have been enrolled in %(course_name)s at %(site_name)s. This course will"
+" now appear on your %(site_name)s dashboard."
+msgstr ""
+"你已被注册到 %(site_name)s 的 %(course_name)s 课程。该课程现在会出现在你的 %(site_name)s 仪表板上。"
+
+#: lms/templates/instructor/edx_ace/allowedenroll/push/title.txt:3
+#, python-format
+msgid "You have been invited to register for %(course_name)s."
+msgstr "你被邀请注册 %(course_name)s。"
+
+#: lms/templates/instructor/edx_ace/allowedunenroll/push/body.txt:3
+#, python-format
+msgid ""
+"You have been unenrolled from the course %(course_name)s. Please disregard "
+"the invitation previously sent."
+msgstr "你已被取消注册 %(course_name)s 课程。请忽略之前发送的邀请。"
+
+#: lms/templates/instructor/edx_ace/enrolledunenroll/push/body.txt:4
+#, python-format
+msgid ""
+"You have been unenrolled from %(course_name)s at %(site_name)s. This course "
+"will no longer appear on your %(site_name)s dashboard."
+msgstr ""
+"你已被取消注册 %(site_name)s 的 %(course_name)s 课程。该课程将不再出现在你的 %(site_name)s 仪表板上。"
+
+#: lms/templates/instructor/edx_ace/enrollenrolled/push/body.txt:4
+#, python-format
+msgid "You have been invited to join %(course_name)s at %(site_name)s."
+msgstr "你被邀请加入 %(site_name)s 的 %(course_name)s 课程。"
+
+#: lms/templates/instructor/edx_ace/removebetatester/push/body.txt:4
+#, python-format
+msgid ""
+"You have been removed as a beta tester for %(course_name)s at %(site_name)s."
+" This course will remain on your dashboard, but you will no longer be part "
+"of the beta testing group."
+msgstr ""
+"你已被移除为 %(site_name)s 上 %(course_name)s 的测试人员。该课程仍会保留在你的仪表板上，但你将不再属于测试组。"
+
+#: lms/templates/instructor/edx_ace/removebetatester/push/title.txt:3
+#, python-format
+msgid ""
+"You have been removed as a beta tester for %(course_name)s at %(site_name)s."
+msgstr "你已被移除为 %(site_name)s 上 %(course_name)s 的测试人员。"
+
+#: lms/templates/logout.html:30
+msgid ""
+"\n"
+"                  This may take a minute. If you are not redirected, go to the home page.\n"
+"                "
+msgstr ""
+"\n"
+"此操作可能需要一分钟。如果未自动跳转，请前往主页。"
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:11
+#: lms/templates/support/edx_ace/wholecoursereset/email/subject.txt:3
+#, python-format
+msgid "The course %(course_title)s has been reset !"
+msgstr "课程 %(course_title)s 已重置！"
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:21
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:3
+#, python-format
+msgid ""
+"Your progress in course %(course_title)s has been reset on your behalf."
+msgstr "你在 %(course_title)s 课程中的进度已被重置。"
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:25
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:4
+msgid ""
+"You will be able to re-attempt this course and earn a verified certificate "
+"upon successful completion."
+msgstr "你将能够重新尝试此课程，并在成功完成后获得认证证书。"
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:31
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:6
+msgid "Best,"
+msgstr "祝好，"
+
+#: openedx/core/djangoapps/content/search/models.py:28
+msgid ""
+"Numeric ID for each Course / Library context. This ID will generally require"
+" fewer bits than the full LearningContextKey, allowing more courses and "
+"libraries to be represented in content search filters."
+msgstr ""
+"每个课程/库上下文的数字 ID。此 ID 通常比完整的 LearningContextKey "
+"需要更少的位数，从而允许在内容搜索过滤器中表示更多的课程和库。"
+
+#: openedx/core/djangoapps/content_libraries/models.py:480
+msgid ""
+"The usage key string of the resource serving the content of this launch."
+msgstr "提供此启动内容的资源的使用密钥字符串。"
+
+#: openedx/core/djangoapps/content_staging/models.py:55
+msgid ""
+"\n"
+"            What type of content is staged. Only OLX content is supported, and\n"
+"            this field must be the same as the root tag of the OLX.\n"
+"            e.g. \"video\" if a video is staged, or \"vertical\" for a unit.\n"
+"        "
+msgstr ""
+"\n"
+"分阶段内容的类型。仅支持 OLX 内容，且此字段必须与 OLX 的根标签相同。\n"
+"            例如，如果分阶段的是视频，则为 \"video\"；如果是单元，则为 \"vertical\"。"
+
+#: openedx/core/djangoapps/content_staging/models.py:72
+msgid "Content tags applied to these blocks"
+msgstr "应用于这些块的内容标签"
+
+#: openedx/core/djangoapps/notifications/admin.py:71
+msgid ""
+"Search by username, course_id. Specify fields with username: or course_id: prefixes. If no prefix is specified, search will be done on username. \n"
+"Examples: \n"
+" - testuser (default username search) \n"
+" - username:testuser (username keyword search) \n"
+" - course_id:course-v1:edX+DemoX+Demo_Course (course_id keyword search) \n"
+" - username:testuser, course_id:course-v1:edX+DemoX+Demo_Course (combined keyword search) \n"
+msgstr ""
+"按用户名、course_id 搜索。使用 username: 或 course_id: 前缀指定字段。如果未指定前缀，将在用户名上进行搜索。\n"
+"示例：\n"
+" - testuser（默认用户名搜索）\n"
+" - username:testuser（用户名关键字搜索）\n"
+" - course_id:course-v1:edX+DemoX+Demo_Course（course_id 关键字搜索）\n"
+" - username:testuser, course_id:course-v1:edX+DemoX+Demo_Course（组合关键字搜索）\n"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:168
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> commented on "
+"<{strong}>{author_name}</{strong}> response in a post you’re following "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> 在你关注的帖子 "
+"<{strong}>{post_title}</{strong}> 中对 <{strong}>{author_name}</{strong}> "
+"的回答发表了评论</{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:206
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}'s</{strong}> response has been endorsed in "
+"your post <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{replier_name}</{strong}> 的回答在你的帖子 "
+"<{strong}>{post_title}</{strong}> 中获得了认可</{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:221
+#, python-brace-format
+msgid ""
+"<{p}>Your response has been endorsed on the post "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr "<{p}>你的回答在帖子 <{strong}>{post_title}</{strong}> 中获得了认可</{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:239
+#, python-brace-format
+msgid "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py:256
+#, python-brace-format
+msgid ""
+"<{p}>You have a new open response submission awaiting review for "
+"<{strong}>{ora_name}</{strong}></{p}>"
+msgstr "<{p}>你有一个新的开放式回答提交等待审核：<{strong}>{ora_name}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:258
+#, python-brace-format
+msgid ""
+"<{p}>You have multiple submissions awaiting review for "
+"<{strong}>{ora_name}</{strong}></{p}>"
+msgstr "<{p}>你有多个提交等待审核：<{strong}>{ora_name}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:277
+#, python-brace-format
+msgid ""
+"<{p}>You have received {points_earned} out of {points_possible} on your "
+"assessment: <{strong}>{ora_name}</{strong}></{p}>"
+msgstr ""
+"<{p}>你的评估获得了 {points_earned} 分（满分 {points_possible} "
+"分）：<{strong}>{ora_name}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:297
+#, python-brace-format
+msgid "<{p}>Your instructor posted <{strong}>{post_title}</{strong}></{p}>"
+msgstr "<{p}>你的教师发布了 <{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:364
+msgid "Notifications for submission grading."
+msgstr "提交评分通知"
+
+#: openedx/core/djangoapps/notifications/email/tasks.py:144
+msgid "New Course Update"
+msgstr "新课程更新"
+
+#: openedx/core/djangoapps/notifications/email/tasks.py:152
+msgid ""
+"You are receiving this email because you are enrolled in the edX course "
+msgstr "您收到此电子邮件是因为您已注册 edX 课程"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:136
+msgid "Total Notifications"
+msgstr "通知总数"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:212
+msgid "Today"
+msgstr "今日"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:442
+msgid "Grades"
+msgstr "成绩"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:463
+msgid "discussion"
+msgstr "讨论"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:464
+msgid "update"
+msgstr "更新"
+
+#: openedx/core/djangoapps/notifications/email/utils.py:465
+msgid "assessment"
+msgstr "评估"
+
+#: openedx/core/djangoapps/notifications/email_notifications.py:16
+msgid "Daily"
+msgstr "每日"
+
+#: openedx/core/djangoapps/notifications/email_notifications.py:17
+msgid "Weekly"
+msgstr "每周"
+
+#: openedx/core/djangoapps/notifications/email_notifications.py:18
+msgid "Immediately"
+msgstr "即时"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_content.html:15
+msgid "View all"
+msgstr "查看全部"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_content.html:63
+msgid "more"
+msgstr "更多"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:38
+msgid ""
+"You are receiving this email because you have subscribed to email digest"
+msgstr "您收到此电子邮件是因为您已订阅电子邮件摘要"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:43
+msgid "Notification Settings"
+msgstr "通知设置"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:46
+msgid "Unsubscribe from email digest for learning activity"
+msgstr "取消订阅学习活动的电子邮件摘要"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:25
+msgid "Weekly Notifications Digest"
+msgstr "每周通知摘要"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:27
+msgid "Daily Notifications Digest"
+msgstr "每日通知摘要"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:4
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:4
+msgid "Weekly Notifications Digest for the Week of"
+msgstr "本周的每周通知摘要（截至"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:6
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:6
+msgid "Daily Notifications Digest for"
+msgstr "今日的每日通知摘要（"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/email_digest_preference_update.html:5
+msgid "Email Digest Preferences Updated"
+msgstr "电子邮件摘要偏好设置已更新"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/email_digest_preference_update.html:9
+msgid ""
+"You have successfully unsubscribed from email digest for learning activity"
+msgstr "您已成功取消订阅学习活动的电子邮件摘要"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:22
+#, python-format
+msgid ""
+"This is a routed Account Activation email for %(routed_profile_name)s "
+"(%(routed_user_email)s): %(routed_profile_name)s"
+msgstr ""
+"这是一封路由的账户激活电子邮件，用于 "
+"%(routed_profile_name)s（%(routed_user_email)s）：%(routed_profile_name)s"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:36
+msgid "Welcome to edX. It’s time for your next career move"
+msgstr "欢迎来到 edX。是时候迈出您职业生涯的下一步了"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:62
+msgid "Resume your course "
+msgstr "继续您的课程"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:82
+msgid "Your focused attention will pay off in the end!"
+msgstr "您的专注最终会得到回报！"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:84
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:101
+msgid ""
+"With self-paced courses, you learn on your own schedule. It’s a good idea to"
+" spend time with the course each week and check in with your goals often."
+msgstr "在自主学习课程中，您可以按照自己的节奏学习。建议每周花些时间学习课程，并经常检查自己的目标。"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:100
+msgid "Your focused attention will pay off in the end! "
+msgstr "您的专注最终会得到回报！"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:64
+msgid "This email is already associated with an existing account"
+msgstr "此电子邮件已与现有账户关联"
+
+#: openedx/core/lib/teams_config.py:386
+#, python-brace-format
+msgid "Team Group: {team_set_name}"
+msgstr "团队组：{team_set_name}"
+
+#: openedx/core/lib/teams_config.py:387
+msgid "Partition for segmenting users by team-set"
+msgstr "用于按团队集划分用户的分区"
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py:121
+msgid "The deadline to complete this assignment has passed."
+msgstr "完成此作业的截止日期已过。"
+
+#: xmodule/capa_block.py:201
+msgid "Grading Method"
+msgstr "评分方法"
+
+#: xmodule/capa_block.py:203
+msgid ""
+"Define the grading method for this problem. By default, it's the score of "
+"the last submission made by the student."
+msgstr "定义此问题的评分方法。默认情况下，使用学生最后一次提交的分数。"
+
+#: xmodule/capa_block.py:209 xmodule/capa_block.py:513
+msgid "Last Score"
+msgstr "最后得分"
+
+#: xmodule/capa_block.py:210 xmodule/capa_block.py:514
+msgid "First Score"
+msgstr "首次得分"
+
+#: xmodule/capa_block.py:211 xmodule/capa_block.py:515
+msgid "Highest Score"
+msgstr "最高得分"
+
+#: xmodule/capa_block.py:212 xmodule/capa_block.py:516
+msgid "Average Score"
+msgstr "平均得分"
+
+#: xmodule/capa_block.py:298
+msgid "List of correctness maps for each attempt"
+msgstr "每次尝试的正确性映射列表"
+
+#: xmodule/capa_block.py:302
+msgid "List of student answers for each attempt"
+msgstr "每次尝试的学生答案列表"
+
+#: xmodule/capa_block.py:308
+msgid "List of scores for each attempt"
+msgstr "每次尝试的得分列表"
+
+#: xmodule/capa_block.py:348
+msgid ""
+"Indicates if the problem was edited using the Markdown editor in the "
+"Authoring MFE."
+msgstr "指示该问题是否使用 Authoring MFE 中的 Markdown 编辑器进行编辑。"
+
+#: xmodule/course_block.py:866
+msgid ""
+"Configure team sets, limit team sizes, and set visibility settings using "
+"JSON. See <a target=\"&#95;blank\" "
+"href=\"https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html>teams"
+" configuration documentation</a> for help and examples."
+msgstr ""
+"使用 JSON 配置团队集、限制团队规模并设置可见性设置。有关帮助和示例，请参阅 <a target=\"&#95;blank\" "
+"href=\"https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html\">团队配置文档</a>。"
+
+#: xmodule/templates/item_bank/author_view.html:8
+#: xmodule/templates/item_bank/author_view.html:18
+#, python-format
+msgid ""
+"\n"
+"                Learners will see the selected component:\n"
+"                "
+msgid_plural ""
+"\n"
+"                Learners will see all of the %(num_selected)s selected components, in random order:\n"
+"                "
+msgstr[0] ""
+"\n"
+"学习者将看到所选组件："
+msgstr[1] ""
+"\n"
+"学习者将看到所有 %(num_selected)s 个选定组件，按随机顺序显示："
+
+#: test/translation_test.py:1
+msgid "Test singular string for translation"
+msgstr "测试单数字符串翻译"
+
+#: test/translation_test.py:2
+msgid "Test string with {placeholder} variable"
+msgstr "测试带有 {placeholder} 变量的字符串"
+
+#: test/translation_test.py:3
+msgid "You have one unread message"
+msgid_plural "You have %(count)s unread messages"
+msgstr[0] "您有 %(count)s 条未读消息"
+
+#: test/translation_test.py:4
+msgid "There is one student enrolled"
+msgid_plural "There are %(count)s students enrolled"
+msgstr[0] "有 %(count)s 名学生注册"
+
+#: test/translation_test.py:5
+msgid "Course has one assignment"
+msgid_plural "Course has %(count)s assignments"
+msgstr[0] "课程有 %(count)s 个作业"
+
+#: test/translation_test.py:6
+msgid "You completed one lesson"
+msgid_plural "You completed %(count)s lessons"
+msgstr[0] "您完成了 %(count)s 个课程"
+
+#: test/translation_test.py:7
+msgid "There is one hour remaining"
+msgid_plural "There are %(count)s hours remaining"
+msgstr[0] "剩余 %(count)s 小时"
+
+#: test/translation_test.py:8
+msgid "One person is viewing this course"
+msgid_plural "%(count)s people are viewing this course"
+msgstr[0] "有 %(count)s 人正在查看此课程"
+
+#: test/translation_test.py:9
+msgid "You have one new notification"
+msgid_plural "You have %(count)s new notifications"
+msgstr[0] "您有 %(count)s 条新通知"
+
+#: test/translation_test.py:10
+msgid "Select one file to upload"
+msgid_plural "Select %(count)s files to upload"
+msgstr[0] "选择 %(count)s 个文件上传"
+
+#: test/translation_test.py:11
+msgid "One question needs review"
+msgid_plural "%(count)s questions need review"
+msgstr[0] "有 %(count)s 个问题需要审核"
+
+#: test/translation_test.py:12
+msgid "You earned one point"
+msgid_plural "You earned %(count)s points"
+msgstr[0] "您获得了 %(count)s 分"
+
+#: test/translation_test.py:13
+msgid "This course has one module"
+msgid_plural "This course has %(count)s modules"
+msgstr[0] "此课程有 %(count)s 个模块"
+
+msgid " about this {block_type}"
+msgstr "关于此 {block_type}"
+
+msgid " about {display_name}"
+msgstr "关于 {display_name}"
+
+msgid "Hi! Do you need any help?"
+msgstr "您好！需要帮助吗？"
+
+msgid "Enable AI Chat Assistant"
+msgstr "启用 AI 聊天助手"
+
+msgid "Invalid request body"
+msgstr "请求正文无效"
+
+msgid "Open Learning Chat enabled status"
+msgstr "开放学习聊天启用状态"
+
+msgid "Indicates whether or not Open Learning chat is enabled for a block"
+msgstr "指示某个区块是否启用了开放学习聊天"
