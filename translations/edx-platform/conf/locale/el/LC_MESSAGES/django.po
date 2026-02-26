@@ -303,7 +303,7 @@ msgstr "Σύνδεσμος Στοιχείου"
 
 #: cms/djangoapps/contentstore/models.py:164
 msgid "Component Links"
-msgstr ""
+msgstr "Σύνδεσμοι Στοιχείων"
 
 #: cms/djangoapps/contentstore/models.py:190
 msgid "The component must be published to access `published_at`"
@@ -326,7 +326,7 @@ msgstr "Σύνδεσμος Δοχείου"
 
 #: cms/djangoapps/contentstore/models.py:337
 msgid "Container Links"
-msgstr ""
+msgstr "Σύνδεσμοι Περιέκτη"
 
 #: cms/djangoapps/contentstore/models.py:363
 msgid "The container must be published to access `published_at`"
