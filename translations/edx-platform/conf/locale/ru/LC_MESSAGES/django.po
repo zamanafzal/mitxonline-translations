@@ -10918,7 +10918,9 @@ msgstr[0] "Файл должен заканчиваться расширение
 msgstr[1] ""
 "Файл должен заканчиваться одним из следующих расширений: '{file_types}'."
 msgstr[2] ""
+"Файл должен заканчиваться одним из следующих расширений: '{file_types}'."
 msgstr[3] ""
+"Файл должен заканчиваться одним из следующих расширений: '{file_types}'."
 
 #: common/djangoapps/util/password_policy_validators.py:149
 #, python-format
@@ -13355,6 +13357,8 @@ msgid ""
 "<{p}><{strong}>{username}</{strong}> posted "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
+"<{p}><{strong}>{username}</{strong}> разместил(а) "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:118
 #, python-brace-format
@@ -13726,6 +13730,10 @@ msgid ""
 "you to highlight your new knowledge and skills. An %(platform_name)s "
 "certificate is official and easily shareable."
 msgstr ""
+"Надеемся, вам нравится учиться с нами на "
+"{start_strong}%(platform_name)s{end_strong}! Подтверждённый сертификат "
+"позволяет продемонстрировать ваши новые знания и навыки. Сертификат "
+"%(platform_name)s является официальным и легко распространяемым."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:46
 #, python-brace-format
@@ -14436,8 +14444,8 @@ msgstr[3] "Частично верно ({progress} балла)"
 #, python-brace-format
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_hour} часов"
+msgstr[1] "{num_hour} час"
 msgstr[2] "{num_hour} часов"
 msgstr[3] ""
 
@@ -14445,8 +14453,8 @@ msgstr[3] ""
 #, python-brace-format
 msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_minute} минут"
+msgstr[1] "{num_minute} минута"
 msgstr[2] "{num_minute} минут"
 msgstr[3] ""
 
@@ -14454,8 +14462,8 @@ msgstr[3] ""
 #, python-brace-format
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_second} секунд"
+msgstr[1] "{num_second} секунда"
 msgstr[2] "{num_second} секунд"
 msgstr[3] ""
 
@@ -14634,7 +14642,7 @@ msgstr ""
 #: xmodule/graders.py:434
 #, python-brace-format
 msgid "{section_type} Average = {percent:.2%}"
-msgstr ""
+msgstr "Среднее значение {section_type} = {percent:.2%}"
 
 #: xmodule/hidden_block.py:38
 #, python-brace-format
