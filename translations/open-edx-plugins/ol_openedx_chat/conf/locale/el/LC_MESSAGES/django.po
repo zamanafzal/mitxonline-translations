@@ -29,8 +29,8 @@ msgstr "Γειά σου! Χρειάζεσαι βοήθεια;"
 
 #: constants.py BLOCK_TYPE_LABELS
 msgid "video"
-msgstr "videoEL"
+msgstr "βίντεο"
 
 #: constants.py BLOCK_TYPE_LABELS
 msgid "problem"
-msgstr "problemEL"
+msgstr "Πρόβλημα"
