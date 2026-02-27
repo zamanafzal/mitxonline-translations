@@ -26,3 +26,11 @@ msgstr "σχετικά με το %(display_name)s"
 #: block.py drawer initial message (TUTOR_INITIAL_MESSAGES)
 msgid "Hi! Do you need any help?"
 msgstr "Γειά σου! Χρειάζεσαι βοήθεια;"
+
+#: constants.py BLOCK_TYPE_LABELS
+msgid "video"
+msgstr "videoEL"
+
+#: constants.py BLOCK_TYPE_LABELS
+msgid "problem"
+msgstr "problemEL"
