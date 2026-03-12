@@ -14936,3 +14936,11 @@ msgstr "سجل التقديم"
 #: lms/templates/preview_menu.html:101
 msgid "View in Studio"
 msgstr "عرض في ستوديو"
+
+#: lms/templates/preview_menu.html:102
+msgid "View in LMS"
+msgstr "الوزن"
+
+#: lms/templates/preview_menu.html:104
+msgid "View in Authoring"
+msgstr "عرض"
